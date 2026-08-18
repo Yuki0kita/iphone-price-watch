@@ -1,0 +1,25 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "keitaiItem": {
+      "title": "iPhone 17 Pro Max 512GB",
+      "keitaiItemId": 1371
+    },
+    "keitaiItemKb": {
+      "kbName": "新品"
+    },
+    "keitaiKbDetails": [
+      {
+        "keitaiKbDetailId": 2992,
+        "kbDetailName": "未開封",
+        "kbDetailPrice": 227000
+      },
+      {
+        "keitaiKbDetailId": 2993,
+        "kbDetailName": "開封済未使用品",
+        "kbDetailPrice": 208000
+      }
+    ]
+  }
+}

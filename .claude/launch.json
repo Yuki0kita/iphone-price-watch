@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "price-watch",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8657",
+        "--directory",
+        "docs"
+      ],
+      "port": 8657
+    }
+  ]
+}

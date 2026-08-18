@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="description" content="買取1丁目のiPhone未開封買取価格を1時間ごとに記録し、推移を表示する個人用ダッシュボード。">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14161a" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23a8242b'/%3E%3Cpath d='M6 22 L13 15 L18 19 L26 10' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<title>iPhone 買取価格ウォッチ</title>
+<style>
+  :root {
+    --ink: #14161a;
+    --muted: #63676e;
+    --line: #dcdfe4;
+    --bg: #ffffff;
+    --soft: #f5f6f8;
+    --accent: #a8242b;
+    --up: #b42318;
+    --down: #1f5f99;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #eceef1;
+      --muted: #9aa0a8;
+      --line: #333840;
+      --bg: #14161a;
+      --soft: #1c1f25;
+      --accent: #e8686f;
+      --up: #f08a84;
+      --down: #7fb4e0;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    line-height: 1.6;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 28px 18px 64px; }
+
+  header { border-bottom: 1px solid var(--line); padding-bottom: 16px; }
+  h1 { font-size: 21px; margin: 0; letter-spacing: .01em; }
+  .sub { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
+
+  .picker { margin: 24px 0 0; }
+  select {
+    font: inherit;
+    width: 100%;
+    padding: 11px 12px;
+    color: var(--ink);
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+  }
+
+  .headline { margin: 22px 0 0; display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+  .headline strong { font-size: 40px; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+  .delta { font-size: 15px; font-weight: 700; }
+  .delta.up { color: var(--up); }
+  .delta.down { color: var(--down); }
+  .target { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+  .target.reached { color: var(--up); font-weight: 700; }
+
+  .chart { margin-top: 18px; border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
+  .chart-meta { display: flex; gap: 20px; flex-wrap: wrap; font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+  .chart-meta b { color: var(--ink); font-variant-numeric: tabular-nums; }
+  svg { display: block; width: 100%; height: 220px; }
+  svg[hidden] { display: none; }
+  .chart-meta { row-gap: 4px; }
+  .grid { stroke: var(--line); stroke-width: 1; }
+  .axis { fill: var(--muted); font-size: 10px; }
+  .line { fill: none; stroke: var(--accent); stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
+  .dot { fill: var(--accent); }
+  .empty { color: var(--muted); font-size: 13px; padding: 28px 0; text-align: center; }
+
+  h2 { font-size: 13px; color: var(--muted); font-weight: 600; margin: 32px 0 0; }
+  .row {
+    display: flex; align-items: baseline; gap: 12px;
+    padding: 14px 0; border-bottom: 1px solid var(--line);
+  }
+  .row:first-of-type { border-top: 1px solid var(--line); }
+  .row-name { flex: 1; min-width: 0; font-size: 14px; }
+  .row-price { font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .row-delta { font-size: 12px; font-weight: 700; min-width: 66px; text-align: right; }
+
+  footer { margin-top: 28px; font-size: 12px; color: var(--muted); }
+  footer p { margin: 6px 0; }
+  a { color: var(--accent); }
+  .error { margin-top: 24px; padding: 14px; border: 1px solid var(--up); border-radius: 10px; color: var(--up); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>iPhone 買取価格ウォッチ</h1>
+    <p class="sub">買取1丁目・未開封価格　<span id="checkedAt">読込中</span></p>
+  </header>
+
+  <div class="picker">
+    <label class="visually-hidden" for="product" hidden>表示する機種</label>
+    <select id="product" aria-label="表示する機種"></select>
+  </div>
+
+  <p class="headline"><strong id="price">—</strong><span class="delta" id="delta"></span></p>
+  <p class="target" id="target" hidden></p>
+
+  <section class="chart" aria-label="価格推移">
+    <div class="chart-meta">
+      <span>30日高値 <b id="high">—</b></span>
+      <span>30日安値 <b id="low">—</b></span>
+      <span>記録 <b id="points">—</b></span>
+    </div>
+    <svg id="chart" role="img" aria-label="30日間の価格推移グラフ"></svg>
+    <p class="empty" id="chartEmpty" hidden>記録が2点以上たまるとグラフを表示します。</p>
+  </section>
+
+  <h2>すべての監視機種</h2>
+  <div id="rows"></div>
+
+  <footer>
+    <p>1時間ごとに自動取得。価格は取得時点の参考値で、色・保証期間・ネットワーク利用制限により実際の査定額は変わります。</p>
+    <p id="warning" hidden></p>
+  </footer>
+</main>
+
+<script>
+const WINDOW_DAYS = 30;
+const SVG_NS = 'http://www.w3.org/2000/svg';
+
+const yen = n => n == null ? '—' : '¥' + Number(n).toLocaleString('ja-JP');
+const signedYen = n => (n > 0 ? '+' : n < 0 ? '−' : '±') + '¥' + Math.abs(n).toLocaleString('ja-JP');
+const when = t => new Date(t).toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+const el = id => document.getElementById(id);
+
+let series = {};
+let targets = {};
+
+function groupByProduct(history) {
+  const grouped = {};
+  for (const row of history) {
+    if (row.ok === false) continue;
+    (grouped[row.product_id] ||= []).push(row);
+  }
+  for (const rows of Object.values(grouped)) {
+    rows.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+  }
+  return grouped;
+}
+
+function withinWindow(rows) {
+  const cutoff = Date.now() - WINDOW_DAYS * 86400000;
+  return rows.filter(r => new Date(r.timestamp).getTime() >= cutoff);
+}
+
+function changeFromPrevious(rows) {
+  return rows.length < 2 ? null : rows.at(-1).price - rows.at(-2).price;
+}
+
+function applyDelta(node, diff) {
+  node.className = 'delta ' + (diff > 0 ? 'up' : diff < 0 ? 'down' : '');
+  node.textContent = !diff ? '' : `前回比 ${signedYen(diff)}`;
+}
+
+function drawChart(rows) {
+  const svg = el('chart');
+  svg.innerHTML = '';
+  const data = withinWindow(rows);
+  const empty = data.length < 2;
+  el('chartEmpty').hidden = !empty;
+  // SVGElementには hidden プロパティがないため、属性で切り替える。
+  svg.toggleAttribute('hidden', empty);
+  if (empty) return;
+
+  // 実寸で描く。viewBoxを引き伸ばすと線幅と点が横方向に潰れるため。
+  const H = 220, PAD_L = 52, PAD_R = 12, PAD_T = 12, PAD_B = 26;
+  const W = Math.max(svg.clientWidth || svg.parentElement.clientWidth, 280);
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  const prices = data.map(d => d.price);
+  let min = Math.min(...prices), max = Math.max(...prices);
+  if (min === max) { min -= 2000; max += 2000; }
+  const headroom = (max - min) * 0.15;
+  min -= headroom; max += headroom;
+
+  const t0 = new Date(data[0].timestamp).getTime();
+  const span = Math.max(new Date(data.at(-1).timestamp).getTime() - t0, 1);
+  const x = t => PAD_L + (new Date(t).getTime() - t0) / span * (W - PAD_L - PAD_R);
+  const y = p => PAD_T + (max - p) / (max - min) * (H - PAD_T - PAD_B);
+
+  const add = (tag, attrs, text) => {
+    const node = document.createElementNS(SVG_NS, tag);
+    for (const [k, v] of Object.entries(attrs)) node.setAttribute(k, v);
+    if (text != null) node.textContent = text;
+    svg.appendChild(node);
+  };
+
+  for (let i = 0; i <= 3; i++) {
+    const gy = PAD_T + i * (H - PAD_T - PAD_B) / 3;
+    add('line', { x1: PAD_L, x2: W - PAD_R, y1: gy, y2: gy, class: 'grid' });
+    add('text', { x: PAD_L - 8, y: gy + 3, 'text-anchor': 'end', class: 'axis' },
+        Math.round((max - i * (max - min) / 3) / 1000) + 'k');
+  }
+
+  add('polyline', { points: data.map(d => `${x(d.timestamp)},${y(d.price)}`).join(' '), class: 'line' });
+  for (const d of data) add('circle', { cx: x(d.timestamp), cy: y(d.price), r: 2.6, class: 'dot' });
+
+  const dayLabel = t => when(t).split(' ')[0];
+  add('text', { x: PAD_L, y: H - 8, class: 'axis' }, dayLabel(data[0].timestamp));
+  add('text', { x: W - PAD_R, y: H - 8, 'text-anchor': 'end', class: 'axis' }, dayLabel(data.at(-1).timestamp));
+}
+
+function showProduct(productId) {
+  const rows = series[productId];
+  if (!rows) return;
+  const latest = rows.at(-1);
+  const recent = withinWindow(rows);
+
+  el('price').textContent = yen(latest.price);
+  applyDelta(el('delta'), changeFromPrevious(rows));
+
+  const target = targets[productId];
+  const targetNode = el('target');
+  targetNode.hidden = target == null;
+  if (target != null) {
+    const reached = latest.price >= target;
+    targetNode.className = 'target' + (reached ? ' reached' : '');
+    targetNode.textContent = reached
+      ? `目標 ${yen(target)} に到達`
+      : `目標 ${yen(target)} まで あと ${yen(target - latest.price)}`;
+  }
+
+  el('high').textContent = yen(Math.max(...recent.map(r => r.price)));
+  el('low').textContent = yen(Math.min(...recent.map(r => r.price)));
+  el('points').textContent = recent.length + '点';
+  drawChart(rows);
+}
+
+function renderRows() {
+  const box = el('rows');
+  box.innerHTML = '';
+  const entries = Object.entries(series).sort((a, b) => b[1].at(-1).price - a[1].at(-1).price);
+  for (const [, rows] of entries) {
+    const latest = rows.at(-1);
+    const diff = changeFromPrevious(rows);
+    const row = document.createElement('div');
+    row.className = 'row';
+    const name = document.createElement('span');
+    name.className = 'row-name';
+    name.textContent = latest.product_name;
+    const price = document.createElement('span');
+    price.className = 'row-price';
+    price.textContent = yen(latest.price);
+    const delta = document.createElement('span');
+    delta.className = 'row-delta ' + (diff > 0 ? 'up' : diff < 0 ? 'down' : '');
+    delta.textContent = diff == null || diff === 0 ? '' : signedYen(diff);
+    row.append(name, price, delta);
+    box.appendChild(row);
+  }
+}
+
+async function init() {
+  try {
+    const bust = '?t=' + Date.now();
+    const [history, status] = await Promise.all([
+      fetch('./data/history.json' + bust).then(r => r.json()),
+      fetch('./data/status.json' + bust).then(r => r.json()),
+    ]);
+
+    series = groupByProduct(history);
+    targets = Object.fromEntries((status.products || []).map(p => [p.id, p.target_price]));
+    el('checkedAt').textContent = status.checked_at ? `最終チェック ${when(status.checked_at)}` : '';
+
+    if (!Object.keys(series).length) {
+      el('chartEmpty').hidden = false;
+      el('chartEmpty').textContent = 'まだ記録がありません。最初の自動取得を待っています。';
+      el('chart').toggleAttribute('hidden', true);
+      return;
+    }
+
+    const select = el('product');
+    for (const [id, rows] of Object.entries(series)) {
+      select.append(new Option(rows.at(-1).product_name, id));
+    }
+    select.addEventListener('change', () => showProduct(select.value));
+
+    // 画面幅が変わったらグラフを描き直す（実寸で描いているため）。
+    let redrawTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(redrawTimer);
+      redrawTimer = setTimeout(() => drawChart(series[select.value] || []), 120);
+    });
+
+    showProduct(select.value);
+    renderRows();
+
+    if (status.errors && status.errors.length) {
+      const warning = el('warning');
+      warning.hidden = false;
+      warning.textContent = `直近の取得で${status.errors.length}件のエラーがありました。`;
+    }
+  } catch (e) {
+    document.querySelector('main').insertAdjacentHTML(
+      'beforeend', `<p class="error">データを読み込めませんでした: ${e.message}</p>`);
+  }
+}
+
+init();
+</script>
+</body>
+</html>

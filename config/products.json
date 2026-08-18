@@ -1,0 +1,37 @@
+{
+  "settings": {
+    "site_name": "買取1丁目",
+    "request_interval_seconds": 2.0,
+    "timeout_seconds": 20,
+    "history_days": 180,
+    "alert": {
+      "rise_yen": 3000,
+      "new_high_window_days": 30,
+      "min_history_points_for_high": 7,
+      "cooldown_hours": 12
+    }
+  },
+  "products": [
+    {
+      "id": "iphone-17-pro-max-512",
+      "name": "iPhone 17 Pro Max 512GB",
+      "url": "https://www.1-chome.com/productDetail/1371/1927",
+      "target_price": null,
+      "enabled": true
+    },
+    {
+      "id": "iphone-17-pro-256",
+      "name": "iPhone 17 Pro 256GB",
+      "url": "https://www.1-chome.com/productDetail/1374/1936",
+      "target_price": null,
+      "enabled": true
+    },
+    {
+      "id": "iphone-17-256",
+      "name": "iPhone 17 256GB",
+      "url": "https://www.1-chome.com/productDetail/1365/1909",
+      "target_price": null,
+      "enabled": true
+    }
+  ]
+}
