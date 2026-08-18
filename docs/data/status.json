@@ -1,16 +1,16 @@
 {
-  "checked_at": "2026-08-18T13:48:45+09:00",
+  "checked_at": "2026-08-18T13:59:12+09:00",
   "products_checked": 3,
   "records_changed": false,
-  "alerts": 0,
-  "email_sent": false,
+  "alerts": 1,
+  "email_sent": true,
   "errors": [],
   "products": [
     {
       "id": "iphone-17-pro-max-512",
       "name": "iPhone 17 Pro Max 512GB",
       "url": "https://www.1-chome.com/productDetail/1371/1927",
-      "target_price": null
+      "target_price": 200000
     },
     {
       "id": "iphone-17-pro-256",
