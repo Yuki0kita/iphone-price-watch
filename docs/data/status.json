@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-18T14:04:59+09:00",
+  "checked_at": "2026-08-18T14:10:42+09:00",
   "products_checked": 3,
   "records_changed": false,
   "alerts": 0,
@@ -10,7 +10,7 @@
       "id": "iphone-17-256",
       "name": "iPhone 17 256GB",
       "url": "https://www.1-chome.com/productDetail/1365/1909",
-      "target_price": null
+      "target_price": 139800
     },
     {
       "id": "iphone-17-pro-max-512",
