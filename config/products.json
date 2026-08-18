@@ -13,6 +13,13 @@
   },
   "products": [
     {
+      "id": "iphone-17-256",
+      "name": "iPhone 17 256GB",
+      "url": "https://www.1-chome.com/productDetail/1365/1909",
+      "target_price": null,
+      "enabled": true
+    },
+    {
       "id": "iphone-17-pro-max-512",
       "name": "iPhone 17 Pro Max 512GB",
       "url": "https://www.1-chome.com/productDetail/1371/1927",
@@ -23,13 +30,6 @@
       "id": "iphone-17-pro-256",
       "name": "iPhone 17 Pro 256GB",
       "url": "https://www.1-chome.com/productDetail/1374/1936",
-      "target_price": null,
-      "enabled": true
-    },
-    {
-      "id": "iphone-17-256",
-      "name": "iPhone 17 256GB",
-      "url": "https://www.1-chome.com/productDetail/1365/1909",
       "target_price": null,
       "enabled": true
     }

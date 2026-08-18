@@ -282,9 +282,12 @@ async function init() {
       return;
     }
 
+    // 設定ファイルの並び順に合わせる。先頭の機種が最初に表示される。
     const select = el('product');
-    for (const [id, rows] of Object.entries(series)) {
-      select.append(new Option(rows.at(-1).product_name, id));
+    const configured = (status.products || []).map(p => p.id).filter(id => series[id]);
+    const ordered = [...configured, ...Object.keys(series).filter(id => !configured.includes(id))];
+    for (const id of ordered) {
+      select.append(new Option(series[id].at(-1).product_name, id));
     }
     select.addEventListener('change', () => showProduct(select.value));
 
