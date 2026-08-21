@@ -126,5 +126,13 @@
     "price": 185500,
     "url": "https://www.1-chome.com/productDetail/1374/1936",
     "ok": true
+  },
+  {
+    "timestamp": "2026-08-21T19:50:25+09:00",
+    "product_id": "iphone-17-256",
+    "product_name": "iPhone 17 256GB",
+    "price": 138000,
+    "url": "https://www.1-chome.com/productDetail/1365/1909",
+    "ok": true
   }
 ]
