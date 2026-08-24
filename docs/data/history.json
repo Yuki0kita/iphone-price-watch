@@ -214,5 +214,29 @@
     "price": 184500,
     "url": "https://www.1-chome.com/productDetail/1374/1936",
     "ok": true
+  },
+  {
+    "timestamp": "2026-08-25T00:03:21+09:00",
+    "product_id": "iphone-17-256",
+    "product_name": "iPhone 17 256GB",
+    "price": 138000,
+    "url": "https://www.1-chome.com/productDetail/1365/1909",
+    "ok": true
+  },
+  {
+    "timestamp": "2026-08-25T00:03:21+09:00",
+    "product_id": "iphone-17-pro-max-512",
+    "product_name": "iPhone 17 Pro Max 512GB",
+    "price": 227500,
+    "url": "https://www.1-chome.com/productDetail/1371/1927",
+    "ok": true
+  },
+  {
+    "timestamp": "2026-08-25T00:03:21+09:00",
+    "product_id": "iphone-17-pro-256",
+    "product_name": "iPhone 17 Pro 256GB",
+    "price": 184500,
+    "url": "https://www.1-chome.com/productDetail/1374/1936",
+    "ok": true
   }
 ]
