@@ -301,5 +301,14 @@
     "shop": "買取1丁目",
     "url": "https://www.1-chome.com/electricAppliance",
     "ok": true
+  },
+  {
+    "timestamp": "2026-08-25T18:02:21+09:00",
+    "product_id": "iphone-17-256",
+    "product_name": "iPhone 17 256GB",
+    "price": 139000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1365/1909",
+    "ok": true
   }
 ]
