@@ -33,6 +33,7 @@ jobs:
           SMTP_APP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
           NOTIFY_TO: ${{ secrets.NOTIFY_TO }}
           KTX_API_KEY: ${{ secrets.KTX_API_KEY }}
+          YAHOO_APP_ID: ${{ secrets.YAHOO_APP_ID }}
         run: python -m src.collector
 
       - name: Commit changed data

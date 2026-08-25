@@ -9,7 +9,13 @@
       "new_high_window_days": 30,
       "min_history_points_for_high": 7,
       "cooldown_hours": 12,
-      "market_gap_yen": 5000
+      "market_gap_yen": 5000,
+      "min_safe_profit_yen": 15000
+    },
+    "profit": {
+      "risk_buffer_yen": 3000,
+      "extra_cost_yen": 500,
+      "minimum_profit_yen": 10000
     }
   },
   "products": [

@@ -19,6 +19,9 @@ from typing import Any
 from src.fetcher import SOURCE_MARKET, Product, fetch_product
 from src.kaitorix import API_KEY_ENV as KTX_API_KEY_ENV
 from src.kaitorix import KEPT_QUOTES, KaitoriXError, Quote, fetch_market_price
+from src.profit import Profit, calculate
+from src.retail import APP_ID_ENV as YAHOO_APP_ID_ENV
+from src.retail import RetailError, fetch_cheapest
 
 JST = timezone(timedelta(hours=9))
 ROOT = Path(__file__).resolve().parents[1]
@@ -27,6 +30,7 @@ HISTORY_PATH = ROOT / "docs" / "data" / "history.json"
 ALERT_STATE_PATH = ROOT / "docs" / "data" / "alert_state.json"
 STATUS_PATH = ROOT / "docs" / "data" / "status.json"
 MARKET_PATH = ROOT / "docs" / "data" / "market.json"
+RETAIL_PATH = ROOT / "docs" / "data" / "retail.json"
 
 SHOP_NAME = "買取1丁目"
 
@@ -45,6 +49,7 @@ class Alert:
     url: str
     best_price: int
     best_store: str
+    cooldown_key: str
 
 
 def best_offer(price: int, market: Quote | None) -> tuple[int, str]:
@@ -97,11 +102,13 @@ def alert_reasons(
     cfg: dict,
     now: datetime,
     market: Quote | None = None,
+    profit: Profit | None = None,
 ) -> list[str]:
     """通知条件に当てはまる理由を列挙する。
 
     priceは買取1丁目の価格、previous_rowsは今回より前の記録のみ。
     marketが渡された場合、目標価格の判定は「実際に受け取れる最高額」で行う。
+    profitが渡された場合、仕入れて売る余地があるかも判定する。
     """
     reasons: list[str] = []
     best_price, best_store = best_offer(price, market)
@@ -116,6 +123,13 @@ def alert_reasons(
         gap = market.price - price
         if gap >= int(cfg["market_gap_yen"]):
             reasons.append(f"{market.store}が¥{gap:,}高い（¥{market.price:,}）")
+
+    # 仕入れて売り抜ける余地があるとき。査定減額バッファを引いた後の金額で判定する。
+    if profit and profit.safe_profit >= int(cfg["min_safe_profit_yen"]):
+        reasons.append(
+            f"判定{profit.grade} 安全利益 ¥{profit.safe_profit:,}"
+            f"（仕入 ¥{profit.retail_price:,} → 買取 ¥{profit.buyback_price:,}）"
+        )
 
     previous_price = int(previous_rows[-1]["price"]) if previous_rows else None
     rise_yen = int(cfg["rise_yen"])
@@ -138,9 +152,14 @@ def alert_reasons(
     return reasons
 
 
-def is_in_cooldown(state: dict, price: int, cooldown_hours: int, now: datetime) -> bool:
-    """同じ価格のまま通知が連打されるのを防ぐ。"""
-    if state.get("price") != price:
+def cooldown_key(best_price: int, profit: Profit | None) -> str:
+    """再通知するかの判断材料。買取と仕入れのどちらかが動いたら通知しなおす。"""
+    return f"{best_price}" if profit is None else f"{best_price}/{profit.retail_price}"
+
+
+def is_in_cooldown(state: dict, key: str, cooldown_hours: int, now: datetime) -> bool:
+    """同じ状況のまま通知が連打されるのを防ぐ。"""
+    if str(state.get("key")) != key:
         return False
     sent_at_raw = state.get("sent_at")
     if not sent_at_raw:
@@ -160,14 +179,16 @@ def evaluate_alert(
     alert_state: dict,
     now: datetime,
     market: Quote | None = None,
+    profit: Profit | None = None,
 ) -> Alert | None:
-    reasons = alert_reasons(product, price, previous_rows, cfg, now, market)
+    reasons = alert_reasons(product, price, previous_rows, cfg, now, market, profit)
     if not reasons:
         return None
 
-    # 連打防止は「受け取れる最高額」で判定する。他店の値が動かない限り再通知しない。
+    # 買取も仕入れも動いていないなら再通知しない。
     best_price, best_store = best_offer(price, market)
-    if is_in_cooldown(alert_state.get(product["id"], {}), best_price, int(cfg["cooldown_hours"]), now):
+    key = cooldown_key(best_price, profit)
+    if is_in_cooldown(alert_state.get(product["id"], {}), key, int(cfg["cooldown_hours"]), now):
         return None
 
     return Alert(
@@ -176,9 +197,10 @@ def evaluate_alert(
         price=price,
         previous_price=int(previous_rows[-1]["price"]) if previous_rows else None,
         reasons=reasons,
-        url=product["url"],
+        url=product.get("url", ""),
         best_price=best_price,
         best_store=best_store,
+        cooldown_key=key,
     )
 
 
@@ -272,6 +294,34 @@ def collect_market(products: list[dict], api_key: str, now_iso: str, timeout: in
     return {"checked_at": now_iso, "products": entries, "errors": errors}
 
 
+def collect_retail(product: dict, app_id: str, timeout: int) -> dict | None:
+    """仕入れ側の最安値を取得する。JANが無い商品と、キー未設定時は何もしない。"""
+    jan = str(product.get("jan") or "").strip()
+    if not app_id or not jan:
+        return None
+    offer = fetch_cheapest(jan, app_id, timeout=timeout)
+    return {
+        "jan": jan,
+        "name": offer.name,
+        "price": offer.price,
+        "store": offer.store,
+        "url": offer.url,
+        "in_stock": offer.in_stock,
+    }
+
+
+def profit_for(product: dict, buyback_price: int, retail: dict | None, cfg: dict) -> Profit | None:
+    if not retail:
+        return None
+    return calculate(
+        buyback_price=buyback_price,
+        retail_price=int(retail["price"]),
+        extra_cost=int(product.get("extra_cost_yen", cfg["extra_cost_yen"])),
+        risk_buffer=int(cfg["risk_buffer_yen"]),
+        minimum_profit=int(cfg["minimum_profit_yen"]),
+    )
+
+
 def market_quote(market: dict, product_id: str) -> Quote | None:
     entry = (market.get("products") or {}).get(product_id)
     if not entry:
@@ -301,6 +351,11 @@ def main() -> int:
     elif not api_key:
         print(f"{KTX_API_KEY_ENV} が未設定のため、他店の横断チェックをスキップしました。")
 
+    yahoo_app_id = os.getenv(YAHOO_APP_ID_ENV, "").strip()
+    retail_entries: dict[str, dict] = {}
+    if not yahoo_app_id:
+        print(f"{YAHOO_APP_ID_ENV} が未設定のため、仕入れ価格の取得をスキップしました。")
+
     for index, product in enumerate(products):
         if index:
             time.sleep(float(settings["request_interval_seconds"]))
@@ -316,6 +371,30 @@ def main() -> int:
             else:
                 price = collect_one(product, timeout=int(settings["timeout_seconds"])).unopened_price
                 shop = SHOP_NAME
+
+            # 仕入れ側。取得できなくても買取の記録は続ける。
+            retail = None
+            try:
+                retail = collect_retail(product, yahoo_app_id, int(settings["timeout_seconds"]))
+            except RetailError as e:
+                errors.append({"product_id": product["id"], "retail": True, "error": str(e)})
+                print(f"ERROR retail {product['name']}: {e}", file=sys.stderr)
+
+            best_price, _ = best_offer(price, quote)
+            profit = profit_for(product, best_price, retail, settings["profit"])
+            if retail:
+                retail_entries[product["id"]] = {
+                    **retail,
+                    "buyback_price": best_price,
+                    "safe_profit": profit.safe_profit,
+                    "cash_profit": profit.cash_profit,
+                    "grade": profit.grade,
+                    "buy_threshold": profit.buy_threshold,
+                }
+                print(
+                    f"     仕入 ¥{retail['price']:,}（{retail['store']}）"
+                    f" 安全利益 ¥{profit.safe_profit:,} 判定{profit.grade}"
+                )
 
             previous_rows = get_product_history(history, product["id"])
             previous = previous_rows[-1] if previous_rows else None
@@ -342,6 +421,7 @@ def main() -> int:
                 alert_state,
                 now,
                 quote,
+                profit,
             )
             if alert:
                 alerts.append(alert)
@@ -361,12 +441,19 @@ def main() -> int:
             print(f"ERROR email: {e}", file=sys.stderr)
         # メール未設定でも状態は残す。設定した瞬間に過去分がまとめて飛ぶのを防ぐ。
         for a in alerts:
-            alert_state[a.product_id] = {"price": a.best_price, "sent_at": now_iso, "reasons": a.reasons}
+            alert_state[a.product_id] = {
+                "key": a.cooldown_key,
+                "price": a.best_price,
+                "sent_at": now_iso,
+                "reasons": a.reasons,
+            }
 
     save_json(HISTORY_PATH, history)
     save_json(ALERT_STATE_PATH, alert_state)
     if market:
         save_json(MARKET_PATH, market)
+    if yahoo_app_id:
+        save_json(RETAIL_PATH, {"checked_at": now_iso, "products": retail_entries})
     save_json(
         STATUS_PATH,
         {

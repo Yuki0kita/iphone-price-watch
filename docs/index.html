@@ -67,6 +67,19 @@
   .target { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
   .target.reached { color: var(--up); font-weight: 700; }
 
+  .deal { margin-top: 16px; border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+  .deal.go { border-color: var(--up); }
+  .deal-head { margin: 0; display: flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 700; }
+  .grade {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 26px; height: 26px; border-radius: 7px; flex: none;
+    font-size: 13px; font-weight: 700; color: var(--bg); background: var(--muted);
+  }
+  .grade.s, .grade.a, .grade.b { background: var(--up); }
+  .deal-flow { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; font-size: 13px; color: var(--muted); }
+  .deal-flow b { color: var(--ink); font-variant-numeric: tabular-nums; font-weight: 600; }
+  .deal-note { margin: 8px 0 0; font-size: 12px; color: var(--muted); }
+
   .market { margin-top: 16px; border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; background: var(--soft); }
   .market-lead { margin: 0; font-size: 14px; }
   .market-lead b { font-variant-numeric: tabular-nums; }
@@ -118,6 +131,15 @@
   <p class="headline"><strong id="price">—</strong><span class="delta" id="delta"></span></p>
   <p class="target" id="target" hidden></p>
 
+  <section class="deal" id="deal" hidden>
+    <p class="deal-head">
+      <span class="grade" id="dealGrade">D</span>
+      <span id="dealProfit"></span>
+    </p>
+    <div class="deal-flow" id="dealFlow"></div>
+    <p class="deal-note" id="dealNote"></p>
+  </section>
+
   <section class="market" id="market" hidden>
     <p class="market-lead" id="marketLead"></p>
     <div id="marketQuotes"></div>
@@ -167,6 +189,7 @@ function niceStep(range, targetLines) {
 let series = {};
 let targets = {};
 let market = {};
+let retail = {};
 
 function groupByProduct(history) {
   const grouped = {};
@@ -245,6 +268,31 @@ function drawChart(rows) {
   add('text', { x: W - PAD_R, y: H - 8, 'text-anchor': 'end', class: 'axis' }, dayLabel(data.at(-1).timestamp));
 }
 
+const GO_GRADES = new Set(['S', 'A', 'B']);
+
+function showDeal(productId) {
+  const deal = retail[productId];
+  const box = el('deal');
+  box.hidden = !deal;
+  if (!deal) return;
+
+  const go = GO_GRADES.has(deal.grade);
+  box.className = 'deal' + (go ? ' go' : '');
+  el('dealGrade').textContent = deal.grade;
+  el('dealGrade').className = 'grade ' + deal.grade.toLowerCase();
+  el('dealProfit').textContent = deal.safe_profit >= 0
+    ? `安全利益 ${yen(deal.safe_profit)}`
+    : `逆ザヤ ${yen(-deal.safe_profit)}`;
+
+  el('dealFlow').innerHTML =
+    `<span>仕入 <b>${yen(deal.price)}</b></span>` +
+    `<span>→ 買取 <b>${yen(deal.buyback_price)}</b></span>` +
+    `<span>上限 <b>${yen(deal.buy_threshold)}</b></span>`;
+
+  const where = deal.store ? `${deal.store}${deal.in_stock ? '' : '（在庫なし）'}` : '';
+  el('dealNote').textContent = `${where}｜査定減額と経費を引いた後の金額です。`;
+}
+
 function showMarket(productId, shopPrice) {
   const entry = market[productId];
   const box = el('market');
@@ -295,6 +343,7 @@ function showProduct(productId) {
       : `目標 ${yen(target)} まで あと ${yen(target - best)}`;
   }
 
+  showDeal(productId);
   showMarket(productId, latest.price);
   el('high').textContent = yen(Math.max(...recent.map(r => r.price)));
   el('low').textContent = yen(Math.min(...recent.map(r => r.price)));
@@ -330,14 +379,16 @@ async function init() {
     const bust = '?t=' + Date.now();
     const load = (name, fallback) =>
       fetch(`./data/${name}.json${bust}`).then(r => (r.ok ? r.json() : fallback)).catch(() => fallback);
-    const [history, status, marketData] = await Promise.all([
+    const [history, status, marketData, retailData] = await Promise.all([
       load('history', []),
       load('status', {}),
-      // APIキー未設定なら market.json は存在しない。無くても他は動く。
+      // APIキー未設定なら market.json / retail.json は存在しない。無くても他は動く。
       load('market', { products: {} }),
+      load('retail', { products: {} }),
     ]);
 
     market = marketData.products || {};
+    retail = retailData.products || {};
     series = groupByProduct(history);
     targets = Object.fromEntries((status.products || []).map(p => [p.id, p.target_price]));
     el('checkedAt').textContent = status.checked_at ? `最終チェック ${when(status.checked_at)}` : '';

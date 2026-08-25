@@ -11,6 +11,7 @@ from src.collector import (
     trim_history,
 )
 from src.kaitorix import Quote
+from src.profit import calculate
 
 NOW = datetime(2026, 8, 18, 17, 0, tzinfo=JST)
 CFG = {
@@ -19,6 +20,7 @@ CFG = {
     "min_history_points_for_high": 7,
     "cooldown_hours": 12,
     "market_gap_yen": 5000,
+    "min_safe_profit_yen": 15000,
 }
 PRODUCT = {
     "id": "iphone-17-pro-max-512",
@@ -36,8 +38,8 @@ def rows(*prices, days_ago_start=10):
     ]
 
 
-def reasons_for(price, previous_rows, product=None, state=None, market=None):
-    alert = evaluate_alert(product or PRODUCT, price, previous_rows, CFG, state or {}, NOW, market)
+def reasons_for(price, previous_rows, product=None, state=None, market=None, profit=None):
+    alert = evaluate_alert(product or PRODUCT, price, previous_rows, CFG, state or {}, NOW, market, profit)
     return alert.reasons if alert else None
 
 
@@ -104,17 +106,17 @@ class NewHighTest(unittest.TestCase):
 class CooldownTest(unittest.TestCase):
     def test_suppresses_same_price_within_cooldown(self):
         product = {**PRODUCT, "target_price": 240000}
-        state = {PRODUCT["id"]: {"price": 240000, "sent_at": (NOW - timedelta(hours=11)).isoformat()}}
+        state = {PRODUCT["id"]: {"key": "240000", "price": 240000, "sent_at": (NOW - timedelta(hours=11)).isoformat()}}
         self.assertIsNone(reasons_for(240000, [], product, state))
 
     def test_allows_after_cooldown(self):
         product = {**PRODUCT, "target_price": 240000}
-        state = {PRODUCT["id"]: {"price": 240000, "sent_at": (NOW - timedelta(hours=12)).isoformat()}}
+        state = {PRODUCT["id"]: {"key": "240000", "price": 240000, "sent_at": (NOW - timedelta(hours=12)).isoformat()}}
         self.assertIsNotNone(reasons_for(240000, [], product, state))
 
     def test_allows_when_price_changed(self):
         product = {**PRODUCT, "target_price": 240000}
-        state = {PRODUCT["id"]: {"price": 240000, "sent_at": (NOW - timedelta(hours=1)).isoformat()}}
+        state = {PRODUCT["id"]: {"key": "240000", "price": 240000, "sent_at": (NOW - timedelta(hours=1)).isoformat()}}
         self.assertIsNotNone(reasons_for(241000, [], product, state))
 
 
@@ -165,12 +167,40 @@ class MarketAlertTest(unittest.TestCase):
 
     def test_cooldown_uses_best_price(self):
         """他店の最高額が変わらない限り、毎日の横断チェックで再通知しない。"""
-        state = {PRODUCT["id"]: {"price": 143000, "sent_at": (NOW - timedelta(hours=11)).isoformat()}}
+        state = {PRODUCT["id"]: {"key": "143000", "price": 143000, "sent_at": (NOW - timedelta(hours=11)).isoformat()}}
         self.assertIsNone(reasons_for(138000, [], state=state, market=quote(143000)))
 
     def test_cooldown_released_when_best_price_moves(self):
-        state = {PRODUCT["id"]: {"price": 143000, "sent_at": (NOW - timedelta(hours=1)).isoformat()}}
+        state = {PRODUCT["id"]: {"key": "143000", "price": 143000, "sent_at": (NOW - timedelta(hours=1)).isoformat()}}
         self.assertIsNotNone(reasons_for(138000, [], state=state, market=quote(144000)))
+
+
+class ProfitAlertTest(unittest.TestCase):
+    def profit(self, retail, buyback=176500):
+        return calculate(buyback_price=buyback, retail_price=retail, extra_cost=500, risk_buffer=3000)
+
+    def test_fires_at_exactly_threshold(self):
+        """安全利益がちょうど15,000円で通知する。"""
+        reasons = reasons_for(176500, [], profit=self.profit(158000))
+        self.assertEqual(len(reasons), 1)
+        self.assertIn("判定B 安全利益 ¥15,000", reasons[0])
+
+    def test_silent_one_yen_below_threshold(self):
+        self.assertIsNone(reasons_for(176500, [], profit=self.profit(158001)))
+
+    def test_silent_on_reverse_spread(self):
+        """仕入れのほうが高い場合は通知しない。"""
+        self.assertIsNone(reasons_for(176500, [], profit=self.profit(190000)))
+
+    def test_reports_grade_s_for_large_spread(self):
+        reasons = reasons_for(176500, [], profit=self.profit(130000))
+        self.assertIn("判定S", reasons[0])
+
+    def test_cooldown_released_when_retail_price_moves(self):
+        """買取が同じでも仕入れが動いたら通知しなおす。"""
+        state = {PRODUCT["id"]: {"key": "176500/158000", "sent_at": (NOW - timedelta(hours=1)).isoformat()}}
+        self.assertIsNone(reasons_for(176500, [], state=state, profit=self.profit(158000)))
+        self.assertIsNotNone(reasons_for(176500, [], state=state, profit=self.profit(150000)))
 
 
 class ShouldCheckMarketTest(unittest.TestCase):
