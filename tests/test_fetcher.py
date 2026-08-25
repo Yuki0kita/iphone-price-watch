@@ -6,6 +6,9 @@ from src.fetcher import (
     MAX_PLAUSIBLE_PRICE,
     MIN_PLAUSIBLE_PRICE,
     api_url,
+    fetch_product,
+    goods_list_url,
+    parse_goods_list,
     parse_payload,
     product_ids_from_url,
 )
@@ -87,6 +90,74 @@ class ParsePayloadTest(unittest.TestCase):
             with self.subTest(price=price):
                 with self.assertRaises(ValueError):
                     parse_payload(payload_with_price(price))
+
+
+def goods_payload(items):
+    return {"code": 200, "data": {"content": items, "totalElements": len(items)}}
+
+
+GOODS_ITEM = {
+    "goodsId": 7050,
+    "jan": "4902370552683",
+    "title": "Nintendo Switch 2 多言語版",
+    "goodsKbDetails": [
+        {"kbDetailName": "新品未使用", "kbDetailPrice": 81600},
+        {"kbDetailName": "来店", "kbDetailPrice": 81800},
+    ],
+}
+
+
+class GoodsListTest(unittest.TestCase):
+    def test_reads_requested_condition(self):
+        """家電の状態名は「未開封」ではないため、指定した状態を読む。"""
+        product = parse_goods_list(goods_payload([GOODS_ITEM]), "4902370552683", "新品未使用")
+        self.assertEqual(product.name, "Nintendo Switch 2 多言語版")
+        self.assertEqual(product.unopened_price, 81600)
+
+    def test_picks_visit_store_condition_when_asked(self):
+        product = parse_goods_list(goods_payload([GOODS_ITEM]), "4902370552683", "来店")
+        self.assertEqual(product.unopened_price, 81800)
+
+    def test_matches_jan_ignoring_invisible_characters(self):
+        """商品によってJANに不可視文字が混ざるため、数字だけで突き合わせる。"""
+        item = {**GOODS_ITEM, "jan": "‎4902370552683 "}
+        product = parse_goods_list(goods_payload([item]), "4902370552683", "新品未使用")
+        self.assertEqual(product.unopened_price, 81600)
+
+    def test_picks_the_matching_jan_among_similar_items(self):
+        other = {**GOODS_ITEM, "jan": "4902370552684", "title": "別モデル"}
+        product = parse_goods_list(goods_payload([other, GOODS_ITEM]), "4902370552683", "新品未使用")
+        self.assertEqual(product.name, "Nintendo Switch 2 多言語版")
+
+    def test_rejects_missing_jan(self):
+        with self.assertRaisesRegex(ValueError, "4902370559999"):
+            parse_goods_list(goods_payload([GOODS_ITEM]), "4902370559999", "新品未使用")
+
+    def test_rejects_unknown_condition(self):
+        with self.assertRaisesRegex(ValueError, "未開封"):
+            parse_goods_list(goods_payload([GOODS_ITEM]), "4902370552683", "未開封")
+
+    def test_rejects_broken_payload(self):
+        for payload in [None, {}, {"data": {}}, {"data": {"content": "x"}}]:
+            with self.subTest(payload=payload):
+                with self.assertRaises(ValueError):
+                    parse_goods_list(payload, "4902370552683", "新品未使用")
+
+    def test_list_url_narrows_by_keyword(self):
+        url = goods_list_url("20480828", "CFI-7000B01")
+        self.assertIn("cateCode=20480828", url)
+        self.assertIn("keyword=CFI-7000B01", url)
+
+
+class FetchProductDispatchTest(unittest.TestCase):
+    def test_rejects_market_only_source(self):
+        """買取X経由でしか取れない商品は、買取1丁目のfetcherを通さない。"""
+        with self.assertRaisesRegex(ValueError, "market"):
+            fetch_product({"id": "x", "source": "market", "jan": "4549576249797"})
+
+    def test_rejects_unknown_source(self):
+        with self.assertRaises(ValueError):
+            fetch_product({"id": "x", "source": "amazon"})
 
 
 if __name__ == "__main__":

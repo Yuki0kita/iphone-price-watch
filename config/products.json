@@ -36,6 +36,96 @@
       "target_price": null,
       "enabled": true,
       "jan": "4549995648294"
+    },
+    {
+      "id": "ps5-pro-cfi-7000b01",
+      "name": "PlayStation 5 Pro CFI-7000B01",
+      "source": "goods",
+      "cate_code": "20480828",
+      "keyword": "CFI-7000B01",
+      "jan": "4948872416320",
+      "condition": "新品未使用",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "target_price": null,
+      "enabled": true
+    },
+    {
+      "id": "switch2-multilang",
+      "name": "Nintendo Switch 2 多言語版",
+      "source": "goods",
+      "cate_code": "bBNHyqptq0nqvbcg",
+      "keyword": "多言語",
+      "jan": "4902370552683",
+      "condition": "新品未使用",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "target_price": null,
+      "enabled": true
+    },
+    {
+      "id": "ps5-slim-cfi-2000a01",
+      "name": "PlayStation 5 Slim Disc CFI-2000A01",
+      "source": "goods",
+      "cate_code": "20480828",
+      "keyword": "CFI-2000A01",
+      "jan": "4948872415934",
+      "condition": "新品未使用",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "target_price": null,
+      "enabled": true
+    },
+    {
+      "id": "fujifilm-x100vi-black",
+      "name": "FUJIFILM X100VI ブラック",
+      "source": "goods",
+      "cate_code": "20845941",
+      "keyword": "X100VI",
+      "jan": "4547410529494",
+      "condition": "印(購入店シール)なし",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "target_price": null,
+      "enabled": true
+    },
+    {
+      "id": "onepiece-op17",
+      "name": "ONE PIECE OP-17 世界最強の戦士 BOX",
+      "source": "goods",
+      "cate_code": "SEbO7gSBevo6KsPE",
+      "keyword": "OP-17",
+      "jan": "4582770058406",
+      "condition": "未開封,テープ付き",
+      "url": "https://www.1-chome.com/tradeCards",
+      "target_price": null,
+      "enabled": true
+    },
+    {
+      "id": "pokemon-inferno-x",
+      "name": "ポケモンカード MEGA インフェルノX BOX",
+      "source": "goods",
+      "cate_code": "IIzyMdayU5wp7T4G",
+      "keyword": "インフェルノ",
+      "jan": "4521329431529",
+      "condition": "シュリンク有",
+      "url": "https://www.1-chome.com/tradeCards",
+      "target_price": null,
+      "enabled": true
+    },
+    {
+      "id": "dragonball-story-booster-01",
+      "name": "ドラゴンボール フュージョンワールド STORY BOOSTER 01",
+      "source": "market",
+      "jan": "4582770011982",
+      "target_price": null,
+      "enabled": true,
+      "note": "買取1丁目は取扱なし。買取X（KTX_API_KEY）経由でのみ記録する。"
+    },
+    {
+      "id": "office-home-business-2024",
+      "name": "Microsoft Office Home & Business 2024 POSA",
+      "source": "market",
+      "jan": "4549576249797",
+      "target_price": null,
+      "enabled": true,
+      "note": "買取1丁目は取扱なし。買取X（KTX_API_KEY）経由でのみ記録する。"
     }
   ]
 }

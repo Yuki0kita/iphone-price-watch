@@ -1,6 +1,7 @@
-# iPhone 買取価格ウォッチ
+# 買取価格ウォッチ
 
-買取1丁目のiPhone未開封買取価格を1時間ごとに記録し、高値になったら気づけるようにする個人用ツール。
+買取1丁目の買取価格を1時間ごとに記録し、高値になったら気づけるようにする個人用ツール。
+iPhoneのほか、ゲーム機・カメラ・トレカBOXを監視する。
 GitHub Actions と GitHub Pages だけで動くため、月額0円で運用できる。
 
 - ダッシュボード: `docs/index.html`（GitHub Pagesで公開）
@@ -23,17 +24,26 @@ docs/data/history.json に追記してコミット
 
 ### 価格の取得元
 
-買取1丁目の商品ページはVite製のSPAで、サーバーが返すHTMLに価格が入っていない。
-そのため画面自体が使っている公開JSON APIを、同じ形で1商品につき1回だけ呼ぶ。
+買取1丁目のページはVite製のSPAで、サーバーが返すHTMLに価格が入っていない。
+そのため画面自体が使っている公開JSON APIを同じ形で呼ぶ。
 
-```text
-GET https://www.1-chome.com/api/keitai/getKeitaiItem?keitaiItemId=<id>&keitaiItemKbId=<kbId>
-```
+商品の種類でAPIも状態名も違うため、設定の `source` で切り替える。
 
-`id` と `kbId` は商品ページURL（`/productDetail/1371/1927`）から自動で取り出すため、
-設定に書くのは商品ページのURLだけでよい。
+| source | API | 対象 | 状態名の例 |
+|---|---|---|---|
+| `keitai` | `/api/keitai/getKeitaiItem` | iPhone等の携帯 | 未開封 |
+| `goods` | `/api/goods/listPage` | 家電・ゲーム・カメラ・トレカ | 新品未使用 / シュリンク有 / 印(購入店シール)なし |
+| `market` | （買取1丁目は使わない） | 買取1丁目が扱わない商品 | — |
 
-取得するのは `keitaiKbDetails` の中の「未開封」の価格。同じ商品に並ぶ「開封済未使用品」は対象外。
+`keitai` は商品ページURL（`/productDetail/1371/1927`）からIDを自動で取り出す。
+
+`goods` は一覧APIを `cate_code` と `keyword` で絞り、`jan` が一致する商品を選ぶ。
+一覧を全件取ると重いため、`keyword` で必ず絞る。
+
+`condition` には追跡したい状態名を**正確に**書く。状態名はカテゴリごとに違い、
+指定が間違っていると「取得できた状態」の一覧つきでエラーになる。
+
+`market` は買取1丁目に商品が無い場合に使う。買取X（後述）経由でのみ記録する。
 
 ## 他店との比較（任意）
 
@@ -45,7 +55,7 @@ GET https://kaitorix.app/open/api/product/<JAN>
 Authorization: Bearer ktx_...
 ```
 
-無料プランは30リクエスト/日・1リクエスト/秒。監視3商品なら1日3回で収まる。
+無料プランは30リクエスト/日・1リクエスト/秒。現在の監視11商品なら1日11回で収まる。
 
 APIキーは https://kaitorix.app/open/mypage で取得し、GitHub Secretsに `KTX_API_KEY` として登録する。
 未登録なら他店比較だけがスキップされ、買取1丁目の記録は通常どおり動く。
@@ -98,18 +108,39 @@ NOTIFY_TO           通知を受け取るアドレス
 
 `config/products.json` を編集する。
 
+携帯（source省略時）:
+
 ```json
 {
-  "id": "iphone-17-pro-max-512",
-  "name": "iPhone 17 Pro Max 512GB",
-  "url": "https://www.1-chome.com/productDetail/1371/1927",
-  "target_price": 240000,
+  "id": "iphone-17-256",
+  "name": "iPhone 17 256GB",
+  "url": "https://www.1-chome.com/productDetail/1365/1909",
+  "jan": "4549995649154",
+  "target_price": 139800,
+  "enabled": true
+}
+```
+
+家電・トレカ:
+
+```json
+{
+  "id": "ps5-pro-cfi-7000b01",
+  "name": "PlayStation 5 Pro CFI-7000B01",
+  "source": "goods",
+  "cate_code": "20480828",
+  "keyword": "CFI-7000B01",
+  "jan": "4948872416320",
+  "condition": "新品未使用",
+  "url": "https://www.1-chome.com/electricAppliance",
+  "target_price": null,
   "enabled": true
 }
 ```
 
 - `target_price`: この金額以上で通知する。`null` なら目標価格の判定をしない
 - `enabled`: `false` にすると取得を止める（履歴は残る）
+- `jan`: 買取Xで他店と比較するために使う。色ごとに違う点に注意
 
 しきい値は `settings.alert` で変えられる。
 
@@ -147,6 +178,7 @@ python3 -m http.server 8657 --directory docs
 
 - 価格が変わらない日は1日1件だけ記録する。履歴が無駄に増えないようにするため
 - 履歴は180日で切り捨てる（`settings.history_days`）
-- 1機種の取得に失敗しても他は続行する。全機種が失敗した時だけワークフローを失敗扱いにする
-- サイト側の仕様が変わると「未開封の価格が見つからない」というエラーで止まる。
+- 1商品の取得に失敗しても他は続行する。全商品が失敗した時だけワークフローを失敗扱いにする
+- サイト側の仕様や状態名が変わると「指定した状態の価格が見つからない」というエラーになる。
+  エラーには実際に取得できた状態名が並ぶので、`condition` を直せば復旧する。
   ダッシュボード下部にエラー件数が出るので、そこで気づける

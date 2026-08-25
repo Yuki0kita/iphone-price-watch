@@ -238,5 +238,59 @@
     "price": 184500,
     "url": "https://www.1-chome.com/productDetail/1374/1936",
     "ok": true
+  },
+  {
+    "timestamp": "2026-08-25T10:57:02+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 176500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true
+  },
+  {
+    "timestamp": "2026-08-25T10:57:02+09:00",
+    "product_id": "switch2-multilang",
+    "product_name": "Nintendo Switch 2 多言語版",
+    "price": 81600,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true
+  },
+  {
+    "timestamp": "2026-08-25T10:57:02+09:00",
+    "product_id": "ps5-slim-cfi-2000a01",
+    "product_name": "PlayStation 5 Slim Disc CFI-2000A01",
+    "price": 107700,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true
+  },
+  {
+    "timestamp": "2026-08-25T10:57:02+09:00",
+    "product_id": "fujifilm-x100vi-black",
+    "product_name": "FUJIFILM X100VI ブラック",
+    "price": 257500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true
+  },
+  {
+    "timestamp": "2026-08-25T10:57:02+09:00",
+    "product_id": "onepiece-op17",
+    "product_name": "ONE PIECE OP-17 世界最強の戦士 BOX",
+    "price": 14000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true
+  },
+  {
+    "timestamp": "2026-08-25T10:57:02+09:00",
+    "product_id": "pokemon-inferno-x",
+    "product_name": "ポケモンカード MEGA インフェルノX BOX",
+    "price": 21000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true
   }
 ]

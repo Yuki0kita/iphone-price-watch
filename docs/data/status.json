@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-08-25T10:54:49+09:00",
-  "products_checked": 3,
+  "checked_at": "2026-08-25T11:06:03+09:00",
+  "products_checked": 11,
   "records_changed": false,
   "alerts": 0,
   "email_sent": false,
@@ -11,18 +11,77 @@
       "id": "iphone-17-256",
       "name": "iPhone 17 256GB",
       "url": "https://www.1-chome.com/productDetail/1365/1909",
+      "source": "keitai",
       "target_price": 139800
     },
     {
       "id": "iphone-17-pro-max-512",
       "name": "iPhone 17 Pro Max 512GB",
       "url": "https://www.1-chome.com/productDetail/1371/1927",
+      "source": "keitai",
       "target_price": null
     },
     {
       "id": "iphone-17-pro-256",
       "name": "iPhone 17 Pro 256GB",
       "url": "https://www.1-chome.com/productDetail/1374/1936",
+      "source": "keitai",
+      "target_price": null
+    },
+    {
+      "id": "ps5-pro-cfi-7000b01",
+      "name": "PlayStation 5 Pro CFI-7000B01",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "source": "goods",
+      "target_price": null
+    },
+    {
+      "id": "switch2-multilang",
+      "name": "Nintendo Switch 2 多言語版",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "source": "goods",
+      "target_price": null
+    },
+    {
+      "id": "ps5-slim-cfi-2000a01",
+      "name": "PlayStation 5 Slim Disc CFI-2000A01",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "source": "goods",
+      "target_price": null
+    },
+    {
+      "id": "fujifilm-x100vi-black",
+      "name": "FUJIFILM X100VI ブラック",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "source": "goods",
+      "target_price": null
+    },
+    {
+      "id": "onepiece-op17",
+      "name": "ONE PIECE OP-17 世界最強の戦士 BOX",
+      "url": "https://www.1-chome.com/tradeCards",
+      "source": "goods",
+      "target_price": null
+    },
+    {
+      "id": "pokemon-inferno-x",
+      "name": "ポケモンカード MEGA インフェルノX BOX",
+      "url": "https://www.1-chome.com/tradeCards",
+      "source": "goods",
+      "target_price": null
+    },
+    {
+      "id": "dragonball-story-booster-01",
+      "name": "ドラゴンボール フュージョンワールド STORY BOOSTER 01",
+      "url": "",
+      "source": "market",
+      "target_price": null
+    },
+    {
+      "id": "office-home-business-2024",
+      "name": "Microsoft Office Home & Business 2024 POSA",
+      "url": "",
+      "source": "market",
       "target_price": null
     }
   ]

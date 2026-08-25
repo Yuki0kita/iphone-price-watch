@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
-<meta name="description" content="買取1丁目のiPhone未開封買取価格を1時間ごとに記録し、推移を表示する個人用ダッシュボード。">
+<meta name="description" content="買取1丁目の買取価格を1時間ごとに記録し、推移と他店の最高額を表示する個人用ダッシュボード。">
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#14161a" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23a8242b'/%3E%3Cpath d='M6 22 L13 15 L18 19 L26 10' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-<title>iPhone 買取価格ウォッチ</title>
+<title>買取価格ウォッチ</title>
 <style>
   :root {
     --ink: #14161a;
@@ -106,13 +106,13 @@
 <body>
 <main>
   <header>
-    <h1>iPhone 買取価格ウォッチ</h1>
-    <p class="sub">買取1丁目・未開封価格　<span id="checkedAt">読込中</span></p>
+    <h1>買取価格ウォッチ</h1>
+    <p class="sub">買取1丁目・新品状態の買取価格　<span id="checkedAt">読込中</span></p>
   </header>
 
   <div class="picker">
-    <label class="visually-hidden" for="product" hidden>表示する機種</label>
-    <select id="product" aria-label="表示する機種"></select>
+    <label class="visually-hidden" for="product" hidden>表示する商品</label>
+    <select id="product" aria-label="表示する商品"></select>
   </div>
 
   <p class="headline"><strong id="price">—</strong><span class="delta" id="delta"></span></p>
@@ -133,11 +133,11 @@
     <p class="empty" id="chartEmpty" hidden>記録が2点以上たまるとグラフを表示します。</p>
   </section>
 
-  <h2>すべての監視機種</h2>
+  <h2>すべての監視商品</h2>
   <div id="rows"></div>
 
   <footer>
-    <p>1時間ごとに自動取得。価格は取得時点の参考値で、色・保証期間・ネットワーク利用制限により実際の査定額は変わります。</p>
+    <p>1時間ごとに自動取得。価格は取得時点の参考値です。状態・付属品・保証期間・購入証明などの条件で実際の査定額は変わります。</p>
     <p id="warning" hidden></p>
   </footer>
 </main>
@@ -152,6 +152,17 @@ const when = t => new Date(t).toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo', 
 const el = id => document.getElementById(id);
 
 const MARKET_QUOTES_SHOWN = 3;
+const GRID_LINES = 4;
+
+/** 目盛り間隔を 1/2/2.5/5×10^n のいずれかに丸める。 */
+function niceStep(range, targetLines) {
+  const raw = Math.max(range, 1) / targetLines;
+  const magnitude = Math.pow(10, Math.floor(Math.log10(raw)));
+  for (const m of [1, 2, 2.5, 5]) {
+    if (raw <= m * magnitude) return m * magnitude;
+  }
+  return 10 * magnitude;
+}
 
 let series = {};
 let targets = {};
@@ -194,7 +205,7 @@ function drawChart(rows) {
   if (empty) return;
 
   // 実寸で描く。viewBoxを引き伸ばすと線幅と点が横方向に潰れるため。
-  const H = 220, PAD_L = 52, PAD_R = 12, PAD_T = 12, PAD_B = 26;
+  const H = 220, PAD_R = 12, PAD_T = 12, PAD_B = 26;
   const W = Math.max(svg.clientWidth || svg.parentElement.clientWidth, 280);
   svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
   const prices = data.map(d => d.price);
@@ -202,6 +213,11 @@ function drawChart(rows) {
   if (min === max) { min -= 2000; max += 2000; }
   const headroom = (max - min) * 0.15;
   min -= headroom; max += headroom;
+
+  // 目盛りはきりのいい間隔（1/2/2.5/5×10^n）に丸める。端数や重複したラベルを出さないため。
+  const gridStep = niceStep(max - min, GRID_LINES);
+  const axisLabel = v => (gridStep >= 1000 ? Math.round(v / 1000) + 'k' : Math.round(v).toLocaleString('ja-JP'));
+  const PAD_L = gridStep >= 1000 ? 52 : 64;
 
   const t0 = new Date(data[0].timestamp).getTime();
   const span = Math.max(new Date(data.at(-1).timestamp).getTime() - t0, 1);
@@ -215,11 +231,10 @@ function drawChart(rows) {
     svg.appendChild(node);
   };
 
-  for (let i = 0; i <= 3; i++) {
-    const gy = PAD_T + i * (H - PAD_T - PAD_B) / 3;
+  for (let v = Math.ceil(min / gridStep) * gridStep; v <= max; v += gridStep) {
+    const gy = y(v);
     add('line', { x1: PAD_L, x2: W - PAD_R, y1: gy, y2: gy, class: 'grid' });
-    add('text', { x: PAD_L - 8, y: gy + 3, 'text-anchor': 'end', class: 'axis' },
-        Math.round((max - i * (max - min) / 3) / 1000) + 'k');
+    add('text', { x: PAD_L - 8, y: gy + 3, 'text-anchor': 'end', class: 'axis' }, axisLabel(v));
   }
 
   add('polyline', { points: data.map(d => `${x(d.timestamp)},${y(d.price)}`).join(' '), class: 'line' });
@@ -353,10 +368,19 @@ async function init() {
     showProduct(select.value);
     renderRows();
 
+    const notes = [];
     if (status.errors && status.errors.length) {
+      notes.push(`直近の取得で${status.errors.length}件のエラーがありました。`);
+    }
+    // 買取1丁目が扱っていない商品は、買取Xと連携するまで記録が始まらない。
+    const pending = (status.products || []).filter(p => !series[p.id]);
+    if (pending.length) {
+      notes.push(`未取得 ${pending.length}件（${pending.map(p => p.name).join('、')}）。買取XのAPIキー登録後に記録が始まります。`);
+    }
+    if (notes.length) {
       const warning = el('warning');
       warning.hidden = false;
-      warning.textContent = `直近の取得で${status.errors.length}件のエラーがありました。`;
+      warning.textContent = notes.join(' ');
     }
   } catch (e) {
     document.querySelector('main').insertAdjacentHTML(

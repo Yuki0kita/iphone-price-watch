@@ -16,7 +16,7 @@ from email.message import EmailMessage
 from pathlib import Path
 from typing import Any
 
-from src.fetcher import Product, fetch_product
+from src.fetcher import SOURCE_MARKET, Product, fetch_product
 from src.kaitorix import API_KEY_ENV as KTX_API_KEY_ENV
 from src.kaitorix import KEPT_QUOTES, KaitoriXError, Quote, fetch_market_price
 
@@ -232,7 +232,7 @@ def trim_history(history: list[dict], now: datetime, history_days: int) -> list[
 
 
 def collect_one(product: dict, timeout: int) -> Product:
-    return fetch_product(product["url"], timeout=timeout)
+    return fetch_product(product, timeout=timeout)
 
 
 def should_check_market(market: dict, now_iso: str) -> bool:
@@ -304,19 +304,31 @@ def main() -> int:
     for index, product in enumerate(products):
         if index:
             time.sleep(float(settings["request_interval_seconds"]))
+        quote = market_quote(market, product["id"])
         try:
-            fetched = collect_one(product, timeout=int(settings["timeout_seconds"]))
+            # 買取1丁目が扱っていない商品は、買取X経由の最高額だけで記録する。
+            if str(product.get("source") or "") == SOURCE_MARKET:
+                if not quote:
+                    print(f"SKIP {product['name']}: 買取Xの価格が無いため記録できません。")
+                    continue
+                price, shop = quote.price, quote.store
+                quote = None  # 同じ値を「他店」として二重に扱わない
+            else:
+                price = collect_one(product, timeout=int(settings["timeout_seconds"])).unopened_price
+                shop = SHOP_NAME
+
             previous_rows = get_product_history(history, product["id"])
             previous = previous_rows[-1] if previous_rows else None
 
-            if should_record(previous, fetched.unopened_price, now_iso):
+            if should_record(previous, price, now_iso):
                 history.append(
                     {
                         "timestamp": now_iso,
                         "product_id": product["id"],
                         "product_name": product["name"],
-                        "price": fetched.unopened_price,
-                        "url": product["url"],
+                        "price": price,
+                        "shop": shop,
+                        "url": product.get("url", ""),
                         "ok": True,
                     }
                 )
@@ -324,16 +336,16 @@ def main() -> int:
 
             alert = evaluate_alert(
                 product,
-                fetched.unopened_price,
+                price,
                 previous_rows,
                 settings["alert"],
                 alert_state,
                 now,
-                market_quote(market, product["id"]),
+                quote,
             )
             if alert:
                 alerts.append(alert)
-            print(f"OK {product['name']}: ¥{fetched.unopened_price:,}")
+            print(f"OK {product['name']}: ¥{price:,}（{shop}）")
         except Exception as e:
             errors.append({"product_id": product["id"], "name": product["name"], "error": str(e)})
             print(f"ERROR {product['name']}: {e}", file=sys.stderr)
@@ -366,7 +378,13 @@ def main() -> int:
             "errors": errors,
             "market_checked_at": market.get("checked_at"),
             "products": [
-                {"id": p["id"], "name": p["name"], "url": p["url"], "target_price": p.get("target_price")}
+                {
+                    "id": p["id"],
+                    "name": p["name"],
+                    "url": p.get("url", ""),
+                    "source": p.get("source", "keitai"),
+                    "target_price": p.get("target_price"),
+                }
                 for p in products
             ],
         },
