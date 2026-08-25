@@ -292,5 +292,14 @@
     "shop": "買取1丁目",
     "url": "https://www.1-chome.com/tradeCards",
     "ok": true
+  },
+  {
+    "timestamp": "2026-08-25T16:11:07+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 176700,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true
   }
 ]
