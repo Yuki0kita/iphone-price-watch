@@ -1,10 +1,11 @@
 {
-  "checked_at": "2026-08-25T08:40:02+09:00",
+  "checked_at": "2026-08-25T10:48:03+09:00",
   "products_checked": 3,
   "records_changed": false,
   "alerts": 0,
   "email_sent": false,
   "errors": [],
+  "market_checked_at": null,
   "products": [
     {
       "id": "iphone-17-256",
