@@ -35,6 +35,31 @@ GET https://www.1-chome.com/api/keitai/getKeitaiItem?keitaiItemId=<id>&keitaiIte
 
 取得するのは `keitaiKbDetails` の中の「未開封」の価格。同じ商品に並ぶ「開封済未使用品」は対象外。
 
+## 他店との比較（任意）
+
+買取1丁目だけを見ても「その店の価格」しか分からない。実際に受け取れる額は一番高く買う店で決まるため、
+[買取X](https://kaitorix.app/) のOpen APIで複数店舗を横断した最高買取価格を1日1回だけ取得する。
+
+```text
+GET https://kaitorix.app/open/api/product/<JAN>
+Authorization: Bearer ktx_...
+```
+
+無料プランは30リクエスト/日・1リクエスト/秒。監視3商品なら1日3回で収まる。
+
+APIキーは https://kaitorix.app/open/mypage で取得し、GitHub Secretsに `KTX_API_KEY` として登録する。
+未登録なら他店比較だけがスキップされ、買取1丁目の記録は通常どおり動く。
+
+疎通確認はJANを指定して実行する。
+
+```bash
+KTX_API_KEY=ktx_xxx python3 -m src.kaitorix 4549995649154
+```
+
+JANは色ごとに違う。`config/products.json` の `jan` には、自分が持っている色のJANを入れる。
+
+買取Xの利用規約上、個人の判断用途は想定内だが、事業目的の継続利用やデータの再配布は事前申込が必要。
+
 ## セットアップ
 
 ### 1. GitHub Pagesを有効にする
@@ -62,9 +87,10 @@ NOTIFY_TO           通知を受け取るアドレス
 
 次のいずれかに当てはまると通知する。
 
-- 目標価格（`target_price`）以上になった
+- 目標価格（`target_price`）以上になった（買取1丁目と他店のうち高いほうで判定）
 - 前回の記録から3,000円以上上がった
 - 直近30日の高値を更新した（記録が7点たまってから判定）
+- 他店が買取1丁目より5,000円以上高い（`market_gap_yen`、APIキー登録時のみ）
 
 同じ価格での連打を防ぐため、一度通知したら12時間は同じ商品を通知しない。
 

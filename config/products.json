@@ -8,7 +8,8 @@
       "rise_yen": 3000,
       "new_high_window_days": 30,
       "min_history_points_for_high": 7,
-      "cooldown_hours": 12
+      "cooldown_hours": 12,
+      "market_gap_yen": 5000
     }
   },
   "products": [
@@ -17,21 +18,24 @@
       "name": "iPhone 17 256GB",
       "url": "https://www.1-chome.com/productDetail/1365/1909",
       "target_price": 139800,
-      "enabled": true
+      "enabled": true,
+      "jan": "4549995649154"
     },
     {
       "id": "iphone-17-pro-max-512",
       "name": "iPhone 17 Pro Max 512GB",
       "url": "https://www.1-chome.com/productDetail/1371/1927",
       "target_price": null,
-      "enabled": true
+      "enabled": true,
+      "jan": "4549995649314"
     },
     {
       "id": "iphone-17-pro-256",
       "name": "iPhone 17 Pro 256GB",
       "url": "https://www.1-chome.com/productDetail/1374/1936",
       "target_price": null,
-      "enabled": true
+      "enabled": true,
+      "jan": "4549995648294"
     }
   ]
 }

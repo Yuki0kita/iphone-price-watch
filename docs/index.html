@@ -67,6 +67,14 @@
   .target { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
   .target.reached { color: var(--up); font-weight: 700; }
 
+  .market { margin-top: 16px; border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; background: var(--soft); }
+  .market-lead { margin: 0; font-size: 14px; }
+  .market-lead b { font-variant-numeric: tabular-nums; }
+  .market-lead.better { color: var(--up); font-weight: 700; }
+  .quote { display: flex; gap: 10px; font-size: 13px; color: var(--muted); margin-top: 6px; }
+  .quote span:first-child { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .quote b { color: var(--ink); font-variant-numeric: tabular-nums; font-weight: 600; }
+
   .chart { margin-top: 18px; border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
   .chart-meta { display: flex; gap: 20px; flex-wrap: wrap; font-size: 12px; color: var(--muted); margin-bottom: 10px; }
   .chart-meta b { color: var(--ink); font-variant-numeric: tabular-nums; }
@@ -110,6 +118,11 @@
   <p class="headline"><strong id="price">—</strong><span class="delta" id="delta"></span></p>
   <p class="target" id="target" hidden></p>
 
+  <section class="market" id="market" hidden>
+    <p class="market-lead" id="marketLead"></p>
+    <div id="marketQuotes"></div>
+  </section>
+
   <section class="chart" aria-label="価格推移">
     <div class="chart-meta">
       <span>30日高値 <b id="high">—</b></span>
@@ -138,8 +151,11 @@ const signedYen = n => (n > 0 ? '+' : n < 0 ? '−' : '±') + '¥' + Math.abs(n)
 const when = t => new Date(t).toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
 const el = id => document.getElementById(id);
 
+const MARKET_QUOTES_SHOWN = 3;
+
 let series = {};
 let targets = {};
+let market = {};
 
 function groupByProduct(history) {
   const grouped = {};
@@ -214,6 +230,34 @@ function drawChart(rows) {
   add('text', { x: W - PAD_R, y: H - 8, 'text-anchor': 'end', class: 'axis' }, dayLabel(data.at(-1).timestamp));
 }
 
+function showMarket(productId, shopPrice) {
+  const entry = market[productId];
+  const box = el('market');
+  box.hidden = !entry;
+  if (!entry) return;
+
+  const gap = entry.max_price - shopPrice;
+  const lead = el('marketLead');
+  lead.className = 'market-lead' + (gap > 0 ? ' better' : '');
+  // 店名は直下の一覧の1行目に出るため、ここでは繰り返さない。
+  lead.innerHTML = gap > 0
+    ? `他店最高 <b>${yen(entry.max_price)}</b>　買取1丁目より ${signedYen(gap)}`
+    : `買取1丁目が最高値`;
+
+  const list = el('marketQuotes');
+  list.innerHTML = '';
+  for (const q of (entry.quotes || []).slice(0, MARKET_QUOTES_SHOWN)) {
+    const row = document.createElement('div');
+    row.className = 'quote';
+    const store = document.createElement('span');
+    store.textContent = q.store;
+    const price = document.createElement('b');
+    price.textContent = yen(q.price);
+    row.append(store, price);
+    list.appendChild(row);
+  }
+}
+
 function showProduct(productId) {
   const rows = series[productId];
   if (!rows) return;
@@ -227,13 +271,16 @@ function showProduct(productId) {
   const targetNode = el('target');
   targetNode.hidden = target == null;
   if (target != null) {
-    const reached = latest.price >= target;
+    // 実際に受け取れるのは一番高い店の価格なので、そちらで到達を判定する。
+    const best = Math.max(latest.price, market[productId]?.max_price ?? 0);
+    const reached = best >= target;
     targetNode.className = 'target' + (reached ? ' reached' : '');
     targetNode.textContent = reached
       ? `目標 ${yen(target)} に到達`
-      : `目標 ${yen(target)} まで あと ${yen(target - latest.price)}`;
+      : `目標 ${yen(target)} まで あと ${yen(target - best)}`;
   }
 
+  showMarket(productId, latest.price);
   el('high').textContent = yen(Math.max(...recent.map(r => r.price)));
   el('low').textContent = yen(Math.min(...recent.map(r => r.price)));
   el('points').textContent = recent.length + '点';
@@ -266,11 +313,16 @@ function renderRows() {
 async function init() {
   try {
     const bust = '?t=' + Date.now();
-    const [history, status] = await Promise.all([
-      fetch('./data/history.json' + bust).then(r => r.json()),
-      fetch('./data/status.json' + bust).then(r => r.json()),
+    const load = (name, fallback) =>
+      fetch(`./data/${name}.json${bust}`).then(r => (r.ok ? r.json() : fallback)).catch(() => fallback);
+    const [history, status, marketData] = await Promise.all([
+      load('history', []),
+      load('status', {}),
+      // APIキー未設定なら market.json は存在しない。無くても他は動く。
+      load('market', { products: {} }),
     ]);
 
+    market = marketData.products || {};
     series = groupByProduct(history);
     targets = Object.fromEntries((status.products || []).map(p => [p.id, p.target_price]));
     el('checkedAt').textContent = status.checked_at ? `最終チェック ${when(status.checked_at)}` : '';

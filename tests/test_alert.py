@@ -1,7 +1,16 @@
 import unittest
 from datetime import datetime, timedelta
 
-from src.collector import JST, evaluate_alert, should_record, trim_history
+from src.collector import (
+    JST,
+    SHOP_NAME,
+    best_offer,
+    evaluate_alert,
+    should_check_market,
+    should_record,
+    trim_history,
+)
+from src.kaitorix import Quote
 
 NOW = datetime(2026, 8, 18, 17, 0, tzinfo=JST)
 CFG = {
@@ -9,6 +18,7 @@ CFG = {
     "new_high_window_days": 30,
     "min_history_points_for_high": 7,
     "cooldown_hours": 12,
+    "market_gap_yen": 5000,
 }
 PRODUCT = {
     "id": "iphone-17-pro-max-512",
@@ -26,9 +36,13 @@ def rows(*prices, days_ago_start=10):
     ]
 
 
-def reasons_for(price, previous_rows, product=None, state=None):
-    alert = evaluate_alert(product or PRODUCT, price, previous_rows, CFG, state or {}, NOW)
+def reasons_for(price, previous_rows, product=None, state=None, market=None):
+    alert = evaluate_alert(product or PRODUCT, price, previous_rows, CFG, state or {}, NOW, market)
     return alert.reasons if alert else None
+
+
+def quote(price, store="他店買取"):
+    return Quote(store=store, price=price, url="https://example.com")
 
 
 class TargetPriceTest(unittest.TestCase):
@@ -112,6 +126,64 @@ class MultipleReasonsTest(unittest.TestCase):
             reasons_for(240000, history, product),
             ["目標価格 ¥240,000 以上", "前回比 +¥13,000", "30日高値を更新"],
         )
+
+
+class BestOfferTest(unittest.TestCase):
+    def test_uses_shop_price_when_no_market(self):
+        self.assertEqual(best_offer(138000, None), (138000, SHOP_NAME))
+
+    def test_uses_market_when_higher(self):
+        self.assertEqual(best_offer(138000, quote(145000)), (145000, "他店買取"))
+
+    def test_keeps_shop_when_market_is_equal(self):
+        """同額なら手間の少ない既知の店を優先する。"""
+        self.assertEqual(best_offer(138000, quote(138000)), (138000, SHOP_NAME))
+
+    def test_keeps_shop_when_market_is_lower(self):
+        self.assertEqual(best_offer(138000, quote(130000)), (138000, SHOP_NAME))
+
+
+class MarketAlertTest(unittest.TestCase):
+    def test_target_reached_only_at_another_store(self):
+        """買取1丁目が目標未達でも、他店が到達していれば通知する。"""
+        product = {**PRODUCT, "target_price": 139800}
+        reasons = reasons_for(138000, [], product, market=quote(141000))
+        self.assertEqual(reasons, ["目標価格 ¥139,800 以上（他店買取 ¥141,000）"])
+
+    def test_target_not_reached_anywhere(self):
+        product = {**PRODUCT, "target_price": 139800}
+        self.assertIsNone(reasons_for(138000, [], product, market=quote(139000)))
+
+    def test_gap_fires_at_exactly_threshold(self):
+        self.assertEqual(reasons_for(138000, [], market=quote(143000)), ["他店買取が¥5,000高い（¥143,000）"])
+
+    def test_gap_silent_one_yen_below_threshold(self):
+        self.assertIsNone(reasons_for(138000, [], market=quote(142999)))
+
+    def test_gap_silent_when_market_is_lower(self):
+        self.assertIsNone(reasons_for(138000, [], market=quote(130000)))
+
+    def test_cooldown_uses_best_price(self):
+        """他店の最高額が変わらない限り、毎日の横断チェックで再通知しない。"""
+        state = {PRODUCT["id"]: {"price": 143000, "sent_at": (NOW - timedelta(hours=11)).isoformat()}}
+        self.assertIsNone(reasons_for(138000, [], state=state, market=quote(143000)))
+
+    def test_cooldown_released_when_best_price_moves(self):
+        state = {PRODUCT["id"]: {"price": 143000, "sent_at": (NOW - timedelta(hours=1)).isoformat()}}
+        self.assertIsNotNone(reasons_for(138000, [], state=state, market=quote(144000)))
+
+
+class ShouldCheckMarketTest(unittest.TestCase):
+    def test_checks_when_never_run(self):
+        self.assertTrue(should_check_market({}, NOW.isoformat()))
+
+    def test_skips_when_already_checked_today(self):
+        market = {"checked_at": (NOW - timedelta(hours=6)).isoformat()}
+        self.assertFalse(should_check_market(market, NOW.isoformat()))
+
+    def test_checks_once_the_date_changes(self):
+        market = {"checked_at": (NOW - timedelta(days=1)).isoformat()}
+        self.assertTrue(should_check_market(market, NOW.isoformat()))
 
 
 class ShouldRecordTest(unittest.TestCase):
