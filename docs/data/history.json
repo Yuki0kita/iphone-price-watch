@@ -418,5 +418,23 @@
     "shop": "買取1丁目",
     "url": "https://www.1-chome.com/electricAppliance",
     "ok": true
+  },
+  {
+    "timestamp": "2026-08-26T17:02:08+09:00",
+    "product_id": "mac-mini-m4-256",
+    "product_name": "Mac mini M4 MU9D3J/A 16GB 256GB",
+    "price": 75000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true
+  },
+  {
+    "timestamp": "2026-08-26T17:02:08+09:00",
+    "product_id": "mac-mini-m4-512",
+    "product_name": "Mac mini M4 MU9E3J/A 16GB 512GB",
+    "price": 90000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true
   }
 ]

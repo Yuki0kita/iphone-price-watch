@@ -145,6 +145,30 @@
       "url": "https://www.1-chome.com/electricAppliance",
       "target_price": null,
       "enabled": true
+    },
+    {
+      "id": "mac-mini-m4-256",
+      "name": "Mac mini M4 MU9D3J/A 16GB 256GB",
+      "source": "goods",
+      "cate_code": "20399103",
+      "keyword": "Mac mini",
+      "jan": "4549995437157",
+      "condition": "新品",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "target_price": null,
+      "enabled": true
+    },
+    {
+      "id": "mac-mini-m4-512",
+      "name": "Mac mini M4 MU9E3J/A 16GB 512GB",
+      "source": "goods",
+      "cate_code": "20399103",
+      "keyword": "Mac mini",
+      "jan": "4549995437164",
+      "condition": "新品",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "target_price": null,
+      "enabled": true
     }
   ]
 }
