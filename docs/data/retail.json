@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-26T17:19:48+09:00",
+  "checked_at": "2026-08-26T18:05:33+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -51,23 +51,23 @@
       "store": "ジェーシカモバイル2号店",
       "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 177200,
-      "safe_profit": -24100,
-      "cash_profit": -21100,
+      "buyback_price": 177700,
+      "safe_profit": -23600,
+      "cash_profit": -20600,
       "grade": "D",
-      "buy_threshold": 163700
+      "buy_threshold": 164200
     },
     "switch2-multilang": {
       "source": "yahoo",
       "jan": "4902370552683",
-      "name": "『新品』Nintendo Switch 2 多言語版",
-      "price": 92845,
-      "store": "ノア商社Yahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/noahshoping/4902370552683.html",
+      "name": "ゲーム機  Nintendo Switch 2 (多言語版) BEE-S-KB6AA",
+      "price": 92842,
+      "store": "ア-チホ-ルセ-ル",
+      "url": "https://store.shopping.yahoo.co.jp/archholesale/1313151.html",
       "in_stock": true,
       "buyback_price": 81600,
-      "safe_profit": -14745,
-      "cash_profit": -11745,
+      "safe_profit": -14742,
+      "cash_profit": -11742,
       "grade": "D",
       "buy_threshold": 68100
     },
@@ -79,11 +79,11 @@
       "store": "ジェーシカモバイル2号店",
       "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4948872415935.html",
       "in_stock": true,
-      "buyback_price": 108000,
-      "safe_profit": -11300,
-      "cash_profit": -8300,
+      "buyback_price": 108200,
+      "safe_profit": -11100,
+      "cash_profit": -8100,
       "grade": "D",
-      "buy_threshold": 94500
+      "buy_threshold": 94700
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -131,13 +131,13 @@
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "ASUS ROG Xbox Ally X 1TB",
-      "price": 181378,
+      "price": 183040,
       "store": "らいぶshop",
       "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
       "in_stock": true,
       "buyback_price": 153500,
-      "safe_profit": -31378,
-      "cash_profit": -28378,
+      "safe_profit": -33040,
+      "cash_profit": -30040,
       "grade": "D",
       "buy_threshold": 140000
     },
