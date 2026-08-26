@@ -305,6 +305,7 @@ function showMarket(productId, shopPrice) {
   // 店名は直下の一覧の1行目に出るため、ここでは繰り返さない。
   lead.innerHTML = gap > 0
     ? `他店最高 <b>${yen(entry.max_price)}</b>　買取1丁目より ${signedYen(gap)}`
+    : gap === 0 ? `他店最高 <b>${yen(entry.max_price)}</b>　買取1丁目と同額`
     : `買取1丁目が最高値`;
 
   const list = el('marketQuotes');

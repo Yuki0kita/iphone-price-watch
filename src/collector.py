@@ -19,6 +19,9 @@ from typing import Any
 from src.fetcher import SOURCE_MARKET, Product, fetch_product
 from src.kaitorix import API_KEY_ENV as KTX_API_KEY_ENV
 from src.kaitorix import KEPT_QUOTES, KaitoriXError, Quote, fetch_market_price
+from src.mobasute import PRICE_TABLE_URL as MOBASUTE_URL
+from src.mobasute import STORE_NAME as MOBASUTE_STORE
+from src.mobasute import MobasuteError, fetch_price_table, price_for
 from src.profit import Profit, calculate
 from src.retail import APP_ID_ENV as YAHOO_APP_ID_ENV
 from src.retail import RetailError, fetch_cheapest
@@ -33,6 +36,8 @@ MARKET_PATH = ROOT / "docs" / "data" / "market.json"
 RETAIL_PATH = ROOT / "docs" / "data" / "retail.json"
 
 SHOP_NAME = "買取1丁目"
+KTX_SOURCE = "kaitorix"
+MOBASUTE_SOURCE = "mobasute"
 
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 465
@@ -263,9 +268,9 @@ def should_check_market(market: dict, now_iso: str) -> bool:
     return not checked_at or str(checked_at)[:10] != now_iso[:10]
 
 
-def collect_market(products: list[dict], api_key: str, now_iso: str, timeout: int) -> dict:
-    """設定にJANがある商品について、37店舗を横断した最高買取価格を取得する。"""
-    entries: dict[str, dict] = {}
+def collect_ktx_quotes(products: list[dict], api_key: str, timeout: int) -> tuple[dict, list[dict]]:
+    """設定にJANがある商品について、買取Xで37店舗を横断した価格を取得する。"""
+    quotes: dict[str, list[dict]] = {}
     errors: list[dict] = []
 
     for product in products:
@@ -279,19 +284,35 @@ def collect_market(products: list[dict], api_key: str, now_iso: str, timeout: in
             print(f"ERROR market {product['name']}: {e}", file=sys.stderr)
             continue
 
-        best = market.best
-        entries[product["id"]] = {
-            "jan": market.jan,
-            "max_price": market.max_price,
-            "store": best.store if best else "",
-            "url": best.url if best else "",
-            "quotes": [
-                {"store": q.store, "price": q.price, "url": q.url} for q in market.quotes[:KEPT_QUOTES]
-            ],
-        }
-        print(f"MARKET {product['name']}: ¥{market.max_price:,} ({best.store if best else '-'})")
+        quotes[product["id"]] = [
+            {"store": q.store, "price": q.price, "url": q.url, "source": KTX_SOURCE}
+            for q in market.quotes[:KEPT_QUOTES]
+        ]
+        print(f"MARKET {product['name']}: ¥{market.max_price:,}（{market.best.store if market.best else '-'}）")
 
-    return {"checked_at": now_iso, "products": entries, "errors": errors}
+    return quotes, errors
+
+
+def cached_ktx_quotes(market: dict, product_id: str) -> list[dict]:
+    """前回の買取Xの結果を使い回す。無料枠の都合で1日1回しか取りに行かないため。"""
+    entry = (market.get("products") or {}).get(product_id) or {}
+    return [q for q in (entry.get("quotes") or []) if q.get("source") == KTX_SOURCE]
+
+
+def merge_quotes(ktx: list[dict], mobasute_price: int | None) -> list[dict]:
+    """他店の価格を1つのリストにまとめ、高い順に並べる。"""
+    quotes = list(ktx)
+    if mobasute_price is not None:
+        quotes.append(
+            {
+                "store": MOBASUTE_STORE,
+                "price": mobasute_price,
+                "url": MOBASUTE_URL,
+                "source": MOBASUTE_SOURCE,
+            }
+        )
+    quotes.sort(key=lambda q: -int(q["price"]))
+    return quotes
 
 
 def collect_retail(product: dict, app_id: str, timeout: int) -> dict | None:
@@ -322,11 +343,11 @@ def profit_for(product: dict, buyback_price: int, retail: dict | None, cfg: dict
     )
 
 
-def market_quote(market: dict, product_id: str) -> Quote | None:
-    entry = (market.get("products") or {}).get(product_id)
-    if not entry:
+def best_quote(quotes: list[dict]) -> Quote | None:
+    if not quotes:
         return None
-    return Quote(store=entry.get("store") or "他店", price=int(entry["max_price"]), url=entry.get("url") or "")
+    top = max(quotes, key=lambda q: int(q["price"]))
+    return Quote(store=str(top.get("store") or "他店"), price=int(top["price"]), url=str(top.get("url") or ""))
 
 
 def main() -> int:
@@ -343,13 +364,29 @@ def main() -> int:
     records_changed = False
 
     # 他店の横断チェック。APIキーが無い、または今日すでに実行済みなら前回の結果を使う。
-    market: dict = load_json(MARKET_PATH, {})
+    previous_market: dict = load_json(MARKET_PATH, {})
     api_key = os.getenv(KTX_API_KEY_ENV, "").strip()
-    if api_key and should_check_market(market, now_iso):
-        market = collect_market(products, api_key, now_iso, int(settings["timeout_seconds"]))
-        errors.extend(market["errors"])
+    ktx_checked_at = previous_market.get("ktx_checked_at")
+    ktx_quotes = {p["id"]: cached_ktx_quotes(previous_market, p["id"]) for p in products}
+
+    if api_key and should_check_market({"checked_at": ktx_checked_at}, now_iso):
+        fresh, ktx_errors = collect_ktx_quotes(products, api_key, int(settings["timeout_seconds"]))
+        ktx_quotes.update(fresh)
+        ktx_checked_at = now_iso
+        errors.extend(ktx_errors)
     elif not api_key:
-        print(f"{KTX_API_KEY_ENV} が未設定のため、他店の横断チェックをスキップしました。")
+        print(f"{KTX_API_KEY_ENV} が未設定のため、買取Xの横断チェックをスキップしました。")
+
+    # モバステは価格表1ページに全機種が載っているため、1リクエストで済む。APIキーも不要。
+    mobasute_table: dict[str, int] = {}
+    try:
+        mobasute_table = fetch_price_table(int(settings["timeout_seconds"]))
+        print(f"{MOBASUTE_STORE}: {len(mobasute_table)}機種の価格表を取得しました。")
+    except MobasuteError as e:
+        errors.append({"source": MOBASUTE_SOURCE, "error": str(e)})
+        print(f"ERROR {MOBASUTE_STORE}: {e}", file=sys.stderr)
+
+    market_entries: dict[str, dict] = {}
 
     yahoo_app_id = os.getenv(YAHOO_APP_ID_ENV, "").strip()
     retail_entries: dict[str, dict] = {}
@@ -359,12 +396,21 @@ def main() -> int:
     for index, product in enumerate(products):
         if index:
             time.sleep(float(settings["request_interval_seconds"]))
-        quote = market_quote(market, product["id"])
+        quotes = merge_quotes(ktx_quotes.get(product["id"], []), price_for(mobasute_table, product["name"]))
+        if quotes:
+            top = quotes[0]
+            market_entries[product["id"]] = {
+                "max_price": int(top["price"]),
+                "store": top["store"],
+                "url": top.get("url", ""),
+                "quotes": quotes,
+            }
+        quote = best_quote(quotes)
         try:
             # 買取1丁目が扱っていない商品は、買取X経由の最高額だけで記録する。
             if str(product.get("source") or "") == SOURCE_MARKET:
                 if not quote:
-                    print(f"SKIP {product['name']}: 買取Xの価格が無いため記録できません。")
+                    print(f"SKIP {product['name']}: 他店の価格が取得できないため記録できません。")
                     continue
                 price, shop = quote.price, quote.store
                 quote = None  # 同じ値を「他店」として二重に扱わない
@@ -450,8 +496,11 @@ def main() -> int:
 
     save_json(HISTORY_PATH, history)
     save_json(ALERT_STATE_PATH, alert_state)
-    if market:
-        save_json(MARKET_PATH, market)
+    if market_entries:
+        save_json(
+            MARKET_PATH,
+            {"checked_at": now_iso, "ktx_checked_at": ktx_checked_at, "products": market_entries},
+        )
     if yahoo_app_id:
         save_json(RETAIL_PATH, {"checked_at": now_iso, "products": retail_entries})
     save_json(
@@ -463,7 +512,7 @@ def main() -> int:
             "alerts": len(alerts),
             "email_sent": email_sent,
             "errors": errors,
-            "market_checked_at": market.get("checked_at"),
+            "market_checked_at": now_iso if market_entries else None,
             "products": [
                 {
                     "id": p["id"],
