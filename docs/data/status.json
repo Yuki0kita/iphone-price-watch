@@ -1,12 +1,68 @@
 {
-  "checked_at": "2026-08-26T16:13:46+09:00",
+  "checked_at": "2026-08-26T16:24:26+09:00",
   "products_checked": 12,
-  "records_changed": false,
+  "records_changed": true,
   "alerts": 0,
   "email_sent": false,
-  "errors": [],
-  "notes": [],
-  "market_checked_at": "2026-08-26T16:13:46+09:00",
+  "errors": [
+    {
+      "product_id": "iphone-17-256",
+      "retail": true,
+      "error": "Client IDが無効です（HTTP 403）。"
+    },
+    {
+      "product_id": "iphone-17-pro-max-512",
+      "retail": true,
+      "error": "Client IDが無効です（HTTP 403）。"
+    },
+    {
+      "product_id": "iphone-17-pro-256",
+      "retail": true,
+      "error": "Client IDが無効です（HTTP 403）。"
+    },
+    {
+      "product_id": "ps5-pro-cfi-7000b01",
+      "retail": true,
+      "error": "Client IDが無効です（HTTP 403）。"
+    },
+    {
+      "product_id": "switch2-multilang",
+      "retail": true,
+      "error": "Client IDが無効です（HTTP 403）。"
+    },
+    {
+      "product_id": "ps5-slim-cfi-2000a01",
+      "retail": true,
+      "error": "Client IDが無効です（HTTP 403）。"
+    },
+    {
+      "product_id": "fujifilm-x100vi-black",
+      "retail": true,
+      "error": "Client IDが無効です（HTTP 403）。"
+    },
+    {
+      "product_id": "onepiece-op17",
+      "retail": true,
+      "error": "Client IDが無効です（HTTP 403）。"
+    },
+    {
+      "product_id": "pokemon-inferno-x",
+      "retail": true,
+      "error": "Client IDが無効です（HTTP 403）。"
+    },
+    {
+      "product_id": "rog-xbox-ally-x-1tb",
+      "retail": true,
+      "error": "Client IDが無効です（HTTP 403）。"
+    }
+  ],
+  "notes": [
+    {
+      "source": "mobasute",
+      "note": "この実行環境からのアクセスが拒否されました（HTTP 403）。"
+    }
+  ],
+  "market_checked_at": "2026-08-26T16:24:26+09:00",
   "products": [
     {
       "id": "iphone-17-256",
