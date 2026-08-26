@@ -102,9 +102,44 @@ JANは色ごとに違う。`config/products.json` の `jan` には、自分が�
 
 買取Xの利用規約上、個人の判断用途は想定内だが、事業目的の継続利用やデータの再配布は事前申込が必要。
 
-## 仕入れ価格との比較（任意）
+## 仕入れ価格との比較
 
-買取価格だけでは利益が計算できない。いくらで買えるかが分からないため。
+仕入れ元は商品によって変える。**Apple製品はApple公式**、それ以外はYahoo!ショッピング。
+
+### Apple公式（APIキー不要）
+
+Apple製品の仕入れ元はApple公式であって、転売業者ではない。
+Yahoo!の最安値を使うと出品者価格で判定してしまい、実態と合わない。
+
+```text
+iPhone 17 256GB   Apple公式 142,800 / Yahoo!最安 153,409
+```
+
+購入ページのHTMLに商品データがJSONで埋まっているため、1ページ取得すれば全構成の定価が取れる。
+robots.txt は購入ページを許可している（拒否は `/shop/browse/overlay/` 配下のみ）。
+
+`config/products.json` に `apple_url` を書くと、Yahoo!より優先して使う。
+
+```json
+"apple_url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro"
+```
+
+機種と容量は商品名から自動で対応づける。1ページにProとPro Maxが同居するため、
+容量だけでなく機種名まで見て突き合わせる。
+
+```text
+iPhone 17 Pro Max 512GB  →  iphone17promax:512gb  →  ¥249,800
+```
+
+名前から引けない場合だけ `apple_key` で明示する。
+
+```bash
+python3 -m src.apple https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro
+```
+
+### Yahoo!ショッピング（Client ID必要）
+
+Apple以外の商品はYahoo!ショッピングの実勢価格を使う。
 [Yahoo!ショッピング商品検索API](https://developer.yahoo.co.jp/webapi/shopping/v3/itemsearch.html) で
 JANコードの完全一致検索を行い、在庫がある新品の最安値を仕入れ候補とする。
 

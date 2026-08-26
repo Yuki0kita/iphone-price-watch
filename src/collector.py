@@ -16,6 +16,9 @@ from email.message import EmailMessage
 from pathlib import Path
 from typing import Any
 
+from src.apple import AppleError
+from src.apple import fetch_prices as fetch_apple_prices
+from src.apple import price_for as apple_price_for
 from src.fetcher import SOURCE_MARKET, Product, fetch_product
 from src.kaitorix import API_KEY_ENV as KTX_API_KEY_ENV
 from src.kaitorix import KEPT_QUOTES, KaitoriXError, Quote, fetch_market_price
@@ -310,6 +313,39 @@ def merge_quotes(*quote_lists: list[dict]) -> list[dict]:
     return quotes
 
 
+def collect_apple_prices(products: list[dict], timeout: int) -> tuple[dict, list[dict]]:
+    """Apple公式の購入ページから定価を取る。1ページで全構成ぶん取れるためURL単位でまとめる。"""
+    tables: dict[str, dict[str, int]] = {}
+    errors: list[dict] = []
+    for url in sorted({str(p.get("apple_url") or "").strip() for p in products} - {""}):
+        try:
+            tables[url] = fetch_apple_prices(url, timeout=timeout)
+            print(f"Apple公式: {len(tables[url])}構成の定価を取得しました（{url.rsplit('/', 1)[-1]}）")
+        except AppleError as e:
+            errors.append({"source": "apple", "url": url, "error": str(e)})
+            print(f"ERROR Apple公式 {url}: {e}", file=sys.stderr)
+    return tables, errors
+
+
+def official_retail(product: dict, apple_tables: dict) -> dict | None:
+    """Apple製品はApple公式の定価を仕入価格とする。転売価格で判定しないため。"""
+    url = str(product.get("apple_url") or "").strip()
+    if not url:
+        return None
+    price = apple_price_for(apple_tables.get(url, {}), product["name"], product.get("apple_key"))
+    if price is None:
+        return None
+    return {
+        "jan": str(product.get("jan") or ""),
+        "name": f"{product['name']}（Apple公式）",
+        "price": int(price),
+        "store": "Apple公式",
+        "url": url,
+        "in_stock": True,
+        "source": "apple",
+    }
+
+
 def collect_retail(product: dict, app_id: str, buyback_price: int, cfg: dict, timeout: int) -> dict | None:
     """仕入れ側の最安値を取得する。JANが無い商品と、キー未設定時は何もしない。"""
     jan = str(product.get("jan") or "").strip()
@@ -322,6 +358,7 @@ def collect_retail(product: dict, app_id: str, buyback_price: int, cfg: dict, ti
     if offer is None:
         return None
     return {
+        "source": "yahoo",
         "jan": jan,
         "name": offer.name,
         "price": offer.price,
@@ -398,6 +435,9 @@ def main() -> int:
 
     market_entries: dict[str, dict] = {}
 
+    apple_tables, apple_errors = collect_apple_prices(products, int(settings["timeout_seconds"]))
+    errors.extend(apple_errors)
+
     yahoo_app_id = os.getenv(YAHOO_APP_ID_ENV, "").strip()
     retail_entries: dict[str, dict] = {}
     if not yahoo_app_id:
@@ -435,11 +475,13 @@ def main() -> int:
 
             # 仕入れ側。取得できなくても買取の記録は続ける。
             best_price, _ = best_offer(price, quote)
-            retail = None
+            # Apple公式に定価があればそれを使う。無い商品だけYahoo!の実勢を見る。
+            retail = official_retail(product, apple_tables)
             try:
-                retail = collect_retail(
-                    product, yahoo_app_id, best_price, settings["profit"], int(settings["timeout_seconds"])
-                )
+                if retail is None:
+                    retail = collect_retail(
+                        product, yahoo_app_id, best_price, settings["profit"], int(settings["timeout_seconds"])
+                    )
             except RetailAuthError as e:
                 # 認証が通らないなら全商品で同じ結果になる。無駄に叩かず、その実行では諦める。
                 yahoo_app_id = ""
