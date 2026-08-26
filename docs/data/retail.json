@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-26T16:41:34+09:00",
+  "checked_at": "2026-08-26T16:45:42+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -94,28 +94,28 @@
     },
     "onepiece-op17": {
       "jan": "4582770058406",
-      "name": "2026年8月22日発売 予約 6パック ばら売り レビュー特典あり ONE PIECEカードゲーム 世界最強の戦士 OP-17 BOX 24パック入り ワンピース バンダイ BANDAI",
-      "price": 3500,
+      "name": "2026年8月22日発売 予約 18パック ばら売り レビュー特典あり ONE PIECEカードゲーム 世界最強の戦士  OP-17 BOX 24パック入り　ワンピース バンダイ BANDAI",
+      "price": 9800,
       "store": "カウカウSTORE",
-      "url": "https://store.shopping.yahoo.co.jp/free-world/cardpack-o-024-6.html",
+      "url": "https://store.shopping.yahoo.co.jp/free-world/cardpack-o-024-18.html",
       "in_stock": true,
       "buyback_price": 14000,
-      "safe_profit": 7000,
-      "cash_profit": 10000,
+      "safe_profit": 700,
+      "cash_profit": 3700,
       "grade": "D",
       "buy_threshold": 500
     },
     "pokemon-inferno-x": {
       "jan": "4521329431529",
-      "name": "1パック ポケモンカードゲーム MEGA  拡張パック インフェルノX キャンセル不可",
-      "price": 1180,
-      "store": "モトナワールドYahoo!ショップ",
-      "url": "https://store.shopping.yahoo.co.jp/motona/92093300-1p.html",
+      "name": "【開封箱付き】【30パック】【訳あり】 ポケモンカードゲーム MEGA 拡張パック インフェルノX　（1BOX分）",
+      "price": 18000,
+      "store": "太郎坊 Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/taroubou/4521329431529-wakeari.html",
       "in_stock": true,
       "buyback_price": 21000,
-      "safe_profit": 16320,
-      "cash_profit": 19320,
-      "grade": "B",
+      "safe_profit": -500,
+      "cash_profit": 2500,
+      "grade": "D",
       "buy_threshold": 7500
     },
     "rog-xbox-ally-x-1tb": {
