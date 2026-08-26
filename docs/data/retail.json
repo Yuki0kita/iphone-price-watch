@@ -1,4 +1,135 @@
 {
-  "checked_at": "2026-08-26T16:24:26+09:00",
-  "products": {}
+  "checked_at": "2026-08-26T16:41:34+09:00",
+  "products": {
+    "iphone-17-256": {
+      "jan": "4549995649154",
+      "name": "【新品・未開封】Apple iPhone 17 256GB MG674J/A ブラック【お取り寄せ（3営業日程度）での入荷、発送】（2100000017663）",
+      "price": 153409,
+      "store": "愛グループヤフー店",
+      "url": "https://store.shopping.yahoo.co.jp/ai-gr/2100000017663.html",
+      "in_stock": true,
+      "buyback_price": 139000,
+      "safe_profit": -17909,
+      "cash_profit": -14909,
+      "grade": "D",
+      "buy_threshold": 125500
+    },
+    "iphone-17-pro-max-512": {
+      "jan": "4549995649314",
+      "name": "【新品未開封】iPhone 17 Pro Max 512GB [シルバー]【日曜日以外即日発送】【送料無料】",
+      "price": 254330,
+      "store": "モバイル販売",
+      "url": "https://store.shopping.yahoo.co.jp/kaikyou/4549995649314.html",
+      "in_stock": true,
+      "buyback_price": 227500,
+      "safe_profit": -30330,
+      "cash_profit": -27330,
+      "grade": "D",
+      "buy_threshold": 214000
+    },
+    "iphone-17-pro-256": {
+      "jan": "4549995648294",
+      "name": "【ラッピング可】【即日発送】【新品 箱不良・シュリンク破れ品】Apple アップル iPhone 17 Pro 256GB シルバー MG854J/A eSIM SIMフリー",
+      "price": 198000,
+      "store": "電子問屋",
+      "url": "https://store.shopping.yahoo.co.jp/densidonya/4549995648294-a.html",
+      "in_stock": true,
+      "buyback_price": 184500,
+      "safe_profit": -17000,
+      "cash_profit": -14000,
+      "grade": "D",
+      "buy_threshold": 171000
+    },
+    "ps5-pro-cfi-7000b01": {
+      "jan": "4948872416320",
+      "name": "★新品 未使用 PS5 2024年 プレイステーション5 本体 PlayStation 5 Pro CFI-7000B01 2TB SONY 本体",
+      "price": 197800,
+      "store": "ジェーシカモバイル2号店",
+      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4948872416320.html",
+      "in_stock": true,
+      "buyback_price": 177200,
+      "safe_profit": -24100,
+      "cash_profit": -21100,
+      "grade": "D",
+      "buy_threshold": 163700
+    },
+    "switch2-multilang": {
+      "jan": "4902370552683",
+      "name": "『新品』Nintendo Switch 2 多言語版",
+      "price": 92845,
+      "store": "ノア商社Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/noahshoping/4902370552683.html",
+      "in_stock": true,
+      "buyback_price": 81600,
+      "safe_profit": -14745,
+      "cash_profit": -11745,
+      "grade": "D",
+      "buy_threshold": 68100
+    },
+    "ps5-slim-cfi-2000a01": {
+      "jan": "4948872415934",
+      "name": "★新品 未使用 PS5 2023新型 プレイステーション5 本体 PlayStation 5 Slimモデル 1TB CFI-2000A01※外箱少々凹みや傷あり",
+      "price": 115800,
+      "store": "ジェーシカモバイル2号店",
+      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4948872415935.html",
+      "in_stock": true,
+      "buyback_price": 108000,
+      "safe_profit": -11300,
+      "cash_profit": -8300,
+      "grade": "D",
+      "buy_threshold": 94500
+    },
+    "fujifilm-x100vi-black": {
+      "jan": "4547410529494",
+      "name": "「訳あり品-外装箱傷あり」新品 デジタルカメラ FUJIFILM X100VI [ブラック]",
+      "price": 301261,
+      "store": "らいぶshop",
+      "url": "https://store.shopping.yahoo.co.jp/light-hikari/4547410529494-y.html",
+      "in_stock": false,
+      "buyback_price": 257500,
+      "safe_profit": -47261,
+      "cash_profit": -44261,
+      "grade": "D",
+      "buy_threshold": 244000
+    },
+    "onepiece-op17": {
+      "jan": "4582770058406",
+      "name": "2026年8月22日発売 予約 6パック ばら売り レビュー特典あり ONE PIECEカードゲーム 世界最強の戦士 OP-17 BOX 24パック入り ワンピース バンダイ BANDAI",
+      "price": 3500,
+      "store": "カウカウSTORE",
+      "url": "https://store.shopping.yahoo.co.jp/free-world/cardpack-o-024-6.html",
+      "in_stock": true,
+      "buyback_price": 14000,
+      "safe_profit": 7000,
+      "cash_profit": 10000,
+      "grade": "D",
+      "buy_threshold": 500
+    },
+    "pokemon-inferno-x": {
+      "jan": "4521329431529",
+      "name": "1パック ポケモンカードゲーム MEGA  拡張パック インフェルノX キャンセル不可",
+      "price": 1180,
+      "store": "モトナワールドYahoo!ショップ",
+      "url": "https://store.shopping.yahoo.co.jp/motona/92093300-1p.html",
+      "in_stock": true,
+      "buyback_price": 21000,
+      "safe_profit": 16320,
+      "cash_profit": 19320,
+      "grade": "B",
+      "buy_threshold": 7500
+    },
+    "rog-xbox-ally-x-1tb": {
+      "jan": "0199291152984",
+      "name": "ASUS ROG Xbox Ally X 1TB",
+      "price": 181378,
+      "store": "らいぶshop",
+      "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
+      "in_stock": true,
+      "buyback_price": 153500,
+      "safe_profit": -31378,
+      "cash_profit": -28378,
+      "grade": "D",
+      "buy_threshold": 140000
+    }
+  }
 }
