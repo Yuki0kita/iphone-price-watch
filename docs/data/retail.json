@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-26T17:02:35+09:00",
+  "checked_at": "2026-08-26T17:04:04+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -130,6 +130,32 @@
       "cash_profit": -28378,
       "grade": "D",
       "buy_threshold": 140000
+    },
+    "mac-mini-m4-256": {
+      "jan": "4549995437157",
+      "name": "【新品・保証開始済み】Apple Mac mini MU9D3J/A [シルバー][ラッピング可] K-LOGI",
+      "price": 89800,
+      "store": "測定の森Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995437157-s.html",
+      "in_stock": false,
+      "buyback_price": 75000,
+      "safe_profit": -18300,
+      "cash_profit": -15300,
+      "grade": "D",
+      "buy_threshold": 61500
+    },
+    "mac-mini-m4-512": {
+      "jan": "4549995437164",
+      "name": "★アップル / APPLE Mac mini MU9E3J/A [シルバー]【Mac デスクトップ】【送料無料】",
+      "price": 211180,
+      "store": "ディーライズ2号",
+      "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000892905.html",
+      "in_stock": true,
+      "buyback_price": 90000,
+      "safe_profit": -124680,
+      "cash_profit": -121680,
+      "grade": "D",
+      "buy_threshold": 76500
     }
   }
 }
