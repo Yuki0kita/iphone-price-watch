@@ -1,12 +1,17 @@
 {
-  "checked_at": "2026-08-26T11:14:47+09:00",
+  "checked_at": "2026-08-26T11:15:23+09:00",
   "products_checked": 11,
   "records_changed": false,
   "alerts": 0,
   "email_sent": false,
   "errors": [],
-  "notes": [],
-  "market_checked_at": "2026-08-26T11:14:47+09:00",
+  "notes": [
+    {
+      "source": "mobasute",
+      "note": "この実行環境からのアクセスが拒否されました（HTTP 403）。"
+    }
+  ],
+  "market_checked_at": "2026-08-26T11:15:23+09:00",
   "products": [
     {
       "id": "iphone-17-256",
