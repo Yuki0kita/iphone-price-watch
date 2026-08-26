@@ -24,7 +24,7 @@ from src.mobasute import STORE_NAME as MOBASUTE_STORE
 from src.mobasute import MobasuteBlocked, MobasuteError, fetch_price_table, price_for
 from src.profit import Profit, calculate
 from src.retail import APP_ID_ENV as YAHOO_APP_ID_ENV
-from src.retail import RetailAuthError, RetailError, fetch_cheapest
+from src.retail import RetailAuthError, RetailError, fetch_offers, pick_offer
 
 JST = timezone(timedelta(hours=9))
 ROOT = Path(__file__).resolve().parents[1]
@@ -310,12 +310,17 @@ def merge_quotes(*quote_lists: list[dict]) -> list[dict]:
     return quotes
 
 
-def collect_retail(product: dict, app_id: str, timeout: int) -> dict | None:
+def collect_retail(product: dict, app_id: str, buyback_price: int, cfg: dict, timeout: int) -> dict | None:
     """仕入れ側の最安値を取得する。JANが無い商品と、キー未設定時は何もしない。"""
     jan = str(product.get("jan") or "").strip()
     if not app_id or not jan:
         return None
-    offer = fetch_cheapest(jan, app_id, timeout=timeout)
+
+    # 買取価格に対して安すぎる出品は別商品（バラ売り・付属品など）とみなして除外する。
+    min_price = int(buyback_price * float(cfg["min_retail_ratio"]))
+    offer = pick_offer(fetch_offers(jan, app_id, timeout=timeout), min_price)
+    if offer is None:
+        return None
     return {
         "jan": jan,
         "name": offer.name,
@@ -429,9 +434,12 @@ def main() -> int:
                 shop = SHOP_NAME
 
             # 仕入れ側。取得できなくても買取の記録は続ける。
+            best_price, _ = best_offer(price, quote)
             retail = None
             try:
-                retail = collect_retail(product, yahoo_app_id, int(settings["timeout_seconds"]))
+                retail = collect_retail(
+                    product, yahoo_app_id, best_price, settings["profit"], int(settings["timeout_seconds"])
+                )
             except RetailAuthError as e:
                 # 認証が通らないなら全商品で同じ結果になる。無駄に叩かず、その実行では諦める。
                 yahoo_app_id = ""
@@ -441,7 +449,6 @@ def main() -> int:
                 errors.append({"product_id": product["id"], "retail": True, "error": str(e)})
                 print(f"ERROR retail {product['name']}: {e}", file=sys.stderr)
 
-            best_price, _ = best_offer(price, quote)
             profit = profit_for(product, best_price, retail, settings["profit"])
             if retail:
                 retail_entries[product["id"]] = {

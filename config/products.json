@@ -15,7 +15,8 @@
     "profit": {
       "risk_buffer_yen": 3000,
       "extra_cost_yen": 500,
-      "minimum_profit_yen": 10000
+      "minimum_profit_yen": 10000,
+      "min_retail_ratio": 0.5
     }
   },
   "products": [

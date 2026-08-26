@@ -75,8 +75,8 @@ def search_url(jan: str, app_id: str) -> str:
     return f"{API_ENDPOINT}?{query}"
 
 
-def parse_offers(payload: object, jan: str) -> RetailOffer:
-    """検索結果から、在庫があるもののうち最安の1件を返す。"""
+def parse_offers(payload: object, jan: str) -> list[RetailOffer]:
+    """検索結果を安い順に並べて返す。"""
     if not isinstance(payload, dict):
         raise RetailError("APIレスポンスがJSONオブジェクトではありません。")
 
@@ -113,14 +113,28 @@ def parse_offers(payload: object, jan: str) -> RetailOffer:
         raise RetailError(f"JAN {jan} の有効な価格が1件もありませんでした。")
 
     offers.sort(key=lambda o: o.price)
-    # 在庫があるものを優先し、無ければ最安を返す（在庫なしでも相場の目安にはなる）。
-    for offer in offers:
+    return offers
+
+
+def pick_offer(offers: list[RetailOffer], min_price: int) -> RetailOffer | None:
+    """仕入れ候補を1件選ぶ。
+
+    min_price を下回る出品は同じ商品ではないとみなして捨てる。
+    トレカのように、BOXとバラ売りに同じJANを付けている出品者がいるため。
+    実例: ポケモンカードのBOX（買取21,000円）のJANで「1パック 1,180円」が最安に出た。
+
+    在庫があるものを優先し、無ければ最安を返す（在庫なしでも相場の目安にはなる）。
+    """
+    usable = [o for o in offers if o.price >= min_price]
+    if not usable:
+        return None
+    for offer in usable:
         if offer.in_stock:
             return offer
-    return offers[0]
+    return usable[0]
 
 
-def fetch_cheapest(jan: str, app_id: str, timeout: int = 20) -> RetailOffer:
+def fetch_offers(jan: str, app_id: str, timeout: int = 20) -> list[RetailOffer]:
     if not app_id:
         raise RetailError("Client IDが設定されていません。")
 
@@ -168,14 +182,17 @@ def main() -> int:
         return 2
 
     try:
-        offer = fetch_cheapest(sys.argv[1], app_id)
+        offers = fetch_offers(sys.argv[1], app_id)
     except RetailError as e:
         print(f"エラー: {e}", file=sys.stderr)
         return 1
 
-    print(f"最安 ¥{offer.price:,}  {offer.store}  在庫{'あり' if offer.in_stock else 'なし'}")
-    print(f"  {offer.name}")
-    print(f"  {offer.url}")
+    # 商品名まで出す。同じJANに別物（バラ売り等）が混ざっていないか目視で確認するため。
+    for offer in offers[:5]:
+        stock = "在庫あり" if offer.in_stock else "在庫なし"
+        print(f"¥{offer.price:>9,}  {stock}  {offer.store}")
+        print(f"           {offer.name[:70]}")
+    print(f"\n{len(offers)}件")
     return 0
 
 

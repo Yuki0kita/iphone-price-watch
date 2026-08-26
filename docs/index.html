@@ -290,8 +290,9 @@ function showDeal(productId) {
     `<span>→ 買取 <b>${yen(deal.buyback_price)}</b></span>` +
     `<span>上限 <b>${yen(deal.buy_threshold)}</b></span>`;
 
+  // 商品名を出す。同じJANに別物が混ざっていないか目視で確認できるようにするため。
   const where = deal.store ? `${deal.store}${deal.in_stock ? '' : '（在庫なし）'}` : '';
-  el('dealNote').textContent = `${where}｜査定減額と経費を引いた後の金額です。`;
+  el('dealNote').textContent = [where, deal.name].filter(Boolean).join('｜');
 }
 
 function showMarket(productId, shopPrice) {
