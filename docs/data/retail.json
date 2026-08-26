@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-27T03:05:46+09:00",
+  "checked_at": "2026-08-27T05:04:52+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -61,13 +61,13 @@
       "source": "yahoo",
       "jan": "4902370552683",
       "name": "『新品外箱傷みあり』Nintendo Switch 2 多言語版",
-      "price": 92632,
+      "price": 92628,
       "store": "ノア商社Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/noahshoping/4902370552683-wk.html",
       "in_stock": true,
       "buyback_price": 81600,
-      "safe_profit": -14532,
-      "cash_profit": -11532,
+      "safe_profit": -14528,
+      "cash_profit": -11528,
       "grade": "D",
       "buy_threshold": 68100
     },
