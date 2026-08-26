@@ -64,6 +64,19 @@ python3 -m src.mobasute 17      # 動作確認
 
 iPhone・スマホ専門店なのでゲーム機・カメラ・トレカは対象外。該当しない商品は自動的にスキップされる。
 
+**GitHub Actionsからは取得できない。** モバステはCloudFrontの前段でデータセンターのIPを拒否しており、
+Actionsのrunnerからは403が返る。回避はしない。
+
+そのため、モバステの価格は自宅などの回線から手動で実行したときだけ更新される。
+
+```bash
+python3 -m src.collector && git add docs/data && git commit -m "chore: update prices" && git push
+```
+
+403のときは前回の価格を残し、`market.json` の `mobasute_checked_at` にいつ時点かを記録する。
+ダッシュボードには「〇/〇 時点」と表示されるので、古い値をそのまま信じることはない。
+エラーではなく `status.json` の `notes` に入るため、エラー件数は増えない。
+
 ### 買取X（APIキー必要）
 
 買取1丁目だけを見ても「その店の価格」しか分からない。実際に受け取れる額は一番高く買う店で決まるため、

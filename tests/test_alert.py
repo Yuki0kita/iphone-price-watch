@@ -6,9 +6,10 @@ from src.collector import (
     SHOP_NAME,
     best_offer,
     best_quote,
-    cached_ktx_quotes,
+    cached_quotes,
     evaluate_alert,
     merge_quotes,
+    mobasute_quote,
     should_check_market,
     should_record,
     trim_history,
@@ -211,25 +212,25 @@ class MergeQuotesTest(unittest.TestCase):
         return [{"store": store, "price": price, "url": "", "source": "kaitorix"}]
 
     def test_sorts_all_sources_by_price(self):
-        quotes = merge_quotes(self.ktx(141000), 139000)
+        quotes = merge_quotes(self.ktx(141000), [mobasute_quote(139000)])
         self.assertEqual([q["price"] for q in quotes], [141000, 139000])
         self.assertEqual(quotes[1]["source"], "mobasute")
 
     def test_mobasute_can_win(self):
-        quotes = merge_quotes(self.ktx(135000), 139000)
+        quotes = merge_quotes(self.ktx(135000), [mobasute_quote(139000)])
         self.assertEqual(best_quote(quotes).store, "モバステ")
 
     def test_works_without_mobasute_price(self):
-        self.assertEqual(len(merge_quotes(self.ktx(141000), None)), 1)
+        self.assertEqual(len(merge_quotes(self.ktx(141000), [])), 1)
 
     def test_works_without_ktx(self):
-        quotes = merge_quotes([], 139000)
+        quotes = merge_quotes([], [mobasute_quote(139000)])
         self.assertEqual(best_quote(quotes).price, 139000)
 
     def test_no_quotes_means_no_best(self):
-        self.assertIsNone(best_quote(merge_quotes([], None)))
+        self.assertIsNone(best_quote(merge_quotes([], [])))
 
-    def test_cached_ktx_quotes_ignores_other_sources(self):
+    def test_cached_quotes_filters_by_source(self):
         """モバステの価格は毎回取り直すため、キャッシュとして持ち越さない。"""
         market = {
             "products": {
@@ -241,11 +242,11 @@ class MergeQuotesTest(unittest.TestCase):
                 }
             }
         }
-        cached = cached_ktx_quotes(market, "p1")
+        cached = cached_quotes(market, "p1", "kaitorix")
         self.assertEqual([q["store"] for q in cached], ["買取X店"])
 
-    def test_cached_ktx_quotes_handles_missing_product(self):
-        self.assertEqual(cached_ktx_quotes({}, "p1"), [])
+    def test_cached_quotes_handles_missing_product(self):
+        self.assertEqual(cached_quotes({}, "p1", "kaitorix"), [])
 
 
 class ShouldCheckMarketTest(unittest.TestCase):

@@ -1,16 +1,12 @@
 {
-  "checked_at": "2026-08-26T11:00:49+09:00",
+  "checked_at": "2026-08-26T11:14:47+09:00",
   "products_checked": 11,
   "records_changed": false,
   "alerts": 0,
   "email_sent": false,
-  "errors": [
-    {
-      "source": "mobasute",
-      "error": "買取価格表の取得に失敗しました: HTTP 403"
-    }
-  ],
-  "market_checked_at": null,
+  "errors": [],
+  "notes": [],
+  "market_checked_at": "2026-08-26T11:14:47+09:00",
   "products": [
     {
       "id": "iphone-17-256",

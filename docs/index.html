@@ -189,6 +189,7 @@ function niceStep(range, targetLines) {
 let series = {};
 let targets = {};
 let market = {};
+let marketMeta = {};
 let retail = {};
 
 function groupByProduct(history) {
@@ -310,11 +311,16 @@ function showMarket(productId, shopPrice) {
 
   const list = el('marketQuotes');
   list.innerHTML = '';
+  // 取得できなかった店の価格は前回値を残すため、いつ時点かを示す。
+  const stale = marketMeta.mobasute_checked_at &&
+    marketMeta.mobasute_checked_at.slice(0, 10) !== (marketMeta.checked_at || '').slice(0, 10);
   for (const q of (entry.quotes || []).slice(0, MARKET_QUOTES_SHOWN)) {
     const row = document.createElement('div');
     row.className = 'quote';
     const store = document.createElement('span');
-    store.textContent = q.store;
+    store.textContent = q.source === 'mobasute' && stale
+      ? `${q.store}（${when(marketMeta.mobasute_checked_at).split(' ')[0]} 時点）`
+      : q.store;
     const price = document.createElement('b');
     price.textContent = yen(q.price);
     row.append(store, price);
@@ -389,6 +395,7 @@ async function init() {
     ]);
 
     market = marketData.products || {};
+    marketMeta = marketData;
     retail = retailData.products || {};
     series = groupByProduct(history);
     targets = Object.fromEntries((status.products || []).map(p => [p.id, p.target_price]));
@@ -423,6 +430,9 @@ async function init() {
     const notes = [];
     if (status.errors && status.errors.length) {
       notes.push(`直近の取得で${status.errors.length}件のエラーがありました。`);
+    }
+    for (const n of status.notes || []) {
+      notes.push(`${n.source}: ${n.note}`);
     }
     // 買取1丁目が扱っていない商品は、買取Xと連携するまで記録が始まらない。
     const pending = (status.products || []).filter(p => !series[p.id]);

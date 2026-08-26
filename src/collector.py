@@ -21,7 +21,7 @@ from src.kaitorix import API_KEY_ENV as KTX_API_KEY_ENV
 from src.kaitorix import KEPT_QUOTES, KaitoriXError, Quote, fetch_market_price
 from src.mobasute import PRICE_TABLE_URL as MOBASUTE_URL
 from src.mobasute import STORE_NAME as MOBASUTE_STORE
-from src.mobasute import MobasuteError, fetch_price_table, price_for
+from src.mobasute import MobasuteBlocked, MobasuteError, fetch_price_table, price_for
 from src.profit import Profit, calculate
 from src.retail import APP_ID_ENV as YAHOO_APP_ID_ENV
 from src.retail import RetailError, fetch_cheapest
@@ -293,24 +293,19 @@ def collect_ktx_quotes(products: list[dict], api_key: str, timeout: int) -> tupl
     return quotes, errors
 
 
-def cached_ktx_quotes(market: dict, product_id: str) -> list[dict]:
-    """前回の買取Xの結果を使い回す。無料枠の都合で1日1回しか取りに行かないため。"""
+def cached_quotes(market: dict, product_id: str, source: str) -> list[dict]:
+    """前回の結果を使い回す。取りに行かなかった／行けなかった店の価格を消さないため。"""
     entry = (market.get("products") or {}).get(product_id) or {}
-    return [q for q in (entry.get("quotes") or []) if q.get("source") == KTX_SOURCE]
+    return [q for q in (entry.get("quotes") or []) if q.get("source") == source]
 
 
-def merge_quotes(ktx: list[dict], mobasute_price: int | None) -> list[dict]:
+def mobasute_quote(price: int) -> dict:
+    return {"store": MOBASUTE_STORE, "price": price, "url": MOBASUTE_URL, "source": MOBASUTE_SOURCE}
+
+
+def merge_quotes(*quote_lists: list[dict]) -> list[dict]:
     """他店の価格を1つのリストにまとめ、高い順に並べる。"""
-    quotes = list(ktx)
-    if mobasute_price is not None:
-        quotes.append(
-            {
-                "store": MOBASUTE_STORE,
-                "price": mobasute_price,
-                "url": MOBASUTE_URL,
-                "source": MOBASUTE_SOURCE,
-            }
-        )
+    quotes = [q for lst in quote_lists for q in lst]
     quotes.sort(key=lambda q: -int(q["price"]))
     return quotes
 
@@ -361,13 +356,14 @@ def main() -> int:
 
     alerts: list[Alert] = []
     errors: list[dict] = []
+    notes: list[dict] = []
     records_changed = False
 
     # 他店の横断チェック。APIキーが無い、または今日すでに実行済みなら前回の結果を使う。
     previous_market: dict = load_json(MARKET_PATH, {})
     api_key = os.getenv(KTX_API_KEY_ENV, "").strip()
     ktx_checked_at = previous_market.get("ktx_checked_at")
-    ktx_quotes = {p["id"]: cached_ktx_quotes(previous_market, p["id"]) for p in products}
+    ktx_quotes = {p["id"]: cached_quotes(previous_market, p["id"], KTX_SOURCE) for p in products}
 
     if api_key and should_check_market({"checked_at": ktx_checked_at}, now_iso):
         fresh, ktx_errors = collect_ktx_quotes(products, api_key, int(settings["timeout_seconds"]))
@@ -378,10 +374,19 @@ def main() -> int:
         print(f"{KTX_API_KEY_ENV} が未設定のため、買取Xの横断チェックをスキップしました。")
 
     # モバステは価格表1ページに全機種が載っているため、1リクエストで済む。APIキーも不要。
+    # ただしCloudFront/WAFがデータセンターのIPを拒否するため、GitHub Actionsからは403になる。
+    # 取得できなかった場合は前回の値を残し、いつ取得したものかをmobasute_checked_atで示す。
     mobasute_table: dict[str, int] = {}
+    mobasute_checked_at = previous_market.get("mobasute_checked_at")
+    mobasute_ok = False
     try:
         mobasute_table = fetch_price_table(int(settings["timeout_seconds"]))
+        mobasute_ok = True
+        mobasute_checked_at = now_iso
         print(f"{MOBASUTE_STORE}: {len(mobasute_table)}機種の価格表を取得しました。")
+    except MobasuteBlocked as e:
+        notes.append({"source": MOBASUTE_SOURCE, "note": str(e)})
+        print(f"SKIP {MOBASUTE_STORE}: {e}")
     except MobasuteError as e:
         errors.append({"source": MOBASUTE_SOURCE, "error": str(e)})
         print(f"ERROR {MOBASUTE_STORE}: {e}", file=sys.stderr)
@@ -396,7 +401,12 @@ def main() -> int:
     for index, product in enumerate(products):
         if index:
             time.sleep(float(settings["request_interval_seconds"]))
-        quotes = merge_quotes(ktx_quotes.get(product["id"], []), price_for(mobasute_table, product["name"]))
+        if mobasute_ok:
+            price = price_for(mobasute_table, product["name"])
+            mobasute = [mobasute_quote(price)] if price is not None else []
+        else:
+            mobasute = cached_quotes(previous_market, product["id"], MOBASUTE_SOURCE)
+        quotes = merge_quotes(ktx_quotes.get(product["id"], []), mobasute)
         if quotes:
             top = quotes[0]
             market_entries[product["id"]] = {
@@ -499,7 +509,12 @@ def main() -> int:
     if market_entries:
         save_json(
             MARKET_PATH,
-            {"checked_at": now_iso, "ktx_checked_at": ktx_checked_at, "products": market_entries},
+            {
+                "checked_at": now_iso,
+                "ktx_checked_at": ktx_checked_at,
+                "mobasute_checked_at": mobasute_checked_at,
+                "products": market_entries,
+            },
         )
     if yahoo_app_id:
         save_json(RETAIL_PATH, {"checked_at": now_iso, "products": retail_entries})
@@ -512,6 +527,7 @@ def main() -> int:
             "alerts": len(alerts),
             "email_sent": email_sent,
             "errors": errors,
+            "notes": notes,
             "market_checked_at": now_iso if market_entries else None,
             "products": [
                 {

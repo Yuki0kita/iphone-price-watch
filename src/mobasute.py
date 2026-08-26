@@ -33,6 +33,14 @@ class MobasuteError(RuntimeError):
     pass
 
 
+class MobasuteBlocked(MobasuteError):
+    """この実行環境からのアクセスが拒否された（CloudFront/WAFによるIP遮断）。
+
+    自宅などの回線からは取得できるが、GitHub Actionsのような
+    データセンターのIPからは403になる。回避はせず、利用不可として扱う。
+    """
+
+
 def normalize_model(name: str) -> str:
     """機種名の表記ゆれを吸収する（iPhone 17 256GB と iPhone17 256GB を同じ扱いにする）。"""
     return re.sub(r"\s+", "", name).lower()
@@ -65,6 +73,8 @@ def fetch_price_table(timeout: int = 20) -> dict[str, int]:
         with urllib.request.urlopen(request, timeout=timeout) as response:
             html = response.read().decode("utf-8", errors="replace")
     except urllib.error.HTTPError as e:
+        if e.code == 403:
+            raise MobasuteBlocked("この実行環境からのアクセスが拒否されました（HTTP 403）。") from e
         raise MobasuteError(f"買取価格表の取得に失敗しました: HTTP {e.code}") from e
     except urllib.error.URLError as e:
         raise MobasuteError(f"モバステに接続できませんでした: {e.reason}") from e
