@@ -132,6 +132,18 @@
       "target_price": null,
       "enabled": true,
       "note": "買取1丁目は取扱なし。買取X（KTX_API_KEY）経由でのみ記録する。"
+    },
+    {
+      "id": "rog-xbox-ally-x-1tb",
+      "name": "ASUS ROG Xbox Ally X 1TB ブラック",
+      "source": "goods",
+      "cate_code": "20464007",
+      "keyword": "Ally X",
+      "jan": "0199291152984",
+      "condition": "未開封",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "target_price": null,
+      "enabled": true
     }
   ]
 }

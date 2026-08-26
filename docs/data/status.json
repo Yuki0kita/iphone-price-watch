@@ -1,17 +1,12 @@
 {
-  "checked_at": "2026-08-26T16:11:18+09:00",
-  "products_checked": 11,
+  "checked_at": "2026-08-26T16:13:46+09:00",
+  "products_checked": 12,
   "records_changed": false,
   "alerts": 0,
   "email_sent": false,
   "errors": [],
-  "notes": [
-    {
-      "source": "mobasute",
-      "note": "この実行環境からのアクセスが拒否されました（HTTP 403）。"
-    }
-  ],
-  "market_checked_at": "2026-08-26T16:11:18+09:00",
+  "notes": [],
+  "market_checked_at": "2026-08-26T16:13:46+09:00",
   "products": [
     {
       "id": "iphone-17-256",
@@ -88,6 +83,13 @@
       "name": "Microsoft Office Home & Business 2024 POSA",
       "url": "",
       "source": "market",
+      "target_price": null
+    },
+    {
+      "id": "rog-xbox-ally-x-1tb",
+      "name": "ASUS ROG Xbox Ally X 1TB ブラック",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "source": "goods",
       "target_price": null
     }
   ]
