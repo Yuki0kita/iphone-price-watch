@@ -391,5 +391,14 @@
     "shop": "買取1丁目",
     "url": "https://www.1-chome.com/tradeCards",
     "ok": true
+  },
+  {
+    "timestamp": "2026-08-26T10:43:33+09:00",
+    "product_id": "ps5-slim-cfi-2000a01",
+    "product_name": "PlayStation 5 Slim Disc CFI-2000A01",
+    "price": 108000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true
   }
 ]
