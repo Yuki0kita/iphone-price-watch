@@ -24,7 +24,7 @@ from src.mobasute import STORE_NAME as MOBASUTE_STORE
 from src.mobasute import MobasuteBlocked, MobasuteError, fetch_price_table, price_for
 from src.profit import Profit, calculate
 from src.retail import APP_ID_ENV as YAHOO_APP_ID_ENV
-from src.retail import RetailError, fetch_cheapest
+from src.retail import RetailAuthError, RetailError, fetch_cheapest
 
 JST = timezone(timedelta(hours=9))
 ROOT = Path(__file__).resolve().parents[1]
@@ -432,6 +432,11 @@ def main() -> int:
             retail = None
             try:
                 retail = collect_retail(product, yahoo_app_id, int(settings["timeout_seconds"]))
+            except RetailAuthError as e:
+                # 認証が通らないなら全商品で同じ結果になる。無駄に叩かず、その実行では諦める。
+                yahoo_app_id = ""
+                errors.append({"source": "yahoo", "error": str(e)})
+                print(f"ERROR 仕入れ価格: {e}", file=sys.stderr)
             except RetailError as e:
                 errors.append({"product_id": product["id"], "retail": True, "error": str(e)})
                 print(f"ERROR retail {product['name']}: {e}", file=sys.stderr)

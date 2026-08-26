@@ -41,6 +41,10 @@ class RetailError(RuntimeError):
     pass
 
 
+class RetailAuthError(RetailError):
+    """Client IDが受け付けられなかった。全商品で同じ結果になるため、その実行では以降を諦める。"""
+
+
 @dataclass
 class RetailOffer:
     name: str
@@ -129,8 +133,16 @@ def fetch_cheapest(jan: str, app_id: str, timeout: int = 20) -> RetailOffer:
         with urllib.request.urlopen(request, timeout=timeout) as response:
             body = response.read().decode("utf-8")
     except urllib.error.HTTPError as e:
-        if e.code == 401 or e.code == 403:
-            raise RetailError(f"Client IDが無効です（HTTP {e.code}）。") from e
+        if e.code in (401, 403):
+            detail = ""
+            try:
+                detail = json.loads(e.read().decode("utf-8")).get("Error", {}).get("Message", "")
+            except Exception:
+                pass
+            raise RetailAuthError(
+                f"Client IDが受け付けられませんでした（HTTP {e.code}）。{detail}"
+                " シークレットではなくClient ID（アプリケーションID）を登録しているか確認してください。"
+            ) from e
         if e.code == 429:
             raise RetailError("リクエスト制限に達しました（HTTP 429）。") from e
         raise RetailError(f"リクエストが失敗しました: HTTP {e.code}") from e
