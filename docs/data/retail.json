@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-26T19:00:07+09:00",
+  "checked_at": "2026-08-26T19:53:20+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -46,28 +46,28 @@
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
       "jan": "4948872416320",
-      "name": "★新品 未使用 PS5 2024年 プレイステーション5 本体 PlayStation 5 Pro CFI-7000B01 2TB SONY 本体",
-      "price": 197800,
-      "store": "ジェーシカモバイル2号店",
-      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4948872416320.html",
+      "name": "「新品 未使用品」SONY PlayStation 5 Pro CFI-7000B01 [2TB][ソニー ][JAN:44948872416320]",
+      "price": 121000,
+      "store": "Quality Shop",
+      "url": "https://store.shopping.yahoo.co.jp/quality-shop/cfi-7000b01.html",
       "in_stock": true,
       "buyback_price": 177700,
-      "safe_profit": -23600,
-      "cash_profit": -20600,
-      "grade": "D",
+      "safe_profit": 53200,
+      "cash_profit": 56200,
+      "grade": "S",
       "buy_threshold": 164200
     },
     "switch2-multilang": {
       "source": "yahoo",
       "jan": "4902370552683",
-      "name": "ゲーム機  Nintendo Switch 2 (多言語版) BEE-S-KB6AA",
-      "price": 92842,
-      "store": "ア-チホ-ルセ-ル",
-      "url": "https://store.shopping.yahoo.co.jp/archholesale/1313151.html",
+      "name": "『新品外箱傷みあり』Nintendo Switch 2 多言語版",
+      "price": 92642,
+      "store": "ノア商社Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/noahshoping/4902370552683-wk.html",
       "in_stock": true,
       "buyback_price": 81600,
-      "safe_profit": -14742,
-      "cash_profit": -11742,
+      "safe_profit": -14542,
+      "cash_profit": -11542,
       "grade": "D",
       "buy_threshold": 68100
     },
