@@ -562,5 +562,41 @@
     "shop": "買取1丁目",
     "url": "https://www.1-chome.com/electricAppliance",
     "ok": true
+  },
+  {
+    "timestamp": "2026-08-27T18:55:33+09:00",
+    "product_id": "iphone-17-256",
+    "product_name": "iPhone 17 256GB",
+    "price": 138000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1365/1909",
+    "ok": true
+  },
+  {
+    "timestamp": "2026-08-27T18:55:33+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 178200,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true
+  },
+  {
+    "timestamp": "2026-08-27T18:55:33+09:00",
+    "product_id": "ps5-slim-cfi-2000a01",
+    "product_name": "PlayStation 5 Slim Disc CFI-2000A01",
+    "price": 108400,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true
+  },
+  {
+    "timestamp": "2026-08-27T18:55:33+09:00",
+    "product_id": "pokemon-inferno-x",
+    "product_name": "ポケモンカード MEGA インフェルノX BOX",
+    "price": 20500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true
   }
 ]
