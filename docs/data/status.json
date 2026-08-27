@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-27T18:55:33+09:00",
+  "checked_at": "2026-08-28T05:33:56+09:00",
   "products_checked": 14,
   "records_changed": true,
   "alerts": 0,
@@ -11,7 +11,7 @@
       "note": "この実行環境からのアクセスが拒否されました（HTTP 403）。"
     }
   ],
-  "market_checked_at": "2026-08-27T18:55:33+09:00",
+  "market_checked_at": "2026-08-28T05:33:56+09:00",
   "products": [
     {
       "id": "iphone-17-256",
