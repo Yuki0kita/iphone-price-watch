@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-28T05:33:56+09:00",
+  "checked_at": "2026-08-28T14:26:59+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -51,23 +51,23 @@
       "store": "ジェーシカモバイル2号店",
       "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 178200,
-      "safe_profit": -23100,
-      "cash_profit": -20100,
+      "buyback_price": 178300,
+      "safe_profit": -23000,
+      "cash_profit": -20000,
       "grade": "D",
-      "buy_threshold": 164700
+      "buy_threshold": 164800
     },
     "switch2-multilang": {
       "source": "yahoo",
       "jan": "4902370552683",
       "name": "『新品外箱傷みあり』Nintendo Switch 2 多言語版",
-      "price": 92590,
+      "price": 92576,
       "store": "ノア商社Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/noahshoping/4902370552683-wk.html",
       "in_stock": true,
       "buyback_price": 81600,
-      "safe_profit": -14490,
-      "cash_profit": -11490,
+      "safe_profit": -14476,
+      "cash_profit": -11476,
       "grade": "D",
       "buy_threshold": 68100
     },
@@ -79,11 +79,11 @@
       "store": "ジェーシカモバイル2号店",
       "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4948872415935.html",
       "in_stock": true,
-      "buyback_price": 108400,
-      "safe_profit": -10900,
-      "cash_profit": -7900,
+      "buyback_price": 108500,
+      "safe_profit": -10800,
+      "cash_profit": -7800,
       "grade": "D",
-      "buy_threshold": 94900
+      "buy_threshold": 95000
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -117,13 +117,13 @@
       "source": "yahoo",
       "jan": "4521329431529",
       "name": "(シュリンクなし) ポケモンカードゲーム MEGA 拡張パック インフェルノX　1BOX",
-      "price": 21400,
+      "price": 21800,
       "store": "太郎坊 Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
       "buyback_price": 20500,
-      "safe_profit": -4400,
-      "cash_profit": -1400,
+      "safe_profit": -4800,
+      "cash_profit": -1800,
       "grade": "D",
       "buy_threshold": 7000
     },
@@ -158,14 +158,14 @@
     "mac-mini-m4-512": {
       "source": "yahoo",
       "jan": "4549995437164",
-      "name": "★アップル / APPLE Mac mini MU9E3J/A [シルバー]【Mac デスクトップ】【送料無料】",
-      "price": 211180,
-      "store": "ディーライズ2号",
-      "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000892905.html",
-      "in_stock": true,
+      "name": "Mac mini 512G(2024) MU9E3J/A (シルバー)/apple",
+      "price": 121280,
+      "store": "アキバ倉庫",
+      "url": "https://store.shopping.yahoo.co.jp/akibasoko/4549995437164.html",
+      "in_stock": false,
       "buyback_price": 90000,
-      "safe_profit": -124680,
-      "cash_profit": -121680,
+      "safe_profit": -34780,
+      "cash_profit": -31780,
       "grade": "D",
       "buy_threshold": 76500
     }
