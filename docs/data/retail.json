@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-29T11:14:58+09:00",
+  "checked_at": "2026-08-29T18:09:21+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -51,11 +51,11 @@
       "store": "ジェーシカモバイル2号店",
       "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 178600,
-      "safe_profit": -22700,
-      "cash_profit": -19700,
+      "buyback_price": 178700,
+      "safe_profit": -22600,
+      "cash_profit": -19600,
       "grade": "D",
-      "buy_threshold": 165100
+      "buy_threshold": 165200
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -117,27 +117,27 @@
       "source": "yahoo",
       "jan": "4521329431529",
       "name": "(シュリンクなし) ポケモンカードゲーム MEGA 拡張パック インフェルノX　1BOX",
-      "price": 21800,
+      "price": 21000,
       "store": "太郎坊 Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
       "buyback_price": 20500,
-      "safe_profit": -4800,
-      "cash_profit": -1800,
+      "safe_profit": -4000,
+      "cash_profit": -1000,
       "grade": "D",
       "buy_threshold": 7000
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "ASUS ROG Xbox Ally X 1TB",
-      "price": 183040,
-      "store": "らいぶshop",
-      "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
+      "name": "ASUS ROG Xbox Ally X RC73XA-Z2E24G1T [ブラック][ラッピング可] R-LOGI",
+      "price": 182888,
+      "store": "測定の森Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984.html",
       "in_stock": true,
       "buyback_price": 153500,
-      "safe_profit": -33040,
-      "cash_profit": -30040,
+      "safe_profit": -32888,
+      "cash_profit": -29888,
       "grade": "D",
       "buy_threshold": 140000
     },
