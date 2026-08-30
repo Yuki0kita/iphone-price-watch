@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-30T15:44:37+09:00",
+  "checked_at": "2026-08-30T21:18:03+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -9,11 +9,11 @@
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
       "in_stock": true,
       "source": "apple",
-      "buyback_price": 139000,
-      "safe_profit": -7300,
-      "cash_profit": -4300,
+      "buyback_price": 138000,
+      "safe_profit": -8300,
+      "cash_profit": -5300,
       "grade": "D",
-      "buy_threshold": 125500
+      "buy_threshold": 124500
     },
     "iphone-17-pro-max-512": {
       "jan": "4549995649314",
@@ -37,11 +37,11 @@
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
       "in_stock": true,
       "source": "apple",
-      "buyback_price": 184500,
-      "safe_profit": -13800,
-      "cash_profit": -10800,
+      "buyback_price": 183000,
+      "safe_profit": -15300,
+      "cash_profit": -12300,
       "grade": "D",
-      "buy_threshold": 171000
+      "buy_threshold": 169500
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -56,6 +56,20 @@
       "cash_profit": -19600,
       "grade": "D",
       "buy_threshold": 165200
+    },
+    "switch2-multilang": {
+      "source": "yahoo",
+      "jan": "4902370552683",
+      "name": "ゲーム機  Nintendo Switch 2 (多言語版) BEE-S-KB6AA",
+      "price": 93577,
+      "store": "ア-チホ-ルセ-ル",
+      "url": "https://store.shopping.yahoo.co.jp/archholesale/1313151.html",
+      "in_stock": true,
+      "buyback_price": 81900,
+      "safe_profit": -15177,
+      "cash_profit": -12177,
+      "grade": "D",
+      "buy_threshold": 68400
     },
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
@@ -113,6 +127,20 @@
       "grade": "D",
       "buy_threshold": 7000
     },
+    "rog-xbox-ally-x-1tb": {
+      "source": "yahoo",
+      "jan": "0199291152984",
+      "name": "ASUS ROG Xbox Ally X 1TB",
+      "price": 180473,
+      "store": "らいぶshop",
+      "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
+      "in_stock": true,
+      "buyback_price": 153500,
+      "safe_profit": -30473,
+      "cash_profit": -27473,
+      "grade": "D",
+      "buy_threshold": 140000
+    },
     "mac-mini-m4-256": {
       "source": "yahoo",
       "jan": "4549995437157",
@@ -140,6 +168,48 @@
       "cash_profit": -31780,
       "grade": "D",
       "buy_threshold": 76500
+    },
+    "rtx-5090-msi-ventus-3x": {
+      "source": "yahoo",
+      "jan": "4711377301633",
+      "name": "【新品】【即納】Palit NE75090019R5-GB2020G GeForce RTX 5090 GameRock 32GB",
+      "price": 555000,
+      "store": "BNT",
+      "url": "https://store.shopping.yahoo.co.jp/bnt/ne75090019r5-gb2020g.html",
+      "in_stock": false,
+      "buyback_price": 652000,
+      "safe_profit": 93500,
+      "cash_profit": 96500,
+      "grade": "S",
+      "buy_threshold": 638500
+    },
+    "rtx-5080-asus-astral": {
+      "source": "yahoo",
+      "jan": "0197105837911",
+      "name": "ASUS エイスース ROG Astral GeForce RTX 5080 16GB GDDR7 OC Edition グラフィックボード ROG-ASTRAL-RTX5080-O16G-GAMING(2644181)",
+      "price": 392800,
+      "store": "e-zoa",
+      "url": "https://store.shopping.yahoo.co.jp/e-zoa/itm0015928944.html",
+      "in_stock": true,
+      "buyback_price": 210220,
+      "safe_profit": -186080,
+      "cash_profit": -183080,
+      "grade": "D",
+      "buy_threshold": 196720
+    },
+    "rtx-5070ti-msi-ventus-3x": {
+      "source": "yahoo",
+      "jan": "4711377301589",
+      "name": "【新品】【即納】MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC グラフィックスカード VD9043",
+      "price": 185000,
+      "store": "BNT",
+      "url": "https://store.shopping.yahoo.co.jp/bnt/msi-5070ti-ventus.html",
+      "in_stock": false,
+      "buyback_price": 150000,
+      "safe_profit": -38500,
+      "cash_profit": -35500,
+      "grade": "D",
+      "buy_threshold": 136500
     }
   }
 }

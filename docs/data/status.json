@@ -1,12 +1,23 @@
 {
-  "checked_at": "2026-08-30T21:17:00+09:00",
+  "checked_at": "2026-08-30T21:18:03+09:00",
   "products_checked": 18,
   "records_changed": true,
-  "alerts": 0,
-  "email_sent": false,
-  "errors": [],
-  "notes": [],
-  "market_checked_at": "2026-08-30T21:17:00+09:00",
+  "alerts": 1,
+  "email_sent": true,
+  "errors": [
+    {
+      "product_id": "rtx-5070-gigabyte-aorus",
+      "retail": true,
+      "error": "JAN 4988755076357 の出品が見つかりませんでした。"
+    }
+  ],
+  "notes": [
+    {
+      "source": "mobasute",
+      "note": "この実行環境からのアクセスが拒否されました（HTTP 403）。"
+    }
+  ],
+  "market_checked_at": "2026-08-30T21:18:03+09:00",
   "products": [
     {
       "id": "iphone-17-256",
