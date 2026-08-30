@@ -78,6 +78,7 @@
   .grade.s, .grade.a, .grade.b { background: var(--up); }
   .deal-flow { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; font-size: 13px; color: var(--muted); }
   .deal-flow b { color: var(--ink); font-variant-numeric: tabular-nums; font-weight: 600; }
+  .deal-need { margin: 8px 0 0; font-size: 13px; color: var(--ink); }
   .deal-note { margin: 8px 0 0; font-size: 12px; color: var(--muted); }
 
   .market { margin-top: 16px; border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; background: var(--soft); }
@@ -143,6 +144,7 @@
       <span id="dealProfit"></span>
     </p>
     <div class="deal-flow" id="dealFlow"></div>
+    <p class="deal-need" id="dealNeed" hidden></p>
     <p class="deal-note" id="dealNote"></p>
   </section>
 
@@ -304,6 +306,14 @@ function showDeal(productId) {
     `<span>仕入 <b>${yen(deal.price)}</b></span>` +
     `<span>→ 買取 <b>${yen(deal.buyback_price)}</b></span>` +
     `<span>上限 <b>${yen(deal.buy_threshold)}</b></span>`;
+
+  // いま確保して値上がりを待つ場合の距離。少ないほど成立しやすい。
+  const need = el('dealNeed');
+  need.hidden = !deal.required_rise;
+  if (deal.required_rise) {
+    const pct = (deal.required_rise / deal.buyback_price * 100).toFixed(1);
+    need.textContent = `いま確保する場合、買取があと ${yen(deal.required_rise)}（${pct}%）上がれば利益1万円`;
+  }
 
   // 商品名を出す。同じJANに別物が混ざっていないか目視で確認できるようにするため。
   const where = deal.store ? `${deal.store}${deal.in_stock ? '' : '（在庫なし）'}` : '';

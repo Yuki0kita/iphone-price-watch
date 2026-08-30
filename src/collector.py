@@ -510,6 +510,7 @@ def main() -> int:
                     "cash_profit": profit.cash_profit,
                     "grade": profit.grade,
                     "buy_threshold": profit.buy_threshold,
+                    "required_rise": profit.required_rise,
                 }
                 print(
                     f"     仕入 ¥{retail['price']:,}（{retail['store']}）"

@@ -54,5 +54,42 @@ class CalculateTest(unittest.TestCase):
         self.assertEqual(p.safe_profit, 7000)
 
 
+class RequiredRiseTest(unittest.TestCase):
+    """いま確保して値上がりを待つ場合、買取があといくら上がれば最低利益が出るか。"""
+
+    def test_distance_to_minimum_profit(self):
+        p = calculate(
+            buyback_price=652000, retail_price=665999, extra_cost=500,
+            risk_buffer=3000, minimum_profit=10000,
+        )
+        self.assertEqual(p.safe_profit, -17499)
+        self.assertEqual(p.required_rise, 27499)
+
+    def test_zero_once_the_minimum_is_met(self):
+        p = calculate(
+            buyback_price=100000, retail_price=80000, extra_cost=0,
+            risk_buffer=3000, minimum_profit=10000,
+        )
+        self.assertEqual(p.safe_profit, 17000)
+        self.assertEqual(p.required_rise, 0)
+
+    def test_zero_exactly_at_the_minimum(self):
+        p = calculate(
+            buyback_price=100000, retail_price=87000, extra_cost=0,
+            risk_buffer=3000, minimum_profit=10000,
+        )
+        self.assertEqual(p.safe_profit, 10000)
+        self.assertEqual(p.required_rise, 0)
+
+    def test_rise_covers_the_gap_exactly(self):
+        """必要額ぶん買取が上がれば、ちょうど最低利益に届く。"""
+        base = calculate(buyback_price=652000, retail_price=665999, extra_cost=500, risk_buffer=3000)
+        risen = calculate(
+            buyback_price=652000 + base.required_rise, retail_price=665999,
+            extra_cost=500, risk_buffer=3000,
+        )
+        self.assertEqual(risen.safe_profit, 10000)
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -31,6 +31,7 @@ class Profit:
     safe_profit: int
     grade: str
     buy_threshold: int
+    required_rise: int
 
 
 def grade_for(safe_profit: int) -> str:
@@ -51,9 +52,12 @@ def calculate(
     """買取価格と仕入価格から利益と判定を出す。
 
     buy_threshold は「この金額以下で買えば最低利益が残る」上限。
+    required_rise は「いま仕入れて保有した場合、買取があといくら上がれば最低利益が出るか」。
+    値上げ前に確保して値上がり後に売る戦略では、こちらが判断材料になる。
     """
     cash_profit = buyback_price - retail_price - extra_cost
     safe_profit = cash_profit - risk_buffer
+    required_rise = max(minimum_profit - safe_profit, 0)
     return Profit(
         buyback_price=buyback_price,
         retail_price=retail_price,
@@ -63,4 +67,5 @@ def calculate(
         safe_profit=safe_profit,
         grade=grade_for(safe_profit),
         buy_threshold=buyback_price - extra_cost - risk_buffer - minimum_profit,
+        required_rise=required_rise,
     )
