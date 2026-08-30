@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-31T02:33:20+09:00",
+  "checked_at": "2026-08-31T06:11:39+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -139,17 +139,17 @@
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "ASUS ROG Xbox Ally X 1TB",
-      "price": 180020,
-      "store": "らいぶshop",
-      "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
+      "name": "ASUS ROG Xbox Ally X RC73XA-Z2E24G1T [ブラック][ラッピング可] R-LOGI",
+      "price": 180019,
+      "store": "測定の森Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984.html",
       "in_stock": true,
       "buyback_price": 153500,
-      "safe_profit": -30020,
-      "cash_profit": -27020,
+      "safe_profit": -30019,
+      "cash_profit": -27019,
       "grade": "D",
       "buy_threshold": 140000,
-      "required_rise": 40020
+      "required_rise": 40019
     },
     "mac-mini-m4-256": {
       "source": "yahoo",

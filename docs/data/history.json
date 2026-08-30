@@ -1360,5 +1360,16 @@
     "shop": "買取1丁目",
     "url": "https://www.1-chome.com/electricAppliance",
     "ok": true
+  },
+  {
+    "timestamp": "2026-08-31T06:11:39+09:00",
+    "product_id": "rog-xbox-ally-x-1tb",
+    "product_name": "ASUS ROG Xbox Ally X 1TB ブラック",
+    "price": 153500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 180019,
+    "retail_source": "yahoo"
   }
 ]
