@@ -1,28 +1,12 @@
 {
-  "checked_at": "2026-08-30T15:44:37+09:00",
-  "products_checked": 14,
-  "records_changed": false,
+  "checked_at": "2026-08-30T21:17:00+09:00",
+  "products_checked": 18,
+  "records_changed": true,
   "alerts": 0,
   "email_sent": false,
-  "errors": [
-    {
-      "product_id": "switch2-multilang",
-      "name": "Nintendo Switch 2 多言語版",
-      "error": "APIに接続できませんでした: [Errno 104] Connection reset by peer"
-    },
-    {
-      "product_id": "rog-xbox-ally-x-1tb",
-      "name": "ASUS ROG Xbox Ally X 1TB ブラック",
-      "error": "APIに接続できませんでした: [Errno 104] Connection reset by peer"
-    }
-  ],
-  "notes": [
-    {
-      "source": "mobasute",
-      "note": "この実行環境からのアクセスが拒否されました（HTTP 403）。"
-    }
-  ],
-  "market_checked_at": "2026-08-30T15:44:37+09:00",
+  "errors": [],
+  "notes": [],
+  "market_checked_at": "2026-08-30T21:17:00+09:00",
   "products": [
     {
       "id": "iphone-17-256",
@@ -118,6 +102,34 @@
     {
       "id": "mac-mini-m4-512",
       "name": "Mac mini M4 MU9E3J/A 16GB 512GB",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "source": "goods",
+      "target_price": null
+    },
+    {
+      "id": "rtx-5090-msi-ventus-3x",
+      "name": "MSI GeForce RTX 5090 32G VENTUS 3X OC",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "source": "goods",
+      "target_price": null
+    },
+    {
+      "id": "rtx-5080-asus-astral",
+      "name": "ASUS ROG ASTRAL RTX5080 O16G GAMING",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "source": "goods",
+      "target_price": null
+    },
+    {
+      "id": "rtx-5070ti-msi-ventus-3x",
+      "name": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "source": "goods",
+      "target_price": null
+    },
+    {
+      "id": "rtx-5070-gigabyte-aorus",
+      "name": "GIGABYTE AORUS GeForce RTX 5070 INFINITY 12G",
       "url": "https://www.1-chome.com/electricAppliance",
       "source": "goods",
       "target_price": null

@@ -172,6 +172,54 @@
       "url": "https://www.1-chome.com/electricAppliance",
       "target_price": null,
       "enabled": true
+    },
+    {
+      "id": "rtx-5090-msi-ventus-3x",
+      "name": "MSI GeForce RTX 5090 32G VENTUS 3X OC",
+      "source": "goods",
+      "cate_code": "Y6LI7WJxT6MLxnGl",
+      "keyword": "5090 32G VENTUS",
+      "jan": "4711377301633",
+      "condition": "新品",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "target_price": null,
+      "enabled": true
+    },
+    {
+      "id": "rtx-5080-asus-astral",
+      "name": "ASUS ROG ASTRAL RTX5080 O16G GAMING",
+      "source": "goods",
+      "cate_code": "GQyi7Ckmpxwux36i",
+      "keyword": "ASTRAL-RTX5080",
+      "jan": "0197105837911",
+      "condition": "新品",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "target_price": null,
+      "enabled": true
+    },
+    {
+      "id": "rtx-5070ti-msi-ventus-3x",
+      "name": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC",
+      "source": "goods",
+      "cate_code": "Y6LI7WJxT6MLxnGl",
+      "keyword": "5070 Ti 16G VENTUS",
+      "jan": "4711377301589",
+      "condition": "新品",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "target_price": null,
+      "enabled": true
+    },
+    {
+      "id": "rtx-5070-gigabyte-aorus",
+      "name": "GIGABYTE AORUS GeForce RTX 5070 INFINITY 12G",
+      "source": "goods",
+      "cate_code": "E8CWdYmiQmdoLcue",
+      "keyword": "AORUS GeForce RTX 5070",
+      "jan": "4988755076357",
+      "condition": "新品",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "target_price": null,
+      "enabled": true
     }
   ]
 }
