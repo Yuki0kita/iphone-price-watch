@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-30T21:18:03+09:00",
+  "checked_at": "2026-08-30T21:22:37+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -172,15 +172,15 @@
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
       "jan": "4711377301633",
-      "name": "【新品】【即納】Palit NE75090019R5-GB2020G GeForce RTX 5090 GameRock 32GB",
-      "price": 555000,
-      "store": "BNT",
-      "url": "https://store.shopping.yahoo.co.jp/bnt/ne75090019r5-gb2020g.html",
+      "name": "『新品』MSI(エムエスアイ) GeForce RTX 5090 32G VENTUS 3X OC [PCIExp 32GB]",
+      "price": 665999,
+      "store": "ノア商社Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/noahshoping/4711377301633.html",
       "in_stock": false,
       "buyback_price": 652000,
-      "safe_profit": 93500,
-      "cash_profit": 96500,
-      "grade": "S",
+      "safe_profit": -17499,
+      "cash_profit": -14499,
+      "grade": "D",
       "buy_threshold": 638500
     },
     "rtx-5080-asus-astral": {
