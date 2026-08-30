@@ -93,11 +93,19 @@ def get_product_history(history: list[dict], product_id: str) -> list[dict]:
     return [row for row in history if row.get("product_id") == product_id and row.get("ok", True)]
 
 
-def should_record(previous: dict | None, current_price: int, now_iso: str) -> bool:
-    """価格が動いた時と、1日1回の生存記録だけを残す（履歴の肥大化を防ぐ）。"""
+def should_record(
+    previous: dict | None, current_price: int, now_iso: str, retail_price: int | None = None
+) -> bool:
+    """価格が動いた時と、1日1回の生存記録だけを残す（履歴の肥大化を防ぐ）。
+
+    買取だけでなく仕入も見る。「値上がり前に買って値上がり後に売る」判断には
+    仕入価格の推移が要るため、こちらが動いた時も記録する。
+    """
     if previous is None:
         return True
     if int(previous["price"]) != current_price:
+        return True
+    if retail_price is not None and previous.get("retail_price") != retail_price:
         return True
     prev_date = str(previous["timestamp"])[:10]
     return prev_date != now_iso[:10]
@@ -511,18 +519,21 @@ def main() -> int:
             previous_rows = get_product_history(history, product["id"])
             previous = previous_rows[-1] if previous_rows else None
 
-            if should_record(previous, price, now_iso):
-                history.append(
-                    {
-                        "timestamp": now_iso,
-                        "product_id": product["id"],
-                        "product_name": product["name"],
-                        "price": price,
-                        "shop": shop,
-                        "url": product.get("url", ""),
-                        "ok": True,
-                    }
-                )
+            retail_price = int(retail["price"]) if retail else None
+            if should_record(previous, price, now_iso, retail_price):
+                row = {
+                    "timestamp": now_iso,
+                    "product_id": product["id"],
+                    "product_name": product["name"],
+                    "price": price,
+                    "shop": shop,
+                    "url": product.get("url", ""),
+                    "ok": True,
+                }
+                if retail_price is not None:
+                    row["retail_price"] = retail_price
+                    row["retail_source"] = retail.get("source", "")
+                history.append(row)
                 records_changed = True
 
             alert = evaluate_alert(

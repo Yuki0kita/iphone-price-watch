@@ -98,6 +98,12 @@
   .axis { fill: var(--muted); font-size: 10px; }
   .line { fill: none; stroke: var(--accent); stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
   .dot { fill: var(--accent); }
+  .line.retail { stroke: var(--down); stroke-width: 2; stroke-dasharray: 5 4; }
+  .dot.retail { fill: var(--down); }
+  .legend { display: flex; gap: 16px; font-size: 12px; color: var(--muted); margin-top: 8px; }
+  .legend i { display: inline-block; width: 14px; height: 3px; border-radius: 2px; margin-right: 6px; vertical-align: middle; }
+  .legend .buy { background: var(--accent); }
+  .legend .sell { background: var(--down); }
   .empty { color: var(--muted); font-size: 13px; padding: 28px 0; text-align: center; }
 
   h2 { font-size: 13px; color: var(--muted); font-weight: 600; margin: 32px 0 0; }
@@ -152,6 +158,7 @@
       <span>記録 <b id="points">—</b></span>
     </div>
     <svg id="chart" role="img" aria-label="30日間の価格推移グラフ"></svg>
+    <p class="legend" id="legend" hidden><span><i class="buy"></i>買取</span><span><i class="sell"></i>仕入</span></p>
     <p class="empty" id="chartEmpty" hidden>記録が2点以上たまるとグラフを表示します。</p>
   </section>
 
@@ -226,13 +233,14 @@ function drawChart(rows) {
   el('chartEmpty').hidden = !empty;
   // SVGElementには hidden プロパティがないため、属性で切り替える。
   svg.toggleAttribute('hidden', empty);
-  if (empty) return;
+  if (empty) { el('legend').hidden = true; return; }
 
   // 実寸で描く。viewBoxを引き伸ばすと線幅と点が横方向に潰れるため。
   const H = 220, PAD_R = 12, PAD_T = 12, PAD_B = 26;
   const W = Math.max(svg.clientWidth || svg.parentElement.clientWidth, 280);
   svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
-  const prices = data.map(d => d.price);
+  const retailData = data.filter(d => d.retail_price != null);
+  const prices = data.map(d => d.price).concat(retailData.map(d => d.retail_price));
   let min = Math.min(...prices), max = Math.max(...prices);
   if (min === max) { min -= 2000; max += 2000; }
   const headroom = (max - min) * 0.15;
@@ -260,6 +268,13 @@ function drawChart(rows) {
     add('line', { x1: PAD_L, x2: W - PAD_R, y1: gy, y2: gy, class: 'grid' });
     add('text', { x: PAD_L - 8, y: gy + 3, 'text-anchor': 'end', class: 'axis' }, axisLabel(v));
   }
+
+  // 仕入を先に描き、買取を上に重ねる（判断の主役は買取のため）。
+  if (retailData.length > 1) {
+    add('polyline', { points: retailData.map(d => `${x(d.timestamp)},${y(d.retail_price)}`).join(' '), class: 'line retail' });
+    for (const d of retailData) add('circle', { cx: x(d.timestamp), cy: y(d.retail_price), r: 2.2, class: 'dot retail' });
+  }
+  el('legend').hidden = retailData.length < 2;
 
   add('polyline', { points: data.map(d => `${x(d.timestamp)},${y(d.price)}`).join(' '), class: 'line' });
   for (const d of data) add('circle', { cx: x(d.timestamp), cy: y(d.price), r: 2.6, class: 'dot' });
