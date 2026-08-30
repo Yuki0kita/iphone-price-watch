@@ -1,17 +1,28 @@
 {
-  "checked_at": "2026-08-30T09:23:55+09:00",
+  "checked_at": "2026-08-30T15:44:37+09:00",
   "products_checked": 14,
   "records_changed": false,
   "alerts": 0,
   "email_sent": false,
-  "errors": [],
+  "errors": [
+    {
+      "product_id": "switch2-multilang",
+      "name": "Nintendo Switch 2 多言語版",
+      "error": "APIに接続できませんでした: [Errno 104] Connection reset by peer"
+    },
+    {
+      "product_id": "rog-xbox-ally-x-1tb",
+      "name": "ASUS ROG Xbox Ally X 1TB ブラック",
+      "error": "APIに接続できませんでした: [Errno 104] Connection reset by peer"
+    }
+  ],
   "notes": [
     {
       "source": "mobasute",
       "note": "この実行環境からのアクセスが拒否されました（HTTP 403）。"
     }
   ],
-  "market_checked_at": "2026-08-30T09:23:55+09:00",
+  "market_checked_at": "2026-08-30T15:44:37+09:00",
   "products": [
     {
       "id": "iphone-17-256",

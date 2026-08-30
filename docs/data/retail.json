@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-30T09:23:55+09:00",
+  "checked_at": "2026-08-30T15:44:37+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -57,20 +57,6 @@
       "grade": "D",
       "buy_threshold": 165200
     },
-    "switch2-multilang": {
-      "source": "yahoo",
-      "jan": "4902370552683",
-      "name": "ゲーム機  Nintendo Switch 2 (多言語版) BEE-S-KB6AA",
-      "price": 93577,
-      "store": "ア-チホ-ルセ-ル",
-      "url": "https://store.shopping.yahoo.co.jp/archholesale/1313151.html",
-      "in_stock": true,
-      "buyback_price": 81900,
-      "safe_profit": -15177,
-      "cash_profit": -12177,
-      "grade": "D",
-      "buy_threshold": 68400
-    },
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
       "jan": "4948872415934",
@@ -126,20 +112,6 @@
       "cash_profit": -1000,
       "grade": "D",
       "buy_threshold": 7000
-    },
-    "rog-xbox-ally-x-1tb": {
-      "source": "yahoo",
-      "jan": "0199291152984",
-      "name": "ASUS ROG Xbox Ally X RC73XA-Z2E24G1T [ブラック][ラッピング可] R-LOGI",
-      "price": 181831,
-      "store": "測定の森 2号店",
-      "url": "https://store.shopping.yahoo.co.jp/sokutei/199291152984.html",
-      "in_stock": true,
-      "buyback_price": 153500,
-      "safe_profit": -31831,
-      "cash_profit": -28831,
-      "grade": "D",
-      "buy_threshold": 140000
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
