@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -116,16 +117,29 @@ def parse_offers(payload: object, jan: str) -> list[RetailOffer]:
     return offers
 
 
-def pick_offer(offers: list[RetailOffer], min_price: int) -> RetailOffer | None:
+def matches_tokens(name: str, tokens: list[str]) -> bool:
+    """出品名に必要な語がすべて含まれるか。JANの付け間違いを弾くため。"""
+    haystack = re.sub(r"[\s　]", "", name).lower()
+    return all(re.sub(r"[\s　]", "", t).lower() in haystack for t in tokens)
+
+
+def pick_offer(
+    offers: list[RetailOffer], min_price: int, tokens: list[str] | None = None
+) -> RetailOffer | None:
     """仕入れ候補を1件選ぶ。
 
-    min_price を下回る出品は同じ商品ではないとみなして捨てる。
-    トレカのように、BOXとバラ売りに同じJANを付けている出品者がいるため。
-    実例: ポケモンカードのBOX（買取21,000円）のJANで「1パック 1,180円」が最安に出た。
+    出品者がJANを付け間違えていることがあるため、2段階で弾く。
+
+    1. min_price を下回る出品は同じ商品ではないとみなす。
+       実例: ポケモンカードのBOX（買取21,000円）のJANで「1パック 1,180円」が最安に出た。
+    2. tokens が指定されていれば、出品名にその語がすべて含まれるものだけを見る。
+       実例: MSI RTX 5090 のJANで、Palit の別モデルが返ってきた。
 
     在庫があるものを優先し、無ければ最安を返す（在庫なしでも相場の目安にはなる）。
     """
     usable = [o for o in offers if o.price >= min_price]
+    if tokens:
+        usable = [o for o in usable if matches_tokens(o.name, tokens)]
     if not usable:
         return None
     for offer in usable:

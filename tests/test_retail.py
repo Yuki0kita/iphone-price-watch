@@ -1,6 +1,6 @@
 import unittest
 
-from src.retail import RetailError, parse_offers, pick_offer
+from src.retail import RetailError, matches_tokens, parse_offers, pick_offer
 
 JAN = "4521329431529"
 
@@ -65,6 +65,43 @@ class PickOfferTest(unittest.TestCase):
         """まっとうな価格差は除外しない（買取177,200に対し定価137,980は78%）。"""
         offers = parse_offers(payload(hit(137980)), JAN)
         self.assertIsNotNone(pick_offer(offers, min_price=int(177200 * 0.5)))
+
+
+class MatchTokensTest(unittest.TestCase):
+    def test_requires_every_token(self):
+        name = "【新品】MSI GeForce RTX 5090 32G VENTUS 3X OC"
+        self.assertTrue(matches_tokens(name, ["MSI", "5090", "VENTUS"]))
+        self.assertFalse(matches_tokens(name, ["MSI", "5090", "GAMING TRIO"]))
+
+    def test_ignores_case_and_spacing(self):
+        self.assertTrue(matches_tokens("ＭＳＩ  rtx5090 ventus", ["ventus"]))
+        self.assertTrue(matches_tokens("MSI RTX 5090 VENTUS", ["rtx5090"]))
+
+
+class PickOfferTokenTest(unittest.TestCase):
+    def test_rejects_wrong_maker_on_same_jan(self):
+        """出品者がJANを付け間違えると、別メーカーの商品が返ってくる。
+
+        実例: MSI RTX 5090（買取652,000）のJANで Palit GameRock が最安に出て、
+        判定Sの偽陽性になった。
+        """
+        offers = parse_offers(
+            payload(
+                hit(555000, "Palit RTX 5090 GameRock 32GB"),
+                hit(620000, "MSI GeForce RTX 5090 32G VENTUS 3X OC"),
+            ),
+            JAN,
+        )
+        picked = pick_offer(offers, min_price=300000, tokens=["MSI", "5090", "VENTUS"])
+        self.assertEqual(picked.price, 620000)
+
+    def test_returns_none_when_nothing_matches(self):
+        offers = parse_offers(payload(hit(555000, "Palit RTX 5090 GameRock")), JAN)
+        self.assertIsNone(pick_offer(offers, min_price=300000, tokens=["MSI", "VENTUS"]))
+
+    def test_without_tokens_behaviour_is_unchanged(self):
+        offers = parse_offers(payload(hit(555000, "Palit RTX 5090 GameRock")), JAN)
+        self.assertEqual(pick_offer(offers, min_price=300000).price, 555000)
 
 
 if __name__ == "__main__":

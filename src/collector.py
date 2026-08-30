@@ -354,7 +354,9 @@ def collect_retail(product: dict, app_id: str, buyback_price: int, cfg: dict, ti
 
     # 買取価格に対して安すぎる出品は別商品（バラ売り・付属品など）とみなして除外する。
     min_price = int(buyback_price * float(cfg["min_retail_ratio"]))
-    offer = pick_offer(fetch_offers(jan, app_id, timeout=timeout), min_price)
+    offer = pick_offer(
+        fetch_offers(jan, app_id, timeout=timeout), min_price, product.get("retail_match")
+    )
     if offer is None:
         return None
     return {

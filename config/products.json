@@ -183,7 +183,12 @@
       "condition": "新品",
       "url": "https://www.1-chome.com/electricAppliance",
       "target_price": null,
-      "enabled": true
+      "enabled": true,
+      "retail_match": [
+        "MSI",
+        "5090",
+        "VENTUS"
+      ]
     },
     {
       "id": "rtx-5080-asus-astral",
@@ -195,7 +200,12 @@
       "condition": "新品",
       "url": "https://www.1-chome.com/electricAppliance",
       "target_price": null,
-      "enabled": true
+      "enabled": true,
+      "retail_match": [
+        "ASUS",
+        "5080",
+        "ASTRAL"
+      ]
     },
     {
       "id": "rtx-5070ti-msi-ventus-3x",
@@ -207,7 +217,12 @@
       "condition": "新品",
       "url": "https://www.1-chome.com/electricAppliance",
       "target_price": null,
-      "enabled": true
+      "enabled": true,
+      "retail_match": [
+        "MSI",
+        "5070",
+        "VENTUS"
+      ]
     },
     {
       "id": "rtx-5070-gigabyte-aorus",
@@ -219,7 +234,11 @@
       "condition": "新品",
       "url": "https://www.1-chome.com/electricAppliance",
       "target_price": null,
-      "enabled": true
+      "enabled": true,
+      "retail_match": [
+        "AORUS",
+        "5070"
+      ]
     }
   ]
 }
