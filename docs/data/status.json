@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-08-31T14:43:02+09:00",
+  "checked_at": "2026-08-31T22:59:14+09:00",
   "products_checked": 18,
   "records_changed": true,
-  "alerts": 1,
-  "email_sent": true,
+  "alerts": 0,
+  "email_sent": false,
   "errors": [
     {
       "product_id": "rtx-5070-gigabyte-aorus",
@@ -17,7 +17,7 @@
       "note": "この実行環境からのアクセスが拒否されました（HTTP 403）。"
     }
   ],
-  "market_checked_at": "2026-08-31T14:43:02+09:00",
+  "market_checked_at": "2026-08-31T22:59:14+09:00",
   "products": [
     {
       "id": "iphone-17-256",
