@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-31T08:33:38+09:00",
+  "checked_at": "2026-08-31T14:43:02+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -39,27 +39,27 @@
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
       "in_stock": true,
       "source": "apple",
-      "buyback_price": 183000,
-      "safe_profit": -15300,
-      "cash_profit": -12300,
+      "buyback_price": 182000,
+      "safe_profit": -16300,
+      "cash_profit": -13300,
       "grade": "D",
-      "buy_threshold": 169500,
-      "required_rise": 25300
+      "buy_threshold": 168500,
+      "required_rise": 26300
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
       "jan": "4948872416320",
       "name": "★新品 未使用 PS5 2024年 プレイステーション5 本体 PlayStation 5 Pro CFI-7000B01 2TB SONY 本体",
-      "price": 197800,
+      "price": 199800,
       "store": "ジェーシカモバイル2号店",
       "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4948872416320.html",
       "in_stock": true,
       "buyback_price": 178700,
-      "safe_profit": -22600,
-      "cash_profit": -19600,
+      "safe_profit": -24600,
+      "cash_profit": -21600,
       "grade": "D",
       "buy_threshold": 165200,
-      "required_rise": 32600
+      "required_rise": 34600
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -84,12 +84,12 @@
       "store": "ジェーシカモバイル2号店",
       "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4948872415935.html",
       "in_stock": true,
-      "buyback_price": 108700,
-      "safe_profit": -10600,
-      "cash_profit": -7600,
+      "buyback_price": 108800,
+      "safe_profit": -10500,
+      "cash_profit": -7500,
       "grade": "D",
-      "buy_threshold": 95200,
-      "required_rise": 20600
+      "buy_threshold": 95300,
+      "required_rise": 20500
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -129,42 +129,42 @@
       "store": "太郎坊 Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
-      "buyback_price": 20500,
-      "safe_profit": -4000,
-      "cash_profit": -1000,
+      "buyback_price": 18000,
+      "safe_profit": -6500,
+      "cash_profit": -3500,
       "grade": "D",
-      "buy_threshold": 7000,
-      "required_rise": 14000
+      "buy_threshold": 4500,
+      "required_rise": 16500
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "ASUS ROG Xbox Ally X 1TB",
-      "price": 179718,
+      "price": 179114,
       "store": "らいぶshop",
       "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
       "in_stock": true,
       "buyback_price": 153500,
-      "safe_profit": -29718,
-      "cash_profit": -26718,
+      "safe_profit": -29114,
+      "cash_profit": -26114,
       "grade": "D",
       "buy_threshold": 140000,
-      "required_rise": 39718
+      "required_rise": 39114
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
       "jan": "4549995437157",
-      "name": "【新品・保証開始済み】Apple Mac mini MU9D3J/A [シルバー][ラッピング可] K-LOGI",
-      "price": 89800,
-      "store": "測定の森Yahoo!ショッピング店",
-      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995437157-s.html",
-      "in_stock": false,
+      "name": "★アップル / APPLE Mac mini MU9D3J/A [シルバー]【Mac デスクトップ】【送料無料】",
+      "price": 141900,
+      "store": "ディーライズ2号",
+      "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000892904.html",
+      "in_stock": true,
       "buyback_price": 75000,
-      "safe_profit": -18300,
-      "cash_profit": -15300,
+      "safe_profit": -70400,
+      "cash_profit": -67400,
       "grade": "D",
       "buy_threshold": 61500,
-      "required_rise": 28300
+      "required_rise": 80400
     },
     "mac-mini-m4-512": {
       "source": "yahoo",

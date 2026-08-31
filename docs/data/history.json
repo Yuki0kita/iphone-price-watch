@@ -1382,5 +1382,71 @@
     "ok": true,
     "retail_price": 179718,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-08-31T14:43:02+09:00",
+    "product_id": "iphone-17-pro-256",
+    "product_name": "iPhone 17 Pro 256GB",
+    "price": 182000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1374/1936",
+    "ok": true,
+    "retail_price": 194800,
+    "retail_source": "apple"
+  },
+  {
+    "timestamp": "2026-08-31T14:43:02+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 178700,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 199800,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-08-31T14:43:02+09:00",
+    "product_id": "ps5-slim-cfi-2000a01",
+    "product_name": "PlayStation 5 Slim Disc CFI-2000A01",
+    "price": 108800,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 115800,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-08-31T14:43:02+09:00",
+    "product_id": "pokemon-inferno-x",
+    "product_name": "ポケモンカード MEGA インフェルノX BOX",
+    "price": 18000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 21000,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-08-31T14:43:02+09:00",
+    "product_id": "rog-xbox-ally-x-1tb",
+    "product_name": "ASUS ROG Xbox Ally X 1TB ブラック",
+    "price": 153500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 179114,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-08-31T14:43:02+09:00",
+    "product_id": "mac-mini-m4-256",
+    "product_name": "Mac mini M4 MU9D3J/A 16GB 256GB",
+    "price": 75000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 141900,
+    "retail_source": "yahoo"
   }
 ]
