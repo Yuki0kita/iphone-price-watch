@@ -1743,5 +1743,47 @@
     "ok": true,
     "retail_price": 202299,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-01T22:08:06+09:00",
+    "product_id": "rtx-5090-msi-ventus-3x",
+    "product_name": "MSI GeForce RTX 5090 32G VENTUS 3X OC",
+    "price": 652000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 666000,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-01T22:08:06+09:00",
+    "product_id": "rtx-5080-gigabyte-aorus",
+    "product_name": "GIGABYTE AORUS RTX 5080 MASTER ICE 16G",
+    "price": 180220,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 326061,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-01T22:08:06+09:00",
+    "product_id": "rtx-5060ti-msi-ventus-3x",
+    "product_name": "MSI GeForce RTX 5060 Ti 16G VENTUS 3X OC",
+    "price": 71000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true
+  },
+  {
+    "timestamp": "2026-09-01T22:08:06+09:00",
+    "product_id": "rtx-5060ti-zotac-twin-edge",
+    "product_name": "ZOTAC GAMING RTX 5060 Ti 16GB Twin Edge OC",
+    "price": 76020,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 157800,
+    "retail_source": "yahoo"
   }
 ]
