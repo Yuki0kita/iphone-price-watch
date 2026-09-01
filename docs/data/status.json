@@ -1,23 +1,12 @@
 {
-  "checked_at": "2026-09-01T19:13:58+09:00",
-  "products_checked": 18,
+  "checked_at": "2026-09-01T22:04:46+09:00",
+  "products_checked": 21,
   "records_changed": true,
-  "alerts": 1,
-  "email_sent": true,
-  "errors": [
-    {
-      "product_id": "rtx-5070-gigabyte-aorus",
-      "retail": true,
-      "error": "JAN 4988755076357 の出品が見つかりませんでした。"
-    }
-  ],
-  "notes": [
-    {
-      "source": "mobasute",
-      "note": "この実行環境からのアクセスが拒否されました（HTTP 403）。"
-    }
-  ],
-  "market_checked_at": "2026-09-01T19:13:58+09:00",
+  "alerts": 3,
+  "email_sent": false,
+  "errors": [],
+  "notes": [],
+  "market_checked_at": "2026-09-01T22:04:46+09:00",
   "products": [
     {
       "id": "iphone-17-256",
@@ -141,6 +130,27 @@
     {
       "id": "rtx-5070-gigabyte-aorus",
       "name": "GIGABYTE AORUS GeForce RTX 5070 INFINITY 12G",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "source": "goods",
+      "target_price": null
+    },
+    {
+      "id": "rtx-5080-gigabyte-aorus",
+      "name": "GIGABYTE AORUS RTX 5080 MASTER ICE 16G",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "source": "goods",
+      "target_price": null
+    },
+    {
+      "id": "rtx-5060ti-msi-ventus-3x",
+      "name": "MSI GeForce RTX 5060 Ti 16G VENTUS 3X OC",
+      "url": "https://www.1-chome.com/electricAppliance",
+      "source": "goods",
+      "target_price": null
+    },
+    {
+      "id": "rtx-5060ti-zotac-twin-edge",
+      "name": "ZOTAC GAMING RTX 5060 Ti 16GB Twin Edge OC",
       "url": "https://www.1-chome.com/electricAppliance",
       "source": "goods",
       "target_price": null

@@ -239,6 +239,54 @@
         "AORUS",
         "5070"
       ]
+    },
+    {
+      "id": "rtx-5080-gigabyte-aorus",
+      "name": "GIGABYTE AORUS RTX 5080 MASTER ICE 16G",
+      "source": "goods",
+      "cate_code": "E8CWdYmiQmdoLcue",
+      "keyword": "N5080AORUSM",
+      "jan": "4988755071369",
+      "condition": "新品",
+      "retail_match": [
+        "5080",
+        "AORUS"
+      ],
+      "url": "https://www.1-chome.com/electricAppliance",
+      "target_price": null,
+      "enabled": true
+    },
+    {
+      "id": "rtx-5060ti-msi-ventus-3x",
+      "name": "MSI GeForce RTX 5060 Ti 16G VENTUS 3X OC",
+      "source": "goods",
+      "cate_code": "Y6LI7WJxT6MLxnGl",
+      "keyword": "5060 Ti 16G VENTUS 3X",
+      "jan": "4711377337618",
+      "condition": "新品",
+      "retail_match": [
+        "5060",
+        "VENTUS"
+      ],
+      "url": "https://www.1-chome.com/electricAppliance",
+      "target_price": null,
+      "enabled": true
+    },
+    {
+      "id": "rtx-5060ti-zotac-twin-edge",
+      "name": "ZOTAC GAMING RTX 5060 Ti 16GB Twin Edge OC",
+      "source": "goods",
+      "cate_code": "riDkns57SmQPjJi2",
+      "keyword": "5060 Ti 16GB Twin Edge",
+      "jan": "4537694368810",
+      "condition": "新品",
+      "retail_match": [
+        "5060",
+        "ZOTAC"
+      ],
+      "url": "https://www.1-chome.com/electricAppliance",
+      "target_price": null,
+      "enabled": true
     }
   ]
 }
