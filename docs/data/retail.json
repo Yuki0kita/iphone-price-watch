@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-01T14:16:15+09:00",
+  "checked_at": "2026-09-01T19:13:58+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -49,17 +49,17 @@
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
       "jan": "4948872416320",
-      "name": "★新品 未使用 PS5 2024年 プレイステーション5 本体 PlayStation 5 Pro CFI-7000B01 2TB SONY 本体",
-      "price": 202800,
-      "store": "ジェーシカモバイル2号店",
-      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4948872416320.html",
+      "name": "[訳あり・未使用] PlayStation 5 Pro CFI-7000B01 [2TB]   [国内正規品]",
+      "price": 202299,
+      "store": "Quality Shop",
+      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-7000b01-cc.html",
       "in_stock": true,
-      "buyback_price": 179500,
-      "safe_profit": -26800,
-      "cash_profit": -23800,
+      "buyback_price": 179700,
+      "safe_profit": -26099,
+      "cash_profit": -23099,
       "grade": "D",
-      "buy_threshold": 166000,
-      "required_rise": 36800
+      "buy_threshold": 166200,
+      "required_rise": 36099
     },
     "switch2-multilang": {
       "source": "yahoo",
