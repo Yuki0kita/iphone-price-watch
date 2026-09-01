@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-01T22:08:06+09:00",
+  "checked_at": "2026-09-01T23:57:33+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -154,17 +154,17 @@
     "mac-mini-m4-256": {
       "source": "yahoo",
       "jan": "4549995437157",
-      "name": "★アップル / APPLE Mac mini MU9D3J/A [シルバー]【Mac デスクトップ】【送料無料】",
-      "price": 143620,
-      "store": "ディーライズ2号",
-      "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000892904.html",
-      "in_stock": true,
+      "name": "【新品・保証開始済み】Apple Mac mini MU9D3J/A [シルバー][ラッピング可] K-LOGI",
+      "price": 89800,
+      "store": "測定の森Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995437157-s.html",
+      "in_stock": false,
       "buyback_price": 75000,
-      "safe_profit": -72120,
-      "cash_profit": -69120,
+      "safe_profit": -18300,
+      "cash_profit": -15300,
       "grade": "D",
       "buy_threshold": 61500,
-      "required_rise": 82120
+      "required_rise": 28300
     },
     "mac-mini-m4-512": {
       "source": "yahoo",

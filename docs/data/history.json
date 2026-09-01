@@ -1785,5 +1785,16 @@
     "ok": true,
     "retail_price": 157800,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-01T23:57:33+09:00",
+    "product_id": "mac-mini-m4-256",
+    "product_name": "Mac mini M4 MU9D3J/A 16GB 256GB",
+    "price": 75000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 89800,
+    "retail_source": "yahoo"
   }
 ]
