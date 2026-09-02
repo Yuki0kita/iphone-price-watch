@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-02T09:17:58+09:00",
+  "checked_at": "2026-09-02T14:52:51+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -24,12 +24,12 @@
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
       "in_stock": true,
       "source": "apple",
-      "buyback_price": 227500,
-      "safe_profit": -25800,
-      "cash_profit": -22800,
+      "buyback_price": 228000,
+      "safe_profit": -25300,
+      "cash_profit": -22300,
       "grade": "D",
-      "buy_threshold": 214000,
-      "required_rise": 35800
+      "buy_threshold": 214500,
+      "required_rise": 35300
     },
     "iphone-17-pro-256": {
       "jan": "4549995648294",
@@ -84,12 +84,12 @@
       "store": "らいぶshop",
       "url": "https://store.shopping.yahoo.co.jp/light-hikari/4948872415934-y.html",
       "in_stock": true,
-      "buyback_price": 108900,
-      "safe_profit": -13480,
-      "cash_profit": -10480,
+      "buyback_price": 109200,
+      "safe_profit": -13180,
+      "cash_profit": -10180,
       "grade": "D",
-      "buy_threshold": 95400,
-      "required_rise": 23480
+      "buy_threshold": 95700,
+      "required_rise": 23180
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -114,12 +114,12 @@
       "store": "カウカウSTORE",
       "url": "https://store.shopping.yahoo.co.jp/free-world/cardpack-o-024-18.html",
       "in_stock": true,
-      "buyback_price": 14000,
-      "safe_profit": 700,
-      "cash_profit": 3700,
+      "buyback_price": 15500,
+      "safe_profit": 2200,
+      "cash_profit": 5200,
       "grade": "D",
-      "buy_threshold": 500,
-      "required_rise": 9300
+      "buy_threshold": 2000,
+      "required_rise": 7800
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -129,20 +129,20 @@
       "store": "太郎坊 Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
-      "buyback_price": 17500,
-      "safe_profit": -7000,
-      "cash_profit": -4000,
+      "buyback_price": 18000,
+      "safe_profit": -6500,
+      "cash_profit": -3500,
       "grade": "D",
-      "buy_threshold": 4000,
-      "required_rise": 17000
+      "buy_threshold": 4500,
+      "required_rise": 16500
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "「訳あり品-外装箱傷あり」新品 ASUS ROG Xbox Ally X 1TB",
+      "name": "ASUS ROG Xbox Ally X 1TB",
       "price": 181830,
       "store": "らいぶshop",
-      "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984-y.html",
+      "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
       "in_stock": true,
       "buyback_price": 153500,
       "safe_profit": -31830,
