@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-02T14:52:51+09:00",
+  "checked_at": "2026-09-02T20:25:05+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -125,16 +125,16 @@
       "source": "yahoo",
       "jan": "4521329431529",
       "name": "(シュリンクなし) ポケモンカードゲーム MEGA 拡張パック インフェルノX　1BOX",
-      "price": 21000,
+      "price": 20980,
       "store": "太郎坊 Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
       "buyback_price": 18000,
-      "safe_profit": -6500,
-      "cash_profit": -3500,
+      "safe_profit": -6480,
+      "cash_profit": -3480,
       "grade": "D",
       "buy_threshold": 4500,
-      "required_rise": 16500
+      "required_rise": 16480
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
@@ -184,17 +184,17 @@
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
       "jan": "4711377301633",
-      "name": "【新品】【即納】MSI GeForce RTX 5090 32G VENTUS 3X OC グラフィックスカード VD9001",
-      "price": 666000,
-      "store": "BNT",
-      "url": "https://store.shopping.yahoo.co.jp/bnt/5090-ventus.html",
-      "in_stock": false,
+      "name": "MSI GeForce RTX 5090 32G VENTUS 3X OC グラフィックボード",
+      "price": 955800,
+      "store": "XPRICE Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/aprice/4711377301633.html",
+      "in_stock": true,
       "buyback_price": 652000,
-      "safe_profit": -17500,
-      "cash_profit": -14500,
+      "safe_profit": -307300,
+      "cash_profit": -304300,
       "grade": "D",
       "buy_threshold": 638500,
-      "required_rise": 27500
+      "required_rise": 317300
     },
     "rtx-5080-asus-astral": {
       "source": "yahoo",
