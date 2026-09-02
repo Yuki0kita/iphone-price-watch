@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-02T20:25:05+09:00",
+  "checked_at": "2026-09-03T01:38:50+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -184,17 +184,17 @@
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
       "jan": "4711377301633",
-      "name": "MSI GeForce RTX 5090 32G VENTUS 3X OC グラフィックボード",
-      "price": 955800,
-      "store": "XPRICE Yahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/aprice/4711377301633.html",
-      "in_stock": true,
+      "name": "【新品】【即納】MSI GeForce RTX 5090 32G VENTUS 3X OC グラフィックスカード VD9001",
+      "price": 666000,
+      "store": "BNT",
+      "url": "https://store.shopping.yahoo.co.jp/bnt/5090-ventus.html",
+      "in_stock": false,
       "buyback_price": 652000,
-      "safe_profit": -307300,
-      "cash_profit": -304300,
+      "safe_profit": -17500,
+      "cash_profit": -14500,
       "grade": "D",
       "buy_threshold": 638500,
-      "required_rise": 317300
+      "required_rise": 27500
     },
     "rtx-5080-asus-astral": {
       "source": "yahoo",
