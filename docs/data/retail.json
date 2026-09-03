@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-03T07:41:01+09:00",
+  "checked_at": "2026-09-03T10:08:41+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -24,12 +24,12 @@
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
       "in_stock": true,
       "source": "apple",
-      "buyback_price": 228000,
-      "safe_profit": -25300,
-      "cash_profit": -22300,
+      "buyback_price": 227500,
+      "safe_profit": -25800,
+      "cash_profit": -22800,
       "grade": "D",
-      "buy_threshold": 214500,
-      "required_rise": 35300
+      "buy_threshold": 214000,
+      "required_rise": 35800
     },
     "iphone-17-pro-256": {
       "jan": "4549995648294",
@@ -249,12 +249,12 @@
       "store": "XPRICE Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/aprice/4537694368810.html",
       "in_stock": true,
-      "buyback_price": 76020,
-      "safe_profit": -85280,
-      "cash_profit": -82280,
+      "buyback_price": 76100,
+      "safe_profit": -85200,
+      "cash_profit": -82200,
       "grade": "D",
-      "buy_threshold": 62520,
-      "required_rise": 95280
+      "buy_threshold": 62600,
+      "required_rise": 95200
     }
   }
 }
