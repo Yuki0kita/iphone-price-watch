@@ -2316,5 +2316,60 @@
     "ok": true,
     "retail_price": 157800,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-03T14:52:31+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 180200,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 202299,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-03T14:52:31+09:00",
+    "product_id": "ps5-slim-cfi-2000a01",
+    "product_name": "PlayStation 5 Slim Disc CFI-2000A01",
+    "price": 109700,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 118880,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-03T14:52:31+09:00",
+    "product_id": "onepiece-op17",
+    "product_name": "ONE PIECE OP-17 世界最強の戦士 BOX",
+    "price": 16000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 9800,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-03T14:52:31+09:00",
+    "product_id": "rog-xbox-ally-x-1tb",
+    "product_name": "ASUS ROG Xbox Ally X 1TB ブラック",
+    "price": 154000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 181830,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-03T14:52:31+09:00",
+    "product_id": "rtx-5090-msi-ventus-3x",
+    "product_name": "MSI GeForce RTX 5090 32G VENTUS 3X OC",
+    "price": 652000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 955800,
+    "retail_source": "yahoo"
   }
 ]

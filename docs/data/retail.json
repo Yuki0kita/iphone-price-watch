@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-03T10:08:41+09:00",
+  "checked_at": "2026-09-03T14:52:31+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -54,12 +54,12 @@
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-7000b01-cc.html",
       "in_stock": true,
-      "buyback_price": 179700,
-      "safe_profit": -26099,
-      "cash_profit": -23099,
+      "buyback_price": 180200,
+      "safe_profit": -25599,
+      "cash_profit": -22599,
       "grade": "D",
-      "buy_threshold": 166200,
-      "required_rise": 36099
+      "buy_threshold": 166700,
+      "required_rise": 35599
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -84,12 +84,12 @@
       "store": "らいぶshop",
       "url": "https://store.shopping.yahoo.co.jp/light-hikari/4948872415934-y.html",
       "in_stock": true,
-      "buyback_price": 109200,
-      "safe_profit": -13180,
-      "cash_profit": -10180,
+      "buyback_price": 109700,
+      "safe_profit": -12680,
+      "cash_profit": -9680,
       "grade": "D",
-      "buy_threshold": 95700,
-      "required_rise": 23180
+      "buy_threshold": 96200,
+      "required_rise": 22680
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -114,12 +114,12 @@
       "store": "カウカウSTORE",
       "url": "https://store.shopping.yahoo.co.jp/free-world/cardpack-o-024-18.html",
       "in_stock": true,
-      "buyback_price": 15500,
-      "safe_profit": 2200,
-      "cash_profit": 5200,
+      "buyback_price": 16000,
+      "safe_profit": 2700,
+      "cash_profit": 5700,
       "grade": "D",
-      "buy_threshold": 2000,
-      "required_rise": 7800
+      "buy_threshold": 2500,
+      "required_rise": 7300
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -144,12 +144,12 @@
       "store": "らいぶshop",
       "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
       "in_stock": true,
-      "buyback_price": 153500,
-      "safe_profit": -31830,
-      "cash_profit": -28830,
+      "buyback_price": 154000,
+      "safe_profit": -31330,
+      "cash_profit": -28330,
       "grade": "D",
-      "buy_threshold": 140000,
-      "required_rise": 41830
+      "buy_threshold": 140500,
+      "required_rise": 41330
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
@@ -184,17 +184,17 @@
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
       "jan": "4711377301633",
-      "name": "【新品】【即納】MSI GeForce RTX 5090 32G VENTUS 3X OC グラフィックスカード VD9001",
-      "price": 666000,
-      "store": "BNT",
-      "url": "https://store.shopping.yahoo.co.jp/bnt/5090-ventus.html",
-      "in_stock": false,
+      "name": "MSI GeForce RTX 5090 32G VENTUS 3X OC グラフィックボード",
+      "price": 955800,
+      "store": "XPRICE Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/aprice/4711377301633.html",
+      "in_stock": true,
       "buyback_price": 652000,
-      "safe_profit": -17500,
-      "cash_profit": -14500,
+      "safe_profit": -307300,
+      "cash_profit": -304300,
       "grade": "D",
       "buy_threshold": 638500,
-      "required_rise": 27500
+      "required_rise": 317300
     },
     "rtx-5080-asus-astral": {
       "source": "yahoo",
