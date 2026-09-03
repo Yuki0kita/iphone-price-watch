@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-03T14:52:31+09:00",
+  "checked_at": "2026-09-03T20:21:14+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -124,32 +124,32 @@
     "pokemon-inferno-x": {
       "source": "yahoo",
       "jan": "4521329431529",
-      "name": "(シュリンクなし) ポケモンカードゲーム MEGA 拡張パック インフェルノX　1BOX",
-      "price": 20980,
-      "store": "太郎坊 Yahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
+      "name": "ポケモンカードゲーム インフェルノX BOX MEGA 拡張パック  シュリンク付き 新品 未開封 ボックス ポケカ",
+      "price": 21480,
+      "store": "Brass Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/brass-esp/plr-4521329431529-003690.html",
       "in_stock": true,
       "buyback_price": 18000,
-      "safe_profit": -6480,
-      "cash_profit": -3480,
+      "safe_profit": -6980,
+      "cash_profit": -3980,
       "grade": "D",
       "buy_threshold": 4500,
-      "required_rise": 16480
+      "required_rise": 16980
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "ASUS ROG Xbox Ally X 1TB",
-      "price": 181830,
-      "store": "らいぶshop",
-      "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
+      "name": "★☆エイスース / ASUS ROG Xbox Ally X RC73XA-Z2E24G1T [ブラック]【ノートパソコン】【送料無料】",
+      "price": 180320,
+      "store": "ディーライズ2号",
+      "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000923774.html",
       "in_stock": true,
-      "buyback_price": 154000,
-      "safe_profit": -31330,
-      "cash_profit": -28330,
+      "buyback_price": 152000,
+      "safe_profit": -31820,
+      "cash_profit": -28820,
       "grade": "D",
-      "buy_threshold": 140500,
-      "required_rise": 41330
+      "buy_threshold": 138500,
+      "required_rise": 41820
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
@@ -184,17 +184,17 @@
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
       "jan": "4711377301633",
-      "name": "MSI GeForce RTX 5090 32G VENTUS 3X OC グラフィックボード",
-      "price": 955800,
-      "store": "XPRICE Yahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/aprice/4711377301633.html",
-      "in_stock": true,
+      "name": "【新品】【即納】MSI GeForce RTX 5090 32G VENTUS 3X OC グラフィックスカード VD9001",
+      "price": 666000,
+      "store": "BNT",
+      "url": "https://store.shopping.yahoo.co.jp/bnt/5090-ventus.html",
+      "in_stock": false,
       "buyback_price": 652000,
-      "safe_profit": -307300,
-      "cash_profit": -304300,
+      "safe_profit": -17500,
+      "cash_profit": -14500,
       "grade": "D",
       "buy_threshold": 638500,
-      "required_rise": 317300
+      "required_rise": 27500
     },
     "rtx-5080-asus-astral": {
       "source": "yahoo",
@@ -214,17 +214,17 @@
     "rtx-5070ti-msi-ventus-3x": {
       "source": "yahoo",
       "jan": "4711377301589",
-      "name": "【新品】【即納】MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC グラフィックスカード VD9043",
-      "price": 185000,
+      "name": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC G507T-16V3C 16GB GDDR7",
+      "price": 231000,
       "store": "BNT",
-      "url": "https://store.shopping.yahoo.co.jp/bnt/msi-5070ti-ventus.html",
-      "in_stock": false,
+      "url": "https://store.shopping.yahoo.co.jp/bnt/g507t-16v3c.html",
+      "in_stock": true,
       "buyback_price": 150000,
-      "safe_profit": -38500,
-      "cash_profit": -35500,
+      "safe_profit": -84500,
+      "cash_profit": -81500,
       "grade": "D",
       "buy_threshold": 136500,
-      "required_rise": 48500
+      "required_rise": 94500
     },
     "rtx-5080-gigabyte-aorus": {
       "source": "yahoo",
@@ -244,17 +244,17 @@
     "rtx-5060ti-zotac-twin-edge": {
       "source": "yahoo",
       "jan": "4537694368810",
-      "name": "ZOTAC RTX5060Ti16GBTWOC/ZT-B50620H-10M ブラック グラフィックボード",
-      "price": 157800,
-      "store": "XPRICE Yahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/aprice/4537694368810.html",
+      "name": "ZOTAC GAMING GeForce RTX 5060 Ti 16GB Twin Edge OC ZT-B50620H-10M 16GB GDDR7",
+      "price": 132000,
+      "store": "BNT",
+      "url": "https://store.shopping.yahoo.co.jp/bnt/zt-b50620h-10m.html",
       "in_stock": true,
       "buyback_price": 76100,
-      "safe_profit": -85200,
-      "cash_profit": -82200,
+      "safe_profit": -59400,
+      "cash_profit": -56400,
       "grade": "D",
       "buy_threshold": 62600,
-      "required_rise": 95200
+      "required_rise": 69400
     }
   }
 }
