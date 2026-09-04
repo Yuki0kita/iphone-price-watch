@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-04T14:58:06+09:00",
+  "checked_at": "2026-09-04T20:24:29+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -79,17 +79,17 @@
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
       "jan": "4948872415934",
-      "name": "「訳あり品-外装箱傷あり」新品 プレイステーション5 Slimモデル CFI-2000A01　※量販店舗印付の場合があります、商品情報ご覧ください。",
-      "price": 118880,
-      "store": "らいぶshop",
-      "url": "https://store.shopping.yahoo.co.jp/light-hikari/4948872415934-y.html",
+      "name": "【ラッピング可】【即日発送】【新品 箱不良・シュリンク破れ品】SIE PlayStation5 ディスクドライブ Slimモデル CFI-2000A01 1TB",
+      "price": 123000,
+      "store": "電子問屋",
+      "url": "https://store.shopping.yahoo.co.jp/densidonya/4948872415934-a.html",
       "in_stock": true,
       "buyback_price": 109700,
-      "safe_profit": -12680,
-      "cash_profit": -9680,
+      "safe_profit": -16800,
+      "cash_profit": -13800,
       "grade": "D",
       "buy_threshold": 96200,
-      "required_rise": 22680
+      "required_rise": 26800
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -109,32 +109,32 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "2026年8月22日発売 予約 18パック ばら売り レビュー特典あり ONE PIECEカードゲーム 世界最強の戦士  OP-17 BOX 24パック入り　ワンピース バンダイ BANDAI",
-      "price": 9800,
-      "store": "カウカウSTORE",
-      "url": "https://store.shopping.yahoo.co.jp/free-world/cardpack-o-024-18.html",
+      "name": "(箱傷みあり)(プロモカード2パック付) ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】　1BOX",
+      "price": 17600,
+      "store": "太郎坊 Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/taroubou/4582770058406-wakeari.html",
       "in_stock": true,
       "buyback_price": 16000,
-      "safe_profit": 2700,
-      "cash_profit": 5700,
+      "safe_profit": -5100,
+      "cash_profit": -2100,
       "grade": "D",
       "buy_threshold": 2500,
-      "required_rise": 7300
+      "required_rise": 15100
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
       "jan": "4521329431529",
       "name": "ポケモンカードゲーム インフェルノX BOX MEGA 拡張パック  シュリンク付き 新品 未開封 ボックス ポケカ",
-      "price": 21480,
+      "price": 21380,
       "store": "Brass Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/brass-esp/plr-4521329431529-003690.html",
       "in_stock": true,
       "buyback_price": 18000,
-      "safe_profit": -6980,
-      "cash_profit": -3980,
+      "safe_profit": -6880,
+      "cash_profit": -3880,
       "grade": "D",
       "buy_threshold": 4500,
-      "required_rise": 16980
+      "required_rise": 16880
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
