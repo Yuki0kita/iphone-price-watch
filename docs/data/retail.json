@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-05T14:49:06+09:00",
+  "checked_at": "2026-09-05T19:40:58+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -50,16 +50,16 @@
       "source": "yahoo",
       "jan": "4948872416320",
       "name": "[訳あり・未使用] PlayStation 5 Pro CFI-7000B01 [2TB]   [国内正規品]",
-      "price": 202299,
+      "price": 205299,
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-7000b01-cc.html",
       "in_stock": true,
       "buyback_price": 180300,
-      "safe_profit": -25499,
-      "cash_profit": -22499,
+      "safe_profit": -28499,
+      "cash_profit": -25499,
       "grade": "D",
       "buy_threshold": 166800,
-      "required_rise": 35499
+      "required_rise": 38499
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -109,17 +109,17 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "(特典２パック付)(送料無料) バンダイ(BANDAI) ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】(BOX) 1BOX：24パック入",
-      "price": 16874,
-      "store": "老舗OKトイハウス",
-      "url": "https://store.shopping.yahoo.co.jp/ok-ryutsu/4582770058406.html",
+      "name": "★ワケあり特価品★ ONE PIECEカードゲーム 世界最強の戦士【OP-17】新品・未開封・テープ付 (BOX)",
+      "price": 16980,
+      "store": "てんてんヤフーショップ",
+      "url": "https://store.shopping.yahoo.co.jp/ho2171/ya20260905-1.html",
       "in_stock": true,
       "buyback_price": 16000,
-      "safe_profit": -4374,
-      "cash_profit": -1374,
+      "safe_profit": -4480,
+      "cash_profit": -1480,
       "grade": "D",
       "buy_threshold": 2500,
-      "required_rise": 14374
+      "required_rise": 14480
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
