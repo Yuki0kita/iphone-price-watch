@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-05T10:01:57+09:00",
+  "checked_at": "2026-09-05T14:49:06+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -54,12 +54,12 @@
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-7000b01-cc.html",
       "in_stock": true,
-      "buyback_price": 180200,
-      "safe_profit": -25599,
-      "cash_profit": -22599,
+      "buyback_price": 180300,
+      "safe_profit": -25499,
+      "cash_profit": -22499,
       "grade": "D",
-      "buy_threshold": 166700,
-      "required_rise": 35599
+      "buy_threshold": 166800,
+      "required_rise": 35499
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -109,17 +109,17 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "(箱傷みあり)(プロモカード2パック付) ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】　1BOX",
-      "price": 17600,
-      "store": "太郎坊 Yahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/taroubou/4582770058406-wakeari.html",
+      "name": "(特典２パック付)(送料無料) バンダイ(BANDAI) ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】(BOX) 1BOX：24パック入",
+      "price": 16874,
+      "store": "老舗OKトイハウス",
+      "url": "https://store.shopping.yahoo.co.jp/ok-ryutsu/4582770058406.html",
       "in_stock": true,
       "buyback_price": 16000,
-      "safe_profit": -5100,
-      "cash_profit": -2100,
+      "safe_profit": -4374,
+      "cash_profit": -1374,
       "grade": "D",
       "buy_threshold": 2500,
-      "required_rise": 15100
+      "required_rise": 14374
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -129,12 +129,12 @@
       "store": "Brass Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/brass-esp/plr-4521329431529-003690.html",
       "in_stock": true,
-      "buyback_price": 18000,
-      "safe_profit": -6880,
-      "cash_profit": -3880,
+      "buyback_price": 16500,
+      "safe_profit": -8380,
+      "cash_profit": -5380,
       "grade": "D",
-      "buy_threshold": 4500,
-      "required_rise": 16880
+      "buy_threshold": 3000,
+      "required_rise": 18380
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
@@ -230,16 +230,16 @@
       "source": "yahoo",
       "jan": "4988755071369",
       "name": "AORUS GeForce RTX 5080 MASTER ICE 16G　GV-N5080AORUSM ICE-16GD",
-      "price": 326061,
+      "price": 322800,
       "store": "ツクモ パソコン Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/tsukumo-y/4988755071369.html",
       "in_stock": false,
       "buyback_price": 180220,
-      "safe_profit": -149341,
-      "cash_profit": -146341,
+      "safe_profit": -146080,
+      "cash_profit": -143080,
       "grade": "D",
       "buy_threshold": 166720,
-      "required_rise": 159341
+      "required_rise": 156080
     },
     "rtx-5060ti-zotac-twin-edge": {
       "source": "yahoo",

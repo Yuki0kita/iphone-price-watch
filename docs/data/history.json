@@ -2979,5 +2979,49 @@
     "ok": true,
     "retail_price": 132000,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-05T14:49:06+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 180300,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 202299,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-05T14:49:06+09:00",
+    "product_id": "onepiece-op17",
+    "product_name": "ONE PIECE OP-17 世界最強の戦士 BOX",
+    "price": 16000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 16874,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-05T14:49:06+09:00",
+    "product_id": "pokemon-inferno-x",
+    "product_name": "ポケモンカード MEGA インフェルノX BOX",
+    "price": 16500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 21380,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-05T14:49:06+09:00",
+    "product_id": "rtx-5080-gigabyte-aorus",
+    "product_name": "GIGABYTE AORUS RTX 5080 MASTER ICE 16G",
+    "price": 180220,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 322800,
+    "retail_source": "yahoo"
   }
 ]
