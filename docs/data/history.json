@@ -3499,5 +3499,82 @@
     "ok": true,
     "retail_price": 326061,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-07T19:25:05+09:00",
+    "product_id": "iphone-17-256",
+    "product_name": "iPhone 17 256GB",
+    "price": 133000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1365/1909",
+    "ok": true,
+    "retail_price": 142800,
+    "retail_source": "apple"
+  },
+  {
+    "timestamp": "2026-09-07T19:25:05+09:00",
+    "product_id": "iphone-17-pro-max-512",
+    "product_name": "iPhone 17 Pro Max 512GB",
+    "price": 221000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1371/1927",
+    "ok": true,
+    "retail_price": 249800,
+    "retail_source": "apple"
+  },
+  {
+    "timestamp": "2026-09-07T19:25:05+09:00",
+    "product_id": "iphone-17-pro-256",
+    "product_name": "iPhone 17 Pro 256GB",
+    "price": 172500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1374/1936",
+    "ok": true,
+    "retail_price": 194800,
+    "retail_source": "apple"
+  },
+  {
+    "timestamp": "2026-09-07T19:25:05+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 181000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 203379,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-07T19:25:05+09:00",
+    "product_id": "onepiece-op17",
+    "product_name": "ONE PIECE OP-17 世界最強の戦士 BOX",
+    "price": 16300,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 16970,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-07T19:25:05+09:00",
+    "product_id": "pokemon-inferno-x",
+    "product_name": "ポケモンカード MEGA インフェルノX BOX",
+    "price": 16500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 20500,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-07T19:25:05+09:00",
+    "product_id": "rtx-5080-asus-astral",
+    "product_name": "ASUS ROG ASTRAL RTX5080 O16G GAMING",
+    "price": 210220,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 444764,
+    "retail_source": "yahoo"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-07T13:49:05+09:00",
+  "checked_at": "2026-09-07T19:25:05+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -50,16 +50,16 @@
       "source": "yahoo",
       "jan": "4948872416320",
       "name": "[訳あり・未使用] PlayStation 5 Pro CFI-7000B01 [2TB]   [国内正規品]",
-      "price": 205299,
+      "price": 203379,
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-7000b01-cc.html",
       "in_stock": true,
-      "buyback_price": 180500,
-      "safe_profit": -28299,
-      "cash_profit": -25299,
+      "buyback_price": 181000,
+      "safe_profit": -25879,
+      "cash_profit": -22879,
       "grade": "D",
-      "buy_threshold": 167000,
-      "required_rise": 38299
+      "buy_threshold": 167500,
+      "required_rise": 35879
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -109,32 +109,32 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "★ワケあり特価品★ ONE PIECEカードゲーム 世界最強の戦士【OP-17】新品・未開封・テープ付 (BOX)",
-      "price": 16980,
-      "store": "てんてんヤフーショップ",
-      "url": "https://store.shopping.yahoo.co.jp/ho2171/ya20260905-1.html",
+      "name": "(箱傷みあり)(プロモカード2パック付) ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】　1BOX",
+      "price": 16970,
+      "store": "太郎坊 Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/taroubou/4582770058406-wakeari.html",
       "in_stock": true,
       "buyback_price": 16300,
-      "safe_profit": -4180,
-      "cash_profit": -1180,
+      "safe_profit": -4170,
+      "cash_profit": -1170,
       "grade": "D",
       "buy_threshold": 2800,
-      "required_rise": 14180
+      "required_rise": 14170
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
       "jan": "4521329431529",
-      "name": "ポケモンカードゲーム インフェルノX BOX MEGA 拡張パック  シュリンク付き 新品 未開封 ボックス ポケカ",
-      "price": 21000,
-      "store": "Brass Yahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/brass-esp/plr-4521329431529-003690.html",
+      "name": "ポケモンカードゲーム MEGA 拡張パック インフェルノX BOX 【シュリンク付き未開封品】",
+      "price": 20500,
+      "store": "お宝あっと町田Yahoo!ショップ",
+      "url": "https://store.shopping.yahoo.co.jp/otakara-machida/0320250924101.html",
       "in_stock": true,
       "buyback_price": 16500,
-      "safe_profit": -8000,
-      "cash_profit": -5000,
+      "safe_profit": -7500,
+      "cash_profit": -4500,
       "grade": "D",
       "buy_threshold": 3000,
-      "required_rise": 18000
+      "required_rise": 17500
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
@@ -200,16 +200,16 @@
       "source": "yahoo",
       "jan": "0197105837911",
       "name": "ASUS エイスース ROG Astral GeForce RTX 5080 16GB GDDR7 OC Edition グラフィックボード ROG-ASTRAL-RTX5080-O16G-GAMING(2644181)",
-      "price": 416368,
+      "price": 444764,
       "store": "e-zoa",
       "url": "https://store.shopping.yahoo.co.jp/e-zoa/itm0015928944.html",
       "in_stock": true,
       "buyback_price": 210220,
-      "safe_profit": -209648,
-      "cash_profit": -206648,
+      "safe_profit": -238044,
+      "cash_profit": -235044,
       "grade": "D",
       "buy_threshold": 196720,
-      "required_rise": 219648
+      "required_rise": 248044
     },
     "rtx-5070ti-msi-ventus-3x": {
       "source": "yahoo",
