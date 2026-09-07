@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-07T08:58:46+09:00",
+  "checked_at": "2026-09-07T13:49:05+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -54,12 +54,12 @@
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-7000b01-cc.html",
       "in_stock": true,
-      "buyback_price": 180300,
-      "safe_profit": -28499,
-      "cash_profit": -25499,
+      "buyback_price": 180500,
+      "safe_profit": -28299,
+      "cash_profit": -25299,
       "grade": "D",
-      "buy_threshold": 166800,
-      "required_rise": 38499
+      "buy_threshold": 167000,
+      "required_rise": 38299
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -114,27 +114,27 @@
       "store": "てんてんヤフーショップ",
       "url": "https://store.shopping.yahoo.co.jp/ho2171/ya20260905-1.html",
       "in_stock": true,
-      "buyback_price": 16000,
-      "safe_profit": -4480,
-      "cash_profit": -1480,
+      "buyback_price": 16300,
+      "safe_profit": -4180,
+      "cash_profit": -1180,
       "grade": "D",
-      "buy_threshold": 2500,
-      "required_rise": 14480
+      "buy_threshold": 2800,
+      "required_rise": 14180
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
       "jan": "4521329431529",
       "name": "ポケモンカードゲーム インフェルノX BOX MEGA 拡張パック  シュリンク付き 新品 未開封 ボックス ポケカ",
-      "price": 21380,
+      "price": 21000,
       "store": "Brass Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/brass-esp/plr-4521329431529-003690.html",
       "in_stock": true,
       "buyback_price": 16500,
-      "safe_profit": -8380,
-      "cash_profit": -5380,
+      "safe_profit": -8000,
+      "cash_profit": -5000,
       "grade": "D",
       "buy_threshold": 3000,
-      "required_rise": 18380
+      "required_rise": 18000
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
@@ -230,16 +230,16 @@
       "source": "yahoo",
       "jan": "4988755071369",
       "name": "AORUS GeForce RTX 5080 MASTER ICE 16G　GV-N5080AORUSM ICE-16GD",
-      "price": 322800,
+      "price": 326061,
       "store": "ツクモ パソコン Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/tsukumo-y/4988755071369.html",
       "in_stock": false,
       "buyback_price": 180220,
-      "safe_profit": -146080,
-      "cash_profit": -143080,
+      "safe_profit": -149341,
+      "cash_profit": -146341,
       "grade": "D",
       "buy_threshold": 166720,
-      "required_rise": 156080
+      "required_rise": 159341
     },
     "rtx-5060ti-zotac-twin-edge": {
       "source": "yahoo",
