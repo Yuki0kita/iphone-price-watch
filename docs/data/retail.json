@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-08T08:32:42+09:00",
+  "checked_at": "2026-09-08T13:44:51+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -50,16 +50,16 @@
       "source": "yahoo",
       "jan": "4948872416320",
       "name": "[訳あり・未使用] PlayStation 5 Pro CFI-7000B01 [2TB]   [国内正規品]",
-      "price": 203379,
+      "price": 205299,
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-7000b01-cc.html",
       "in_stock": true,
       "buyback_price": 181000,
-      "safe_profit": -25879,
-      "cash_profit": -22879,
+      "safe_profit": -27799,
+      "cash_profit": -24799,
       "grade": "D",
       "buy_threshold": 167500,
-      "required_rise": 35879
+      "required_rise": 37799
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -139,17 +139,17 @@
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "★☆エイスース / ASUS ROG Xbox Ally X RC73XA-Z2E24G1T [ブラック]【ノートパソコン】【送料無料】",
-      "price": 183380,
-      "store": "ディーライズ2号",
-      "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000923774.html",
+      "name": "ASUS ROG Xbox Ally X 1TB",
+      "price": 183220,
+      "store": "らいぶshop",
+      "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
       "in_stock": true,
-      "buyback_price": 150000,
-      "safe_profit": -36880,
-      "cash_profit": -33880,
+      "buyback_price": 154000,
+      "safe_profit": -32720,
+      "cash_profit": -29720,
       "grade": "D",
-      "buy_threshold": 136500,
-      "required_rise": 46880
+      "buy_threshold": 140500,
+      "required_rise": 42720
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
