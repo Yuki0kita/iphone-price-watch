@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-08T13:44:51+09:00",
+  "checked_at": "2026-09-08T18:46:20+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -54,12 +54,12 @@
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-7000b01-cc.html",
       "in_stock": true,
-      "buyback_price": 181000,
-      "safe_profit": -27799,
-      "cash_profit": -24799,
+      "buyback_price": 181200,
+      "safe_profit": -27599,
+      "cash_profit": -24599,
       "grade": "D",
-      "buy_threshold": 167500,
-      "required_rise": 37799
+      "buy_threshold": 167700,
+      "required_rise": 37599
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -140,16 +140,16 @@
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "ASUS ROG Xbox Ally X 1TB",
-      "price": 183220,
+      "price": 183180,
       "store": "らいぶshop",
       "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
       "in_stock": true,
       "buyback_price": 154000,
-      "safe_profit": -32720,
-      "cash_profit": -29720,
+      "safe_profit": -32680,
+      "cash_profit": -29680,
       "grade": "D",
       "buy_threshold": 140500,
-      "required_rise": 42720
+      "required_rise": 42680
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
