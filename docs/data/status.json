@@ -1,10 +1,15 @@
 {
-  "checked_at": "2026-09-10T01:42:46+09:00",
+  "checked_at": "2026-09-10T04:48:47+09:00",
   "products_checked": 21,
   "records_changed": true,
-  "alerts": 0,
-  "email_sent": false,
+  "alerts": 3,
+  "email_sent": true,
   "errors": [
+    {
+      "source": "apple",
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
+      "error": "購入ページから価格を読み取れませんでした。ページ構造が変わった可能性があります。"
+    },
     {
       "product_id": "rtx-5070-gigabyte-aorus",
       "retail": true,
@@ -22,7 +27,7 @@
       "note": "この実行環境からのアクセスが拒否されました（HTTP 403）。"
     }
   ],
-  "market_checked_at": "2026-09-10T01:42:46+09:00",
+  "market_checked_at": "2026-09-10T04:48:47+09:00",
   "products": [
     {
       "id": "iphone-17-256",
