@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-09T15:02:15+09:00",
+  "checked_at": "2026-09-09T20:30:22+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -64,17 +64,17 @@
     "switch2-multilang": {
       "source": "yahoo",
       "jan": "4902370552683",
-      "name": "ゲーム機  Nintendo Switch 2 (多言語版) BEE-S-KB6AA",
-      "price": 93577,
-      "store": "ア-チホ-ルセ-ル",
-      "url": "https://store.shopping.yahoo.co.jp/archholesale/1313151.html",
+      "name": "『新品外箱傷みあり』Nintendo Switch 2 多言語版",
+      "price": 94099,
+      "store": "ノア商社Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/noahshoping/4902370552683-wk.html",
       "in_stock": true,
       "buyback_price": 82000,
-      "safe_profit": -15077,
-      "cash_profit": -12077,
+      "safe_profit": -15599,
+      "cash_profit": -12599,
       "grade": "D",
       "buy_threshold": 68500,
-      "required_rise": 25077
+      "required_rise": 25599
     },
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
@@ -125,31 +125,31 @@
       "source": "yahoo",
       "jan": "4521329431529",
       "name": "(シュリンクなし) ポケモンカードゲーム MEGA 拡張パック インフェルノX　1BOX",
-      "price": 20400,
+      "price": 20300,
       "store": "太郎坊 Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
       "buyback_price": 16500,
-      "safe_profit": -7400,
-      "cash_profit": -4400,
+      "safe_profit": -7300,
+      "cash_profit": -4300,
       "grade": "D",
       "buy_threshold": 3000,
-      "required_rise": 17400
+      "required_rise": 17300
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "ASUS ROG Xbox Ally X 1TB",
-      "price": 183130,
+      "price": 182939,
       "store": "らいぶshop",
       "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
       "in_stock": true,
-      "buyback_price": 154000,
-      "safe_profit": -32630,
-      "cash_profit": -29630,
+      "buyback_price": 153500,
+      "safe_profit": -32939,
+      "cash_profit": -29939,
       "grade": "D",
-      "buy_threshold": 140500,
-      "required_rise": 42630
+      "buy_threshold": 140000,
+      "required_rise": 42939
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
