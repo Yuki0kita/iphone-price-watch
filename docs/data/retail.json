@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-09T09:18:47+09:00",
+  "checked_at": "2026-09-09T15:02:15+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -109,47 +109,47 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "(箱傷みあり)(プロモカード2パック付) ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】　1BOX",
-      "price": 16970,
-      "store": "太郎坊 Yahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/taroubou/4582770058406-wakeari.html",
+      "name": "世界最強の戦士 ONE PIECEカードゲーム 2026年8月22日発売 予約 15パック ばら売り OP-17 BOX 24パック入り ワンピース バンダイ BANDAI",
+      "price": 7820,
+      "store": "1913ストア",
+      "url": "https://store.shopping.yahoo.co.jp/1913store/4582770058406-15.html",
       "in_stock": true,
-      "buyback_price": 16300,
-      "safe_profit": -4170,
-      "cash_profit": -1170,
+      "buyback_price": 15000,
+      "safe_profit": 3680,
+      "cash_profit": 6680,
       "grade": "D",
-      "buy_threshold": 2800,
-      "required_rise": 14170
+      "buy_threshold": 1500,
+      "required_rise": 6320
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
       "jan": "4521329431529",
-      "name": "ポケモンカードゲーム MEGA 拡張パック インフェルノX BOX 【シュリンク付き未開封品】",
-      "price": 20500,
-      "store": "お宝あっと町田Yahoo!ショップ",
-      "url": "https://store.shopping.yahoo.co.jp/otakara-machida/0320250924101.html",
+      "name": "(シュリンクなし) ポケモンカードゲーム MEGA 拡張パック インフェルノX　1BOX",
+      "price": 20400,
+      "store": "太郎坊 Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
       "buyback_price": 16500,
-      "safe_profit": -7500,
-      "cash_profit": -4500,
+      "safe_profit": -7400,
+      "cash_profit": -4400,
       "grade": "D",
       "buy_threshold": 3000,
-      "required_rise": 17500
+      "required_rise": 17400
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "ASUS ROG Xbox Ally X 1TB",
-      "price": 183190,
+      "price": 183130,
       "store": "らいぶshop",
       "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
       "in_stock": true,
       "buyback_price": 154000,
-      "safe_profit": -32690,
-      "cash_profit": -29690,
+      "safe_profit": -32630,
+      "cash_profit": -29630,
       "grade": "D",
       "buy_threshold": 140500,
-      "required_rise": 42690
+      "required_rise": 42630
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
