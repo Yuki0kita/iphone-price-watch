@@ -4477,5 +4477,71 @@
     "ok": true,
     "retail_price": 182780,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-10T15:01:31+09:00",
+    "product_id": "iphone-17-256",
+    "product_name": "iPhone 17 256GB",
+    "price": 134500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1365/1909",
+    "ok": true,
+    "retail_price": 159800,
+    "retail_source": "apple"
+  },
+  {
+    "timestamp": "2026-09-10T15:01:31+09:00",
+    "product_id": "iphone-17-pro-max-512",
+    "product_name": "iPhone 17 Pro Max 512GB",
+    "price": 221500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1371/1927",
+    "ok": true,
+    "retail_price": 257879,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-10T15:01:31+09:00",
+    "product_id": "iphone-17-pro-256",
+    "product_name": "iPhone 17 Pro 256GB",
+    "price": 175500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1374/1936",
+    "ok": true,
+    "retail_price": 195980,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-10T15:01:31+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 181700,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 195000,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-10T15:01:31+09:00",
+    "product_id": "pokemon-inferno-x",
+    "product_name": "ポケモンカード MEGA インフェルノX BOX",
+    "price": 16500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 20400,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-10T15:01:31+09:00",
+    "product_id": "rog-xbox-ally-x-1tb",
+    "product_name": "ASUS ROG Xbox Ally X 1TB ブラック",
+    "price": 153500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 183380,
+    "retail_source": "yahoo"
   }
 ]
