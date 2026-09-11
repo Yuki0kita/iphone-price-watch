@@ -4858,5 +4858,82 @@
     "ok": true,
     "retail_price": 183280,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-11T15:04:21+09:00",
+    "product_id": "iphone-17-256",
+    "product_name": "iPhone 17 256GB",
+    "price": 137000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1365/1909",
+    "ok": true,
+    "retail_price": 159800,
+    "retail_source": "apple"
+  },
+  {
+    "timestamp": "2026-09-11T15:04:21+09:00",
+    "product_id": "iphone-17-pro-256",
+    "product_name": "iPhone 17 Pro 256GB",
+    "price": 176500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1374/1936",
+    "ok": true,
+    "retail_price": 202800,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-11T15:04:21+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 182200,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 185000,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-11T15:04:21+09:00",
+    "product_id": "switch2-multilang",
+    "product_name": "Nintendo Switch 2 多言語版",
+    "price": 82000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 94299,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-11T15:04:21+09:00",
+    "product_id": "ps5-slim-cfi-2000a01",
+    "product_name": "PlayStation 5 Slim Disc CFI-2000A01",
+    "price": 110500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 105000,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-11T15:04:21+09:00",
+    "product_id": "onepiece-op17",
+    "product_name": "ONE PIECE OP-17 世界最強の戦士 BOX",
+    "price": 13000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 7820,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-11T15:04:21+09:00",
+    "product_id": "rog-xbox-ally-x-1tb",
+    "product_name": "ASUS ROG Xbox Ally X 1TB ブラック",
+    "price": 154000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 183120,
+    "retail_source": "yahoo"
   }
 ]
