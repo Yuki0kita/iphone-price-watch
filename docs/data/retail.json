@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-12T04:46:34+09:00",
+  "checked_at": "2026-09-12T07:38:11+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -140,16 +140,16 @@
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
-      "price": 182819,
+      "price": 183369,
       "store": "測定の森Yahoo!ショッピング店",
       "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
       "in_stock": true,
       "buyback_price": 154000,
-      "safe_profit": -32319,
-      "cash_profit": -29319,
+      "safe_profit": -32869,
+      "cash_profit": -29869,
       "grade": "D",
       "buy_threshold": 140500,
-      "required_rise": 42319
+      "required_rise": 42869
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
