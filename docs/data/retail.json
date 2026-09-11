@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-11T15:04:21+09:00",
+  "checked_at": "2026-09-11T20:28:28+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -19,17 +19,17 @@
     "iphone-17-pro-max-512": {
       "source": "yahoo",
       "jan": "4549995649314",
-      "name": "★アップル / APPLE iPhone 17 Pro Max 512GB SIMフリー [シルバー] (SIMフリー)【スマートフォン】【送料無料】",
-      "price": 257880,
-      "store": "ディーライズ2号",
-      "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000922498.html",
+      "name": "新品未開封 Apple iPhone 17 Promax 512GB シルバー MFYC4J/A SIMロック解除済 SIMフリー4549995649314m",
+      "price": 260610,
+      "store": "digitalisland",
+      "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995649314m.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -33880,
-      "cash_profit": -30880,
+      "safe_profit": -36610,
+      "cash_profit": -33610,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 43880
+      "required_rise": 46610
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
@@ -65,16 +65,16 @@
       "source": "yahoo",
       "jan": "4902370552683",
       "name": "ゲーム機  Nintendo Switch 2 (多言語版) BEE-S-KB6AA",
-      "price": 94299,
+      "price": 95299,
       "store": "ア-チホ-ルセ-ル",
       "url": "https://store.shopping.yahoo.co.jp/archholesale/1313151.html",
       "in_stock": true,
       "buyback_price": 82000,
-      "safe_profit": -15799,
-      "cash_profit": -12799,
+      "safe_profit": -16799,
+      "cash_profit": -13799,
       "grade": "D",
       "buy_threshold": 68500,
-      "required_rise": 25799
+      "required_rise": 26799
     },
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
@@ -114,12 +114,12 @@
       "store": "1913ストア",
       "url": "https://store.shopping.yahoo.co.jp/1913store/4582770058406-15.html",
       "in_stock": true,
-      "buyback_price": 13000,
-      "safe_profit": 1680,
-      "cash_profit": 4680,
+      "buyback_price": 12000,
+      "safe_profit": 680,
+      "cash_profit": 3680,
       "grade": "D",
-      "buy_threshold": -500,
-      "required_rise": 8320
+      "buy_threshold": -1500,
+      "required_rise": 9320
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -140,16 +140,16 @@
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "★☆エイスース / ASUS ROG Xbox Ally X RC73XA-Z2E24G1T [ブラック]【ノートパソコン】【送料無料】",
-      "price": 183120,
+      "price": 182990,
       "store": "ディーライズ2号",
       "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000923774.html",
       "in_stock": true,
       "buyback_price": 154000,
-      "safe_profit": -32620,
-      "cash_profit": -29620,
+      "safe_profit": -32490,
+      "cash_profit": -29490,
       "grade": "D",
       "buy_threshold": 140500,
-      "required_rise": 42620
+      "required_rise": 42490
     },
     "mac-mini-m4-256": {
       "source": "yahoo",

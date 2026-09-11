@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-09-11T15:04:21+09:00",
+  "checked_at": "2026-09-11T20:28:28+09:00",
   "products_checked": 21,
   "records_changed": true,
-  "alerts": 3,
-  "email_sent": true,
+  "alerts": 1,
+  "email_sent": false,
   "errors": [
     {
       "source": "apple",
@@ -19,6 +19,10 @@
       "product_id": "rtx-5060ti-msi-ventus-3x",
       "retail": true,
       "error": "JAN 4711377337618 の出品が見つかりませんでした。"
+    },
+    {
+      "notification": "email",
+      "error": "(535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 46e09a7af769-803f5adf69csm2221053a34.7 - gsmtp')"
     }
   ],
   "notes": [
@@ -27,7 +31,7 @@
       "note": "この実行環境からのアクセスが拒否されました（HTTP 403）。"
     }
   ],
-  "market_checked_at": "2026-09-11T15:04:21+09:00",
+  "market_checked_at": "2026-09-11T20:28:28+09:00",
   "products": [
     {
       "id": "iphone-17-256",
