@@ -1,35 +1,35 @@
 {
-  "checked_at": "2026-09-12T14:52:48+09:00",
+  "checked_at": "2026-09-12T19:53:02+09:00",
   "products": {
     "iphone-17-256": {
+      "source": "yahoo",
       "jan": "4549995649154",
-      "name": "iPhone 17 256GB（Apple公式）",
-      "price": 159800,
-      "store": "Apple公式",
-      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
+      "name": "[新品未開封] Apple iPhone 17 256GB ブラック 黒 MG674J/A SIMロック解除済 SIMフリー4549995649154m",
+      "price": 162123,
+      "store": "KizunaStore",
+      "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995649154m.html",
       "in_stock": true,
-      "source": "apple",
       "buyback_price": 138000,
-      "safe_profit": -25300,
-      "cash_profit": -22300,
+      "safe_profit": -27623,
+      "cash_profit": -24623,
       "grade": "D",
       "buy_threshold": 124500,
-      "required_rise": 35300
+      "required_rise": 37623
     },
     "iphone-17-pro-max-512": {
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "新品未開封 Apple iPhone 17 Promax 512GB シルバー MFYC4J/A SIMロック解除済 SIMフリー4549995649314m",
-      "price": 260550,
+      "price": 258460,
       "store": "digitalisland",
       "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995649314m.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -36550,
-      "cash_profit": -33550,
+      "safe_profit": -34460,
+      "cash_profit": -31460,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 46550
+      "required_rise": 44460
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
@@ -129,27 +129,27 @@
       "store": "太郎坊 Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
-      "buyback_price": 16500,
-      "safe_profit": -7400,
-      "cash_profit": -4400,
+      "buyback_price": 16000,
+      "safe_profit": -7900,
+      "cash_profit": -4900,
       "grade": "D",
-      "buy_threshold": 3000,
-      "required_rise": 17400
+      "buy_threshold": 2500,
+      "required_rise": 17900
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "ASUS ROG Xbox Ally X 1TB",
-      "price": 182990,
+      "price": 182860,
       "store": "らいぶshop",
       "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
       "in_stock": true,
       "buyback_price": 154000,
-      "safe_profit": -32490,
-      "cash_profit": -29490,
+      "safe_profit": -32360,
+      "cash_profit": -29360,
       "grade": "D",
       "buy_threshold": 140500,
-      "required_rise": 42490
+      "required_rise": 42360
     },
     "mac-mini-m4-256": {
       "source": "yahoo",

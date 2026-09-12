@@ -1,14 +1,19 @@
 {
-  "checked_at": "2026-09-12T14:52:48+09:00",
+  "checked_at": "2026-09-12T19:53:02+09:00",
   "products_checked": 21,
   "records_changed": true,
-  "alerts": 3,
+  "alerts": 2,
   "email_sent": false,
   "errors": [
     {
       "source": "apple",
+      "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
+      "error": "Apple公式ページの取得に失敗しました: HTTP 503"
+    },
+    {
+      "source": "apple",
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
-      "error": "購入ページから価格を読み取れませんでした。ページ構造が変わった可能性があります。"
+      "error": "Apple公式ページの取得に失敗しました: HTTP 503"
     },
     {
       "product_id": "rtx-5070-gigabyte-aorus",
@@ -22,7 +27,7 @@
     },
     {
       "notification": "email",
-      "error": "(535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-530ca4f08f5sm38457251cf.26 - gsmtp')"
+      "error": "(535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-939e8080404sm472850085a.28 - gsmtp')"
     }
   ],
   "notes": [
@@ -31,7 +36,7 @@
       "note": "この実行環境からのアクセスが拒否されました（HTTP 403）。"
     }
   ],
-  "market_checked_at": "2026-09-12T14:52:48+09:00",
+  "market_checked_at": "2026-09-12T19:53:02+09:00",
   "products": [
     {
       "id": "iphone-17-256",

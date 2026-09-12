@@ -5349,5 +5349,49 @@
     "ok": true,
     "retail_price": 182990,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-12T19:53:02+09:00",
+    "product_id": "iphone-17-256",
+    "product_name": "iPhone 17 256GB",
+    "price": 137000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1365/1909",
+    "ok": true,
+    "retail_price": 162123,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-12T19:53:02+09:00",
+    "product_id": "iphone-17-pro-max-512",
+    "product_name": "iPhone 17 Pro Max 512GB",
+    "price": 220500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1371/1927",
+    "ok": true,
+    "retail_price": 258460,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-12T19:53:02+09:00",
+    "product_id": "pokemon-inferno-x",
+    "product_name": "ポケモンカード MEGA インフェルノX BOX",
+    "price": 16000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 20400,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-12T19:53:02+09:00",
+    "product_id": "rog-xbox-ally-x-1tb",
+    "product_name": "ASUS ROG Xbox Ally X 1TB ブラック",
+    "price": 154000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 182860,
+    "retail_source": "yahoo"
   }
 ]
