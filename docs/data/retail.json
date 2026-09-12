@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-13T02:14:09+09:00",
+  "checked_at": "2026-09-13T04:26:33+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -140,16 +140,16 @@
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "ASUS ROG Xbox Ally X 1TB",
-      "price": 182650,
+      "price": 182590,
       "store": "らいぶshop",
       "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
       "in_stock": true,
       "buyback_price": 154000,
-      "safe_profit": -32150,
-      "cash_profit": -29150,
+      "safe_profit": -32090,
+      "cash_profit": -29090,
       "grade": "D",
       "buy_threshold": 140500,
-      "required_rise": 42150
+      "required_rise": 42090
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
