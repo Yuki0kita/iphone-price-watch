@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-14T15:23:03+09:00",
+  "checked_at": "2026-09-14T23:09:29+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -20,31 +20,31 @@
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "新品未開封 Apple iPhone 17 Promax 512GB シルバー MFYC4J/A SIMロック解除済 SIMフリー4549995649314m",
-      "price": 260578,
+      "price": 258460,
       "store": "digitalisland",
       "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995649314m.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -36578,
-      "cash_profit": -33578,
+      "safe_profit": -34460,
+      "cash_profit": -31460,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 46578
+      "required_rise": 44460
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "[新品未使用] SIMフリー iPhone17 Pro silver [256GB] [国内正規品]",
-      "price": 208429,
+      "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
+      "price": 206219,
       "store": "Quality Shop",
-      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver-k.html",
+      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -29429,
-      "cash_profit": -26429,
+      "safe_profit": -27219,
+      "cash_profit": -24219,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 39429
+      "required_rise": 37219
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -129,27 +129,27 @@
       "store": "太郎坊 Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
-      "buyback_price": 14000,
-      "safe_profit": -9900,
-      "cash_profit": -6900,
+      "buyback_price": 13500,
+      "safe_profit": -10400,
+      "cash_profit": -7400,
       "grade": "D",
-      "buy_threshold": 500,
-      "required_rise": 19900
+      "buy_threshold": 0,
+      "required_rise": 20400
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
-      "price": 181579,
+      "price": 181110,
       "store": "測定の森Yahoo!ショッピング店",
       "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
       "in_stock": true,
       "buyback_price": 154000,
-      "safe_profit": -31079,
-      "cash_profit": -28079,
+      "safe_profit": -30610,
+      "cash_profit": -27610,
       "grade": "D",
       "buy_threshold": 140500,
-      "required_rise": 41079
+      "required_rise": 40610
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
