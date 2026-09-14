@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-14T07:27:25+09:00",
+  "checked_at": "2026-09-14T10:10:45+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -35,16 +35,16 @@
       "source": "yahoo",
       "jan": "4549995648294",
       "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
-      "price": 207499,
+      "price": 208438,
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -28499,
-      "cash_profit": -25499,
+      "safe_profit": -29438,
+      "cash_profit": -26438,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 38499
+      "required_rise": 39438
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -114,12 +114,12 @@
       "store": "カウカウSTORE",
       "url": "https://store.shopping.yahoo.co.jp/free-world/cardpack-o-024-18.html",
       "in_stock": true,
-      "buyback_price": 9000,
-      "safe_profit": 580,
-      "cash_profit": 3580,
+      "buyback_price": 8000,
+      "safe_profit": -420,
+      "cash_profit": 2580,
       "grade": "D",
-      "buy_threshold": -4500,
-      "required_rise": 9420
+      "buy_threshold": -5500,
+      "required_rise": 10420
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -129,27 +129,27 @@
       "store": "太郎坊 Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
-      "buyback_price": 16000,
-      "safe_profit": -7900,
-      "cash_profit": -4900,
+      "buyback_price": 14000,
+      "safe_profit": -9900,
+      "cash_profit": -6900,
       "grade": "D",
-      "buy_threshold": 2500,
-      "required_rise": 17900
+      "buy_threshold": 500,
+      "required_rise": 19900
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
-      "price": 181859,
-      "store": "測定の森Yahoo!ショッピング店",
-      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
+      "name": "ASUS ROG Xbox Ally X 1TB",
+      "price": 181770,
+      "store": "らいぶshop",
+      "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
       "in_stock": true,
       "buyback_price": 154000,
-      "safe_profit": -31359,
-      "cash_profit": -28359,
+      "safe_profit": -31270,
+      "cash_profit": -28270,
       "grade": "D",
       "buy_threshold": 140500,
-      "required_rise": 41359
+      "required_rise": 41270
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
@@ -230,16 +230,16 @@
       "source": "yahoo",
       "jan": "4988755071369",
       "name": "AORUS GeForce RTX 5080 MASTER ICE 16G　GV-N5080AORUSM ICE-16GD",
-      "price": 322800,
+      "price": 326061,
       "store": "ツクモ パソコン Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/tsukumo-y/4988755071369.html",
       "in_stock": false,
       "buyback_price": 180220,
-      "safe_profit": -146080,
-      "cash_profit": -143080,
+      "safe_profit": -149341,
+      "cash_profit": -146341,
       "grade": "D",
       "buy_threshold": 166720,
-      "required_rise": 156080
+      "required_rise": 159341
     },
     "rtx-5060ti-zotac-twin-edge": {
       "source": "yahoo",
