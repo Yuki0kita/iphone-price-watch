@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-14T10:10:45+09:00",
+  "checked_at": "2026-09-14T15:23:03+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -20,31 +20,31 @@
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "新品未開封 Apple iPhone 17 Promax 512GB シルバー MFYC4J/A SIMロック解除済 SIMフリー4549995649314m",
-      "price": 258460,
+      "price": 260578,
       "store": "digitalisland",
       "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995649314m.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -34460,
-      "cash_profit": -31460,
+      "safe_profit": -36578,
+      "cash_profit": -33578,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 44460
+      "required_rise": 46578
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
-      "price": 208438,
+      "name": "[新品未使用] SIMフリー iPhone17 Pro silver [256GB] [国内正規品]",
+      "price": 208429,
       "store": "Quality Shop",
-      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
+      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver-k.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -29438,
-      "cash_profit": -26438,
+      "safe_profit": -29429,
+      "cash_profit": -26429,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 39438
+      "required_rise": 39429
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -54,12 +54,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 182700,
-      "safe_profit": -5800,
-      "cash_profit": -2800,
+      "buyback_price": 183000,
+      "safe_profit": -5500,
+      "cash_profit": -2500,
       "grade": "D",
-      "buy_threshold": 169200,
-      "required_rise": 15800
+      "buy_threshold": 169500,
+      "required_rise": 15500
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -139,17 +139,17 @@
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "ASUS ROG Xbox Ally X 1TB",
-      "price": 181770,
-      "store": "らいぶshop",
-      "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
+      "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
+      "price": 181579,
+      "store": "測定の森Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
       "in_stock": true,
       "buyback_price": 154000,
-      "safe_profit": -31270,
-      "cash_profit": -28270,
+      "safe_profit": -31079,
+      "cash_profit": -28079,
       "grade": "D",
       "buy_threshold": 140500,
-      "required_rise": 41270
+      "required_rise": 41079
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
@@ -169,17 +169,17 @@
     "mac-mini-m4-512": {
       "source": "yahoo",
       "jan": "4549995437164",
-      "name": "Mac mini 512G(2024) MU9E3J/A (シルバー)/apple",
-      "price": 121280,
-      "store": "アキバ倉庫",
-      "url": "https://store.shopping.yahoo.co.jp/akibasoko/4549995437164.html",
-      "in_stock": false,
+      "name": "『新品』Apple (アップル）Mac mini M4チップ 16GB 512GB MU9E3J/A 2024",
+      "price": 211179,
+      "store": "ノア商社Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/noahshoping/4549995437164.html",
+      "in_stock": true,
       "buyback_price": 90000,
-      "safe_profit": -34780,
-      "cash_profit": -31780,
+      "safe_profit": -124679,
+      "cash_profit": -121679,
       "grade": "D",
       "buy_threshold": 76500,
-      "required_rise": 44780
+      "required_rise": 134679
     },
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
@@ -225,6 +225,21 @@
       "grade": "D",
       "buy_threshold": 136500,
       "required_rise": 94500
+    },
+    "rtx-5070-gigabyte-aorus": {
+      "source": "yahoo",
+      "jan": "4988755076357",
+      "name": "AORUS GeForce RTX 5070 INFINITY 12G　GV-N5070AORUS IF-12GD",
+      "price": 181616,
+      "store": "ツクモ パソコン Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/tsukumo-y/4988755076357.html",
+      "in_stock": true,
+      "buyback_price": 131000,
+      "safe_profit": -54116,
+      "cash_profit": -51116,
+      "grade": "D",
+      "buy_threshold": 117500,
+      "required_rise": 64116
     },
     "rtx-5080-gigabyte-aorus": {
       "source": "yahoo",
