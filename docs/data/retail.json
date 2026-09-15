@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-15T10:31:46+09:00",
+  "checked_at": "2026-09-15T16:49:25+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -9,12 +9,12 @@
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
       "in_stock": true,
       "source": "apple",
-      "buyback_price": 138000,
-      "safe_profit": -25300,
-      "cash_profit": -22300,
+      "buyback_price": 140000,
+      "safe_profit": -23300,
+      "cash_profit": -20300,
       "grade": "D",
-      "buy_threshold": 124500,
-      "required_rise": 35300
+      "buy_threshold": 126500,
+      "required_rise": 33300
     },
     "iphone-17-pro-max-512": {
       "source": "yahoo",
@@ -35,16 +35,16 @@
       "source": "yahoo",
       "jan": "4549995648294",
       "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
-      "price": 205859,
+      "price": 205599,
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -26859,
-      "cash_profit": -23859,
+      "safe_profit": -26599,
+      "cash_profit": -23599,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 36859
+      "required_rise": 36599
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -109,17 +109,17 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "2026年8月22日発売 予約 18パック ばら売り レビュー特典あり ONE PIECEカードゲーム 世界最強の戦士  OP-17 BOX 24パック入り　ワンピース バンダイ BANDAI",
-      "price": 4920,
-      "store": "カウカウSTORE",
-      "url": "https://store.shopping.yahoo.co.jp/free-world/cardpack-o-024-18.html",
+      "name": "世界最強の戦士 ONE PIECEカードゲーム 2026年8月22日発売 予約 10パック ばら売り OP-17 BOX 24パック入り ワンピース バンダイ BANDAI",
+      "price": 5340,
+      "store": "1913ストア",
+      "url": "https://store.shopping.yahoo.co.jp/1913store/4582770058406.html",
       "in_stock": true,
-      "buyback_price": 8000,
-      "safe_profit": -420,
-      "cash_profit": 2580,
+      "buyback_price": 10500,
+      "safe_profit": 1660,
+      "cash_profit": 4660,
       "grade": "D",
-      "buy_threshold": -5500,
-      "required_rise": 10420
+      "buy_threshold": -3000,
+      "required_rise": 8340
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -140,16 +140,16 @@
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
-      "price": 180850,
+      "price": 180670,
       "store": "測定の森Yahoo!ショッピング店",
       "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
       "in_stock": true,
       "buyback_price": 154000,
-      "safe_profit": -30350,
-      "cash_profit": -27350,
+      "safe_profit": -30170,
+      "cash_profit": -27170,
       "grade": "D",
       "buy_threshold": 140500,
-      "required_rise": 40350
+      "required_rise": 40170
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
@@ -214,17 +214,17 @@
     "rtx-5070ti-msi-ventus-3x": {
       "source": "yahoo",
       "jan": "4711377301589",
-      "name": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC G507T-16V3C 16GB GDDR7",
-      "price": 231000,
+      "name": "【新品】【即納】MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC グラフィックスカード VD9043",
+      "price": 185000,
       "store": "BNT",
-      "url": "https://store.shopping.yahoo.co.jp/bnt/g507t-16v3c.html",
-      "in_stock": true,
+      "url": "https://store.shopping.yahoo.co.jp/bnt/msi-5070ti-ventus.html",
+      "in_stock": false,
       "buyback_price": 150000,
-      "safe_profit": -84500,
-      "cash_profit": -81500,
+      "safe_profit": -38500,
+      "cash_profit": -35500,
       "grade": "D",
       "buy_threshold": 136500,
-      "required_rise": 94500
+      "required_rise": 48500
     },
     "rtx-5070-gigabyte-aorus": {
       "source": "yahoo",
