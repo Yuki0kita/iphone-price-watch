@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-15T08:10:53+09:00",
+  "checked_at": "2026-09-15T10:31:46+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -35,16 +35,16 @@
       "source": "yahoo",
       "jan": "4549995648294",
       "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
-      "price": 205949,
+      "price": 205859,
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -26949,
-      "cash_profit": -23949,
+      "safe_profit": -26859,
+      "cash_profit": -23859,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 36949
+      "required_rise": 36859
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -54,12 +54,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 183000,
-      "safe_profit": -5500,
-      "cash_profit": -2500,
+      "buyback_price": 184500,
+      "safe_profit": -4000,
+      "cash_profit": -1000,
       "grade": "D",
-      "buy_threshold": 169500,
-      "required_rise": 15500
+      "buy_threshold": 171000,
+      "required_rise": 14000
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -84,12 +84,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872415934.html",
       "in_stock": true,
-      "buyback_price": 110800,
-      "safe_profit": 2300,
-      "cash_profit": 5300,
+      "buyback_price": 111200,
+      "safe_profit": 2700,
+      "cash_profit": 5700,
       "grade": "D",
-      "buy_threshold": 97300,
-      "required_rise": 7700
+      "buy_threshold": 97700,
+      "required_rise": 7300
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -140,16 +140,16 @@
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
-      "price": 180920,
+      "price": 180850,
       "store": "測定の森Yahoo!ショッピング店",
       "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
       "in_stock": true,
       "buyback_price": 154000,
-      "safe_profit": -30420,
-      "cash_profit": -27420,
+      "safe_profit": -30350,
+      "cash_profit": -27350,
       "grade": "D",
       "buy_threshold": 140500,
-      "required_rise": 40420
+      "required_rise": 40350
     },
     "mac-mini-m4-256": {
       "source": "yahoo",

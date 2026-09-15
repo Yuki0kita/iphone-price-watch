@@ -6373,5 +6373,60 @@
     "ok": true,
     "retail_price": 180920,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-15T10:31:46+09:00",
+    "product_id": "iphone-17-256",
+    "product_name": "iPhone 17 256GB",
+    "price": 138000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1365/1909",
+    "ok": true,
+    "retail_price": 159800,
+    "retail_source": "apple"
+  },
+  {
+    "timestamp": "2026-09-15T10:31:46+09:00",
+    "product_id": "iphone-17-pro-256",
+    "product_name": "iPhone 17 Pro 256GB",
+    "price": 177000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1374/1936",
+    "ok": true,
+    "retail_price": 205859,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-15T10:31:46+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 184500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 185000,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-15T10:31:46+09:00",
+    "product_id": "ps5-slim-cfi-2000a01",
+    "product_name": "PlayStation 5 Slim Disc CFI-2000A01",
+    "price": 111200,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 105000,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-15T10:31:46+09:00",
+    "product_id": "rog-xbox-ally-x-1tb",
+    "product_name": "ASUS ROG Xbox Ally X 1TB ブラック",
+    "price": 154000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 180850,
+    "retail_source": "yahoo"
   }
 ]
