@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-16T06:29:27+09:00",
+  "checked_at": "2026-09-16T09:25:58+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -35,16 +35,16 @@
       "source": "yahoo",
       "jan": "4549995648294",
       "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
-      "price": 205299,
+      "price": 205279,
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -26299,
-      "cash_profit": -23299,
+      "safe_profit": -26279,
+      "cash_profit": -23279,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 36299
+      "required_rise": 36279
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
