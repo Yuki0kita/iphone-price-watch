@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-16T09:25:58+09:00",
+  "checked_at": "2026-09-16T15:06:05+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -9,12 +9,12 @@
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
       "in_stock": true,
       "source": "apple",
-      "buyback_price": 140000,
-      "safe_profit": -23300,
-      "cash_profit": -20300,
+      "buyback_price": 140500,
+      "safe_profit": -22800,
+      "cash_profit": -19800,
       "grade": "D",
-      "buy_threshold": 126500,
-      "required_rise": 33300
+      "buy_threshold": 127000,
+      "required_rise": 32800
     },
     "iphone-17-pro-max-512": {
       "source": "yahoo",
@@ -35,16 +35,16 @@
       "source": "yahoo",
       "jan": "4549995648294",
       "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
-      "price": 205279,
+      "price": 204899,
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -26279,
-      "cash_profit": -23279,
+      "safe_profit": -25899,
+      "cash_profit": -22899,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 36279
+      "required_rise": 35899
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -54,12 +54,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 184500,
-      "safe_profit": -4000,
-      "cash_profit": -1000,
+      "buyback_price": 185700,
+      "safe_profit": -2800,
+      "cash_profit": 200,
       "grade": "D",
-      "buy_threshold": 171000,
-      "required_rise": 14000
+      "buy_threshold": 172200,
+      "required_rise": 12800
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -233,7 +233,7 @@
       "price": 181616,
       "store": "ツクモ パソコン Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/tsukumo-y/4988755076357.html",
-      "in_stock": true,
+      "in_stock": false,
       "buyback_price": 131000,
       "safe_profit": -54116,
       "cash_profit": -51116,
