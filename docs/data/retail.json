@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-17T16:44:53+09:00",
+  "checked_at": "2026-09-17T22:32:56+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -20,16 +20,16 @@
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "新品未開封 Apple iPhone 17 Promax 512GB シルバー MFYC4J/A SIMロック解除済 SIMフリー4549995649314m",
-      "price": 258200,
+      "price": 258120,
       "store": "digitalisland",
       "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995649314m.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -34200,
-      "cash_profit": -31200,
+      "safe_profit": -34120,
+      "cash_profit": -31120,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 44200
+      "required_rise": 44120
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
