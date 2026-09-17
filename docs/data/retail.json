@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-17T10:28:58+09:00",
+  "checked_at": "2026-09-17T16:44:53+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -54,12 +54,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 185700,
-      "safe_profit": -2800,
-      "cash_profit": 200,
+      "buyback_price": 185800,
+      "safe_profit": -2700,
+      "cash_profit": 300,
       "grade": "D",
-      "buy_threshold": 172200,
-      "required_rise": 12800
+      "buy_threshold": 172300,
+      "required_rise": 12700
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -114,12 +114,12 @@
       "store": "1913ストア",
       "url": "https://store.shopping.yahoo.co.jp/1913store/4582770058406.html",
       "in_stock": true,
-      "buyback_price": 10500,
-      "safe_profit": 1660,
-      "cash_profit": 4660,
+      "buyback_price": 10000,
+      "safe_profit": 1160,
+      "cash_profit": 4160,
       "grade": "D",
-      "buy_threshold": -3000,
-      "required_rise": 8340
+      "buy_threshold": -3500,
+      "required_rise": 8840
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
