@@ -7641,5 +7641,16 @@
     "ok": true,
     "retail_price": 257860,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-19T07:37:33+09:00",
+    "product_id": "iphone-17-pro-max-512",
+    "product_name": "iPhone 17 Pro Max 512GB",
+    "price": 221000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1371/1927",
+    "ok": true,
+    "retail_price": 257820,
+    "retail_source": "yahoo"
   }
 ]
