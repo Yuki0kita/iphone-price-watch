@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-18T20:22:51+09:00",
+  "checked_at": "2026-09-19T01:29:10+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -20,31 +20,31 @@
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "★アップル / APPLE iPhone 17 Pro Max 512GB SIMフリー [シルバー] (SIMフリー)【スマートフォン】【送料無料】",
-      "price": 257950,
+      "price": 257880,
       "store": "ディーライズ2号",
       "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000922498.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -33950,
-      "cash_profit": -30950,
+      "safe_profit": -33880,
+      "cash_profit": -30880,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 43950
+      "required_rise": 43880
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "【ラッピング可】【即日発送】【新品 開封済み未使用品】Apple アップル iPhone 17 Pro 256GB シルバー MG854J/A eSIM SIMフリー",
-      "price": 188000,
-      "store": "電子問屋",
-      "url": "https://store.shopping.yahoo.co.jp/densidonya/5-4549995648294-5.html",
+      "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
+      "price": 200549,
+      "store": "Quality Shop",
+      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -9000,
-      "cash_profit": -6000,
+      "safe_profit": -21549,
+      "cash_profit": -18549,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 19000
+      "required_rise": 31549
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -125,16 +125,16 @@
       "source": "yahoo",
       "jan": "4521329431529",
       "name": "ポケモンカードゲーム MEGA 拡張パック インフェルノX BOX 【シュリンク付き未開封品】",
-      "price": 17800,
+      "price": 21000,
       "store": "お宝あっと町田Yahoo!ショップ",
       "url": "https://store.shopping.yahoo.co.jp/otakara-machida/0320250924101.html",
       "in_stock": true,
       "buyback_price": 13500,
-      "safe_profit": -7800,
-      "cash_profit": -4800,
+      "safe_profit": -11000,
+      "cash_profit": -8000,
       "grade": "D",
       "buy_threshold": 0,
-      "required_rise": 17800
+      "required_rise": 21000
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
