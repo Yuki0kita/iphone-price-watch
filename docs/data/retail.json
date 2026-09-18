@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-18T14:58:51+09:00",
+  "checked_at": "2026-09-18T20:22:51+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -20,31 +20,31 @@
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "★アップル / APPLE iPhone 17 Pro Max 512GB SIMフリー [シルバー] (SIMフリー)【スマートフォン】【送料無料】",
-      "price": 258020,
+      "price": 257950,
       "store": "ディーライズ2号",
       "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000922498.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -34020,
-      "cash_profit": -31020,
+      "safe_profit": -33950,
+      "cash_profit": -30950,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 44020
+      "required_rise": 43950
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "iPhone17 Pro 256GB シルバー MG854J/A SIMフリー 新品・未使用 APPLEストア版 本体 2061",
-      "price": 192980,
-      "store": "モバステ",
-      "url": "https://store.shopping.yahoo.co.jp/mobilestation/ip17pro256gb-s-s-2061.html",
+      "name": "【ラッピング可】【即日発送】【新品 開封済み未使用品】Apple アップル iPhone 17 Pro 256GB シルバー MG854J/A eSIM SIMフリー",
+      "price": 188000,
+      "store": "電子問屋",
+      "url": "https://store.shopping.yahoo.co.jp/densidonya/5-4549995648294-5.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -13980,
-      "cash_profit": -10980,
+      "safe_profit": -9000,
+      "cash_profit": -6000,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 23980
+      "required_rise": 19000
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -54,12 +54,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 185800,
-      "safe_profit": -2700,
-      "cash_profit": 300,
+      "buyback_price": 186000,
+      "safe_profit": -2500,
+      "cash_profit": 500,
       "grade": "D",
-      "buy_threshold": 172300,
-      "required_rise": 12700
+      "buy_threshold": 172500,
+      "required_rise": 12500
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -84,12 +84,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872415934.html",
       "in_stock": true,
-      "buyback_price": 111200,
-      "safe_profit": 2700,
-      "cash_profit": 5700,
+      "buyback_price": 112200,
+      "safe_profit": 3700,
+      "cash_profit": 6700,
       "grade": "D",
-      "buy_threshold": 97700,
-      "required_rise": 7300
+      "buy_threshold": 98700,
+      "required_rise": 6300
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -114,12 +114,12 @@
       "store": "1913ストア",
       "url": "https://store.shopping.yahoo.co.jp/1913store/4582770058406.html",
       "in_stock": true,
-      "buyback_price": 10000,
-      "safe_profit": 1160,
-      "cash_profit": 4160,
+      "buyback_price": 9500,
+      "safe_profit": 660,
+      "cash_profit": 3660,
       "grade": "D",
-      "buy_threshold": -3500,
-      "required_rise": 8840
+      "buy_threshold": -4000,
+      "required_rise": 9340
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -140,16 +140,16 @@
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "ASUS ROG Xbox Ally X 1TB",
-      "price": 183140,
+      "price": 183230,
       "store": "らいぶshop",
       "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
       "in_stock": true,
       "buyback_price": 154000,
-      "safe_profit": -32640,
-      "cash_profit": -29640,
+      "safe_profit": -32730,
+      "cash_profit": -29730,
       "grade": "D",
       "buy_threshold": 140500,
-      "required_rise": 42640
+      "required_rise": 42730
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
