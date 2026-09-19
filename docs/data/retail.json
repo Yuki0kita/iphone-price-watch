@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-19T07:37:33+09:00",
+  "checked_at": "2026-09-19T10:14:09+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -20,16 +20,16 @@
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "★アップル / APPLE iPhone 17 Pro Max 512GB SIMフリー [シルバー] (SIMフリー)【スマートフォン】【送料無料】",
-      "price": 257820,
+      "price": 257780,
       "store": "ディーライズ2号",
       "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000922498.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -33820,
-      "cash_profit": -30820,
+      "safe_profit": -33780,
+      "cash_profit": -30780,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 43820
+      "required_rise": 43780
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
@@ -54,12 +54,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 186000,
-      "safe_profit": -2500,
-      "cash_profit": 500,
+      "buyback_price": 186500,
+      "safe_profit": -2000,
+      "cash_profit": 1000,
       "grade": "D",
-      "buy_threshold": 172500,
-      "required_rise": 12500
+      "buy_threshold": 173000,
+      "required_rise": 12000
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -109,17 +109,17 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "世界最強の戦士 ONE PIECEカードゲーム 2026年8月22日発売 予約 10パック ばら売り OP-17 BOX 24パック入り ワンピース バンダイ BANDAI",
-      "price": 5340,
-      "store": "1913ストア",
-      "url": "https://store.shopping.yahoo.co.jp/1913store/4582770058406.html",
+      "name": "2026年8月22日発売 予約 18パック ばら売り レビュー特典あり ONE PIECEカードゲーム 世界最強の戦士  OP-17 BOX 24パック入り　ワンピース バンダイ BANDAI",
+      "price": 4660,
+      "store": "カウカウSTORE",
+      "url": "https://store.shopping.yahoo.co.jp/free-world/cardpack-o-024-18.html",
       "in_stock": true,
-      "buyback_price": 9500,
-      "safe_profit": 660,
-      "cash_profit": 3660,
+      "buyback_price": 9000,
+      "safe_profit": 840,
+      "cash_profit": 3840,
       "grade": "D",
-      "buy_threshold": -4000,
-      "required_rise": 9340
+      "buy_threshold": -4500,
+      "required_rise": 9160
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -230,31 +230,31 @@
       "source": "yahoo",
       "jan": "4988755076357",
       "name": "AORUS GeForce RTX 5070 INFINITY 12G　GV-N5070AORUS IF-12GD",
-      "price": 181616,
+      "price": 179800,
       "store": "ツクモ パソコン Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/tsukumo-y/4988755076357.html",
       "in_stock": false,
       "buyback_price": 131000,
-      "safe_profit": -54116,
-      "cash_profit": -51116,
+      "safe_profit": -52300,
+      "cash_profit": -49300,
       "grade": "D",
       "buy_threshold": 117500,
-      "required_rise": 64116
+      "required_rise": 62300
     },
     "rtx-5080-gigabyte-aorus": {
       "source": "yahoo",
       "jan": "4988755071369",
       "name": "AORUS GeForce RTX 5080 MASTER ICE 16G　GV-N5080AORUSM ICE-16GD",
-      "price": 326061,
+      "price": 322800,
       "store": "ツクモ パソコン Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/tsukumo-y/4988755071369.html",
       "in_stock": false,
       "buyback_price": 180220,
-      "safe_profit": -149341,
-      "cash_profit": -146341,
+      "safe_profit": -146080,
+      "cash_profit": -143080,
       "grade": "D",
       "buy_threshold": 166720,
-      "required_rise": 159341
+      "required_rise": 156080
     },
     "rtx-5060ti-zotac-twin-edge": {
       "source": "yahoo",
