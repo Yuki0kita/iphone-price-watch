@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-19T14:59:24+09:00",
+  "checked_at": "2026-09-19T20:06:45+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -35,16 +35,16 @@
       "source": "yahoo",
       "jan": "4549995648294",
       "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
-      "price": 200549,
+      "price": 202069,
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -21549,
-      "cash_profit": -18549,
+      "safe_profit": -23069,
+      "cash_profit": -20069,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 31549
+      "required_rise": 33069
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -124,17 +124,17 @@
     "pokemon-inferno-x": {
       "source": "yahoo",
       "jan": "4521329431529",
-      "name": "ポケモンカードゲーム MEGA 拡張パック インフェルノX BOX 【シュリンク付き未開封品】",
-      "price": 21000,
-      "store": "お宝あっと町田Yahoo!ショップ",
-      "url": "https://store.shopping.yahoo.co.jp/otakara-machida/0320250924101.html",
+      "name": "（シュリンクあり）ポケモンカードゲーム MEGA 拡張パック インフェルノX BOX",
+      "price": 22340,
+      "store": "初音蔵書通販部",
+      "url": "https://store.shopping.yahoo.co.jp/hatsune/hq-ibm3-sd67.html",
       "in_stock": true,
       "buyback_price": 13500,
-      "safe_profit": -11000,
-      "cash_profit": -8000,
+      "safe_profit": -12340,
+      "cash_profit": -9340,
       "grade": "D",
       "buy_threshold": 0,
-      "required_rise": 21000
+      "required_rise": 22340
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
