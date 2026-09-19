@@ -7795,5 +7795,16 @@
     "ok": true,
     "retail_price": 22340,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-19T23:28:27+09:00",
+    "product_id": "iphone-17-pro-256",
+    "product_name": "iPhone 17 Pro 256GB",
+    "price": 173000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1374/1936",
+    "ok": true,
+    "retail_price": 201999,
+    "retail_source": "yahoo"
   }
 ]
