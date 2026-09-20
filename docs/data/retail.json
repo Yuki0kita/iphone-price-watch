@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-20T21:26:21+09:00",
+  "checked_at": "2026-09-21T01:50:57+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -34,17 +34,17 @@
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "【ラッピング可】【即日発送】【新品 開封済み未使用品】Apple アップル iPhone 17 Pro 256GB シルバー MG854J/A eSIM SIMフリー",
-      "price": 196500,
+      "name": "【ラッピング可】【即日発送】【新品 箱不良・シュリンク破れ品】Apple アップル iPhone 17 Pro 256GB シルバー MG854J/A eSIM SIMフリー",
+      "price": 199500,
       "store": "電子問屋",
-      "url": "https://store.shopping.yahoo.co.jp/densidonya/5-4549995648294-5.html",
+      "url": "https://store.shopping.yahoo.co.jp/densidonya/4549995648294-a.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -17500,
-      "cash_profit": -14500,
+      "safe_profit": -20500,
+      "cash_profit": -17500,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 27500
+      "required_rise": 30500
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
