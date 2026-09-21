@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-21T10:10:25+09:00",
+  "checked_at": "2026-09-21T15:26:27+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -54,12 +54,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 186700,
-      "safe_profit": -1800,
-      "cash_profit": 1200,
+      "buyback_price": 187200,
+      "safe_profit": -1300,
+      "cash_profit": 1700,
       "grade": "D",
-      "buy_threshold": 173200,
-      "required_rise": 11800
+      "buy_threshold": 173700,
+      "required_rise": 11300
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -84,12 +84,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872415934.html",
       "in_stock": true,
-      "buyback_price": 112500,
-      "safe_profit": 4000,
-      "cash_profit": 7000,
+      "buyback_price": 112700,
+      "safe_profit": 4200,
+      "cash_profit": 7200,
       "grade": "D",
-      "buy_threshold": 99000,
-      "required_rise": 6000
+      "buy_threshold": 99200,
+      "required_rise": 5800
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -129,27 +129,27 @@
       "store": "イーバリューYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/evalue-omochayasan/4521329431529.html",
       "in_stock": true,
-      "buyback_price": 13500,
-      "safe_profit": -12380,
-      "cash_profit": -9380,
+      "buyback_price": 14500,
+      "safe_profit": -11380,
+      "cash_profit": -8380,
       "grade": "D",
-      "buy_threshold": 0,
-      "required_rise": 22380
+      "buy_threshold": 1000,
+      "required_rise": 21380
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
-      "price": 182230,
+      "price": 182930,
       "store": "測定の森Yahoo!ショッピング店",
       "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
       "in_stock": true,
       "buyback_price": 154000,
-      "safe_profit": -31730,
-      "cash_profit": -28730,
+      "safe_profit": -32430,
+      "cash_profit": -29430,
       "grade": "D",
       "buy_threshold": 140500,
-      "required_rise": 41730
+      "required_rise": 42430
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
