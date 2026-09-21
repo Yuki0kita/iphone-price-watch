@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-21T15:26:27+09:00",
+  "checked_at": "2026-09-21T23:15:35+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -19,17 +19,17 @@
     "iphone-17-pro-max-512": {
       "source": "yahoo",
       "jan": "4549995649314",
-      "name": "Apple iPhone 17 Pro Max 512GB SIMフリー [シルバー] 国内正規品 新品未開封",
-      "price": 256980,
-      "store": "エスアイカメラ(夏季休暇中も営業・出荷致します)",
-      "url": "https://store.shopping.yahoo.co.jp/shinax/4549995649314.html",
+      "name": "iPhone17 Pro Max 512GB シルバー MFYC4J/A SIMフリー 新品・未使用 判定○品 本体 4281",
+      "price": 248980,
+      "store": "モバステ",
+      "url": "https://store.shopping.yahoo.co.jp/mobilestation/ip17promax512gb-s-s-4281.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -32980,
-      "cash_profit": -29980,
+      "safe_profit": -24980,
+      "cash_profit": -21980,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 42980
+      "required_rise": 34980
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
@@ -84,12 +84,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872415934.html",
       "in_stock": true,
-      "buyback_price": 112700,
-      "safe_profit": 4200,
-      "cash_profit": 7200,
+      "buyback_price": 112900,
+      "safe_profit": 4400,
+      "cash_profit": 7400,
       "grade": "D",
-      "buy_threshold": 99200,
-      "required_rise": 5800
+      "buy_threshold": 99400,
+      "required_rise": 5600
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -140,16 +140,16 @@
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
-      "price": 182930,
+      "price": 183080,
       "store": "測定の森Yahoo!ショッピング店",
       "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
       "in_stock": true,
       "buyback_price": 154000,
-      "safe_profit": -32430,
-      "cash_profit": -29430,
+      "safe_profit": -32580,
+      "cash_profit": -29580,
       "grade": "D",
       "buy_threshold": 140500,
-      "required_rise": 42430
+      "required_rise": 42580
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
