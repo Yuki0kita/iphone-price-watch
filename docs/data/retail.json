@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-22T08:20:32+09:00",
+  "checked_at": "2026-09-22T14:04:52+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -230,31 +230,31 @@
       "source": "yahoo",
       "jan": "4988755076357",
       "name": "AORUS GeForce RTX 5070 INFINITY 12G　GV-N5070AORUS IF-12GD",
-      "price": 179800,
+      "price": 181616,
       "store": "ツクモ パソコン Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/tsukumo-y/4988755076357.html",
       "in_stock": false,
       "buyback_price": 131000,
-      "safe_profit": -52300,
-      "cash_profit": -49300,
+      "safe_profit": -54116,
+      "cash_profit": -51116,
       "grade": "D",
       "buy_threshold": 117500,
-      "required_rise": 62300
+      "required_rise": 64116
     },
     "rtx-5080-gigabyte-aorus": {
       "source": "yahoo",
       "jan": "4988755071369",
       "name": "AORUS GeForce RTX 5080 MASTER ICE 16G　GV-N5080AORUSM ICE-16GD",
-      "price": 322800,
+      "price": 326061,
       "store": "ツクモ パソコン Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/tsukumo-y/4988755071369.html",
       "in_stock": false,
       "buyback_price": 180220,
-      "safe_profit": -146080,
-      "cash_profit": -143080,
+      "safe_profit": -149341,
+      "cash_profit": -146341,
       "grade": "D",
       "buy_threshold": 166720,
-      "required_rise": 156080
+      "required_rise": 159341
     },
     "rtx-5060ti-zotac-twin-edge": {
       "source": "yahoo",
