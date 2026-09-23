@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-24T05:26:48+09:00",
+  "checked_at": "2026-09-24T08:45:20+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -35,16 +35,16 @@
       "source": "yahoo",
       "jan": "4549995648294",
       "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
-      "price": 199179,
+      "price": 199082,
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -20179,
-      "cash_profit": -17179,
+      "safe_profit": -20082,
+      "cash_profit": -17082,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 30179
+      "required_rise": 30082
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -79,17 +79,17 @@
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
       "jan": "4948872415934",
-      "name": "【新品・訳あり】PS5 本体 CFI-2000A01 PlayStation 5 Slim 1TB 外箱傷みあり",
-      "price": 105000,
-      "store": "ブライトトレジャーズ2",
-      "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872415934.html",
+      "name": "【ラッピング可】【即日発送】【新品 箱不良・シュリンク破れ品】SIE PlayStation5 ディスクドライブ Slimモデル CFI-2000A01 1TB",
+      "price": 125000,
+      "store": "電子問屋",
+      "url": "https://store.shopping.yahoo.co.jp/densidonya/4948872415934-a.html",
       "in_stock": true,
       "buyback_price": 114700,
-      "safe_profit": 6200,
-      "cash_profit": 9200,
+      "safe_profit": -13800,
+      "cash_profit": -10800,
       "grade": "D",
       "buy_threshold": 101200,
-      "required_rise": 3800
+      "required_rise": 23800
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
