@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-09-24T13:58:23+09:00",
+  "checked_at": "2026-09-24T19:06:25+09:00",
   "products_checked": 21,
   "records_changed": true,
-  "alerts": 2,
+  "alerts": 1,
   "email_sent": false,
   "errors": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "notification": "email",
-      "error": "(535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 46e09a7af769-81603fc79cesm5139386a34.10 - gsmtp')"
+      "error": "(535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 46e09a7af769-81603fc79cesm5607408a34.10 - gsmtp')"
     }
   ],
   "notes": [
@@ -26,7 +26,7 @@
       "note": "この実行環境からのアクセスが拒否されました（HTTP 403）。"
     }
   ],
-  "market_checked_at": "2026-09-24T13:58:23+09:00",
+  "market_checked_at": "2026-09-24T19:06:25+09:00",
   "products": [
     {
       "id": "iphone-17-256",
