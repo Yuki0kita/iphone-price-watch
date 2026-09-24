@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-25T00:11:32+09:00",
+  "checked_at": "2026-09-25T04:14:09+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -34,17 +34,17 @@
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "最安値挑戦!!!新品未開封 Apple iPhone 17 Pro 256GB シルバー MG854J/A SIMフリー4549995648294",
-      "price": 199670,
-      "store": "KizunaStore",
-      "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995648294m.html",
+      "name": "★Apple国内版SIMフリー iPhone17Pro 256GB シルバー MG854J/A A3522 新品未開封 本体 eSIM専用端末♪高質ガラスフィルムと透明ケースプレゼント",
+      "price": 199680,
+      "store": "ジェーシカモバイル2号店",
+      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995648294.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -20670,
-      "cash_profit": -17670,
+      "safe_profit": -20680,
+      "cash_profit": -17680,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 30670
+      "required_rise": 30680
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
