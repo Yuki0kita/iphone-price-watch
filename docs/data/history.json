@@ -9422,5 +9422,27 @@
     "ok": true,
     "retail_price": 4950,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-25T22:53:04+09:00",
+    "product_id": "iphone-17-pro-256",
+    "product_name": "iPhone 17 Pro 256GB",
+    "price": 174000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1374/1936",
+    "ok": true,
+    "retail_price": 199669,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-25T22:53:04+09:00",
+    "product_id": "rog-xbox-ally-x-1tb",
+    "product_name": "ASUS ROG Xbox Ally X 1TB ブラック",
+    "price": 154000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 184896,
+    "retail_source": "yahoo"
   }
 ]
