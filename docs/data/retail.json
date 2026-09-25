@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-25T07:29:48+09:00",
+  "checked_at": "2026-09-25T10:34:46+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -114,12 +114,12 @@
       "store": "カウカウSTORE",
       "url": "https://store.shopping.yahoo.co.jp/free-world/cardpack-o-024-18.html",
       "in_stock": true,
-      "buyback_price": 9000,
-      "safe_profit": 550,
-      "cash_profit": 3550,
+      "buyback_price": 9500,
+      "safe_profit": 1050,
+      "cash_profit": 4050,
       "grade": "D",
-      "buy_threshold": -4500,
-      "required_rise": 9450
+      "buy_threshold": -4000,
+      "required_rise": 8950
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
