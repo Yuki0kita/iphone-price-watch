@@ -9673,5 +9673,38 @@
     "ok": true,
     "retail_price": 125000,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-26T16:47:53+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 189800,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 185000,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-26T16:47:53+09:00",
+    "product_id": "onepiece-op17",
+    "product_name": "ONE PIECE OP-17 世界最強の戦士 BOX",
+    "price": 10000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 5340,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-26T16:47:53+09:00",
+    "product_id": "pokemon-inferno-x",
+    "product_name": "ポケモンカード MEGA インフェルノX BOX",
+    "price": 14500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 21200,
+    "retail_source": "yahoo"
   }
 ]

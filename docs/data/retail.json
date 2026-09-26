@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-26T10:37:46+09:00",
+  "checked_at": "2026-09-26T16:47:53+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -54,12 +54,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 189700,
-      "safe_profit": 1200,
-      "cash_profit": 4200,
+      "buyback_price": 189800,
+      "safe_profit": 1300,
+      "cash_profit": 4300,
       "grade": "D",
-      "buy_threshold": 176200,
-      "required_rise": 8800
+      "buy_threshold": 176300,
+      "required_rise": 8700
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -109,32 +109,32 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "2026年8月22日発売 予約 18パック ばら売り レビュー特典あり ONE PIECEカードゲーム 世界最強の戦士  OP-17 BOX 24パック入り　ワンピース バンダイ BANDAI",
-      "price": 4950,
-      "store": "カウカウSTORE",
-      "url": "https://store.shopping.yahoo.co.jp/free-world/cardpack-o-024-18.html",
+      "name": "世界最強の戦士 ONE PIECEカードゲーム 2026年8月22日発売 予約 10パック ばら売り OP-17 BOX 24パック入り ワンピース バンダイ BANDAI",
+      "price": 5340,
+      "store": "1913ストア",
+      "url": "https://store.shopping.yahoo.co.jp/1913store/4582770058406.html",
       "in_stock": true,
-      "buyback_price": 9500,
-      "safe_profit": 1050,
-      "cash_profit": 4050,
+      "buyback_price": 10000,
+      "safe_profit": 1160,
+      "cash_profit": 4160,
       "grade": "D",
-      "buy_threshold": -4000,
-      "required_rise": 8950
+      "buy_threshold": -3500,
+      "required_rise": 8840
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
       "jan": "4521329431529",
-      "name": "(シュリンクなし) ポケモンカードゲーム MEGA 拡張パック インフェルノX　1BOX",
-      "price": 21270,
-      "store": "太郎坊 Yahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
+      "name": "《未開封・シュリンク付き》ポケモンカードゲーム MEGA 拡張パック インフェルノX BOX",
+      "price": 21200,
+      "store": "クレアリーノ",
+      "url": "https://store.shopping.yahoo.co.jp/creari-no/3900-31529.html",
       "in_stock": true,
       "buyback_price": 14500,
-      "safe_profit": -10270,
-      "cash_profit": -7270,
+      "safe_profit": -10200,
+      "cash_profit": -7200,
       "grade": "D",
       "buy_threshold": 1000,
-      "required_rise": 20270
+      "required_rise": 20200
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
