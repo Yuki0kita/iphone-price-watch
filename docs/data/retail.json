@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-26T07:25:56+09:00",
+  "checked_at": "2026-09-26T10:37:46+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -54,12 +54,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 188000,
-      "safe_profit": -500,
-      "cash_profit": 2500,
+      "buyback_price": 189700,
+      "safe_profit": 1200,
+      "cash_profit": 4200,
       "grade": "D",
-      "buy_threshold": 174500,
-      "required_rise": 10500
+      "buy_threshold": 176200,
+      "required_rise": 8800
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -84,12 +84,12 @@
       "store": "電子問屋",
       "url": "https://store.shopping.yahoo.co.jp/densidonya/4948872415934-a.html",
       "in_stock": true,
-      "buyback_price": 115200,
-      "safe_profit": -13300,
-      "cash_profit": -10300,
+      "buyback_price": 116300,
+      "safe_profit": -12200,
+      "cash_profit": -9200,
       "grade": "D",
-      "buy_threshold": 101700,
-      "required_rise": 23300
+      "buy_threshold": 102800,
+      "required_rise": 22200
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
