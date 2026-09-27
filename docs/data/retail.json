@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-27T10:31:23+09:00",
+  "checked_at": "2026-09-27T17:16:48+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -50,16 +50,16 @@
       "source": "yahoo",
       "jan": "4948872416320",
       "name": "【新品・訳あり】PS5 Pro 本体 CFI-7000B01 PlayStation 5 Pro プレイステーション5 プロ 外箱傷みあり",
-      "price": 185000,
+      "price": 179990,
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
       "buyback_price": 189800,
-      "safe_profit": 1300,
-      "cash_profit": 4300,
+      "safe_profit": 6310,
+      "cash_profit": 9310,
       "grade": "D",
       "buy_threshold": 176300,
-      "required_rise": 8700
+      "required_rise": 3690
     },
     "switch2-multilang": {
       "source": "yahoo",
