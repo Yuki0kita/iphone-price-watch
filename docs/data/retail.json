@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-28T16:00:34+09:00",
+  "checked_at": "2026-09-29T00:34:10+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -54,12 +54,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 190000,
-      "safe_profit": 6510,
-      "cash_profit": 9510,
+      "buyback_price": 190700,
+      "safe_profit": 7210,
+      "cash_profit": 10210,
       "grade": "D",
-      "buy_threshold": 176500,
-      "required_rise": 3490
+      "buy_threshold": 177200,
+      "required_rise": 2790
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -84,12 +84,12 @@
       "store": "おやま質店ヤフーショップ",
       "url": "https://store.shopping.yahoo.co.jp/oyama/24-1624.html",
       "in_stock": true,
-      "buyback_price": 116500,
-      "safe_profit": -6900,
-      "cash_profit": -3900,
+      "buyback_price": 116700,
+      "safe_profit": -6700,
+      "cash_profit": -3700,
       "grade": "D",
-      "buy_threshold": 103000,
-      "required_rise": 16900
+      "buy_threshold": 103200,
+      "required_rise": 16700
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -189,12 +189,12 @@
       "store": "BNT",
       "url": "https://store.shopping.yahoo.co.jp/bnt/5090-ventus.html",
       "in_stock": false,
-      "buyback_price": 652000,
-      "safe_profit": -17500,
-      "cash_profit": -14500,
-      "grade": "D",
-      "buy_threshold": 638500,
-      "required_rise": 27500
+      "buyback_price": 722000,
+      "safe_profit": 52500,
+      "cash_profit": 55500,
+      "grade": "S",
+      "buy_threshold": 708500,
+      "required_rise": 0
     },
     "rtx-5080-asus-astral": {
       "source": "yahoo",
