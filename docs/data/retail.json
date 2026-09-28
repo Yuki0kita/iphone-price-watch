@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-28T09:54:06+09:00",
+  "checked_at": "2026-09-28T16:00:34+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -54,12 +54,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 189800,
-      "safe_profit": 6310,
-      "cash_profit": 9310,
+      "buyback_price": 190000,
+      "safe_profit": 6510,
+      "cash_profit": 9510,
       "grade": "D",
-      "buy_threshold": 176300,
-      "required_rise": 3690
+      "buy_threshold": 176500,
+      "required_rise": 3490
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -79,17 +79,17 @@
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
       "jan": "4948872415934",
-      "name": "【ラッピング可】【即日発送】【新品 箱不良・シュリンク破れ品】SIE PlayStation5 ディスクドライブ Slimモデル CFI-2000A01 1TB",
-      "price": 125000,
-      "store": "電子問屋",
-      "url": "https://store.shopping.yahoo.co.jp/densidonya/4948872415934-a.html",
+      "name": "SONY PlayStation5 CFI-2000A01 (ディスクドライブ搭載) プレイステーション5 箱不良",
+      "price": 119900,
+      "store": "おやま質店ヤフーショップ",
+      "url": "https://store.shopping.yahoo.co.jp/oyama/24-1624.html",
       "in_stock": true,
-      "buyback_price": 116300,
-      "safe_profit": -12200,
-      "cash_profit": -9200,
+      "buyback_price": 116500,
+      "safe_profit": -6900,
+      "cash_profit": -3900,
       "grade": "D",
-      "buy_threshold": 102800,
-      "required_rise": 22200
+      "buy_threshold": 103000,
+      "required_rise": 16900
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -124,17 +124,17 @@
     "pokemon-inferno-x": {
       "source": "yahoo",
       "jan": "4521329431529",
-      "name": "《未開封・シュリンク付き》ポケモンカードゲーム MEGA 拡張パック インフェルノX BOX",
-      "price": 21200,
-      "store": "クレアリーノ",
-      "url": "https://store.shopping.yahoo.co.jp/creari-no/3900-31529.html",
+      "name": "ポケモンカードゲーム MEGA 拡張パック インフェルノX BOX 【シュリンク付き未開封品】",
+      "price": 19000,
+      "store": "お宝あっと町田Yahoo!ショップ",
+      "url": "https://store.shopping.yahoo.co.jp/otakara-machida/0320250924101.html",
       "in_stock": true,
       "buyback_price": 14500,
-      "safe_profit": -10200,
-      "cash_profit": -7200,
+      "safe_profit": -8000,
+      "cash_profit": -5000,
       "grade": "D",
       "buy_threshold": 1000,
-      "required_rise": 20200
+      "required_rise": 18000
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
