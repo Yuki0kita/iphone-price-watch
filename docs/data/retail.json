@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-29T11:01:47+09:00",
+  "checked_at": "2026-09-29T17:37:47+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -9,12 +9,12 @@
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
       "in_stock": true,
       "source": "apple",
-      "buyback_price": 140500,
-      "safe_profit": -22800,
-      "cash_profit": -19800,
+      "buyback_price": 141000,
+      "safe_profit": -22300,
+      "cash_profit": -19300,
       "grade": "D",
-      "buy_threshold": 127000,
-      "required_rise": 32800
+      "buy_threshold": 127500,
+      "required_rise": 32300
     },
     "iphone-17-pro-max-512": {
       "source": "yahoo",
@@ -64,17 +64,17 @@
     "switch2-multilang": {
       "source": "yahoo",
       "jan": "4902370552683",
-      "name": "★訳あり 任天堂 Nintendo Switch2 Multi-Language System 多言語版 BEE-S-KB6AA ブラック 任天堂スイッチ 本体 4902370552683※外箱少々凹みや傷あり",
-      "price": 92580,
-      "store": "ジェーシカモバイル2号店",
-      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4902370552684.html",
+      "name": "【ラッピング可】【即日発送】【新品 箱不良・シュリンク破れ品】任天堂 Nintendo Switch 2 本体 Multi-Language System 多言語版 BEE-S-KB6AA ブラック",
+      "price": 92550,
+      "store": "電子問屋",
+      "url": "https://store.shopping.yahoo.co.jp/densidonya/4902370552683-a.html",
       "in_stock": true,
       "buyback_price": 82300,
-      "safe_profit": -13780,
-      "cash_profit": -10780,
+      "safe_profit": -13750,
+      "cash_profit": -10750,
       "grade": "D",
       "buy_threshold": 68800,
-      "required_rise": 23780
+      "required_rise": 23750
     },
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
