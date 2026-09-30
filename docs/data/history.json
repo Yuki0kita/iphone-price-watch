@@ -10633,5 +10633,49 @@
     "ok": true,
     "retail_price": 132000,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-30T15:47:38+09:00",
+    "product_id": "switch2-multilang",
+    "product_name": "Nintendo Switch 2 多言語版",
+    "price": 82400,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 92550,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-30T15:47:38+09:00",
+    "product_id": "onepiece-op17",
+    "product_name": "ONE PIECE OP-17 世界最強の戦士 BOX",
+    "price": 9800,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 4950,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-30T15:47:38+09:00",
+    "product_id": "pokemon-inferno-x",
+    "product_name": "ポケモンカード MEGA インフェルノX BOX",
+    "price": 15000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 19000,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-09-30T15:47:38+09:00",
+    "product_id": "rog-xbox-ally-x-1tb",
+    "product_name": "ASUS ROG Xbox Ally X 1TB ブラック",
+    "price": 154500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 184896,
+    "retail_source": "yahoo"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-30T09:31:50+09:00",
+  "checked_at": "2026-09-30T15:47:38+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -69,12 +69,12 @@
       "store": "電子問屋",
       "url": "https://store.shopping.yahoo.co.jp/densidonya/4902370552683-a.html",
       "in_stock": true,
-      "buyback_price": 82300,
-      "safe_profit": -13750,
-      "cash_profit": -10750,
+      "buyback_price": 82400,
+      "safe_profit": -13650,
+      "cash_profit": -10650,
       "grade": "D",
-      "buy_threshold": 68800,
-      "required_rise": 23750
+      "buy_threshold": 68900,
+      "required_rise": 23650
     },
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
@@ -114,12 +114,12 @@
       "store": "カウカウSTORE",
       "url": "https://store.shopping.yahoo.co.jp/free-world/cardpack-o-024-18.html",
       "in_stock": true,
-      "buyback_price": 9500,
-      "safe_profit": 1050,
-      "cash_profit": 4050,
+      "buyback_price": 9800,
+      "safe_profit": 1350,
+      "cash_profit": 4350,
       "grade": "D",
-      "buy_threshold": -4000,
-      "required_rise": 8950
+      "buy_threshold": -3700,
+      "required_rise": 8650
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -129,12 +129,12 @@
       "store": "お宝あっと町田Yahoo!ショップ",
       "url": "https://store.shopping.yahoo.co.jp/otakara-machida/0320250924101.html",
       "in_stock": true,
-      "buyback_price": 14500,
-      "safe_profit": -8000,
-      "cash_profit": -5000,
+      "buyback_price": 15000,
+      "safe_profit": -7500,
+      "cash_profit": -4500,
       "grade": "D",
-      "buy_threshold": 1000,
-      "required_rise": 18000
+      "buy_threshold": 1500,
+      "required_rise": 17500
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
@@ -144,12 +144,12 @@
       "store": "測定の森Yahoo!ショッピング店",
       "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
       "in_stock": true,
-      "buyback_price": 154000,
-      "safe_profit": -34396,
-      "cash_profit": -31396,
+      "buyback_price": 154500,
+      "safe_profit": -33896,
+      "cash_profit": -30896,
       "grade": "D",
-      "buy_threshold": 140500,
-      "required_rise": 44396
+      "buy_threshold": 141000,
+      "required_rise": 43896
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
