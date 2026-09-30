@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-30T22:49:35+09:00",
+  "checked_at": "2026-10-01T04:26:04+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -203,7 +203,7 @@
       "price": 444764,
       "store": "e-zoa",
       "url": "https://store.shopping.yahoo.co.jp/e-zoa/itm0015928944.html",
-      "in_stock": false,
+      "in_stock": true,
       "buyback_price": 210220,
       "safe_profit": -238044,
       "cash_profit": -235044,
