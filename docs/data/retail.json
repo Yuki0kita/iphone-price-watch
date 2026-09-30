@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-30T15:47:38+09:00",
+  "checked_at": "2026-09-30T22:49:35+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -140,16 +140,16 @@
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
-      "price": 184896,
+      "price": 185136,
       "store": "測定の森Yahoo!ショッピング店",
       "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
       "in_stock": true,
       "buyback_price": 154500,
-      "safe_profit": -33896,
-      "cash_profit": -30896,
+      "safe_profit": -34136,
+      "cash_profit": -31136,
       "grade": "D",
       "buy_threshold": 141000,
-      "required_rise": 43896
+      "required_rise": 44136
     },
     "mac-mini-m4-256": {
       "source": "yahoo",
@@ -203,7 +203,7 @@
       "price": 444764,
       "store": "e-zoa",
       "url": "https://store.shopping.yahoo.co.jp/e-zoa/itm0015928944.html",
-      "in_stock": true,
+      "in_stock": false,
       "buyback_price": 210220,
       "safe_profit": -238044,
       "cash_profit": -235044,
@@ -214,17 +214,17 @@
     "rtx-5070ti-msi-ventus-3x": {
       "source": "yahoo",
       "jan": "4711377301589",
-      "name": "【新品】【即納】MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC グラフィックスカード VD9043",
-      "price": 185000,
-      "store": "BNT",
-      "url": "https://store.shopping.yahoo.co.jp/bnt/msi-5070ti-ventus.html",
-      "in_stock": false,
+      "name": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC グラフィックボード",
+      "price": 238280,
+      "store": "XPRICE Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/aprice/4711377301589.html",
+      "in_stock": true,
       "buyback_price": 150000,
-      "safe_profit": -38500,
-      "cash_profit": -35500,
+      "safe_profit": -91780,
+      "cash_profit": -88780,
       "grade": "D",
       "buy_threshold": 136500,
-      "required_rise": 48500
+      "required_rise": 101780
     },
     "rtx-5070-gigabyte-aorus": {
       "source": "yahoo",
