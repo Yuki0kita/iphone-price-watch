@@ -10950,5 +10950,16 @@
     "ok": true,
     "retail_price": 339789,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-01T22:25:56+09:00",
+    "product_id": "pokemon-inferno-x",
+    "product_name": "ポケモンカード MEGA インフェルノX BOX",
+    "price": 14500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 19000,
+    "retail_source": "yahoo"
   }
 ]

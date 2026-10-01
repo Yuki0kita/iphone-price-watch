@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-01T15:03:25+09:00",
+  "checked_at": "2026-10-01T22:25:56+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -129,12 +129,12 @@
       "store": "お宝あっと町田Yahoo!ショップ",
       "url": "https://store.shopping.yahoo.co.jp/otakara-machida/0320250924101.html",
       "in_stock": true,
-      "buyback_price": 15000,
-      "safe_profit": -7500,
-      "cash_profit": -4500,
+      "buyback_price": 14500,
+      "safe_profit": -8000,
+      "cash_profit": -5000,
       "grade": "D",
-      "buy_threshold": 1500,
-      "required_rise": 17500
+      "buy_threshold": 1000,
+      "required_rise": 18000
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
