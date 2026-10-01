@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-01T08:55:00+09:00",
+  "checked_at": "2026-10-01T15:03:25+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -54,12 +54,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 190700,
-      "safe_profit": 7210,
-      "cash_profit": 10210,
+      "buyback_price": 191000,
+      "safe_profit": 7510,
+      "cash_profit": 10510,
       "grade": "D",
-      "buy_threshold": 177200,
-      "required_rise": 2790
+      "buy_threshold": 177500,
+      "required_rise": 2490
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -230,31 +230,31 @@
       "source": "yahoo",
       "jan": "4988755076357",
       "name": "AORUS GeForce RTX 5070 INFINITY 12G　GV-N5070AORUS IF-12GD",
-      "price": 181616,
+      "price": 189263,
       "store": "ツクモ パソコン Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/tsukumo-y/4988755076357.html",
       "in_stock": false,
       "buyback_price": 131000,
-      "safe_profit": -54116,
-      "cash_profit": -51116,
+      "safe_profit": -61763,
+      "cash_profit": -58763,
       "grade": "D",
       "buy_threshold": 117500,
-      "required_rise": 64116
+      "required_rise": 71763
     },
     "rtx-5080-gigabyte-aorus": {
       "source": "yahoo",
       "jan": "4988755071369",
       "name": "AORUS GeForce RTX 5080 MASTER ICE 16G　GV-N5080AORUSM ICE-16GD",
-      "price": 326061,
+      "price": 339789,
       "store": "ツクモ パソコン Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/tsukumo-y/4988755071369.html",
       "in_stock": false,
       "buyback_price": 180220,
-      "safe_profit": -149341,
-      "cash_profit": -146341,
+      "safe_profit": -163069,
+      "cash_profit": -160069,
       "grade": "D",
       "buy_threshold": 166720,
-      "required_rise": 159341
+      "required_rise": 173069
     },
     "rtx-5060ti-zotac-twin-edge": {
       "source": "yahoo",

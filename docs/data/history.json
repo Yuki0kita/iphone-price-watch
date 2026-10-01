@@ -10917,5 +10917,38 @@
     "ok": true,
     "retail_price": 253800,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-01T15:03:25+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 191000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 179990,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-01T15:03:25+09:00",
+    "product_id": "rtx-5070-gigabyte-aorus",
+    "product_name": "GIGABYTE AORUS GeForce RTX 5070 INFINITY 12G",
+    "price": 131000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 189263,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-01T15:03:25+09:00",
+    "product_id": "rtx-5080-gigabyte-aorus",
+    "product_name": "GIGABYTE AORUS RTX 5080 MASTER ICE 16G",
+    "price": 180220,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 339789,
+    "retail_source": "yahoo"
   }
 ]
