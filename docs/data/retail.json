@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-02T04:35:18+09:00",
+  "checked_at": "2026-10-02T08:55:45+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -109,17 +109,17 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "2026年8月22日発売 予約 18パック ばら売り レビュー特典あり ONE PIECEカードゲーム 世界最強の戦士  OP-17 BOX 24パック入り　ワンピース バンダイ BANDAI",
-      "price": 4950,
-      "store": "カウカウSTORE",
-      "url": "https://store.shopping.yahoo.co.jp/free-world/cardpack-o-024-18.html",
+      "name": "世界最強の戦士 ONE PIECEカードゲーム 2026年8月22日発売 予約 10パック ばら売り OP-17 BOX  ワンピース バンダイ BANDAI",
+      "price": 5340,
+      "store": "1913ストア",
+      "url": "https://store.shopping.yahoo.co.jp/1913store/4582770058406.html",
       "in_stock": true,
       "buyback_price": 9800,
-      "safe_profit": 1350,
-      "cash_profit": 4350,
+      "safe_profit": 960,
+      "cash_profit": 3960,
       "grade": "D",
       "buy_threshold": -3700,
-      "required_rise": 8650
+      "required_rise": 9040
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
