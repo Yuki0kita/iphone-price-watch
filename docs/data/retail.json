@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-02T08:55:45+09:00",
+  "checked_at": "2026-10-02T14:46:32+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -9,12 +9,12 @@
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
       "in_stock": true,
       "source": "apple",
-      "buyback_price": 141000,
-      "safe_profit": -22300,
-      "cash_profit": -19300,
+      "buyback_price": 140000,
+      "safe_profit": -23300,
+      "cash_profit": -20300,
       "grade": "D",
-      "buy_threshold": 127500,
-      "required_rise": 32300
+      "buy_threshold": 126500,
+      "required_rise": 33300
     },
     "iphone-17-pro-max-512": {
       "source": "yahoo",
@@ -34,10 +34,10 @@
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "iPhone17 Pro 256GB シルバー MG854J/A SIMフリー 新品・未使用 本体 1528",
+      "name": "iPhone17 Pro 256GB シルバー MG854J/A SIMフリー 新品・未使用 本体 6087",
       "price": 194980,
       "store": "モバステ",
-      "url": "https://store.shopping.yahoo.co.jp/mobilestation/ip17pro256gb-s-s-1528.html",
+      "url": "https://store.shopping.yahoo.co.jp/mobilestation/ip17pro256gb-s-s-6087.html",
       "in_stock": true,
       "buyback_price": 182500,
       "safe_profit": -15980,
@@ -54,12 +54,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 191000,
-      "safe_profit": 7510,
-      "cash_profit": 10510,
+      "buyback_price": 191200,
+      "safe_profit": 7710,
+      "cash_profit": 10710,
       "grade": "D",
-      "buy_threshold": 177500,
-      "required_rise": 2490
+      "buy_threshold": 177700,
+      "required_rise": 2290
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -129,12 +129,12 @@
       "store": "お宝あっと町田Yahoo!ショップ",
       "url": "https://store.shopping.yahoo.co.jp/otakara-machida/0320250924101.html",
       "in_stock": true,
-      "buyback_price": 14500,
-      "safe_profit": -8000,
-      "cash_profit": -5000,
+      "buyback_price": 14000,
+      "safe_profit": -8500,
+      "cash_profit": -5500,
       "grade": "D",
-      "buy_threshold": 1000,
-      "required_rise": 18000
+      "buy_threshold": 500,
+      "required_rise": 18500
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
@@ -214,17 +214,17 @@
     "rtx-5070ti-msi-ventus-3x": {
       "source": "yahoo",
       "jan": "4711377301589",
-      "name": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC グラフィックボード",
-      "price": 238280,
-      "store": "XPRICE Yahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/aprice/4711377301589.html",
-      "in_stock": true,
+      "name": "【新品】【即納】MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC グラフィックスカード VD9043",
+      "price": 185000,
+      "store": "BNT",
+      "url": "https://store.shopping.yahoo.co.jp/bnt/msi-5070ti-ventus.html",
+      "in_stock": false,
       "buyback_price": 150000,
-      "safe_profit": -91780,
-      "cash_profit": -88780,
+      "safe_profit": -38500,
+      "cash_profit": -35500,
       "grade": "D",
       "buy_threshold": 136500,
-      "required_rise": 101780
+      "required_rise": 48500
     },
     "rtx-5070-gigabyte-aorus": {
       "source": "yahoo",
