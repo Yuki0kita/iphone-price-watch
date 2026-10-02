@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-10-02T14:46:32+09:00",
+  "checked_at": "2026-10-02T21:44:42+09:00",
   "products_checked": 21,
-  "records_changed": true,
-  "alerts": 4,
+  "records_changed": false,
+  "alerts": 1,
   "email_sent": false,
   "errors": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "notification": "email",
-      "error": "Connection unexpectedly closed"
+      "error": "(535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-cc9f736cf80sm866290a12.16 - gsmtp')"
     }
   ],
   "notes": [
@@ -26,7 +26,7 @@
       "note": "この実行環境からのアクセスが拒否されました（HTTP 403）。"
     }
   ],
-  "market_checked_at": "2026-10-02T14:46:32+09:00",
+  "market_checked_at": "2026-10-02T21:44:42+09:00",
   "products": [
     {
       "id": "iphone-17-256",
