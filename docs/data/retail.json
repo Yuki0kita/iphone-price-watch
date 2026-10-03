@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-03T08:00:59+09:00",
+  "checked_at": "2026-10-03T11:02:47+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -54,12 +54,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 191200,
-      "safe_profit": 7710,
-      "cash_profit": 10710,
+      "buyback_price": 192000,
+      "safe_profit": 8510,
+      "cash_profit": 11510,
       "grade": "D",
-      "buy_threshold": 177700,
-      "required_rise": 2290
+      "buy_threshold": 178500,
+      "required_rise": 1490
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -139,17 +139,17 @@
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
-      "price": 185136,
-      "store": "測定の森Yahoo!ショッピング店",
-      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
+      "name": "ASUS ROG Xbox Ally X 1TB",
+      "price": 183230,
+      "store": "らいぶshop",
+      "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
       "in_stock": true,
       "buyback_price": 154500,
-      "safe_profit": -34136,
-      "cash_profit": -31136,
+      "safe_profit": -32230,
+      "cash_profit": -29230,
       "grade": "D",
       "buy_threshold": 141000,
-      "required_rise": 44136
+      "required_rise": 42230
     },
     "mac-mini-m4-256": {
       "source": "yahoo",

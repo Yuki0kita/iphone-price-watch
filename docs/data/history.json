@@ -11452,5 +11452,27 @@
     "ok": true,
     "retail_price": 132000,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-03T11:02:47+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 192000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 179990,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-03T11:02:47+09:00",
+    "product_id": "rog-xbox-ally-x-1tb",
+    "product_name": "ASUS ROG Xbox Ally X 1TB ブラック",
+    "price": 154500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 183230,
+    "retail_source": "yahoo"
   }
 ]
