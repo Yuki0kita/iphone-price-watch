@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-06T01:06:52+09:00",
+  "checked_at": "2026-10-06T07:42:27+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -109,17 +109,17 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "未開封BOX ONE PIECEカードゲーム ワンピースカードゲーム ブースターパック 世界最強の戦士 OP-17 1BOX24パック入り 特典なし",
-      "price": 12888,
-      "store": "きゃらくた〜らんど",
-      "url": "https://store.shopping.yahoo.co.jp/characterland/4582770058406-b.html",
+      "name": "【未開封BOX】【新品】 ONE PIECE カードゲーム ブースターパック 世界最強の戦士 OP-17 BOX 佐賀",
+      "price": 12800,
+      "store": "赤い熊さんYahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/akaikumasan/4582770058406.html",
       "in_stock": true,
       "buyback_price": 9800,
-      "safe_profit": -6588,
-      "cash_profit": -3588,
+      "safe_profit": -6500,
+      "cash_profit": -3500,
       "grade": "D",
       "buy_threshold": -3700,
-      "required_rise": 16588
+      "required_rise": 16500
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
