@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-06T07:42:27+09:00",
+  "checked_at": "2026-10-06T12:03:36+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -9,12 +9,12 @@
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
       "in_stock": true,
       "source": "apple",
-      "buyback_price": 140000,
-      "safe_profit": -23300,
-      "cash_profit": -20300,
+      "buyback_price": 139000,
+      "safe_profit": -24300,
+      "cash_profit": -21300,
       "grade": "D",
-      "buy_threshold": 126500,
-      "required_rise": 33300
+      "buy_threshold": 125500,
+      "required_rise": 34300
     },
     "iphone-17-pro-max-512": {
       "source": "yahoo",
