@@ -12249,5 +12249,38 @@
     "ok": true,
     "retail_price": 196560,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-06T19:26:31+09:00",
+    "product_id": "iphone-17-pro-max-512",
+    "product_name": "iPhone 17 Pro Max 512GB",
+    "price": 215000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1371/1927",
+    "ok": true,
+    "retail_price": 248620,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-06T19:26:31+09:00",
+    "product_id": "iphone-17-pro-256",
+    "product_name": "iPhone 17 Pro 256GB",
+    "price": 171000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1374/1936",
+    "ok": true,
+    "retail_price": 196559,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-06T19:26:31+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 194700,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 179990,
+    "retail_source": "yahoo"
   }
 ]
