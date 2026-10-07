@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-07T17:46:00+09:00",
+  "checked_at": "2026-10-08T01:35:19+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -19,17 +19,17 @@
     "iphone-17-pro-max-512": {
       "source": "yahoo",
       "jan": "4549995649314",
-      "name": "新品未開封 Apple iPhone 17 Promax 512GB シルバー MFYC4J/A SIMロック解除済 SIMフリー4549995649314m",
-      "price": 251980,
-      "store": "digitalisland",
-      "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995649314m.html",
+      "name": "★Apple 国内版 SIMフリー iPhone17ProMax 512GB シルバー  MFYC4J/A A3525 新品未開封 本体 eSIM専用端末♪高質ガラスフィルムと透明ケースプレゼント",
+      "price": 252080,
+      "store": "ジェーシカモバイル2号店",
+      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995649314.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -27980,
-      "cash_profit": -24980,
+      "safe_profit": -28080,
+      "cash_profit": -25080,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 37980
+      "required_rise": 38080
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
@@ -109,17 +109,17 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "ONE PIECEカードゲーム ブースターパック 世界最強の戦士 OP-17 [BOX]",
-      "price": 12799,
-      "store": "らいぶshop",
-      "url": "https://store.shopping.yahoo.co.jp/light-hikari/4582770058406.html",
+      "name": "(箱傷みあり)(プロモカード2パック付) ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】　1BOX",
+      "price": 12790,
+      "store": "太郎坊 Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/taroubou/4582770058406-wakeari.html",
       "in_stock": true,
       "buyback_price": 9800,
-      "safe_profit": -6499,
-      "cash_profit": -3499,
+      "safe_profit": -6490,
+      "cash_profit": -3490,
       "grade": "D",
       "buy_threshold": -3700,
-      "required_rise": 16499
+      "required_rise": 16490
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
