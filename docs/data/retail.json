@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-07T10:36:32+09:00",
+  "checked_at": "2026-10-07T17:46:00+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -19,32 +19,32 @@
     "iphone-17-pro-max-512": {
       "source": "yahoo",
       "jan": "4549995649314",
-      "name": "【ラッピング可】【即日発送】【新品】Apple アップル iPhone 17 Pro Max 512GB MFYC4J/A シルバー",
-      "price": 248620,
-      "store": "電子問屋",
-      "url": "https://store.shopping.yahoo.co.jp/densidonya/4549995649314.html",
+      "name": "新品未開封 Apple iPhone 17 Promax 512GB シルバー MFYC4J/A SIMロック解除済 SIMフリー4549995649314m",
+      "price": 251980,
+      "store": "digitalisland",
+      "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995649314m.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -24620,
-      "cash_profit": -21620,
+      "safe_profit": -27980,
+      "cash_profit": -24980,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 34620
+      "required_rise": 37980
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "新品未開封 Apple iPhone 17 Pro 256GB シルバー MG854J/A SIMロック解除済 SIMフリー4549995648294m",
-      "price": 196559,
-      "store": "digitalisland",
-      "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995648294m.html",
+      "name": "最安値挑戦!!!新品未開封 Apple iPhone 17 Pro 256GB シルバー MG854J/A SIMフリー4549995648294",
+      "price": 195989,
+      "store": "KizunaStore",
+      "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995648294m.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -17559,
-      "cash_profit": -14559,
+      "safe_profit": -16989,
+      "cash_profit": -13989,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 27559
+      "required_rise": 26989
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -54,11 +54,11 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 194700,
-      "safe_profit": 11210,
-      "cash_profit": 14210,
+      "buyback_price": 195200,
+      "safe_profit": 11710,
+      "cash_profit": 14710,
       "grade": "C",
-      "buy_threshold": 181200,
+      "buy_threshold": 181700,
       "required_rise": 0
     },
     "switch2-multilang": {
@@ -109,17 +109,17 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "【未開封BOX】【新品】 ONE PIECE カードゲーム ブースターパック 世界最強の戦士 OP-17 BOX 佐賀",
-      "price": 12800,
-      "store": "赤い熊さんYahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/akaikumasan/4582770058406.html",
+      "name": "ONE PIECEカードゲーム ブースターパック 世界最強の戦士 OP-17 [BOX]",
+      "price": 12799,
+      "store": "らいぶshop",
+      "url": "https://store.shopping.yahoo.co.jp/light-hikari/4582770058406.html",
       "in_stock": true,
       "buyback_price": 9800,
-      "safe_profit": -6500,
-      "cash_profit": -3500,
+      "safe_profit": -6499,
+      "cash_profit": -3499,
       "grade": "D",
       "buy_threshold": -3700,
-      "required_rise": 16500
+      "required_rise": 16499
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -170,16 +170,16 @@
       "source": "yahoo",
       "jan": "4549995437164",
       "name": "『新品』Apple (アップル）Mac mini M4チップ 16GB 512GB MU9E3J/A 2024",
-      "price": 211179,
+      "price": 186480,
       "store": "ノア商社Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/noahshoping/4549995437164.html",
       "in_stock": true,
       "buyback_price": 90000,
-      "safe_profit": -124679,
-      "cash_profit": -121679,
+      "safe_profit": -99980,
+      "cash_profit": -96980,
       "grade": "D",
       "buy_threshold": 76500,
-      "required_rise": 134679
+      "required_rise": 109980
     },
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
