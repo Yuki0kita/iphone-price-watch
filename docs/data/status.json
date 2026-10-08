@@ -1,14 +1,24 @@
 {
-  "checked_at": "2026-10-08T11:00:25+09:00",
+  "checked_at": "2026-10-08T18:04:36+09:00",
   "products_checked": 21,
   "records_changed": true,
-  "alerts": 1,
+  "alerts": 3,
   "email_sent": false,
   "errors": [
     {
       "source": "apple",
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
       "error": "購入ページから価格を読み取れませんでした。ページ構造が変わった可能性があります。"
+    },
+    {
+      "product_id": "mac-mini-m4-256",
+      "name": "Mac mini M4 MU9D3J/A 16GB 256GB",
+      "error": "JAN 4549995437157 の商品が一覧に見つかりませんでした。取得できたJAN: []"
+    },
+    {
+      "product_id": "mac-mini-m4-512",
+      "name": "Mac mini M4 MU9E3J/A 16GB 512GB",
+      "error": "JAN 4549995437164 の商品が一覧に見つかりませんでした。取得できたJAN: []"
     },
     {
       "product_id": "rtx-5060ti-msi-ventus-3x",
@@ -26,7 +36,7 @@
       "note": "この実行環境からのアクセスが拒否されました（HTTP 403）。"
     }
   ],
-  "market_checked_at": "2026-10-08T11:00:25+09:00",
+  "market_checked_at": "2026-10-08T18:04:36+09:00",
   "products": [
     {
       "id": "iphone-17-256",
