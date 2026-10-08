@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-08T18:04:36+09:00",
+  "checked_at": "2026-10-09T01:33:37+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -34,32 +34,32 @@
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "最安値挑戦!!!新品未開封 Apple iPhone 17 Pro 256GB シルバー MG854J/A SIMフリー4549995648294",
-      "price": 195989,
-      "store": "KizunaStore",
-      "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995648294m.html",
+      "name": "★アップル / APPLE iPhone 17 Pro 256GB SIMフリー MG854J/A [シルバー] (SIMフリー)【スマートフォン】【送料無料】",
+      "price": 196560,
+      "store": "ディーライズ2号",
+      "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000922438.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -16989,
-      "cash_profit": -13989,
+      "safe_profit": -17560,
+      "cash_profit": -14560,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 26989
+      "required_rise": 27560
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
       "jan": "4948872416320",
-      "name": "【新品・訳あり】PS5 Pro 本体 CFI-7000B01 PlayStation 5 Pro プレイステーション5 プロ 外箱傷みあり",
-      "price": 179990,
-      "store": "ブライトトレジャーズ2",
-      "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
+      "name": "【ラッピング可】【即日発送】【新品 箱不良・シュリンク破れ品】SIE PlayStation 5 Pro CFI-7000B01 2TB",
+      "price": 209000,
+      "store": "電子問屋",
+      "url": "https://store.shopping.yahoo.co.jp/densidonya/4948872416320-a.html",
       "in_stock": true,
       "buyback_price": 195200,
-      "safe_profit": 11710,
-      "cash_profit": 14710,
-      "grade": "C",
+      "safe_profit": -17300,
+      "cash_profit": -14300,
+      "grade": "D",
       "buy_threshold": 181700,
-      "required_rise": 0
+      "required_rise": 27300
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -109,17 +109,17 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "(箱傷みあり)(プロモカード2パック付) ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】　1BOX",
-      "price": 12790,
-      "store": "太郎坊 Yahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/taroubou/4582770058406-wakeari.html",
+      "name": "【未開封BOX】【新品】 ONE PIECE カードゲーム ブースターパック 世界最強の戦士 OP-17 BOX 佐賀",
+      "price": 12800,
+      "store": "赤い熊さんYahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/akaikumasan/4582770058406.html",
       "in_stock": true,
       "buyback_price": 9800,
-      "safe_profit": -6490,
-      "cash_profit": -3490,
+      "safe_profit": -6500,
+      "cash_profit": -3500,
       "grade": "D",
       "buy_threshold": -3700,
-      "required_rise": 16490
+      "required_rise": 16500
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -140,16 +140,16 @@
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "ASUS ROG Xbox Ally X 1TB",
-      "price": 183230,
+      "price": 183210,
       "store": "らいぶshop",
       "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
       "in_stock": true,
       "buyback_price": 154500,
-      "safe_profit": -32230,
-      "cash_profit": -29230,
+      "safe_profit": -32210,
+      "cash_profit": -29210,
       "grade": "D",
       "buy_threshold": 141000,
-      "required_rise": 42230
+      "required_rise": 42210
     },
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
@@ -159,11 +159,11 @@
       "store": "BNT",
       "url": "https://store.shopping.yahoo.co.jp/bnt/5090-ventus.html",
       "in_stock": false,
-      "buyback_price": 722000,
-      "safe_profit": 52500,
-      "cash_profit": 55500,
+      "buyback_price": 830000,
+      "safe_profit": 160500,
+      "cash_profit": 163500,
       "grade": "S",
-      "buy_threshold": 708500,
+      "buy_threshold": 816500,
       "required_rise": 0
     },
     "rtx-5080-asus-astral": {
@@ -174,12 +174,12 @@
       "store": "e-zoa",
       "url": "https://store.shopping.yahoo.co.jp/e-zoa/itm0015928944.html",
       "in_stock": true,
-      "buyback_price": 210220,
-      "safe_profit": -238044,
-      "cash_profit": -235044,
+      "buyback_price": 250000,
+      "safe_profit": -198264,
+      "cash_profit": -195264,
       "grade": "D",
-      "buy_threshold": 196720,
-      "required_rise": 248044
+      "buy_threshold": 236500,
+      "required_rise": 208264
     },
     "rtx-5070ti-msi-ventus-3x": {
       "source": "yahoo",
@@ -189,12 +189,12 @@
       "store": "BNT",
       "url": "https://store.shopping.yahoo.co.jp/bnt/msi-5070ti-ventus.html",
       "in_stock": false,
-      "buyback_price": 150000,
-      "safe_profit": -38500,
-      "cash_profit": -35500,
+      "buyback_price": 150200,
+      "safe_profit": -38300,
+      "cash_profit": -35300,
       "grade": "D",
-      "buy_threshold": 136500,
-      "required_rise": 48500
+      "buy_threshold": 136700,
+      "required_rise": 48300
     },
     "rtx-5070-gigabyte-aorus": {
       "source": "yahoo",
@@ -204,12 +204,12 @@
       "store": "ツクモ パソコン Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/tsukumo-y/4988755076357.html",
       "in_stock": true,
-      "buyback_price": 131000,
-      "safe_profit": -61763,
-      "cash_profit": -58763,
+      "buyback_price": 150200,
+      "safe_profit": -42563,
+      "cash_profit": -39563,
       "grade": "D",
-      "buy_threshold": 117500,
-      "required_rise": 71763
+      "buy_threshold": 136700,
+      "required_rise": 52563
     },
     "rtx-5080-gigabyte-aorus": {
       "source": "yahoo",
@@ -234,12 +234,12 @@
       "store": "BNT",
       "url": "https://store.shopping.yahoo.co.jp/bnt/zt-b50620h-10m.html",
       "in_stock": true,
-      "buyback_price": 76100,
-      "safe_profit": -59400,
-      "cash_profit": -56400,
+      "buyback_price": 76300,
+      "safe_profit": -59200,
+      "cash_profit": -56200,
       "grade": "D",
-      "buy_threshold": 62600,
-      "required_rise": 69400
+      "buy_threshold": 62800,
+      "required_rise": 69200
     }
   }
 }
