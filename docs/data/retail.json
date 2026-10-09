@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-09T07:08:34+09:00",
+  "checked_at": "2026-10-09T11:14:22+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -9,12 +9,12 @@
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
       "in_stock": true,
       "source": "apple",
-      "buyback_price": 139000,
-      "safe_profit": -24300,
-      "cash_profit": -21300,
+      "buyback_price": 138000,
+      "safe_profit": -25300,
+      "cash_profit": -22300,
       "grade": "D",
-      "buy_threshold": 125500,
-      "required_rise": 34300
+      "buy_threshold": 124500,
+      "required_rise": 35300
     },
     "iphone-17-pro-max-512": {
       "source": "yahoo",
@@ -109,17 +109,17 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "【未開封BOX】【新品】 ONE PIECE カードゲーム ブースターパック 世界最強の戦士 OP-17 BOX 佐賀",
-      "price": 12800,
-      "store": "赤い熊さんYahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/akaikumasan/4582770058406.html",
+      "name": "ONE PIECEカードゲーム ブースターパック 世界最強の戦士 OP-17 [BOX]",
+      "price": 12799,
+      "store": "らいぶshop",
+      "url": "https://store.shopping.yahoo.co.jp/light-hikari/4582770058406.html",
       "in_stock": true,
       "buyback_price": 9800,
-      "safe_profit": -6500,
-      "cash_profit": -3500,
+      "safe_profit": -6499,
+      "cash_profit": -3499,
       "grade": "D",
       "buy_threshold": -3700,
-      "required_rise": 16500
+      "required_rise": 16499
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -129,27 +129,27 @@
       "store": "お宝あっと町田Yahoo!ショップ",
       "url": "https://store.shopping.yahoo.co.jp/otakara-machida/0320250924101.html",
       "in_stock": true,
-      "buyback_price": 14000,
-      "safe_profit": -8500,
-      "cash_profit": -5500,
+      "buyback_price": 14500,
+      "safe_profit": -8000,
+      "cash_profit": -5000,
       "grade": "D",
-      "buy_threshold": 500,
-      "required_rise": 18500
+      "buy_threshold": 1000,
+      "required_rise": 18000
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "ASUS ROG Xbox Ally X 1TB",
-      "price": 183230,
+      "price": 183180,
       "store": "らいぶshop",
       "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
       "in_stock": true,
       "buyback_price": 154500,
-      "safe_profit": -32230,
-      "cash_profit": -29230,
+      "safe_profit": -32180,
+      "cash_profit": -29180,
       "grade": "D",
       "buy_threshold": 141000,
-      "required_rise": 42230
+      "required_rise": 42180
     },
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
