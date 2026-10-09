@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-09T18:14:40+09:00",
+  "checked_at": "2026-10-10T01:19:48+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -139,17 +139,17 @@
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
-      "price": 183139,
-      "store": "測定の森Yahoo!ショッピング店",
-      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
+      "name": "ASUS ROG Xbox Ally X 1TB",
+      "price": 183050,
+      "store": "らいぶshop",
+      "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
       "in_stock": true,
       "buyback_price": 154500,
-      "safe_profit": -32139,
-      "cash_profit": -29139,
+      "safe_profit": -32050,
+      "cash_profit": -29050,
       "grade": "D",
       "buy_threshold": 141000,
-      "required_rise": 42139
+      "required_rise": 42050
     },
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
