@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-09T11:14:22+09:00",
+  "checked_at": "2026-10-09T18:14:40+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -9,12 +9,12 @@
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
       "in_stock": true,
       "source": "apple",
-      "buyback_price": 138000,
-      "safe_profit": -25300,
-      "cash_profit": -22300,
+      "buyback_price": 139000,
+      "safe_profit": -24300,
+      "cash_profit": -21300,
       "grade": "D",
-      "buy_threshold": 124500,
-      "required_rise": 35300
+      "buy_threshold": 125500,
+      "required_rise": 34300
     },
     "iphone-17-pro-max-512": {
       "source": "yahoo",
@@ -34,32 +34,32 @@
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "★アップル / APPLE iPhone 17 Pro 256GB SIMフリー MG854J/A [シルバー] (SIMフリー)【スマートフォン】【送料無料】",
-      "price": 196560,
-      "store": "ディーライズ2号",
-      "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000922438.html",
+      "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
+      "price": 195559,
+      "store": "Quality Shop",
+      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -17560,
-      "cash_profit": -14560,
+      "safe_profit": -16559,
+      "cash_profit": -13559,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 27560
+      "required_rise": 26559
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
       "jan": "4948872416320",
-      "name": "【ラッピング可】【即日発送】【新品 箱不良・シュリンク破れ品】SIE PlayStation 5 Pro CFI-7000B01 2TB",
-      "price": 209000,
-      "store": "電子問屋",
-      "url": "https://store.shopping.yahoo.co.jp/densidonya/4948872416320-a.html",
+      "name": "「新品 未使用品」SONY PlayStation 5 Pro CFI-7000B01 [2TB][ソニー ][JAN:4948872416320]",
+      "price": 252557,
+      "store": "Quality Shop",
+      "url": "https://store.shopping.yahoo.co.jp/quality-shop/cfi-7000b01.html",
       "in_stock": true,
       "buyback_price": 195200,
-      "safe_profit": -17300,
-      "cash_profit": -14300,
+      "safe_profit": -60857,
+      "cash_profit": -57857,
       "grade": "D",
       "buy_threshold": 181700,
-      "required_rise": 27300
+      "required_rise": 70857
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -114,12 +114,12 @@
       "store": "らいぶshop",
       "url": "https://store.shopping.yahoo.co.jp/light-hikari/4582770058406.html",
       "in_stock": true,
-      "buyback_price": 9800,
-      "safe_profit": -6499,
-      "cash_profit": -3499,
+      "buyback_price": 10500,
+      "safe_profit": -5799,
+      "cash_profit": -2799,
       "grade": "D",
-      "buy_threshold": -3700,
-      "required_rise": 16499
+      "buy_threshold": -3000,
+      "required_rise": 15799
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -139,17 +139,17 @@
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "ASUS ROG Xbox Ally X 1TB",
-      "price": 183180,
-      "store": "らいぶshop",
-      "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
+      "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
+      "price": 183139,
+      "store": "測定の森Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
       "in_stock": true,
       "buyback_price": 154500,
-      "safe_profit": -32180,
-      "cash_profit": -29180,
+      "safe_profit": -32139,
+      "cash_profit": -29139,
       "grade": "D",
       "buy_threshold": 141000,
-      "required_rise": 42180
+      "required_rise": 42139
     },
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
