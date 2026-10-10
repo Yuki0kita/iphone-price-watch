@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-10T06:43:38+09:00",
+  "checked_at": "2026-10-10T10:46:50+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -54,12 +54,12 @@
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/cfi-7000b01.html",
       "in_stock": true,
-      "buyback_price": 195200,
-      "safe_profit": -60857,
-      "cash_profit": -57857,
+      "buyback_price": 195700,
+      "safe_profit": -60357,
+      "cash_profit": -57357,
       "grade": "D",
-      "buy_threshold": 181700,
-      "required_rise": 70857
+      "buy_threshold": 182200,
+      "required_rise": 70357
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -139,17 +139,17 @@
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "ASUS ROG Xbox Ally X 1TB",
-      "price": 183050,
-      "store": "らいぶshop",
-      "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
+      "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
+      "price": 183138,
+      "store": "測定の森Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
       "in_stock": true,
       "buyback_price": 154500,
-      "safe_profit": -32050,
-      "cash_profit": -29050,
+      "safe_profit": -32138,
+      "cash_profit": -29138,
       "grade": "D",
       "buy_threshold": 141000,
-      "required_rise": 42050
+      "required_rise": 42138
     },
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
