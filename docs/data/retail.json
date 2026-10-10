@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-11T00:25:19+09:00",
+  "checked_at": "2026-10-11T05:07:10+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -19,10 +19,10 @@
     "iphone-17-pro-max-512": {
       "source": "yahoo",
       "jan": "4549995649314",
-      "name": "Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
+      "name": "「期間限定SALE」激安販売！Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
       "price": 249080,
-      "store": "KizunaStore",
-      "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995649314k.html",
+      "store": "digitalisland",
+      "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995649314k.html",
       "in_stock": true,
       "buyback_price": 227500,
       "safe_profit": -25080,
@@ -139,17 +139,17 @@
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "ASUS ROG Xbox Ally X 1TB",
-      "price": 183000,
-      "store": "らいぶshop",
-      "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
+      "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
+      "price": 183029,
+      "store": "測定の森Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
       "in_stock": true,
       "buyback_price": 154500,
-      "safe_profit": -32000,
-      "cash_profit": -29000,
+      "safe_profit": -32029,
+      "cash_profit": -29029,
       "grade": "D",
       "buy_threshold": 141000,
-      "required_rise": 42000
+      "required_rise": 42029
     },
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
