@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-12T07:03:13+09:00",
+  "checked_at": "2026-10-12T10:22:33+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -9,12 +9,12 @@
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
       "in_stock": true,
       "source": "apple",
-      "buyback_price": 139000,
-      "safe_profit": -24300,
-      "cash_profit": -21300,
+      "buyback_price": 139500,
+      "safe_profit": -23800,
+      "cash_profit": -20800,
       "grade": "D",
-      "buy_threshold": 125500,
-      "required_rise": 34300
+      "buy_threshold": 126000,
+      "required_rise": 33800
     },
     "iphone-17-pro-max-512": {
       "source": "yahoo",
@@ -54,12 +54,12 @@
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/cfi-7000b01.html",
       "in_stock": true,
-      "buyback_price": 195700,
-      "safe_profit": -60357,
-      "cash_profit": -57357,
+      "buyback_price": 196200,
+      "safe_profit": -59857,
+      "cash_profit": -56857,
       "grade": "D",
-      "buy_threshold": 182200,
-      "required_rise": 70357
+      "buy_threshold": 182700,
+      "required_rise": 69857
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -140,16 +140,16 @@
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
-      "price": 183089,
-      "store": "測定の森 2号店",
-      "url": "https://store.shopping.yahoo.co.jp/sokutei/199291152984-wake.html",
+      "price": 183088,
+      "store": "測定の森Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
       "in_stock": true,
       "buyback_price": 154500,
-      "safe_profit": -32089,
-      "cash_profit": -29089,
+      "safe_profit": -32088,
+      "cash_profit": -29088,
       "grade": "D",
       "buy_threshold": 141000,
-      "required_rise": 42089
+      "required_rise": 42088
     },
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
