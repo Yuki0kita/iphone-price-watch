@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-12T10:22:33+09:00",
+  "checked_at": "2026-10-12T18:19:40+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -34,17 +34,17 @@
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "★Apple国内版SIMフリー iPhone17Pro 256GB シルバー MG854J/A A3522 新品未開封 本体 eSIM専用端末♪高質ガラスフィルムと透明ケースプレゼント",
-      "price": 197800,
-      "store": "ジェーシカモバイル2号店",
-      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995648294.html",
+      "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
+      "price": 197799,
+      "store": "Quality Shop",
+      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -18800,
-      "cash_profit": -15800,
+      "safe_profit": -18799,
+      "cash_profit": -15799,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 28800
+      "required_rise": 28799
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -54,12 +54,12 @@
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/cfi-7000b01.html",
       "in_stock": true,
-      "buyback_price": 196200,
-      "safe_profit": -59857,
-      "cash_profit": -56857,
+      "buyback_price": 196500,
+      "safe_profit": -59557,
+      "cash_profit": -56557,
       "grade": "D",
-      "buy_threshold": 182700,
-      "required_rise": 69857
+      "buy_threshold": 183000,
+      "required_rise": 69557
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -109,17 +109,17 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "(特典２パック付)(送料無料) バンダイ(BANDAI) ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】(BOX) 1BOX：24パック入",
-      "price": 12914,
-      "store": "老舗OKトイハウス",
-      "url": "https://store.shopping.yahoo.co.jp/ok-ryutsu/4582770058406.html",
+      "name": "【未開封BOX】【新品】 ONE PIECE カードゲーム ブースターパック 世界最強の戦士 OP-17 BOX 佐賀",
+      "price": 12800,
+      "store": "赤い熊さんYahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/akaikumasan/4582770058406.html",
       "in_stock": true,
       "buyback_price": 10500,
-      "safe_profit": -5914,
-      "cash_profit": -2914,
+      "safe_profit": -5800,
+      "cash_profit": -2800,
       "grade": "D",
       "buy_threshold": -3000,
-      "required_rise": 15914
+      "required_rise": 15800
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -139,17 +139,17 @@
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
-      "price": 183088,
-      "store": "測定の森Yahoo!ショッピング店",
-      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
+      "name": "ASUS ROG Xbox Ally X 1TB",
+      "price": 183080,
+      "store": "らいぶshop",
+      "url": "https://store.shopping.yahoo.co.jp/light-hikari/199291152984.html",
       "in_stock": true,
       "buyback_price": 154500,
-      "safe_profit": -32088,
-      "cash_profit": -29088,
+      "safe_profit": -32080,
+      "cash_profit": -29080,
       "grade": "D",
       "buy_threshold": 141000,
-      "required_rise": 42088
+      "required_rise": 42080
     },
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
@@ -204,12 +204,12 @@
       "store": "ツクモ パソコン Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/tsukumo-y/4988755076357.html",
       "in_stock": true,
-      "buyback_price": 150200,
-      "safe_profit": -42563,
-      "cash_profit": -39563,
+      "buyback_price": 150500,
+      "safe_profit": -42263,
+      "cash_profit": -39263,
       "grade": "D",
-      "buy_threshold": 136700,
-      "required_rise": 52563
+      "buy_threshold": 137000,
+      "required_rise": 52263
     },
     "rtx-5080-gigabyte-aorus": {
       "source": "yahoo",
