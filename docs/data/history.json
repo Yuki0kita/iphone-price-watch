@@ -14607,5 +14607,16 @@
     "ok": true,
     "retail_price": 162800,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-15T07:19:59+09:00",
+    "product_id": "onepiece-op17",
+    "product_name": "ONE PIECE OP-17 世界最強の戦士 BOX",
+    "price": 10500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 12380,
+    "retail_source": "yahoo"
   }
 ]
