@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-14T10:57:08+09:00",
+  "checked_at": "2026-10-14T16:43:15+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -35,16 +35,16 @@
       "source": "yahoo",
       "jan": "4549995648294",
       "name": "iPhone 17 Pro 256GB SIMフリー [シルバー] apple版 新品未開封 MG854J/A",
-      "price": 197797,
+      "price": 197792,
       "store": "GIGA ヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/giga-web2/67856.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -18797,
-      "cash_profit": -15797,
+      "safe_profit": -18792,
+      "cash_profit": -15792,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 28797
+      "required_rise": 28792
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -54,11 +54,11 @@
       "store": "電子問屋",
       "url": "https://store.shopping.yahoo.co.jp/densidonya/4948872416320-b.html",
       "in_stock": false,
-      "buyback_price": 196700,
-      "safe_profit": 82200,
-      "cash_profit": 85200,
+      "buyback_price": 196900,
+      "safe_profit": 82400,
+      "cash_profit": 85400,
       "grade": "S",
-      "buy_threshold": 183200,
+      "buy_threshold": 183400,
       "required_rise": 0
     },
     "switch2-multilang": {
@@ -129,27 +129,27 @@
       "store": "お宝あっと町田Yahoo!ショップ",
       "url": "https://store.shopping.yahoo.co.jp/otakara-machida/0320250924101.html",
       "in_stock": true,
-      "buyback_price": 14500,
-      "safe_profit": -8000,
-      "cash_profit": -5000,
+      "buyback_price": 16000,
+      "safe_profit": -6500,
+      "cash_profit": -3500,
       "grade": "D",
-      "buy_threshold": 1000,
-      "required_rise": 18000
+      "buy_threshold": 2500,
+      "required_rise": 16500
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
-      "price": 183078,
+      "price": 195063,
       "store": "測定の森Yahoo!ショッピング店",
       "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
       "in_stock": true,
       "buyback_price": 154500,
-      "safe_profit": -32078,
-      "cash_profit": -29078,
+      "safe_profit": -44063,
+      "cash_profit": -41063,
       "grade": "D",
       "buy_threshold": 141000,
-      "required_rise": 42078
+      "required_rise": 54063
     },
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
