@@ -14651,5 +14651,38 @@
     "ok": true,
     "retail_price": 20000,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-15T22:29:08+09:00",
+    "product_id": "iphone-17-pro-max-512",
+    "product_name": "iPhone 17 Pro Max 512GB",
+    "price": 215000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1371/1927",
+    "ok": true,
+    "retail_price": 244510,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-15T22:29:08+09:00",
+    "product_id": "iphone-17-pro-256",
+    "product_name": "iPhone 17 Pro 256GB",
+    "price": 173000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1374/1936",
+    "ok": true,
+    "retail_price": 197800,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-15T22:29:08+09:00",
+    "product_id": "onepiece-op17",
+    "product_name": "ONE PIECE OP-17 世界最強の戦士 BOX",
+    "price": 10800,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 12370,
+    "retail_source": "yahoo"
   }
 ]
