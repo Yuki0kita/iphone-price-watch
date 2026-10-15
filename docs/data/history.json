@@ -14629,5 +14629,27 @@
     "ok": true,
     "retail_price": 19800,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-15T16:30:55+09:00",
+    "product_id": "ps5-slim-cfi-2000a01",
+    "product_name": "PlayStation 5 Slim Disc CFI-2000A01",
+    "price": 117200,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 128000,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-15T16:30:55+09:00",
+    "product_id": "pokemon-inferno-x",
+    "product_name": "ポケモンカード MEGA インフェルノX BOX",
+    "price": 15500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 20000,
+    "retail_source": "yahoo"
   }
 ]
