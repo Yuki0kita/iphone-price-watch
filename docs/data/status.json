@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-10-16T10:25:57+09:00",
+  "checked_at": "2026-10-16T16:15:50+09:00",
   "products_checked": 21,
   "records_changed": true,
-  "alerts": 1,
+  "alerts": 6,
   "email_sent": false,
   "errors": [
     {
       "source": "apple",
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
-      "error": "購入ページから価格を読み取れませんでした。ページ構造が変わった可能性があります。"
+      "error": "Apple公式ページの取得に失敗しました: HTTP 503"
     },
     {
       "product_id": "mac-mini-m4-256",
@@ -36,7 +36,7 @@
       "note": "この実行環境からのアクセスが拒否されました（HTTP 403）。"
     }
   ],
-  "market_checked_at": "2026-10-16T10:25:57+09:00",
+  "market_checked_at": "2026-10-16T16:15:50+09:00",
   "products": [
     {
       "id": "iphone-17-256",
