@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-16T16:15:50+09:00",
+  "checked_at": "2026-10-16T21:32:24+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -19,32 +19,32 @@
     "iphone-17-pro-max-512": {
       "source": "yahoo",
       "jan": "4549995649314",
-      "name": "「期間限定SALE」激安販売！Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
-      "price": 244440,
-      "store": "digitalisland",
-      "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995649314k.html",
+      "name": "Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
+      "price": 244370,
+      "store": "KizunaStore",
+      "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995649314k.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -20440,
-      "cash_profit": -17440,
+      "safe_profit": -20370,
+      "cash_profit": -17370,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 30440
+      "required_rise": 30370
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
       "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
-      "price": 197771,
+      "price": 196683,
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -18771,
-      "cash_profit": -15771,
+      "safe_profit": -17683,
+      "cash_profit": -14683,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 28771
+      "required_rise": 27683
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -79,10 +79,10 @@
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
       "jan": "4948872415934",
-      "name": "【ラッピング可】【即日発送】【新品 箱不良・シュリンク破れ品】SIE PlayStation5 ディスクドライブ Slimモデル CFI-2000A01 1TB",
+      "name": "外箱傷あり 新品ソニープレイステーション5 CFI-2000A01 [1TB] ゲーム機 本体 SONY スリム版",
       "price": 128000,
-      "store": "電子問屋",
-      "url": "https://store.shopping.yahoo.co.jp/densidonya/4948872415934-a.html",
+      "store": "new star",
+      "url": "https://store.shopping.yahoo.co.jp/newstar/play5-cfi2000a01-2.html",
       "in_stock": true,
       "buyback_price": 117200,
       "safe_profit": -14300,
@@ -109,17 +109,17 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "(箱傷みあり)(プロモカード2パック付) ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】　1BOX",
-      "price": 12370,
-      "store": "太郎坊 Yahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/taroubou/4582770058406-wakeari.html",
+      "name": "最安 即納【新品未開封 メーカーテープ付き】ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】BOX ボックス ワンピース バンダイ 2026/8/22",
+      "price": 12280,
+      "store": "オンラインショップ ミヤビ",
+      "url": "https://store.shopping.yahoo.co.jp/yosabei/op-2026-06.html",
       "in_stock": true,
       "buyback_price": 11000,
-      "safe_profit": -4870,
-      "cash_profit": -1870,
+      "safe_profit": -4780,
+      "cash_profit": -1780,
       "grade": "D",
       "buy_threshold": -2500,
-      "required_rise": 14870
+      "required_rise": 14780
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -139,17 +139,17 @@
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
-      "price": 195063,
-      "store": "測定の森Yahoo!ショッピング店",
-      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
+      "name": "★☆エイスース / ASUS ROG Xbox Ally X RC73XA-Z2E24G1T [ブラック]【ノートパソコン】【送料無料】",
+      "price": 183380,
+      "store": "ディーライズ2号",
+      "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000923774.html",
       "in_stock": true,
       "buyback_price": 154500,
-      "safe_profit": -44063,
-      "cash_profit": -41063,
+      "safe_profit": -32380,
+      "cash_profit": -29380,
       "grade": "D",
       "buy_threshold": 141000,
-      "required_rise": 54063
+      "required_rise": 42380
     },
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
