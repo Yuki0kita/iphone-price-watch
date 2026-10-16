@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-16T07:24:08+09:00",
+  "checked_at": "2026-10-16T10:25:57+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -34,17 +34,17 @@
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "★Apple国内版SIMフリー iPhone17Pro 256GB シルバー MG854J/A A3522 新品未開封 本体 eSIM専用端末♪高質ガラスフィルムと透明ケースプレゼント",
-      "price": 197800,
-      "store": "ジェーシカモバイル2号店",
-      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995648294.html",
+      "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
+      "price": 197779,
+      "store": "Quality Shop",
+      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -18800,
-      "cash_profit": -15800,
+      "safe_profit": -18779,
+      "cash_profit": -15779,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 28800
+      "required_rise": 28779
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -124,17 +124,17 @@
     "pokemon-inferno-x": {
       "source": "yahoo",
       "jan": "4521329431529",
-      "name": "ポケモンカードゲーム MEGA 拡張パック インフェルノX BOX 【シュリンク付き未開封品】",
-      "price": 20000,
-      "store": "お宝あっと町田Yahoo!ショップ",
-      "url": "https://store.shopping.yahoo.co.jp/otakara-machida/0320250924101.html",
+      "name": "(シュリンクなし) ポケモンカードゲーム MEGA 拡張パック インフェルノX　1BOX",
+      "price": 19990,
+      "store": "太郎坊 Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
       "buyback_price": 15500,
-      "safe_profit": -8000,
-      "cash_profit": -5000,
+      "safe_profit": -7990,
+      "cash_profit": -4990,
       "grade": "D",
       "buy_threshold": 2000,
-      "required_rise": 18000
+      "required_rise": 17990
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
