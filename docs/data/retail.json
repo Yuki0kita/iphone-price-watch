@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-17T13:35:46+09:00",
+  "checked_at": "2026-10-17T18:27:09+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -20,16 +20,16 @@
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
-      "price": 244510,
+      "price": 245190,
       "store": "KizunaStore",
       "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995649314k.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -20510,
-      "cash_profit": -17510,
+      "safe_profit": -21190,
+      "cash_profit": -18190,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 30510
+      "required_rise": 31190
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
@@ -109,17 +109,17 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "最安 即納【新品未開封 メーカーテープ付き】ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】BOX ボックス ワンピース バンダイ 2026/8/22",
-      "price": 12280,
-      "store": "オンラインショップ ミヤビ",
-      "url": "https://store.shopping.yahoo.co.jp/yosabei/op-2026-06.html",
+      "name": "★ ボックス ★ワンピース カードゲーム ブースターパック 世界最強の戦士 【OP-17】 ONE PIECE",
+      "price": 12200,
+      "store": "ホビータイムワールド Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/htw/opcg-jp-058406-bp.html",
       "in_stock": true,
       "buyback_price": 11000,
-      "safe_profit": -4780,
-      "cash_profit": -1780,
+      "safe_profit": -4700,
+      "cash_profit": -1700,
       "grade": "D",
       "buy_threshold": -2500,
-      "required_rise": 14780
+      "required_rise": 14700
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
