@@ -15153,5 +15153,16 @@
     "ok": true,
     "retail_price": 162800,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-17T13:35:46+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 198200,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 111000,
+    "retail_source": "yahoo"
   }
 ]
