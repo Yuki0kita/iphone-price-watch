@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-17T18:27:09+09:00",
+  "checked_at": "2026-10-17T22:46:40+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -20,16 +20,16 @@
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
-      "price": 245190,
+      "price": 244510,
       "store": "KizunaStore",
       "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995649314k.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -21190,
-      "cash_profit": -18190,
+      "safe_profit": -20510,
+      "cash_profit": -17510,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 31190
+      "required_rise": 30510
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
@@ -49,17 +49,17 @@
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
       "jan": "4948872416320",
-      "name": "【新品 保証開始済み品】PS5 PlayStation 5 Pro CFI-7000B01 2TB",
-      "price": 111000,
-      "store": "電子問屋",
-      "url": "https://store.shopping.yahoo.co.jp/densidonya/4948872416320-b.html",
-      "in_stock": false,
+      "name": "「新品 未使用品」SONY PlayStation 5 Pro CFI-7000B01 [2TB][ソニー ][JAN:4948872416320]",
+      "price": 259781,
+      "store": "Quality Shop",
+      "url": "https://store.shopping.yahoo.co.jp/quality-shop/cfi-7000b01.html",
+      "in_stock": true,
       "buyback_price": 198200,
-      "safe_profit": 83700,
-      "cash_profit": 86700,
-      "grade": "S",
+      "safe_profit": -65081,
+      "cash_profit": -62081,
+      "grade": "D",
       "buy_threshold": 184700,
-      "required_rise": 0
+      "required_rise": 75081
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -79,17 +79,17 @@
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
       "jan": "4948872415934",
-      "name": "外箱傷あり 新品ソニープレイステーション5 CFI-2000A01 [1TB] ゲーム機 本体 SONY スリム版",
-      "price": 128000,
-      "store": "new star",
-      "url": "https://store.shopping.yahoo.co.jp/newstar/play5-cfi2000a01-2.html",
+      "name": "[訳あり・未使用] SONY PlayStation 5 CFI-2000A01    [国内正規品]",
+      "price": 127298,
+      "store": "Quality Shop",
+      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-2000a01-5934-k-cc.html",
       "in_stock": true,
       "buyback_price": 117200,
-      "safe_profit": -14300,
-      "cash_profit": -11300,
+      "safe_profit": -13598,
+      "cash_profit": -10598,
       "grade": "D",
       "buy_threshold": 103700,
-      "required_rise": 24300
+      "required_rise": 23598
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -109,17 +109,17 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "★ ボックス ★ワンピース カードゲーム ブースターパック 世界最強の戦士 【OP-17】 ONE PIECE",
-      "price": 12200,
-      "store": "ホビータイムワールド Yahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/htw/opcg-jp-058406-bp.html",
+      "name": "(箱傷みあり)(プロモカード2パック付) ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】　1BOX",
+      "price": 12190,
+      "store": "太郎坊 Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/taroubou/4582770058406-wakeari.html",
       "in_stock": true,
       "buyback_price": 11000,
-      "safe_profit": -4700,
-      "cash_profit": -1700,
+      "safe_profit": -4690,
+      "cash_profit": -1690,
       "grade": "D",
       "buy_threshold": -2500,
-      "required_rise": 14700
+      "required_rise": 14690
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -139,17 +139,17 @@
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "★☆エイスース / ASUS ROG Xbox Ally X RC73XA-Z2E24G1T [ブラック]【ノートパソコン】【送料無料】",
-      "price": 183380,
-      "store": "ディーライズ2号",
-      "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000923774.html",
+      "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
+      "price": 186229,
+      "store": "測定の森Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
       "in_stock": true,
       "buyback_price": 154500,
-      "safe_profit": -32380,
-      "cash_profit": -29380,
+      "safe_profit": -35229,
+      "cash_profit": -32229,
       "grade": "D",
       "buy_threshold": 141000,
-      "required_rise": 42380
+      "required_rise": 45229
     },
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
