@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-18T14:59:09+09:00",
+  "checked_at": "2026-10-18T20:16:18+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -34,17 +34,17 @@
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
-      "price": 197799,
-      "store": "Quality Shop",
-      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
+      "name": "【ラッピング可】【即日発送】【新品】Apple アップル iPhone 17 Pro 256GB シルバー MG854J/A eSIM SIMフリー",
+      "price": 196690,
+      "store": "電子問屋",
+      "url": "https://store.shopping.yahoo.co.jp/densidonya/4549995648294.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -18799,
-      "cash_profit": -15799,
+      "safe_profit": -17690,
+      "cash_profit": -14690,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 28799
+      "required_rise": 27690
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -109,32 +109,32 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "(箱傷みあり)(プロモカード2パック付) ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】　1BOX",
-      "price": 12190,
-      "store": "太郎坊 Yahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/taroubou/4582770058406-wakeari.html",
+      "name": "ONE PIECE カードゲーム『世界最強の戦士』OP-17 1BOX",
+      "price": 11000,
+      "store": "Case Buy Case",
+      "url": "https://store.shopping.yahoo.co.jp/alamainc/4582770058406-b.html",
       "in_stock": true,
       "buyback_price": 11000,
-      "safe_profit": -4690,
-      "cash_profit": -1690,
+      "safe_profit": -3500,
+      "cash_profit": -500,
       "grade": "D",
       "buy_threshold": -2500,
-      "required_rise": 14690
+      "required_rise": 13500
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
       "jan": "4521329431529",
       "name": "(シュリンクなし) ポケモンカードゲーム MEGA 拡張パック インフェルノX　1BOX",
-      "price": 19990,
+      "price": 19980,
       "store": "太郎坊 Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
       "buyback_price": 15500,
-      "safe_profit": -7990,
-      "cash_profit": -4990,
+      "safe_profit": -7980,
+      "cash_profit": -4980,
       "grade": "D",
       "buy_threshold": 2000,
-      "required_rise": 17990
+      "required_rise": 17980
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
