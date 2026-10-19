@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-19T08:18:30+09:00",
+  "checked_at": "2026-10-19T13:49:12+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -19,10 +19,10 @@
     "iphone-17-pro-max-512": {
       "source": "yahoo",
       "jan": "4549995649314",
-      "name": "Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
+      "name": "「期間限定SALE」激安販売！Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
       "price": 245190,
-      "store": "KizunaStore",
-      "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995649314k.html",
+      "store": "digitalisland",
+      "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995649314k.html",
       "in_stock": true,
       "buyback_price": 227500,
       "safe_profit": -21190,
@@ -34,17 +34,17 @@
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
-      "price": 197799,
-      "store": "Quality Shop",
-      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
+      "name": "★Apple国内版SIMフリー iPhone17Pro 256GB シルバー MG854J/A A3522 新品未開封 本体 eSIM専用端末♪高質ガラスフィルムと透明ケースプレゼント",
+      "price": 197800,
+      "store": "ジェーシカモバイル2号店",
+      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995648294.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -18799,
-      "cash_profit": -15799,
+      "safe_profit": -18800,
+      "cash_profit": -15800,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 28799
+      "required_rise": 28800
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -54,12 +54,12 @@
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/cfi-7000b01.html",
       "in_stock": true,
-      "buyback_price": 198200,
-      "safe_profit": -65081,
-      "cash_profit": -62081,
+      "buyback_price": 199700,
+      "safe_profit": -63581,
+      "cash_profit": -60581,
       "grade": "D",
-      "buy_threshold": 184700,
-      "required_rise": 75081
+      "buy_threshold": 186200,
+      "required_rise": 73581
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -79,17 +79,17 @@
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
       "jan": "4948872415934",
-      "name": "[訳あり・未使用] SONY PlayStation 5 CFI-2000A01    [国内正規品]",
-      "price": 127499,
-      "store": "Quality Shop",
-      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-2000a01-5934-k-cc.html",
+      "name": "外箱傷あり 新品ソニープレイステーション5 CFI-2000A01 [1TB] ゲーム機 本体 SONY スリム版",
+      "price": 128000,
+      "store": "new star",
+      "url": "https://store.shopping.yahoo.co.jp/newstar/play5-cfi2000a01-2.html",
       "in_stock": true,
       "buyback_price": 117200,
-      "safe_profit": -13799,
-      "cash_profit": -10799,
+      "safe_profit": -14300,
+      "cash_profit": -11300,
       "grade": "D",
       "buy_threshold": 103700,
-      "required_rise": 23799
+      "required_rise": 24300
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -109,17 +109,17 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "ONE PIECE カードゲーム『世界最強の戦士』OP-17 1BOX",
-      "price": 11000,
-      "store": "Case Buy Case",
-      "url": "https://store.shopping.yahoo.co.jp/alamainc/4582770058406-b.html",
+      "name": "(箱傷みあり)(プロモカード2パック付) ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】　1BOX",
+      "price": 10900,
+      "store": "太郎坊 Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/taroubou/4582770058406-wakeari.html",
       "in_stock": true,
-      "buyback_price": 11000,
-      "safe_profit": -3500,
-      "cash_profit": -500,
+      "buyback_price": 10200,
+      "safe_profit": -4200,
+      "cash_profit": -1200,
       "grade": "D",
-      "buy_threshold": -2500,
-      "required_rise": 13500
+      "buy_threshold": -3300,
+      "required_rise": 14200
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -129,12 +129,12 @@
       "store": "太郎坊 Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
-      "buyback_price": 15500,
-      "safe_profit": -7980,
-      "cash_profit": -4980,
+      "buyback_price": 16000,
+      "safe_profit": -7480,
+      "cash_profit": -4480,
       "grade": "D",
-      "buy_threshold": 2000,
-      "required_rise": 17980
+      "buy_threshold": 2500,
+      "required_rise": 17480
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
