@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-19T19:50:45+09:00",
+  "checked_at": "2026-10-20T02:31:17+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -19,10 +19,10 @@
     "iphone-17-pro-max-512": {
       "source": "yahoo",
       "jan": "4549995649314",
-      "name": "Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
+      "name": "「期間限定SALE」激安販売！Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
       "price": 245190,
-      "store": "KizunaStore",
-      "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995649314k.html",
+      "store": "digitalisland",
+      "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995649314k.html",
       "in_stock": true,
       "buyback_price": 227500,
       "safe_profit": -21190,
@@ -80,16 +80,16 @@
       "source": "yahoo",
       "jan": "4948872415934",
       "name": "[訳あり・未使用] SONY PlayStation 5 CFI-2000A01    [国内正規品]",
-      "price": 127298,
+      "price": 126494,
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-2000a01-5934-k-cc.html",
       "in_stock": true,
       "buyback_price": 117200,
-      "safe_profit": -13598,
-      "cash_profit": -10598,
+      "safe_profit": -12794,
+      "cash_profit": -9794,
       "grade": "D",
       "buy_threshold": 103700,
-      "required_rise": 23598
+      "required_rise": 22794
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
