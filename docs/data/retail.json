@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-20T16:40:11+09:00",
+  "checked_at": "2026-10-20T22:36:20+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -20,31 +20,31 @@
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "「期間限定SALE」激安販売！Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
-      "price": 245190,
+      "price": 244510,
       "store": "digitalisland",
       "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995649314k.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -21190,
-      "cash_profit": -18190,
+      "safe_profit": -20510,
+      "cash_profit": -17510,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 31190
+      "required_rise": 30510
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
       "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
-      "price": 196682,
+      "price": 196677,
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -17682,
-      "cash_profit": -14682,
+      "safe_profit": -17677,
+      "cash_profit": -14677,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 27682
+      "required_rise": 27677
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -110,31 +110,31 @@
       "source": "yahoo",
       "jan": "4582770058406",
       "name": "(箱傷みあり)(プロモカード2パック付) ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】　1BOX",
-      "price": 10900,
+      "price": 10500,
       "store": "太郎坊 Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/taroubou/4582770058406-wakeari.html",
       "in_stock": true,
       "buyback_price": 10200,
-      "safe_profit": -4200,
-      "cash_profit": -1200,
+      "safe_profit": -3800,
+      "cash_profit": -800,
       "grade": "D",
       "buy_threshold": -3300,
-      "required_rise": 14200
+      "required_rise": 13800
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
       "jan": "4521329431529",
       "name": "(シュリンクなし) ポケモンカードゲーム MEGA 拡張パック インフェルノX　1BOX",
-      "price": 19500,
+      "price": 19400,
       "store": "太郎坊 Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
       "buyback_price": 16000,
-      "safe_profit": -7000,
-      "cash_profit": -4000,
+      "safe_profit": -6900,
+      "cash_profit": -3900,
       "grade": "D",
       "buy_threshold": 2500,
-      "required_rise": 17000
+      "required_rise": 16900
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
