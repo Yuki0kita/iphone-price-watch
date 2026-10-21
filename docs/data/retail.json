@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-21T10:39:08+09:00",
+  "checked_at": "2026-10-21T16:44:32+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -19,32 +19,32 @@
     "iphone-17-pro-max-512": {
       "source": "yahoo",
       "jan": "4549995649314",
-      "name": "Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
-      "price": 244510,
-      "store": "KizunaStore",
-      "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995649314k.html",
+      "name": "「期間限定SALE」激安販売！Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
+      "price": 245190,
+      "store": "digitalisland",
+      "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995649314k.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -20510,
-      "cash_profit": -17510,
+      "safe_profit": -21190,
+      "cash_profit": -18190,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 30510
+      "required_rise": 31190
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
-      "price": 196668,
-      "store": "Quality Shop",
-      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
+      "name": "iPhone 17 Pro 256GB SIMフリー [シルバー] apple版 新品未開封 MG854J/A",
+      "price": 196663,
+      "store": "GIGA ヤフー店",
+      "url": "https://store.shopping.yahoo.co.jp/giga-web2/67856.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -17668,
-      "cash_profit": -14668,
+      "safe_profit": -17663,
+      "cash_profit": -14663,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 27668
+      "required_rise": 27663
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -54,12 +54,12 @@
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/cfi-7000b01.html",
       "in_stock": true,
-      "buyback_price": 200000,
-      "safe_profit": -63281,
-      "cash_profit": -60281,
+      "buyback_price": 200700,
+      "safe_profit": -62581,
+      "cash_profit": -59581,
       "grade": "D",
-      "buy_threshold": 186500,
-      "required_rise": 73281
+      "buy_threshold": 187200,
+      "required_rise": 72581
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -84,12 +84,12 @@
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-2000a01-5934-k-cc.html",
       "in_stock": true,
-      "buyback_price": 117200,
-      "safe_profit": -12594,
-      "cash_profit": -9594,
+      "buyback_price": 117700,
+      "safe_profit": -12094,
+      "cash_profit": -9094,
       "grade": "D",
-      "buy_threshold": 103700,
-      "required_rise": 22594
+      "buy_threshold": 104200,
+      "required_rise": 22094
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -110,16 +110,16 @@
       "source": "yahoo",
       "jan": "4582770058406",
       "name": "ONE PIECE カードゲーム『世界最強の戦士』OP-17 1BOX",
-      "price": 11000,
+      "price": 10500,
       "store": "Case Buy Case",
       "url": "https://store.shopping.yahoo.co.jp/alamainc/4582770058406-b.html",
       "in_stock": true,
-      "buyback_price": 10200,
-      "safe_profit": -4300,
-      "cash_profit": -1300,
+      "buyback_price": 10000,
+      "safe_profit": -4000,
+      "cash_profit": -1000,
       "grade": "D",
-      "buy_threshold": -3300,
-      "required_rise": 14300
+      "buy_threshold": -3500,
+      "required_rise": 14000
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -151,21 +151,6 @@
       "buy_threshold": 141000,
       "required_rise": 45229
     },
-    "rtx-5090-msi-ventus-3x": {
-      "source": "yahoo",
-      "jan": "4711377301633",
-      "name": "【新品】【即納】MSI GeForce RTX 5090 32G VENTUS 3X OC グラフィックスカード VD9001",
-      "price": 666000,
-      "store": "BNT",
-      "url": "https://store.shopping.yahoo.co.jp/bnt/5090-ventus.html",
-      "in_stock": false,
-      "buyback_price": 1000000,
-      "safe_profit": 330500,
-      "cash_profit": 333500,
-      "grade": "S",
-      "buy_threshold": 986500,
-      "required_rise": 0
-    },
     "rtx-5080-asus-astral": {
       "source": "yahoo",
       "jan": "0197105837911",
@@ -174,12 +159,12 @@
       "store": "e-zoa",
       "url": "https://store.shopping.yahoo.co.jp/e-zoa/itm0015928944.html",
       "in_stock": true,
-      "buyback_price": 250000,
-      "safe_profit": -198264,
-      "cash_profit": -195264,
+      "buyback_price": 290500,
+      "safe_profit": -157764,
+      "cash_profit": -154764,
       "grade": "D",
-      "buy_threshold": 236500,
-      "required_rise": 208264
+      "buy_threshold": 277000,
+      "required_rise": 167764
     },
     "rtx-5070ti-msi-ventus-3x": {
       "source": "yahoo",
@@ -219,12 +204,12 @@
       "store": "ツクモ パソコン Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/tsukumo-y/4988755071369.html",
       "in_stock": false,
-      "buyback_price": 200000,
-      "safe_profit": -167521,
-      "cash_profit": -164521,
+      "buyback_price": 200500,
+      "safe_profit": -167021,
+      "cash_profit": -164021,
       "grade": "D",
-      "buy_threshold": 186500,
-      "required_rise": 177521
+      "buy_threshold": 187000,
+      "required_rise": 177021
     },
     "rtx-5060ti-zotac-twin-edge": {
       "source": "yahoo",

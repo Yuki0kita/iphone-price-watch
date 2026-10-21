@@ -16311,5 +16311,82 @@
     "ok": true,
     "retail_price": 364021,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-21T16:44:32+09:00",
+    "product_id": "iphone-17-pro-max-512",
+    "product_name": "iPhone 17 Pro Max 512GB",
+    "price": 215000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1371/1927",
+    "ok": true,
+    "retail_price": 245190,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-21T16:44:32+09:00",
+    "product_id": "iphone-17-pro-256",
+    "product_name": "iPhone 17 Pro 256GB",
+    "price": 173000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1374/1936",
+    "ok": true,
+    "retail_price": 196663,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-21T16:44:32+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 200700,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 259781,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-21T16:44:32+09:00",
+    "product_id": "ps5-slim-cfi-2000a01",
+    "product_name": "PlayStation 5 Slim Disc CFI-2000A01",
+    "price": 117700,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 126294,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-21T16:44:32+09:00",
+    "product_id": "onepiece-op17",
+    "product_name": "ONE PIECE OP-17 世界最強の戦士 BOX",
+    "price": 10000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 10500,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-21T16:44:32+09:00",
+    "product_id": "rtx-5080-asus-astral",
+    "product_name": "ASUS ROG ASTRAL RTX5080 O16G GAMING",
+    "price": 290500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 444764,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-21T16:44:32+09:00",
+    "product_id": "rtx-5080-gigabyte-aorus",
+    "product_name": "GIGABYTE AORUS RTX 5080 MASTER ICE 16G",
+    "price": 200500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 364021,
+    "retail_source": "yahoo"
   }
 ]
