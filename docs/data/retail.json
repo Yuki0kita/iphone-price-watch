@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-21T07:21:00+09:00",
+  "checked_at": "2026-10-21T10:39:08+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -19,10 +19,10 @@
     "iphone-17-pro-max-512": {
       "source": "yahoo",
       "jan": "4549995649314",
-      "name": "「期間限定SALE」激安販売！Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
+      "name": "Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
       "price": 244510,
-      "store": "digitalisland",
-      "url": "https://store.shopping.yahoo.co.jp/digitalisland/4549995649314k.html",
+      "store": "KizunaStore",
+      "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995649314k.html",
       "in_stock": true,
       "buyback_price": 227500,
       "safe_profit": -20510,
@@ -35,16 +35,16 @@
       "source": "yahoo",
       "jan": "4549995648294",
       "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
-      "price": 196670,
+      "price": 196668,
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -17670,
-      "cash_profit": -14670,
+      "safe_profit": -17668,
+      "cash_profit": -14668,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 27670
+      "required_rise": 27668
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -215,16 +215,16 @@
       "source": "yahoo",
       "jan": "4988755071369",
       "name": "AORUS GeForce RTX 5080 MASTER ICE 16G　GV-N5080AORUSM ICE-16GD",
-      "price": 339789,
+      "price": 364021,
       "store": "ツクモ パソコン Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/tsukumo-y/4988755071369.html",
       "in_stock": false,
       "buyback_price": 200000,
-      "safe_profit": -143289,
-      "cash_profit": -140289,
+      "safe_profit": -167521,
+      "cash_profit": -164521,
       "grade": "D",
       "buy_threshold": 186500,
-      "required_rise": 153289
+      "required_rise": 177521
     },
     "rtx-5060ti-zotac-twin-edge": {
       "source": "yahoo",
