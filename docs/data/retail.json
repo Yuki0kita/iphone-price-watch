@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-22T16:40:04+09:00",
+  "checked_at": "2026-10-22T22:51:02+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -20,31 +20,31 @@
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
-      "price": 244150,
+      "price": 244050,
       "store": "KizunaStore",
       "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995649314k.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -20150,
-      "cash_profit": -17150,
+      "safe_profit": -20050,
+      "cash_profit": -17050,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 30150
+      "required_rise": 30050
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
       "name": "iPhone 17 Pro 256GB SIMフリー [シルバー] apple版 新品未開封 MG854J/A",
-      "price": 196646,
+      "price": 196645,
       "store": "GIGA ヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/giga-web2/67856.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -17646,
-      "cash_profit": -14646,
+      "safe_profit": -17645,
+      "cash_profit": -14645,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 27646
+      "required_rise": 27645
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -159,12 +159,12 @@
       "store": "e-zoa",
       "url": "https://store.shopping.yahoo.co.jp/e-zoa/itm0015928944.html",
       "in_stock": true,
-      "buyback_price": 290000,
-      "safe_profit": -158264,
-      "cash_profit": -155264,
+      "buyback_price": 292000,
+      "safe_profit": -156264,
+      "cash_profit": -153264,
       "grade": "D",
-      "buy_threshold": 276500,
-      "required_rise": 168264
+      "buy_threshold": 278500,
+      "required_rise": 166264
     },
     "rtx-5070ti-msi-ventus-3x": {
       "source": "yahoo",
