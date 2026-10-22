@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-22T07:24:30+09:00",
+  "checked_at": "2026-10-22T10:34:07+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -34,17 +34,17 @@
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
-      "price": 196650,
-      "store": "Quality Shop",
-      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
+      "name": "iPhone 17 Pro 256GB SIMフリー [シルバー] apple版 新品未開封 MG854J/A",
+      "price": 196648,
+      "store": "GIGA ヤフー店",
+      "url": "https://store.shopping.yahoo.co.jp/giga-web2/67856.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -17650,
-      "cash_profit": -14650,
+      "safe_profit": -17648,
+      "cash_profit": -14648,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 27650
+      "required_rise": 27648
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -129,12 +129,12 @@
       "store": "太郎坊 Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
-      "buyback_price": 16000,
-      "safe_profit": -7490,
-      "cash_profit": -4490,
+      "buyback_price": 16500,
+      "safe_profit": -6990,
+      "cash_profit": -3990,
       "grade": "D",
-      "buy_threshold": 2500,
-      "required_rise": 17490
+      "buy_threshold": 3000,
+      "required_rise": 16990
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
