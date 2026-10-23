@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-23T16:37:17+09:00",
+  "checked_at": "2026-10-23T22:31:03+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -20,16 +20,16 @@
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
-      "price": 243760,
+      "price": 243590,
       "store": "KizunaStore",
       "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995649314k.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -19760,
-      "cash_profit": -16760,
+      "safe_profit": -19590,
+      "cash_profit": -16590,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 29760
+      "required_rise": 29590
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
@@ -124,17 +124,17 @@
     "pokemon-inferno-x": {
       "source": "yahoo",
       "jan": "4521329431529",
-      "name": "ポケモンカードゲーム MEGA 拡張パック インフェルノX BOX 【シュリンク付き未開封品】",
-      "price": 20000,
-      "store": "お宝あっと町田Yahoo!ショップ",
-      "url": "https://store.shopping.yahoo.co.jp/otakara-machida/0320250924101.html",
+      "name": "(シュリンクなし) ポケモンカードゲーム MEGA 拡張パック インフェルノX　1BOX",
+      "price": 20670,
+      "store": "太郎坊 Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
       "buyback_price": 16500,
-      "safe_profit": -7000,
-      "cash_profit": -4000,
+      "safe_profit": -7670,
+      "cash_profit": -4670,
       "grade": "D",
       "buy_threshold": 3000,
-      "required_rise": 17000
+      "required_rise": 17670
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
