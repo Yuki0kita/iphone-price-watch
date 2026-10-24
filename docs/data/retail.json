@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-24T07:16:06+09:00",
+  "checked_at": "2026-10-24T09:48:53+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -20,16 +20,16 @@
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
-      "price": 243340,
+      "price": 243769,
       "store": "KizunaStore",
       "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995649314k.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -19340,
-      "cash_profit": -16340,
+      "safe_profit": -19769,
+      "cash_profit": -16769,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 29340
+      "required_rise": 29769
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
