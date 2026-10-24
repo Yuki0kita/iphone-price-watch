@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-24T14:57:58+09:00",
+  "checked_at": "2026-10-24T20:10:40+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -20,31 +20,31 @@
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
-      "price": 243769,
+      "price": 244180,
       "store": "KizunaStore",
       "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995649314k.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -19769,
-      "cash_profit": -16769,
+      "safe_profit": -20180,
+      "cash_profit": -17180,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 29769
+      "required_rise": 30180
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
-      "price": 197779,
-      "store": "Quality Shop",
-      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
+      "name": "iPhone17 Pro 256GB シルバー MG854J/A SIMフリー 新品・未使用 本体 9417",
+      "price": 191980,
+      "store": "モバステ",
+      "url": "https://store.shopping.yahoo.co.jp/mobilestation/ip17pro256gb-s-s-9417.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -18779,
-      "cash_profit": -15779,
+      "safe_profit": -12980,
+      "cash_profit": -9980,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 28779
+      "required_rise": 22980
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -65,16 +65,16 @@
       "source": "yahoo",
       "jan": "4902370552683",
       "name": "★訳あり 任天堂 Nintendo Switch2 Multi-Language System 多言語版 BEE-S-KB6AA ブラック 任天堂スイッチ 本体 4902370552683※外箱少々凹みや傷あり",
-      "price": 92500,
+      "price": 92080,
       "store": "ジェーシカモバイル2号店",
       "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4902370552684.html",
       "in_stock": true,
       "buyback_price": 82400,
-      "safe_profit": -13600,
-      "cash_profit": -10600,
+      "safe_profit": -13180,
+      "cash_profit": -10180,
       "grade": "D",
       "buy_threshold": 68900,
-      "required_rise": 23600
+      "required_rise": 23180
     },
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
