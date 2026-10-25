@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-25T18:52:13+09:00",
+  "checked_at": "2026-10-25T23:25:31+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -80,16 +80,16 @@
       "source": "yahoo",
       "jan": "4948872415934",
       "name": "[訳あり・未使用] SONY PlayStation 5 CFI-2000A01    [国内正規品]",
-      "price": 126294,
+      "price": 127499,
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-2000a01-5934-k-cc.html",
       "in_stock": true,
       "buyback_price": 117700,
-      "safe_profit": -12094,
-      "cash_profit": -9094,
+      "safe_profit": -13299,
+      "cash_profit": -10299,
       "grade": "D",
       "buy_threshold": 104200,
-      "required_rise": 22094
+      "required_rise": 23299
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -154,17 +154,17 @@
     "rtx-5080-asus-astral": {
       "source": "yahoo",
       "jan": "0197105837911",
-      "name": "ASUS エイスース ROG Astral GeForce RTX 5080 16GB GDDR7 OC Edition グラフィックボード ROG-ASTRAL-RTX5080-O16G-GAMING(2644181)",
-      "price": 444764,
-      "store": "e-zoa",
-      "url": "https://store.shopping.yahoo.co.jp/e-zoa/itm0015928944.html",
+      "name": "ASUS ROG Astral GeForce RTX 5080 16GB GDDR7 OC Edition ROG-ASTRAL-RTX5080-O16G-GAMING 16GB GDDR7",
+      "price": 415000,
+      "store": "BNT",
+      "url": "https://store.shopping.yahoo.co.jp/bnt/rog-astral-rtx5080-o16g-gaming.html",
       "in_stock": true,
       "buyback_price": 292000,
-      "safe_profit": -156264,
-      "cash_profit": -153264,
+      "safe_profit": -126500,
+      "cash_profit": -123500,
       "grade": "D",
       "buy_threshold": 278500,
-      "required_rise": 166264
+      "required_rise": 136500
     },
     "rtx-5070ti-msi-ventus-3x": {
       "source": "yahoo",

@@ -17414,5 +17414,27 @@
     "ok": true,
     "retail_price": 20640,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-25T23:25:31+09:00",
+    "product_id": "ps5-slim-cfi-2000a01",
+    "product_name": "PlayStation 5 Slim Disc CFI-2000A01",
+    "price": 117700,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 127499,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-25T23:25:31+09:00",
+    "product_id": "rtx-5080-asus-astral",
+    "product_name": "ASUS ROG ASTRAL RTX5080 O16G GAMING",
+    "price": 292000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 415000,
+    "retail_source": "yahoo"
   }
 ]
