@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-25T13:50:34+09:00",
+  "checked_at": "2026-10-25T18:52:13+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -124,17 +124,17 @@
     "pokemon-inferno-x": {
       "source": "yahoo",
       "jan": "4521329431529",
-      "name": "(シュリンクなし) ポケモンカードゲーム MEGA 拡張パック インフェルノX　1BOX",
-      "price": 20630,
-      "store": "太郎坊 Yahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
+      "name": "（シュリンクあり）ポケモンカードゲーム MEGA 拡張パック インフェルノX BOX",
+      "price": 20640,
+      "store": "初音蔵書通販部",
+      "url": "https://store.shopping.yahoo.co.jp/hatsune/hq-ibm3-sd67.html",
       "in_stock": true,
       "buyback_price": 17000,
-      "safe_profit": -7130,
-      "cash_profit": -4130,
+      "safe_profit": -7140,
+      "cash_profit": -4140,
       "grade": "D",
       "buy_threshold": 3500,
-      "required_rise": 17130
+      "required_rise": 17140
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
