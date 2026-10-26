@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-26T15:20:34+09:00",
+  "checked_at": "2026-10-26T23:20:44+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -20,16 +20,16 @@
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
-      "price": 244180,
+      "price": 243510,
       "store": "KizunaStore",
       "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995649314k.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -20180,
-      "cash_profit": -17180,
+      "safe_profit": -19510,
+      "cash_profit": -16510,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 30180
+      "required_rise": 29510
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
@@ -54,12 +54,12 @@
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-7000b01-cc.html",
       "in_stock": true,
-      "buyback_price": 202700,
-      "safe_profit": -20099,
-      "cash_profit": -17099,
+      "buyback_price": 203200,
+      "safe_profit": -19599,
+      "cash_profit": -16599,
       "grade": "D",
-      "buy_threshold": 189200,
-      "required_rise": 30099
+      "buy_threshold": 189700,
+      "required_rise": 29599
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -139,17 +139,17 @@
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
-      "price": 186229,
-      "store": "測定の森Yahoo!ショッピング店",
-      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
+      "name": "★☆エイスース / ASUS ROG Xbox Ally X RC73XA-Z2E24G1T [ブラック]【ノートパソコン】【送料無料】",
+      "price": 183600,
+      "store": "ディーライズ2号",
+      "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000923774.html",
       "in_stock": true,
       "buyback_price": 154500,
-      "safe_profit": -35229,
-      "cash_profit": -32229,
+      "safe_profit": -32600,
+      "cash_profit": -29600,
       "grade": "D",
       "buy_threshold": 141000,
-      "required_rise": 45229
+      "required_rise": 42600
     },
     "rtx-5080-asus-astral": {
       "source": "yahoo",
@@ -159,12 +159,12 @@
       "store": "BNT",
       "url": "https://store.shopping.yahoo.co.jp/bnt/rog-astral-rtx5080-o16g-gaming.html",
       "in_stock": true,
-      "buyback_price": 292000,
-      "safe_profit": -126500,
-      "cash_profit": -123500,
+      "buyback_price": 293500,
+      "safe_profit": -125000,
+      "cash_profit": -122000,
       "grade": "D",
-      "buy_threshold": 278500,
-      "required_rise": 136500
+      "buy_threshold": 280000,
+      "required_rise": 135000
     },
     "rtx-5070ti-msi-ventus-3x": {
       "source": "yahoo",
