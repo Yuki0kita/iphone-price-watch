@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-26T09:26:09+09:00",
+  "checked_at": "2026-10-26T15:20:34+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -9,12 +9,12 @@
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
       "in_stock": true,
       "source": "apple",
-      "buyback_price": 140000,
-      "safe_profit": -23300,
-      "cash_profit": -20300,
+      "buyback_price": 139000,
+      "safe_profit": -24300,
+      "cash_profit": -21300,
       "grade": "D",
-      "buy_threshold": 126500,
-      "required_rise": 33300
+      "buy_threshold": 125500,
+      "required_rise": 34300
     },
     "iphone-17-pro-max-512": {
       "source": "yahoo",
@@ -54,12 +54,12 @@
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-7000b01-cc.html",
       "in_stock": true,
-      "buyback_price": 202300,
-      "safe_profit": -20499,
-      "cash_profit": -17499,
+      "buyback_price": 202700,
+      "safe_profit": -20099,
+      "cash_profit": -17099,
       "grade": "D",
-      "buy_threshold": 188800,
-      "required_rise": 30499
+      "buy_threshold": 189200,
+      "required_rise": 30099
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -109,32 +109,32 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "最短即日発送 ONE PIECEカードゲーム ブースターパック 世界最強の戦士【OP-17】 (BOX)",
-      "price": 11800,
-      "store": "トレネコ",
-      "url": "https://store.shopping.yahoo.co.jp/toreneko/4582770058406.html",
+      "name": "ワンピースカードゲーム ブースターパック 世界最強の戦士【OP-17】【ばら売りパック】１０パック",
+      "price": 4780,
+      "store": "コルグオンラインストア",
+      "url": "https://store.shopping.yahoo.co.jp/korugu/1-3600-20261022-02.html",
       "in_stock": true,
-      "buyback_price": 10000,
-      "safe_profit": -5300,
-      "cash_profit": -2300,
+      "buyback_price": 9200,
+      "safe_profit": 920,
+      "cash_profit": 3920,
       "grade": "D",
-      "buy_threshold": -3500,
-      "required_rise": 15300
+      "buy_threshold": -4300,
+      "required_rise": 9080
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
       "jan": "4521329431529",
-      "name": "（シュリンクあり）ポケモンカードゲーム MEGA 拡張パック インフェルノX BOX",
-      "price": 20640,
-      "store": "初音蔵書通販部",
-      "url": "https://store.shopping.yahoo.co.jp/hatsune/hq-ibm3-sd67.html",
+      "name": "ポケモンカードゲーム インフェルノX BOX MEGA 拡張パック 新品未開封 シュリンク付き",
+      "price": 20680,
+      "store": "イーバリューYahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/evalue-omochayasan/4521329431529.html",
       "in_stock": true,
       "buyback_price": 17000,
-      "safe_profit": -7140,
-      "cash_profit": -4140,
+      "safe_profit": -7180,
+      "cash_profit": -4180,
       "grade": "D",
       "buy_threshold": 3500,
-      "required_rise": 17140
+      "required_rise": 17180
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
