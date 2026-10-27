@@ -17872,5 +17872,27 @@
     "ok": true,
     "retail_price": 127499,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-27T22:17:38+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 203700,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 219299,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-27T22:17:38+09:00",
+    "product_id": "rtx-5070ti-msi-ventus-3x",
+    "product_name": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC",
+    "price": 152000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 319600,
+    "retail_source": "yahoo"
   }
 ]
