@@ -42,6 +42,10 @@ SHOP_NAME = "買取1丁目"
 KTX_SOURCE = "kaitorix"
 MOBASUTE_SOURCE = "mobasute"
 
+# 前回記録からこの倍率を超えて動いた価格は、桁違い・単位違い・APIの仕様変更を疑う。
+# 本当に動いた場合は次の実行でも同じ値が返るため、2回連続したら受け入れる。
+MAX_PRICE_JUMP_RATIO = 1.5
+
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 465
 SMTP_TIMEOUT_SECONDS = 20
@@ -271,6 +275,25 @@ def trim_history(history: list[dict], now: datetime, history_days: int) -> list[
 
 def collect_one(product: dict, timeout: int) -> Product:
     return fetch_product(product, timeout=timeout)
+
+
+def suspicious_jump(previous_price: int | None, price: int) -> str | None:
+    """前回記録からの急変を検知し、理由を返す。問題なければNone。"""
+    if not previous_price or previous_price <= 0:
+        return None
+    ratio = price / previous_price
+    if 1 / MAX_PRICE_JUMP_RATIO <= ratio <= MAX_PRICE_JUMP_RATIO:
+        return None
+    return f"前回記録 ¥{previous_price:,} から ¥{price:,} に急変（{ratio:.2f}倍）"
+
+
+def is_confirmed_jump(history: list[dict], product_id: str, price: int) -> bool:
+    """直前の実行でも同じ急変値が保留されていれば、本当の値動きとみなす。"""
+    for row in reversed(history):
+        if row.get("product_id") != product_id:
+            continue
+        return row.get("ok") is False and row.get("suspect") is True and int(row.get("price", -1)) == price
+    return False
 
 
 def should_check_market(market: dict, now_iso: str) -> bool:
@@ -519,6 +542,28 @@ def main() -> int:
 
             previous_rows = get_product_history(history, product["id"])
             previous = previous_rows[-1] if previous_rows else None
+
+            jump = suspicious_jump(int(previous["price"]) if previous else None, price)
+            if jump and not is_confirmed_jump(history, product["id"], price):
+                # 誤値で履歴・高値判定・通知を汚さないよう保留する。ok=Falseの行は画面と判定から除外される。
+                history.append(
+                    {
+                        "timestamp": now_iso,
+                        "product_id": product["id"],
+                        "product_name": product["name"],
+                        "price": price,
+                        "shop": shop,
+                        "url": product.get("url", ""),
+                        "ok": False,
+                        "suspect": True,
+                        "error": jump,
+                    }
+                )
+                records_changed = True
+                retail_entries.pop(product["id"], None)  # 誤値前提の利益計算を公開しない
+                errors.append({"product_id": product["id"], "name": product["name"], "error": f"保留: {jump}"})
+                print(f"WARN {product['name']}: {jump}。次回も同じ値なら記録します。", file=sys.stderr)
+                continue
 
             retail_price = int(retail["price"]) if retail else None
             if should_record(previous, price, now_iso, retail_price):
