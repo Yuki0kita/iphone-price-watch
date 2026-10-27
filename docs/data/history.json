@@ -17828,5 +17828,49 @@
     "ok": true,
     "retail_price": 164800,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-27T15:21:27+09:00",
+    "product_id": "iphone-17-pro-max-512",
+    "product_name": "iPhone 17 Pro Max 512GB",
+    "price": 217000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1371/1927",
+    "ok": true,
+    "retail_price": 243480,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-27T15:21:27+09:00",
+    "product_id": "iphone-17-pro-256",
+    "product_name": "iPhone 17 Pro 256GB",
+    "price": 174000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1374/1936",
+    "ok": true,
+    "retail_price": 197799,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-27T15:21:27+09:00",
+    "product_id": "switch2-multilang",
+    "product_name": "Nintendo Switch 2 多言語版",
+    "price": 82400,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 91990,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-27T15:21:27+09:00",
+    "product_id": "ps5-slim-cfi-2000a01",
+    "product_name": "PlayStation 5 Slim Disc CFI-2000A01",
+    "price": 118000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 127499,
+    "retail_source": "yahoo"
   }
 ]
