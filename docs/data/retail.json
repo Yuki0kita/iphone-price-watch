@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28T14:50:28+09:00",
+  "checked_at": "2026-10-28T22:04:46+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -54,12 +54,12 @@
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-7000b01-cc.html",
       "in_stock": true,
-      "buyback_price": 203900,
-      "safe_profit": -18899,
-      "cash_profit": -15899,
+      "buyback_price": 205000,
+      "safe_profit": -17799,
+      "cash_profit": -14799,
       "grade": "D",
-      "buy_threshold": 190400,
-      "required_rise": 28899
+      "buy_threshold": 191500,
+      "required_rise": 27799
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -80,16 +80,16 @@
       "source": "yahoo",
       "jan": "4948872415934",
       "name": "[訳あり・未使用] SONY PlayStation 5 CFI-2000A01    [国内正規品]",
-      "price": 127499,
+      "price": 132299,
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-2000a01-5934-k-cc.html",
       "in_stock": true,
       "buyback_price": 118000,
-      "safe_profit": -12999,
-      "cash_profit": -9999,
+      "safe_profit": -17799,
+      "cash_profit": -14799,
       "grade": "D",
       "buy_threshold": 104500,
-      "required_rise": 22999
+      "required_rise": 27799
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -124,17 +124,17 @@
     "pokemon-inferno-x": {
       "source": "yahoo",
       "jan": "4521329431529",
-      "name": "ポケモンカードゲーム インフェルノX BOX MEGA 拡張パック 新品未開封 シュリンク付き",
-      "price": 20680,
-      "store": "イーバリューYahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/evalue-omochayasan/4521329431529.html",
+      "name": "(シュリンクなし) ポケモンカードゲーム MEGA 拡張パック インフェルノX　1BOX",
+      "price": 20670,
+      "store": "太郎坊 Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
       "buyback_price": 17300,
-      "safe_profit": -6880,
-      "cash_profit": -3880,
+      "safe_profit": -6870,
+      "cash_profit": -3870,
       "grade": "D",
       "buy_threshold": 3800,
-      "required_rise": 16880
+      "required_rise": 16870
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
