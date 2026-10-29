@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-29T11:31:30+09:00",
+  "checked_at": "2026-10-29T19:06:05+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -34,17 +34,17 @@
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "【新品未開封】APPLE iPhone 17 Pro 256GB SIMフリー [シルバー]【日曜日以外即日発送】【送料無料】",
-      "price": 195999,
-      "store": "モバイル販売",
-      "url": "https://store.shopping.yahoo.co.jp/kaikyou/4549995648294.html",
+      "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
+      "price": 195998,
+      "store": "Quality Shop",
+      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -16999,
-      "cash_profit": -13999,
+      "safe_profit": -16998,
+      "cash_profit": -13998,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 26999
+      "required_rise": 26998
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -54,12 +54,12 @@
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-7000b01-cc.html",
       "in_stock": true,
-      "buyback_price": 205000,
-      "safe_profit": -17799,
-      "cash_profit": -14799,
+      "buyback_price": 205500,
+      "safe_profit": -17299,
+      "cash_profit": -14299,
       "grade": "D",
-      "buy_threshold": 191500,
-      "required_rise": 27799
+      "buy_threshold": 192000,
+      "required_rise": 27299
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -124,17 +124,17 @@
     "pokemon-inferno-x": {
       "source": "yahoo",
       "jan": "4521329431529",
-      "name": "(シュリンクなし) ポケモンカードゲーム MEGA 拡張パック インフェルノX　1BOX",
-      "price": 20670,
-      "store": "太郎坊 Yahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
+      "name": "ポケモンカードゲーム インフェルノX BOX MEGA 拡張パック 新品未開封 シュリンク付き",
+      "price": 20680,
+      "store": "イーバリューYahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/evalue-omochayasan/4521329431529.html",
       "in_stock": true,
       "buyback_price": 17500,
-      "safe_profit": -6670,
-      "cash_profit": -3670,
+      "safe_profit": -6680,
+      "cash_profit": -3680,
       "grade": "D",
       "buy_threshold": 4000,
-      "required_rise": 16670
+      "required_rise": 16680
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",

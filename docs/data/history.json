@@ -18319,5 +18319,38 @@
     "ok": true,
     "retail_price": 20670,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-29T19:06:05+09:00",
+    "product_id": "iphone-17-pro-256",
+    "product_name": "iPhone 17 Pro 256GB",
+    "price": 174000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1374/1936",
+    "ok": true,
+    "retail_price": 195998,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-29T19:06:05+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 205500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 219299,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-29T19:06:05+09:00",
+    "product_id": "pokemon-inferno-x",
+    "product_name": "ポケモンカード MEGA インフェルノX BOX",
+    "price": 17500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 20680,
+    "retail_source": "yahoo"
   }
 ]
