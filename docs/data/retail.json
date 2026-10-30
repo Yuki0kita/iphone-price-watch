@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-30T06:50:22+09:00",
+  "checked_at": "2026-10-30T10:59:20+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -129,12 +129,12 @@
       "store": "イーバリューYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/evalue-omochayasan/4521329431529.html",
       "in_stock": true,
-      "buyback_price": 17500,
-      "safe_profit": -6680,
-      "cash_profit": -3680,
+      "buyback_price": 16500,
+      "safe_profit": -7680,
+      "cash_profit": -4680,
       "grade": "D",
-      "buy_threshold": 4000,
-      "required_rise": 16680
+      "buy_threshold": 3000,
+      "required_rise": 17680
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
@@ -171,8 +171,8 @@
       "jan": "4711377301589",
       "name": "★MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC [PCIExp 16GB]【グラフィックボード・ビデオカード】【送料無料】",
       "price": 319600,
-      "store": "ディーライズ",
-      "url": "https://store.shopping.yahoo.co.jp/d-rise/p000000906124.html",
+      "store": "ディーライズ2号",
+      "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000906124.html",
       "in_stock": false,
       "buyback_price": 152000,
       "safe_profit": -171100,
