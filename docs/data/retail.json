@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-31T00:58:38+09:00",
+  "checked_at": "2026-10-31T05:51:15+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -49,17 +49,17 @@
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
       "jan": "4948872416320",
-      "name": "[訳あり・未使用] PlayStation 5 Pro CFI-7000B01 [2TB]   [国内正規品]",
-      "price": 219299,
-      "store": "Quality Shop",
-      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-7000b01-cc.html",
+      "name": "箱訳あり新品 PlayStation5 Pro CFI-7000B01  4948872416320",
+      "price": 219800,
+      "store": "digitalisland",
+      "url": "https://store.shopping.yahoo.co.jp/digitalisland/4948872416320d.html",
       "in_stock": true,
       "buyback_price": 206000,
-      "safe_profit": -16799,
-      "cash_profit": -13799,
+      "safe_profit": -17300,
+      "cash_profit": -14300,
       "grade": "D",
       "buy_threshold": 192500,
-      "required_rise": 26799
+      "required_rise": 27300
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -184,17 +184,17 @@
     "rtx-5060ti-zotac-twin-edge": {
       "source": "yahoo",
       "jan": "4537694368810",
-      "name": "ZOTAC GAMING GeForce RTX 5060 Ti 16GB Twin Edge OC グラフィックボード｜RTX5060Ti16GBTWOC/ZT-B50620H-10M",
-      "price": 164800,
-      "store": "shopooo by GMO",
-      "url": "https://store.shopping.yahoo.co.jp/itempost/1-pc4u-93648.html",
+      "name": "アスク ZOTAC GAMING GeForce RTX 5060 Ti 16GB Twin Edge OC ZT-B50620H-10M PCIExp",
+      "price": 169786,
+      "store": "お宝マーケットヤフー店",
+      "url": "https://store.shopping.yahoo.co.jp/ecjoyecj23/21754532.html",
       "in_stock": true,
       "buyback_price": 76300,
-      "safe_profit": -92000,
-      "cash_profit": -89000,
+      "safe_profit": -96986,
+      "cash_profit": -93986,
       "grade": "D",
       "buy_threshold": 62800,
-      "required_rise": 102000
+      "required_rise": 106986
     }
   }
 }
