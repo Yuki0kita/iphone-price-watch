@@ -18722,5 +18722,27 @@
     "ok": true,
     "retail_price": 169786,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-31T16:02:52+09:00",
+    "product_id": "pokemon-inferno-x",
+    "product_name": "ポケモンカード MEGA インフェルノX BOX",
+    "price": 17000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 20670,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-31T16:02:52+09:00",
+    "product_id": "rtx-5060ti-zotac-twin-edge",
+    "product_name": "ZOTAC GAMING RTX 5060 Ti 16GB Twin Edge OC",
+    "price": 76300,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 164800,
+    "retail_source": "yahoo"
   }
 ]
