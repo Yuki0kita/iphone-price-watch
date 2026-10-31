@@ -18744,5 +18744,27 @@
     "ok": true,
     "retail_price": 164800,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-31T22:41:26+09:00",
+    "product_id": "iphone-17-pro-max-512",
+    "product_name": "iPhone 17 Pro Max 512GB",
+    "price": 217000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1371/1927",
+    "ok": true,
+    "retail_price": 239500,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-10-31T22:41:26+09:00",
+    "product_id": "fujifilm-x100vi-black",
+    "product_name": "FUJIFILM X100VI ブラック",
+    "price": 270500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 301261,
+    "retail_source": "yahoo"
   }
 ]
