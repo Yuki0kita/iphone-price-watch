@@ -19092,5 +19092,16 @@
     "ok": true,
     "retail_price": 164800,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-02T06:13:15+09:00",
+    "product_id": "switch2-multilang",
+    "product_name": "Nintendo Switch 2 多言語版",
+    "price": 82400,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 92000,
+    "retail_source": "yahoo"
   }
 ]
