@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-02T16:43:27+09:00",
+  "checked_at": "2026-11-03T03:28:12+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -34,17 +34,17 @@
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "【新品未開封】APPLE iPhone 17 Pro 256GB SIMフリー [シルバー]【日曜日以外即日発送】【送料無料】",
-      "price": 197799,
-      "store": "モバイル販売",
-      "url": "https://store.shopping.yahoo.co.jp/kaikyou/4549995648294.html",
+      "name": "iPhone17 Pro 256GB シルバー MG854J/A SIMフリー 新品・未使用 本体 7698",
+      "price": 191980,
+      "store": "モバステ",
+      "url": "https://store.shopping.yahoo.co.jp/mobilestation/ip17pro256gb-s-s-7698.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -18799,
-      "cash_profit": -15799,
+      "safe_profit": -12980,
+      "cash_profit": -9980,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 28799
+      "required_rise": 22980
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -124,17 +124,17 @@
     "pokemon-inferno-x": {
       "source": "yahoo",
       "jan": "4521329431529",
-      "name": "(シュリンクなし) ポケモンカードゲーム MEGA 拡張パック インフェルノX　1BOX",
-      "price": 21100,
-      "store": "太郎坊 Yahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
+      "name": "ポケモンカードゲーム MEGA 拡張パック インフェルノX BOX 【シュリンク付き未開封品】",
+      "price": 19000,
+      "store": "お宝あっと町田Yahoo!ショップ",
+      "url": "https://store.shopping.yahoo.co.jp/otakara-machida/0320250924101.html",
       "in_stock": true,
       "buyback_price": 16000,
-      "safe_profit": -8600,
-      "cash_profit": -5600,
+      "safe_profit": -6500,
+      "cash_profit": -3500,
       "grade": "D",
       "buy_threshold": 2500,
-      "required_rise": 18600
+      "required_rise": 16500
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
@@ -159,20 +159,20 @@
       "store": "BNT",
       "url": "https://store.shopping.yahoo.co.jp/bnt/rog-astral-rtx5080-o16g-gaming.html",
       "in_stock": true,
-      "buyback_price": 295000,
-      "safe_profit": -123500,
-      "cash_profit": -120500,
+      "buyback_price": 292000,
+      "safe_profit": -126500,
+      "cash_profit": -123500,
       "grade": "D",
-      "buy_threshold": 281500,
-      "required_rise": 133500
+      "buy_threshold": 278500,
+      "required_rise": 136500
     },
     "rtx-5070ti-msi-ventus-3x": {
       "source": "yahoo",
       "jan": "4711377301589",
       "name": "★MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC [PCIExp 16GB]【グラフィックボード・ビデオカード】【送料無料】",
       "price": 319600,
-      "store": "ディーライズ2号",
-      "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000906124.html",
+      "store": "ディーライズ",
+      "url": "https://store.shopping.yahoo.co.jp/d-rise/p000000906124.html",
       "in_stock": false,
       "buyback_price": 152000,
       "safe_profit": -171100,
@@ -184,17 +184,17 @@
     "rtx-5060ti-zotac-twin-edge": {
       "source": "yahoo",
       "jan": "4537694368810",
-      "name": "ZOTAC GAMING GeForce RTX 5060 Ti 16GB Twin Edge OC グラフィックボード｜RTX5060Ti16GBTWOC/ZT-B50620H-10M",
-      "price": 164800,
-      "store": "shopooo by GMO",
-      "url": "https://store.shopping.yahoo.co.jp/itempost/1-pc4u-93648.html",
+      "name": "アスク ZOTAC GAMING GeForce RTX 5060 Ti 16GB Twin Edge OC ZT-B50620H-10M PCIExp",
+      "price": 169786,
+      "store": "お宝マーケットヤフー店",
+      "url": "https://store.shopping.yahoo.co.jp/ecjoyecj23/21754532.html",
       "in_stock": true,
       "buyback_price": 76300,
-      "safe_profit": -92000,
-      "cash_profit": -89000,
+      "safe_profit": -96986,
+      "cash_profit": -93986,
       "grade": "D",
       "buy_threshold": 62800,
-      "required_rise": 102000
+      "required_rise": 106986
     }
   }
 }
