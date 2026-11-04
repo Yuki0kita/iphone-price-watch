@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-04T08:27:53+09:00",
+  "checked_at": "2026-11-04T15:35:33+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -9,12 +9,12 @@
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
       "in_stock": true,
       "source": "apple",
-      "buyback_price": 139000,
-      "safe_profit": -24300,
-      "cash_profit": -21300,
+      "buyback_price": 138000,
+      "safe_profit": -25300,
+      "cash_profit": -22300,
       "grade": "D",
-      "buy_threshold": 125500,
-      "required_rise": 34300
+      "buy_threshold": 124500,
+      "required_rise": 35300
     },
     "iphone-17-pro-max-512": {
       "source": "yahoo",
@@ -139,17 +139,32 @@
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
-      "price": 173000,
-      "store": "測定の森Yahoo!ショッピング店",
-      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
-      "in_stock": true,
+      "name": "【土日、祝日発送】訳あり 新品未開封品【Nランク】ROG Xbox Ally X RC73XA-Z2E24G1T ブラック 199291152984 ※外箱痛み",
+      "price": 145860,
+      "store": "panda mobile",
+      "url": "https://store.shopping.yahoo.co.jp/panda-mobile/199291152984-nw.html",
+      "in_stock": false,
       "buyback_price": 154500,
-      "safe_profit": -22000,
-      "cash_profit": -19000,
+      "safe_profit": 5140,
+      "cash_profit": 8140,
       "grade": "D",
       "buy_threshold": 141000,
-      "required_rise": 32000
+      "required_rise": 4860
+    },
+    "rtx-5090-msi-ventus-3x": {
+      "source": "yahoo",
+      "jan": "4711377301633",
+      "name": "【新品】【即納】【代引き不可】MSI GeForce RTX5090 VENTUS 3X OC NVIDIA  グラフィックボード 32GB PCパーツ",
+      "price": 1298000,
+      "store": "パソコン専門店ECJP ヤフー店",
+      "url": "https://store.shopping.yahoo.co.jp/suncityjp/msi-geforce-rtx5090-ventus-3x-oc.html",
+      "in_stock": true,
+      "buyback_price": 905000,
+      "safe_profit": -396500,
+      "cash_profit": -393500,
+      "grade": "D",
+      "buy_threshold": 891500,
+      "required_rise": 406500
     },
     "rtx-5080-asus-astral": {
       "source": "yahoo",
@@ -159,42 +174,42 @@
       "store": "BNT",
       "url": "https://store.shopping.yahoo.co.jp/bnt/rog-astral-rtx5080-o16g-gaming.html",
       "in_stock": true,
-      "buyback_price": 292000,
-      "safe_profit": -126500,
-      "cash_profit": -123500,
+      "buyback_price": 290000,
+      "safe_profit": -128500,
+      "cash_profit": -125500,
       "grade": "D",
-      "buy_threshold": 278500,
-      "required_rise": 136500
+      "buy_threshold": 276500,
+      "required_rise": 138500
     },
     "rtx-5070ti-msi-ventus-3x": {
       "source": "yahoo",
       "jan": "4711377301589",
       "name": "★MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC [PCIExp 16GB]【グラフィックボード・ビデオカード】【送料無料】",
       "price": 319600,
-      "store": "ディーライズ2号",
-      "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000906124.html",
+      "store": "ディーライズ",
+      "url": "https://store.shopping.yahoo.co.jp/d-rise/p000000906124.html",
       "in_stock": false,
-      "buyback_price": 152000,
-      "safe_profit": -171100,
-      "cash_profit": -168100,
+      "buyback_price": 150000,
+      "safe_profit": -173100,
+      "cash_profit": -170100,
       "grade": "D",
-      "buy_threshold": 138500,
-      "required_rise": 181100
+      "buy_threshold": 136500,
+      "required_rise": 183100
     },
     "rtx-5060ti-zotac-twin-edge": {
       "source": "yahoo",
       "jan": "4537694368810",
-      "name": "アスク ZOTAC GAMING GeForce RTX 5060 Ti 16GB Twin Edge OC ZT-B50620H-10M PCIExp",
-      "price": 169786,
-      "store": "お宝マーケットヤフー店",
-      "url": "https://store.shopping.yahoo.co.jp/ecjoyecj23/21754532.html",
+      "name": "ZOTAC GAMING GeForce RTX 5060 Ti 16GB Twin Edge OC グラフィックボード｜RTX5060Ti16GBTWOC/ZT-B50620H-10M",
+      "price": 164800,
+      "store": "shopooo by GMO",
+      "url": "https://store.shopping.yahoo.co.jp/itempost/1-pc4u-93648.html",
       "in_stock": true,
       "buyback_price": 76300,
-      "safe_profit": -96986,
-      "cash_profit": -93986,
+      "safe_profit": -92000,
+      "cash_profit": -89000,
       "grade": "D",
       "buy_threshold": 62800,
-      "required_rise": 106986
+      "required_rise": 102000
     }
   }
 }

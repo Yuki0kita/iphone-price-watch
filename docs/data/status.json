@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-11-04T08:27:53+09:00",
+  "checked_at": "2026-11-04T15:35:33+09:00",
   "products_checked": 21,
-  "records_changed": false,
-  "alerts": 2,
+  "records_changed": true,
+  "alerts": 0,
   "email_sent": false,
   "errors": [
     {
@@ -21,11 +21,6 @@
       "error": "JAN 4549995437164 の商品が一覧に見つかりませんでした。取得できたJAN: []"
     },
     {
-      "product_id": "rtx-5090-msi-ventus-3x",
-      "name": "MSI GeForce RTX 5090 32G VENTUS 3X OC",
-      "error": "「新品」の価格が想定範囲外です: 1005000（1,000〜1,000,000円を想定）"
-    },
-    {
       "product_id": "rtx-5070-gigabyte-aorus",
       "name": "GIGABYTE AORUS GeForce RTX 5070 INFINITY 12G",
       "error": "JAN 4988755076357 の商品が一覧に見つかりませんでした。取得できたJAN: []"
@@ -39,10 +34,6 @@
       "product_id": "rtx-5060ti-msi-ventus-3x",
       "retail": true,
       "error": "JAN 4711377337618 の出品が見つかりませんでした。"
-    },
-    {
-      "notification": "email",
-      "error": "Connection unexpectedly closed"
     }
   ],
   "notes": [
@@ -51,7 +42,7 @@
       "note": "この実行環境からのアクセスが拒否されました（HTTP 403）。"
     }
   ],
-  "market_checked_at": "2026-11-04T08:27:53+09:00",
+  "market_checked_at": "2026-11-04T15:35:33+09:00",
   "products": [
     {
       "id": "iphone-17-256",
