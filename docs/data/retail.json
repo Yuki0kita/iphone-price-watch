@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-05T20:03:48+09:00",
+  "checked_at": "2026-11-06T03:47:37+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -80,16 +80,16 @@
       "source": "yahoo",
       "jan": "4948872415934",
       "name": "[訳あり・未使用] SONY PlayStation 5 CFI-2000A01    [国内正規品]",
-      "price": 130239,
+      "price": 132299,
       "store": "Quality Shop",
       "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-2000a01-5934-k-cc.html",
       "in_stock": true,
       "buyback_price": 118200,
-      "safe_profit": -15539,
-      "cash_profit": -12539,
+      "safe_profit": -17599,
+      "cash_profit": -14599,
       "grade": "D",
       "buy_threshold": 104700,
-      "required_rise": 25539
+      "required_rise": 27599
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
