@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-06T09:21:46+09:00",
+  "checked_at": "2026-11-06T16:57:54+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -20,31 +20,31 @@
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "Apple iPhone 17 Promax 512GB シルバー 新品未使用 MFYC4J/A SIMフリー4549995649314",
-      "price": 235888,
+      "price": 236880,
       "store": "KizunaStore",
       "url": "https://store.shopping.yahoo.co.jp/ki-zu-na/4549995649314k.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -11888,
-      "cash_profit": -8888,
+      "safe_profit": -12880,
+      "cash_profit": -9880,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 21888
+      "required_rise": 22880
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "★新品未開封 Apple SIMフリー iPhone17Pro 256GB シルバー MG854J/A A3522 本体 利用制限〇 eSIM専用端末♪高質ガラスフィルムと透明ケースプレゼント",
-      "price": 197800,
-      "store": "ジェーシカモバイル2号店",
-      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995648295.html",
+      "name": "【新品未開封】APPLE iPhone 17 Pro 256GB SIMフリー [シルバー]【日曜日以外即日発送】【送料無料】",
+      "price": 197799,
+      "store": "モバイル販売",
+      "url": "https://store.shopping.yahoo.co.jp/kaikyou/4549995648294.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -18800,
-      "cash_profit": -15800,
+      "safe_profit": -18799,
+      "cash_profit": -15799,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 28800
+      "required_rise": 28799
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -64,17 +64,17 @@
     "switch2-multilang": {
       "source": "yahoo",
       "jan": "4902370552683",
-      "name": "★訳あり 任天堂 Nintendo Switch2 Multi-Language System 多言語版 BEE-S-KB6AA ブラック 任天堂スイッチ 本体 4902370552683※外箱少々凹みや傷あり",
-      "price": 92080,
-      "store": "ジェーシカモバイル2号店",
-      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4902370552684.html",
+      "name": "【ラッピング可】【即日発送】【新品 箱不良・シュリンク破れ品】任天堂 Nintendo Switch 2 本体 Multi-Language System 多言語版 BEE-S-KB6AA ブラック",
+      "price": 92550,
+      "store": "電子問屋",
+      "url": "https://store.shopping.yahoo.co.jp/densidonya/4902370552683-a.html",
       "in_stock": true,
       "buyback_price": 82400,
-      "safe_profit": -13180,
-      "cash_profit": -10180,
+      "safe_profit": -13650,
+      "cash_profit": -10650,
       "grade": "D",
       "buy_threshold": 68900,
-      "required_rise": 23180
+      "required_rise": 23650
     },
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
