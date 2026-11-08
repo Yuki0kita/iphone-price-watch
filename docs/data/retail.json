@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-08T15:11:50+09:00",
+  "checked_at": "2026-11-08T22:33:14+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -49,17 +49,17 @@
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
       "jan": "4948872416320",
-      "name": "箱訳あり新品 PlayStation5 Pro CFI-7000B01  4948872416320",
-      "price": 219800,
-      "store": "digitalisland",
-      "url": "https://store.shopping.yahoo.co.jp/digitalisland/4948872416320d.html",
+      "name": "【新品・訳あり】PS5 Pro 本体 CFI-7000B01 PlayStation 5 Pro プレイステーション5 プロ 外箱傷みあり",
+      "price": 195000,
+      "store": "ブライトトレジャーズ2",
+      "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
       "buyback_price": 207200,
-      "safe_profit": -16100,
-      "cash_profit": -13100,
+      "safe_profit": 8700,
+      "cash_profit": 11700,
       "grade": "D",
       "buy_threshold": 193700,
-      "required_rise": 26100
+      "required_rise": 1300
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -94,17 +94,17 @@
     "fujifilm-x100vi-black": {
       "source": "yahoo",
       "jan": "4547410529494",
-      "name": "「訳あり品-外装箱傷あり」新品 デジタルカメラ FUJIFILM X100VI [ブラック]",
-      "price": 301261,
-      "store": "らいぶshop",
-      "url": "https://store.shopping.yahoo.co.jp/light-hikari/4547410529494-y.html",
+      "name": "FUJIFILM 富士フイルム X100VI [ブラック]コンパクトデジタルカメラ[ラッピング可] R-LOGI",
+      "price": 297000,
+      "store": "測定の森 2号店",
+      "url": "https://store.shopping.yahoo.co.jp/sokutei/4547410529494.html",
       "in_stock": false,
       "buyback_price": 270500,
-      "safe_profit": -34261,
-      "cash_profit": -31261,
+      "safe_profit": -30000,
+      "cash_profit": -27000,
       "grade": "D",
       "buy_threshold": 257000,
-      "required_rise": 44261
+      "required_rise": 40000
     },
     "onepiece-op17": {
       "source": "yahoo",
