@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-11T05:51:56+09:00",
+  "checked_at": "2026-11-11T10:16:27+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -35,16 +35,16 @@
       "source": "yahoo",
       "jan": "4549995648294",
       "name": "★アップル / APPLE iPhone 17 Pro 256GB SIMフリー MG854J/A [シルバー] (SIMフリー)【スマートフォン】【送料無料】",
-      "price": 204660,
+      "price": 203350,
       "store": "ディーライズ2号",
       "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000922438.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -25660,
-      "cash_profit": -22660,
+      "safe_profit": -24350,
+      "cash_profit": -21350,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 35660
+      "required_rise": 34350
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -65,16 +65,16 @@
       "source": "yahoo",
       "jan": "4902370552683",
       "name": "『新品外箱傷みあり』Nintendo Switch 2 多言語版",
-      "price": 98152,
+      "price": 98146,
       "store": "ノア商社Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/noahshoping/4902370552683-wk.html",
       "in_stock": true,
-      "buyback_price": 82400,
-      "safe_profit": -19252,
-      "cash_profit": -16252,
+      "buyback_price": 82000,
+      "safe_profit": -19646,
+      "cash_profit": -16646,
       "grade": "D",
-      "buy_threshold": 68900,
-      "required_rise": 29252
+      "buy_threshold": 68500,
+      "required_rise": 29646
     },
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
@@ -186,8 +186,8 @@
       "jan": "4711377301589",
       "name": "★MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC [PCIExp 16GB]【グラフィックボード・ビデオカード】【送料無料】",
       "price": 319600,
-      "store": "ディーライズ2号",
-      "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000906124.html",
+      "store": "ディーライズ",
+      "url": "https://store.shopping.yahoo.co.jp/d-rise/p000000906124.html",
       "in_stock": false,
       "buyback_price": 150500,
       "safe_profit": -172600,

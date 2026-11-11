@@ -21076,5 +21076,27 @@
     "ok": true,
     "retail_price": 171855,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-11T10:16:27+09:00",
+    "product_id": "iphone-17-pro-256",
+    "product_name": "iPhone 17 Pro 256GB",
+    "price": 174000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1374/1936",
+    "ok": true,
+    "retail_price": 203350,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-11T10:16:27+09:00",
+    "product_id": "switch2-multilang",
+    "product_name": "Nintendo Switch 2 多言語版",
+    "price": 82000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 98146,
+    "retail_source": "yahoo"
   }
 ]
