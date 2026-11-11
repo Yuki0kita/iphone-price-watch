@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-12T01:15:27+09:00",
+  "checked_at": "2026-11-12T07:48:41+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -35,16 +35,16 @@
       "source": "yahoo",
       "jan": "4549995648294",
       "name": "Apple iPhone 17 Pro 256GB SIMフリー [シルバー] MG854J/A アップル アイフォン",
-      "price": 199031,
+      "price": 198983,
       "store": "秋葉原　アウトレットプラザ",
       "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001093203.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -20031,
-      "cash_profit": -17031,
+      "safe_profit": -19983,
+      "cash_profit": -16983,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 30031
+      "required_rise": 29983
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -79,17 +79,17 @@
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
       "jan": "4948872415934",
-      "name": "[訳あり・未使用] SONY PlayStation 5 CFI-2000A01    [国内正規品]",
-      "price": 120602,
-      "store": "Quality Shop",
-      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-2000a01-5934-k-cc.html",
+      "name": "「訳あり品-外装箱傷あり」新品 プレイステーション5 Slimモデル CFI-2000A01　※量販店舗印付の場合があります、商品情報ご覧ください。",
+      "price": 131800,
+      "store": "らいぶshop",
+      "url": "https://store.shopping.yahoo.co.jp/light-hikari/4948872415934-y.html",
       "in_stock": true,
       "buyback_price": 118200,
-      "safe_profit": -5902,
-      "cash_profit": -2902,
+      "safe_profit": -17100,
+      "cash_profit": -14100,
       "grade": "D",
       "buy_threshold": 104700,
-      "required_rise": 15902
+      "required_rise": 27100
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",

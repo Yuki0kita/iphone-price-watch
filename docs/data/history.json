@@ -21338,5 +21338,27 @@
     "ok": true,
     "retail_price": 81983,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-12T07:48:41+09:00",
+    "product_id": "iphone-17-pro-256",
+    "product_name": "iPhone 17 Pro 256GB",
+    "price": 174000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1374/1936",
+    "ok": true,
+    "retail_price": 198983,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-12T07:48:41+09:00",
+    "product_id": "ps5-slim-cfi-2000a01",
+    "product_name": "PlayStation 5 Slim Disc CFI-2000A01",
+    "price": 118200,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 131800,
+    "retail_source": "yahoo"
   }
 ]
