@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-11T10:16:27+09:00",
+  "checked_at": "2026-11-11T16:49:53+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -34,17 +34,17 @@
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "★アップル / APPLE iPhone 17 Pro 256GB SIMフリー MG854J/A [シルバー] (SIMフリー)【スマートフォン】【送料無料】",
-      "price": 203350,
-      "store": "ディーライズ2号",
-      "url": "https://store.shopping.yahoo.co.jp/d-rise2/p000000922438.html",
+      "name": "Apple iPhone 17 Pro 256GB SIMフリー [シルバー] MG854J/A アップル アイフォン",
+      "price": 199133,
+      "store": "秋葉原　アウトレットプラザ",
+      "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001093203.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -24350,
-      "cash_profit": -21350,
+      "safe_profit": -20133,
+      "cash_profit": -17133,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 34350
+      "required_rise": 30133
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -54,27 +54,27 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 207200,
-      "safe_profit": 8700,
-      "cash_profit": 11700,
+      "buyback_price": 207700,
+      "safe_profit": 9200,
+      "cash_profit": 12200,
       "grade": "D",
-      "buy_threshold": 193700,
-      "required_rise": 1300
+      "buy_threshold": 194200,
+      "required_rise": 800
     },
     "switch2-multilang": {
       "source": "yahoo",
       "jan": "4902370552683",
       "name": "『新品外箱傷みあり』Nintendo Switch 2 多言語版",
-      "price": 98146,
+      "price": 97377,
       "store": "ノア商社Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/noahshoping/4902370552683-wk.html",
       "in_stock": true,
       "buyback_price": 82000,
-      "safe_profit": -19646,
-      "cash_profit": -16646,
+      "safe_profit": -18877,
+      "cash_profit": -15877,
       "grade": "D",
       "buy_threshold": 68500,
-      "required_rise": 29646
+      "required_rise": 28877
     },
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
@@ -129,27 +129,27 @@
       "store": "お宝あっと町田Yahoo!ショップ",
       "url": "https://store.shopping.yahoo.co.jp/otakara-machida/0320250924101.html",
       "in_stock": true,
-      "buyback_price": 17000,
-      "safe_profit": -5500,
-      "cash_profit": -2500,
+      "buyback_price": 16000,
+      "safe_profit": -6500,
+      "cash_profit": -3500,
       "grade": "D",
-      "buy_threshold": 3500,
-      "required_rise": 15500
+      "buy_threshold": 2500,
+      "required_rise": 16500
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
       "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
-      "price": 166569,
-      "store": "測定の森 2号店",
-      "url": "https://store.shopping.yahoo.co.jp/sokutei/199291152984-wake.html",
+      "price": 166568,
+      "store": "測定の森Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
       "in_stock": true,
       "buyback_price": 154500,
-      "safe_profit": -15569,
-      "cash_profit": -12569,
+      "safe_profit": -15568,
+      "cash_profit": -12568,
       "grade": "D",
       "buy_threshold": 141000,
-      "required_rise": 25569
+      "required_rise": 25568
     },
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
@@ -184,32 +184,32 @@
     "rtx-5070ti-msi-ventus-3x": {
       "source": "yahoo",
       "jan": "4711377301589",
-      "name": "★MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC [PCIExp 16GB]【グラフィックボード・ビデオカード】【送料無料】",
-      "price": 319600,
-      "store": "ディーライズ",
-      "url": "https://store.shopping.yahoo.co.jp/d-rise/p000000906124.html",
-      "in_stock": false,
+      "name": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC G507T-16V3C 16GB GDDR7",
+      "price": 247800,
+      "store": "BNT",
+      "url": "https://store.shopping.yahoo.co.jp/bnt/g507t-16v3c.html",
+      "in_stock": true,
       "buyback_price": 150500,
-      "safe_profit": -172600,
-      "cash_profit": -169600,
+      "safe_profit": -100800,
+      "cash_profit": -97800,
       "grade": "D",
       "buy_threshold": 137000,
-      "required_rise": 182600
+      "required_rise": 110800
     },
     "rtx-5060ti-zotac-twin-edge": {
       "source": "yahoo",
       "jan": "4537694368810",
-      "name": "アスク ZOTAC GAMING GeForce RTX 5060 Ti 16GB Twin Edge OC ZT-B50620H-10M PCIExp",
-      "price": 171855,
-      "store": "お宝マーケットヤフー店",
-      "url": "https://store.shopping.yahoo.co.jp/ecjoyecj23/21754532.html",
-      "in_stock": true,
+      "name": "ZOTAC GAMING GeForce RTX 5060 Ti 16GB Twin Edge OC ZT-B50620H-10M [PCIExp 16GB]",
+      "price": 81983,
+      "store": "らいぶshop",
+      "url": "https://store.shopping.yahoo.co.jp/light-hikari/4537694368810.html",
+      "in_stock": false,
       "buyback_price": 76300,
-      "safe_profit": -99055,
-      "cash_profit": -96055,
+      "safe_profit": -9183,
+      "cash_profit": -6183,
       "grade": "D",
       "buy_threshold": 62800,
-      "required_rise": 109055
+      "required_rise": 19183
     }
   }
 }
