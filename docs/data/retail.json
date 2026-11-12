@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-12T12:51:26+09:00",
+  "checked_at": "2026-11-12T21:50:06+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -34,17 +34,17 @@
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "Apple iPhone 17 Pro 256GB SIMフリー [シルバー] MG854J/A アップル アイフォン",
-      "price": 198904,
-      "store": "秋葉原　アウトレットプラザ",
-      "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001093203.html",
+      "name": "【新品 未開封品】SIMフリー iPhone 17 Pro 256GB [シルバー][アップル][eSIM専用端末]",
+      "price": 197719,
+      "store": "Quality Shop",
+      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-17pro-256gb-silver.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -19904,
-      "cash_profit": -16904,
+      "safe_profit": -18719,
+      "cash_profit": -15719,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 29904
+      "required_rise": 28719
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -54,12 +54,12 @@
       "store": "ブライトトレジャーズ2",
       "url": "https://store.shopping.yahoo.co.jp/bright-treasures2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 207700,
-      "safe_profit": 9200,
-      "cash_profit": 12200,
-      "grade": "D",
-      "buy_threshold": 194200,
-      "required_rise": 800
+      "buyback_price": 208500,
+      "safe_profit": 10000,
+      "cash_profit": 13000,
+      "grade": "C",
+      "buy_threshold": 195000,
+      "required_rise": 0
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -159,12 +159,12 @@
       "store": "パソコン専門店ECJP ヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/suncityjp/msi-geforce-rtx5090-ventus-3x-oc.html",
       "in_stock": true,
-      "buyback_price": 905000,
-      "safe_profit": -396500,
-      "cash_profit": -393500,
+      "buyback_price": 906000,
+      "safe_profit": -395500,
+      "cash_profit": -392500,
       "grade": "D",
-      "buy_threshold": 891500,
-      "required_rise": 406500
+      "buy_threshold": 892500,
+      "required_rise": 405500
     },
     "rtx-5080-asus-astral": {
       "source": "yahoo",
@@ -189,12 +189,12 @@
       "store": "BNT",
       "url": "https://store.shopping.yahoo.co.jp/bnt/g507t-16v3c.html",
       "in_stock": true,
-      "buyback_price": 150500,
-      "safe_profit": -100800,
-      "cash_profit": -97800,
+      "buyback_price": 150700,
+      "safe_profit": -100600,
+      "cash_profit": -97600,
       "grade": "D",
-      "buy_threshold": 137000,
-      "required_rise": 110800
+      "buy_threshold": 137200,
+      "required_rise": 110600
     },
     "rtx-5060ti-zotac-twin-edge": {
       "source": "yahoo",
