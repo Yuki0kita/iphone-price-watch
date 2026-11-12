@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-12T07:48:41+09:00",
+  "checked_at": "2026-11-12T12:51:26+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -9,12 +9,12 @@
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
       "in_stock": true,
       "source": "apple",
-      "buyback_price": 138500,
-      "safe_profit": -24800,
-      "cash_profit": -21800,
+      "buyback_price": 139000,
+      "safe_profit": -24300,
+      "cash_profit": -21300,
       "grade": "D",
-      "buy_threshold": 125000,
-      "required_rise": 34800
+      "buy_threshold": 125500,
+      "required_rise": 34300
     },
     "iphone-17-pro-max-512": {
       "source": "yahoo",
@@ -35,16 +35,16 @@
       "source": "yahoo",
       "jan": "4549995648294",
       "name": "Apple iPhone 17 Pro 256GB SIMフリー [シルバー] MG854J/A アップル アイフォン",
-      "price": 198983,
+      "price": 198904,
       "store": "秋葉原　アウトレットプラザ",
       "url": "https://store.shopping.yahoo.co.jp/outletplaza/40001093203.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -19983,
-      "cash_profit": -16983,
+      "safe_profit": -19904,
+      "cash_profit": -16904,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 29983
+      "required_rise": 29904
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -169,17 +169,17 @@
     "rtx-5080-asus-astral": {
       "source": "yahoo",
       "jan": "0197105837911",
-      "name": "ASUS ROG Astral GeForce RTX 5080 16GB GDDR7 OC Edition ROG-ASTRAL-RTX5080-O16G-GAMING 16GB GDDR7",
-      "price": 415000,
-      "store": "BNT",
-      "url": "https://store.shopping.yahoo.co.jp/bnt/rog-astral-rtx5080-o16g-gaming.html",
+      "name": "ASUS エイスース ROG Astral GeForce RTX 5080 16GB GDDR7 OC Edition グラフィックボード ROG-ASTRAL-RTX5080-O16G-GAMING(2644181)",
+      "price": 471449,
+      "store": "e-zoa",
+      "url": "https://store.shopping.yahoo.co.jp/e-zoa/itm0015928944.html",
       "in_stock": true,
       "buyback_price": 293000,
-      "safe_profit": -125500,
-      "cash_profit": -122500,
+      "safe_profit": -181949,
+      "cash_profit": -178949,
       "grade": "D",
       "buy_threshold": 279500,
-      "required_rise": 135500
+      "required_rise": 191949
     },
     "rtx-5070ti-msi-ventus-3x": {
       "source": "yahoo",
