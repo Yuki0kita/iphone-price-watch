@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T23:13:41+09:00",
+  "checked_at": "2026-11-15T04:14:05+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -64,17 +64,17 @@
     "switch2-multilang": {
       "source": "yahoo",
       "jan": "4902370552683",
-      "name": "『新品外箱傷みあり』Nintendo Switch 2 多言語版",
-      "price": 98164,
-      "store": "ノア商社Yahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/noahshoping/4902370552683-wk.html",
+      "name": "【ラッピング可】【即日発送】【新品】任天堂 Nintendo Switch 2 本体 Multi-Language System 多言語版 BEE-S-KB6AA ブラック",
+      "price": 96078,
+      "store": "電子問屋",
+      "url": "https://store.shopping.yahoo.co.jp/densidonya/4902370552683.html",
       "in_stock": true,
       "buyback_price": 82000,
-      "safe_profit": -19664,
-      "cash_profit": -16664,
+      "safe_profit": -17578,
+      "cash_profit": -14578,
       "grade": "D",
       "buy_threshold": 68500,
-      "required_rise": 29664
+      "required_rise": 27578
     },
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
