@@ -21873,5 +21873,38 @@
     "ok": true,
     "retail_price": 1298000,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-14T23:13:41+09:00",
+    "product_id": "iphone-17-pro-256",
+    "product_name": "iPhone 17 Pro 256GB",
+    "price": 175000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1374/1936",
+    "ok": true,
+    "retail_price": 193000,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-14T23:13:41+09:00",
+    "product_id": "switch2-multilang",
+    "product_name": "Nintendo Switch 2 多言語版",
+    "price": 82000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 98164,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-14T23:13:41+09:00",
+    "product_id": "onepiece-op17",
+    "product_name": "ONE PIECE OP-17 世界最強の戦士 BOX",
+    "price": 8500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 4500,
+    "retail_source": "yahoo"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T15:35:06+09:00",
+  "checked_at": "2026-11-14T23:13:41+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -65,16 +65,16 @@
       "source": "yahoo",
       "jan": "4902370552683",
       "name": "『新品外箱傷みあり』Nintendo Switch 2 多言語版",
-      "price": 98170,
+      "price": 98164,
       "store": "ノア商社Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/noahshoping/4902370552683-wk.html",
       "in_stock": true,
       "buyback_price": 82000,
-      "safe_profit": -19670,
-      "cash_profit": -16670,
+      "safe_profit": -19664,
+      "cash_profit": -16664,
       "grade": "D",
       "buy_threshold": 68500,
-      "required_rise": 29670
+      "required_rise": 29664
     },
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
@@ -109,17 +109,17 @@
     "onepiece-op17": {
       "source": "yahoo",
       "jan": "4582770058406",
-      "name": "2026年8月22日発売 予約 18パック ばら売り レビュー特典あり ONE PIECEカードゲーム 世界最強の戦士  OP-17 BOX 24パック入り　ワンピース バンダイ BANDAI",
-      "price": 4280,
-      "store": "カウカウSTORE",
-      "url": "https://store.shopping.yahoo.co.jp/free-world/cardpack-o-024-18.html",
+      "name": "世界最強の戦士 ONE PIECEカードゲーム 2026年8月22日発売 予約 15パック ばら売り OP-17 BOX ワンピース バンダイ BANDAI",
+      "price": 4500,
+      "store": "1913ストア",
+      "url": "https://store.shopping.yahoo.co.jp/1913store/4582770058406-15.html",
       "in_stock": true,
       "buyback_price": 8500,
-      "safe_profit": 720,
-      "cash_profit": 3720,
+      "safe_profit": 500,
+      "cash_profit": 3500,
       "grade": "D",
       "buy_threshold": -5000,
-      "required_rise": 9280
+      "required_rise": 9500
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
