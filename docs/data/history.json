@@ -22069,5 +22069,27 @@
     "ok": true,
     "retail_price": 81983,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-15T20:05:03+09:00",
+    "product_id": "switch2-multilang",
+    "product_name": "Nintendo Switch 2 多言語版",
+    "price": 82000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 92550,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-15T20:05:03+09:00",
+    "product_id": "ps5-slim-cfi-2000a01",
+    "product_name": "PlayStation 5 Slim Disc CFI-2000A01",
+    "price": 118200,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 128390,
+    "retail_source": "yahoo"
   }
 ]
