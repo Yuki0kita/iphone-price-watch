@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-18T13:28:41+09:00",
+  "checked_at": "2026-11-18T23:09:17+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -19,32 +19,32 @@
     "iphone-17-pro-max-512": {
       "source": "yahoo",
       "jan": "4549995649314",
-      "name": "Apple iPhone 17 Pro Max 512GB シルバー[ラッピング不可]KW",
-      "price": 243499,
-      "store": "測定の森 2号店",
-      "url": "https://store.shopping.yahoo.co.jp/sokutei/4549995649314.html",
+      "name": "★Apple 国内版 SIMフリー iPhone17ProMax 512GB シルバー  MFYC4J/A A3525 新品未開封 本体 eSIM専用端末♪高質ガラスフィルムと透明ケースプレゼント",
+      "price": 243500,
+      "store": "ジェーシカモバイル2号店",
+      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995649314.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -19499,
-      "cash_profit": -16499,
+      "safe_profit": -19500,
+      "cash_profit": -16500,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 29499
+      "required_rise": 29500
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
       "name": "『新品外箱傷みあり』Apple(アップル)iPhone 17 Pro 256GB SIMフリー MG854J/A [シルバー]",
-      "price": 242000,
+      "price": 242226,
       "store": "ノア商社Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/noahshoping/4549995648294-wk.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -63000,
-      "cash_profit": -60000,
+      "safe_profit": -63226,
+      "cash_profit": -60226,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 73000
+      "required_rise": 73226
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -54,12 +54,12 @@
       "store": "digitalisland",
       "url": "https://store.shopping.yahoo.co.jp/digitalisland/4948872416320d.html",
       "in_stock": true,
-      "buyback_price": 209700,
-      "safe_profit": -13600,
-      "cash_profit": -10600,
+      "buyback_price": 210000,
+      "safe_profit": -13300,
+      "cash_profit": -10300,
       "grade": "D",
-      "buy_threshold": 196200,
-      "required_rise": 23600
+      "buy_threshold": 196500,
+      "required_rise": 23300
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -114,12 +114,12 @@
       "store": "1913ストア",
       "url": "https://store.shopping.yahoo.co.jp/1913store/4582770058406-15.html",
       "in_stock": true,
-      "buyback_price": 8200,
-      "safe_profit": 200,
-      "cash_profit": 3200,
+      "buyback_price": 7600,
+      "safe_profit": -400,
+      "cash_profit": 2600,
       "grade": "D",
-      "buy_threshold": -5300,
-      "required_rise": 9800
+      "buy_threshold": -5900,
+      "required_rise": 10400
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
