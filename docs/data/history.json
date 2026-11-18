@@ -22701,5 +22701,82 @@
     "ok": true,
     "retail_price": 81983,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-18T13:28:41+09:00",
+    "product_id": "iphone-17-pro-256",
+    "product_name": "iPhone 17 Pro 256GB",
+    "price": 175000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1374/1936",
+    "ok": true,
+    "retail_price": 242000,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-18T13:28:41+09:00",
+    "product_id": "ps5-pro-cfi-7000b01",
+    "product_name": "PlayStation 5 Pro CFI-7000B01",
+    "price": 209700,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 219800,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-18T13:28:41+09:00",
+    "product_id": "onepiece-op17",
+    "product_name": "ONE PIECE OP-17 世界最強の戦士 BOX",
+    "price": 8200,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 4500,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-18T13:28:41+09:00",
+    "product_id": "pokemon-inferno-x",
+    "product_name": "ポケモンカード MEGA インフェルノX BOX",
+    "price": 16000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 19000,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-18T13:28:41+09:00",
+    "product_id": "rog-xbox-ally-x-1tb",
+    "product_name": "ASUS ROG Xbox Ally X 1TB ブラック",
+    "price": 154500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 145860,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-18T13:28:41+09:00",
+    "product_id": "rtx-5090-msi-ventus-3x",
+    "product_name": "MSI GeForce RTX 5090 32G VENTUS 3X OC",
+    "price": 920000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 1298000,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-18T13:28:41+09:00",
+    "product_id": "rtx-5070ti-msi-ventus-3x",
+    "product_name": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC",
+    "price": 153000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 247800,
+    "retail_source": "yahoo"
   }
 ]
