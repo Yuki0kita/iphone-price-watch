@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-20T07:12:44+09:00",
+  "checked_at": "2026-11-20T12:27:01+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -34,17 +34,17 @@
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "Apple iPhone 17 Pro 256GB シルバー[ラッピング不可]KW",
-      "price": 193000,
-      "store": "測定の森Yahoo!ショッピング店",
-      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995648294.html",
+      "name": "『新品外箱傷みあり』Apple(アップル)iPhone 17 Pro 256GB SIMフリー MG854J/A [シルバー]",
+      "price": 242200,
+      "store": "ノア商社Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/noahshoping/4549995648294-wk.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -14000,
-      "cash_profit": -11000,
+      "safe_profit": -63200,
+      "cash_profit": -60200,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 24000
+      "required_rise": 73200
     },
     "ps5-pro-cfi-7000b01": {
       "source": "yahoo",
@@ -54,12 +54,12 @@
       "store": "ジェーシカモバイル2号店",
       "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 211200,
-      "safe_profit": -25300,
-      "cash_profit": -22300,
+      "buyback_price": 212500,
+      "safe_profit": -24000,
+      "cash_profit": -21000,
       "grade": "D",
-      "buy_threshold": 197700,
-      "required_rise": 35300
+      "buy_threshold": 199000,
+      "required_rise": 34000
     },
     "switch2-multilang": {
       "source": "yahoo",
