@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-22T15:59:03+09:00",
+  "checked_at": "2026-11-23T00:25:31+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -20,16 +20,16 @@
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "Apple iPhone 17 Pro Max 512GB シルバー[ラッピング不可]KW",
-      "price": 243499,
-      "store": "測定の森 2号店",
-      "url": "https://store.shopping.yahoo.co.jp/sokutei/4549995649314.html",
+      "price": 242979,
+      "store": "測定の森Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995649314.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -19499,
-      "cash_profit": -16499,
+      "safe_profit": -18979,
+      "cash_profit": -15979,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 29499
+      "required_rise": 28979
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
@@ -139,17 +139,17 @@
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "【土日、祝日発送】訳あり 新品未開封品【Nランク】ROG Xbox Ally X RC73XA-Z2E24G1T ブラック 199291152984 ※外箱痛み",
-      "price": 145860,
-      "store": "panda mobile",
-      "url": "https://store.shopping.yahoo.co.jp/panda-mobile/199291152984-nw.html",
-      "in_stock": false,
+      "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
+      "price": 165550,
+      "store": "測定の森Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
+      "in_stock": true,
       "buyback_price": 154500,
-      "safe_profit": 5140,
-      "cash_profit": 8140,
+      "safe_profit": -14550,
+      "cash_profit": -11550,
       "grade": "D",
       "buy_threshold": 141000,
-      "required_rise": 4860
+      "required_rise": 24550
     },
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
