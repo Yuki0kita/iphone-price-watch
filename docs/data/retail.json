@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T06:51:54+09:00",
+  "checked_at": "2026-11-23T11:52:00+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -54,12 +54,12 @@
       "store": "ジェーシカモバイル2号店",
       "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4948872416320.html",
       "in_stock": true,
-      "buyback_price": 213700,
-      "safe_profit": -22800,
-      "cash_profit": -19800,
+      "buyback_price": 214700,
+      "safe_profit": -21800,
+      "cash_profit": -18800,
       "grade": "D",
-      "buy_threshold": 200200,
-      "required_rise": 32800
+      "buy_threshold": 201200,
+      "required_rise": 31800
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -79,17 +79,17 @@
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
       "jan": "4948872415934",
-      "name": "[訳あり・未使用] SONY PlayStation 5 CFI-2000A01    [国内正規品]",
-      "price": 121611,
-      "store": "Quality Shop",
-      "url": "https://store.shopping.yahoo.co.jp/quality-shop/m-cfi-2000a01-5934-k-cc.html",
+      "name": "「訳あり品-外装箱傷あり」新品 プレイステーション5 Slimモデル CFI-2000A01　※量販店舗印付の場合があります、商品情報ご覧ください。",
+      "price": 123375,
+      "store": "らいぶshop",
+      "url": "https://store.shopping.yahoo.co.jp/light-hikari/4948872415934-y.html",
       "in_stock": true,
       "buyback_price": 118400,
-      "safe_profit": -6711,
-      "cash_profit": -3711,
+      "safe_profit": -8475,
+      "cash_profit": -5475,
       "grade": "D",
       "buy_threshold": 104900,
-      "required_rise": 16711
+      "required_rise": 18475
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -114,12 +114,12 @@
       "store": "カウカウSTORE",
       "url": "https://store.shopping.yahoo.co.jp/free-world/cardpack-o-024-18.html",
       "in_stock": true,
-      "buyback_price": 7200,
-      "safe_profit": 20,
-      "cash_profit": 3020,
+      "buyback_price": 7000,
+      "safe_profit": -180,
+      "cash_profit": 2820,
       "grade": "D",
-      "buy_threshold": -6300,
-      "required_rise": 9980
+      "buy_threshold": -6500,
+      "required_rise": 10180
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -139,17 +139,17 @@
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
       "jan": "0199291152984",
-      "name": "【訳あり】ASUS ROG Xbox Ally X RC73XA-Z2E24G1T ポータブルゲーミング機[ラッピング可]",
-      "price": 165550,
-      "store": "測定の森Yahoo!ショッピング店",
-      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/199291152984-wake.html",
-      "in_stock": true,
+      "name": "【土日、祝日発送】訳あり 新品未開封品【Nランク】ROG Xbox Ally X RC73XA-Z2E24G1T ブラック 199291152984 ※外箱痛み",
+      "price": 145860,
+      "store": "panda mobile",
+      "url": "https://store.shopping.yahoo.co.jp/panda-mobile/199291152984-nw.html",
+      "in_stock": false,
       "buyback_price": 154500,
-      "safe_profit": -14550,
-      "cash_profit": -11550,
+      "safe_profit": 5140,
+      "cash_profit": 8140,
       "grade": "D",
       "buy_threshold": 141000,
-      "required_rise": 24550
+      "required_rise": 4860
     },
     "rtx-5090-msi-ventus-3x": {
       "source": "yahoo",
