@@ -1,14 +1,19 @@
 {
-  "checked_at": "2026-11-23T11:52:00+09:00",
+  "checked_at": "2026-11-23T22:00:05+09:00",
   "products_checked": 21,
   "records_changed": true,
-  "alerts": 1,
+  "alerts": 2,
   "email_sent": false,
   "errors": [
     {
       "source": "apple",
       "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
       "error": "購入ページから価格を読み取れませんでした。ページ構造が変わった可能性があります。"
+    },
+    {
+      "product_id": "ps5-pro-cfi-7000b01",
+      "name": "PlayStation 5 Pro CFI-7000B01",
+      "error": "JAN 4948872416320 の商品が一覧に見つかりませんでした。取得できたJAN: []"
     },
     {
       "product_id": "mac-mini-m4-256",
@@ -46,7 +51,7 @@
       "note": "この実行環境からのアクセスが拒否されました（HTTP 403）。"
     }
   ],
-  "market_checked_at": "2026-11-23T11:52:00+09:00",
+  "market_checked_at": "2026-11-23T22:00:05+09:00",
   "products": [
     {
       "id": "iphone-17-256",

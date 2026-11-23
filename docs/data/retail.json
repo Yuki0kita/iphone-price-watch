@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T11:52:00+09:00",
+  "checked_at": "2026-11-23T22:00:05+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -20,46 +20,31 @@
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "Apple iPhone 17 Pro Max 512GB シルバー[ラッピング不可]KW",
-      "price": 242979,
+      "price": 242699,
       "store": "測定の森Yahoo!ショッピング店",
       "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995649314.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -18979,
-      "cash_profit": -15979,
+      "safe_profit": -18699,
+      "cash_profit": -15699,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 28979
+      "required_rise": 28699
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "★Apple国内版SIMフリー iPhone17Pro 256GB シルバー MG854J/A A3522 新品未開封 本体 eSIM専用端末♪高質ガラスフィルムと透明ケースプレゼント",
-      "price": 200760,
-      "store": "ジェーシカモバイル2号店",
-      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995648294.html",
+      "name": "Apple iPhone 17 Pro 256GB シルバー[ラッピング不可]KW",
+      "price": 193000,
+      "store": "測定の森Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995648294.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -21760,
-      "cash_profit": -18760,
+      "safe_profit": -14000,
+      "cash_profit": -11000,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 31760
-    },
-    "ps5-pro-cfi-7000b01": {
-      "source": "yahoo",
-      "jan": "4948872416320",
-      "name": "★新品 未使用 PS5 2024年 プレイステーション5 本体 PlayStation 5 Pro CFI-7000B01 2TB SONY 本体",
-      "price": 233000,
-      "store": "ジェーシカモバイル2号店",
-      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4948872416320.html",
-      "in_stock": true,
-      "buyback_price": 214700,
-      "safe_profit": -21800,
-      "cash_profit": -18800,
-      "grade": "D",
-      "buy_threshold": 201200,
-      "required_rise": 31800
+      "required_rise": 24000
     },
     "switch2-multilang": {
       "source": "yahoo",
