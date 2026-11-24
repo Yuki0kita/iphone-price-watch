@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-24T09:58:17+09:00",
+  "checked_at": "2026-11-24T20:01:49+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -69,12 +69,12 @@
       "store": "らいぶshop",
       "url": "https://store.shopping.yahoo.co.jp/light-hikari/4948872415934-y.html",
       "in_stock": true,
-      "buyback_price": 118400,
-      "safe_profit": -8475,
-      "cash_profit": -5475,
+      "buyback_price": 118600,
+      "safe_profit": -8275,
+      "cash_profit": -5275,
       "grade": "D",
-      "buy_threshold": 104900,
-      "required_rise": 18475
+      "buy_threshold": 105100,
+      "required_rise": 18275
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -99,12 +99,12 @@
       "store": "カウカウSTORE",
       "url": "https://store.shopping.yahoo.co.jp/free-world/cardpack-o-024-18.html",
       "in_stock": true,
-      "buyback_price": 7000,
-      "safe_profit": -180,
-      "cash_profit": 2820,
+      "buyback_price": 6500,
+      "safe_profit": -680,
+      "cash_profit": 2320,
       "grade": "D",
-      "buy_threshold": -6500,
-      "required_rise": 10180
+      "buy_threshold": -7000,
+      "required_rise": 10680
     },
     "pokemon-inferno-x": {
       "source": "yahoo",
@@ -114,12 +114,12 @@
       "store": "お宝あっと町田Yahoo!ショップ",
       "url": "https://store.shopping.yahoo.co.jp/otakara-machida/0320250924101.html",
       "in_stock": true,
-      "buyback_price": 16500,
-      "safe_profit": -6000,
-      "cash_profit": -3000,
+      "buyback_price": 16200,
+      "safe_profit": -6300,
+      "cash_profit": -3300,
       "grade": "D",
-      "buy_threshold": 3000,
-      "required_rise": 16000
+      "buy_threshold": 2700,
+      "required_rise": 16300
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
@@ -144,12 +144,12 @@
       "store": "パソコン専門店ECJP ヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/suncityjp/msi-geforce-rtx5090-ventus-3x-oc.html",
       "in_stock": true,
-      "buyback_price": 922000,
-      "safe_profit": -379500,
-      "cash_profit": -376500,
+      "buyback_price": 924000,
+      "safe_profit": -377500,
+      "cash_profit": -374500,
       "grade": "D",
-      "buy_threshold": 908500,
-      "required_rise": 389500
+      "buy_threshold": 910500,
+      "required_rise": 387500
     },
     "rtx-5080-asus-astral": {
       "source": "yahoo",
