@@ -24260,5 +24260,38 @@
     "ok": true,
     "retail_price": 81983,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-25T13:55:18+09:00",
+    "product_id": "iphone-17-256",
+    "product_name": "iPhone 17 256GB",
+    "price": 140000,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/productDetail/1365/1909",
+    "ok": true,
+    "retail_price": 159800,
+    "retail_source": "apple"
+  },
+  {
+    "timestamp": "2026-11-25T13:55:18+09:00",
+    "product_id": "ps5-slim-cfi-2000a01",
+    "product_name": "PlayStation 5 Slim Disc CFI-2000A01",
+    "price": 119500,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 123375,
+    "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-25T13:55:18+09:00",
+    "product_id": "onepiece-op17",
+    "product_name": "ONE PIECE OP-17 世界最強の戦士 BOX",
+    "price": 6300,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/tradeCards",
+    "ok": true,
+    "retail_price": 3680,
+    "retail_source": "yahoo"
   }
 ]
