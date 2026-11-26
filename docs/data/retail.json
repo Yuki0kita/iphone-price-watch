@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-25T13:55:18+09:00",
+  "checked_at": "2026-11-26T09:28:42+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -21,8 +21,8 @@
       "jan": "4549995649314",
       "name": "Apple iPhone 17 Pro Max 512GB シルバー[ラッピング不可]KW",
       "price": 242699,
-      "store": "測定の森 2号店",
-      "url": "https://store.shopping.yahoo.co.jp/sokutei/4549995649314.html",
+      "store": "測定の森Yahoo!ショッピング店",
+      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995649314.html",
       "in_stock": true,
       "buyback_price": 227500,
       "safe_profit": -18699,
@@ -49,32 +49,32 @@
     "switch2-multilang": {
       "source": "yahoo",
       "jan": "4902370552683",
-      "name": "【ラッピング可】【即日発送】【新品】任天堂 Nintendo Switch 2 本体 Multi-Language System 多言語版 BEE-S-KB6AA ブラック",
-      "price": 96068,
-      "store": "電子問屋",
-      "url": "https://store.shopping.yahoo.co.jp/densidonya/4902370552683.html",
+      "name": "★任天堂 Nintendo Switch2 Multi-Language System 多言語版 BEE-S-KB6AA ブラック 任天堂スイッチ 本体 4902370552683",
+      "price": 96070,
+      "store": "ジェーシカモバイル",
+      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile/4902370552683.html",
       "in_stock": true,
       "buyback_price": 82000,
-      "safe_profit": -17568,
-      "cash_profit": -14568,
+      "safe_profit": -17570,
+      "cash_profit": -14570,
       "grade": "D",
       "buy_threshold": 68500,
-      "required_rise": 27568
+      "required_rise": 27570
     },
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
       "jan": "4948872415934",
       "name": "「訳あり品-外装箱傷あり」新品 プレイステーション5 Slimモデル CFI-2000A01　※量販店舗印付の場合があります、商品情報ご覧ください。",
-      "price": 123375,
+      "price": 124070,
       "store": "らいぶshop",
       "url": "https://store.shopping.yahoo.co.jp/light-hikari/4948872415934-y.html",
       "in_stock": true,
-      "buyback_price": 119500,
-      "safe_profit": -7375,
-      "cash_profit": -4375,
+      "buyback_price": 119600,
+      "safe_profit": -7970,
+      "cash_profit": -4970,
       "grade": "D",
-      "buy_threshold": 106000,
-      "required_rise": 17375
+      "buy_threshold": 106100,
+      "required_rise": 17970
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -109,17 +109,17 @@
     "pokemon-inferno-x": {
       "source": "yahoo",
       "jan": "4521329431529",
-      "name": "ポケモンカードゲーム MEGA 拡張パック インフェルノX BOX 【シュリンク付き未開封品】",
-      "price": 19000,
-      "store": "お宝あっと町田Yahoo!ショップ",
-      "url": "https://store.shopping.yahoo.co.jp/otakara-machida/0320250924101.html",
+      "name": "(シュリンクなし) ポケモンカードゲーム MEGA 拡張パック インフェルノX　1BOX",
+      "price": 18900,
+      "store": "太郎坊 Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
       "buyback_price": 16200,
-      "safe_profit": -6300,
-      "cash_profit": -3300,
+      "safe_profit": -6200,
+      "cash_profit": -3200,
       "grade": "D",
       "buy_threshold": 2700,
-      "required_rise": 16300
+      "required_rise": 16200
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
@@ -155,16 +155,16 @@
       "source": "yahoo",
       "jan": "0197105837911",
       "name": "ASUS エイスース ROG Astral GeForce RTX 5080 16GB GDDR7 OC Edition グラフィックボード ROG-ASTRAL-RTX5080-O16G-GAMING(2644181)",
-      "price": 499735,
+      "price": 448000,
       "store": "e-zoa",
       "url": "https://store.shopping.yahoo.co.jp/e-zoa/itm0015928944.html",
       "in_stock": true,
       "buyback_price": 293000,
-      "safe_profit": -210235,
-      "cash_profit": -207235,
+      "safe_profit": -158500,
+      "cash_profit": -155500,
       "grade": "D",
       "buy_threshold": 279500,
-      "required_rise": 220235
+      "required_rise": 168500
     },
     "rtx-5070ti-msi-ventus-3x": {
       "source": "yahoo",
