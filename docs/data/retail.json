@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-26T09:28:42+09:00",
+  "checked_at": "2026-11-26T18:37:37+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -20,31 +20,31 @@
       "source": "yahoo",
       "jan": "4549995649314",
       "name": "Apple iPhone 17 Pro Max 512GB シルバー[ラッピング不可]KW",
-      "price": 242699,
+      "price": 242689,
       "store": "測定の森Yahoo!ショッピング店",
       "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995649314.html",
       "in_stock": true,
       "buyback_price": 227500,
-      "safe_profit": -18699,
-      "cash_profit": -15699,
+      "safe_profit": -18689,
+      "cash_profit": -15689,
       "grade": "D",
       "buy_threshold": 214000,
-      "required_rise": 28699
+      "required_rise": 28689
     },
     "iphone-17-pro-256": {
       "source": "yahoo",
       "jan": "4549995648294",
-      "name": "Apple iPhone 17 Pro 256GB シルバー[ラッピング不可]KW",
-      "price": 193000,
-      "store": "測定の森Yahoo!ショッピング店",
-      "url": "https://store.shopping.yahoo.co.jp/sokuteikiya/4549995648294.html",
+      "name": "★Apple国内版SIMフリー iPhone17Pro 256GB シルバー MG854J/A A3522 新品未開封 本体 eSIM専用端末♪高質ガラスフィルムと透明ケースプレゼント",
+      "price": 201580,
+      "store": "ジェーシカモバイル2号店",
+      "url": "https://store.shopping.yahoo.co.jp/jcka-mobile2/4549995648294.html",
       "in_stock": true,
       "buyback_price": 182500,
-      "safe_profit": -14000,
-      "cash_profit": -11000,
+      "safe_profit": -22580,
+      "cash_profit": -19580,
       "grade": "D",
       "buy_threshold": 169000,
-      "required_rise": 24000
+      "required_rise": 32580
     },
     "switch2-multilang": {
       "source": "yahoo",
@@ -54,12 +54,12 @@
       "store": "ジェーシカモバイル",
       "url": "https://store.shopping.yahoo.co.jp/jcka-mobile/4902370552683.html",
       "in_stock": true,
-      "buyback_price": 82000,
-      "safe_profit": -17570,
-      "cash_profit": -14570,
+      "buyback_price": 81000,
+      "safe_profit": -18570,
+      "cash_profit": -15570,
       "grade": "D",
-      "buy_threshold": 68500,
-      "required_rise": 27570
+      "buy_threshold": 67500,
+      "required_rise": 28570
     },
     "ps5-slim-cfi-2000a01": {
       "source": "yahoo",
@@ -69,12 +69,12 @@
       "store": "らいぶshop",
       "url": "https://store.shopping.yahoo.co.jp/light-hikari/4948872415934-y.html",
       "in_stock": true,
-      "buyback_price": 119600,
-      "safe_profit": -7970,
-      "cash_profit": -4970,
+      "buyback_price": 120100,
+      "safe_profit": -7470,
+      "cash_profit": -4470,
       "grade": "D",
-      "buy_threshold": 106100,
-      "required_rise": 17970
+      "buy_threshold": 106600,
+      "required_rise": 17470
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
@@ -114,12 +114,12 @@
       "store": "太郎坊 Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/taroubou/pokemon-infernox.html",
       "in_stock": true,
-      "buyback_price": 16200,
-      "safe_profit": -6200,
-      "cash_profit": -3200,
+      "buyback_price": 16000,
+      "safe_profit": -6400,
+      "cash_profit": -3400,
       "grade": "D",
-      "buy_threshold": 2700,
-      "required_rise": 16200
+      "buy_threshold": 2500,
+      "required_rise": 16400
     },
     "rog-xbox-ally-x-1tb": {
       "source": "yahoo",
@@ -144,12 +144,12 @@
       "store": "パソコン専門店ECJP ヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/suncityjp/msi-geforce-rtx5090-ventus-3x-oc.html",
       "in_stock": true,
-      "buyback_price": 924000,
-      "safe_profit": -377500,
-      "cash_profit": -374500,
+      "buyback_price": 1000000,
+      "safe_profit": -301500,
+      "cash_profit": -298500,
       "grade": "D",
-      "buy_threshold": 910500,
-      "required_rise": 387500
+      "buy_threshold": 986500,
+      "required_rise": 311500
     },
     "rtx-5080-asus-astral": {
       "source": "yahoo",
@@ -159,12 +159,12 @@
       "store": "e-zoa",
       "url": "https://store.shopping.yahoo.co.jp/e-zoa/itm0015928944.html",
       "in_stock": true,
-      "buyback_price": 293000,
-      "safe_profit": -158500,
-      "cash_profit": -155500,
+      "buyback_price": 296000,
+      "safe_profit": -155500,
+      "cash_profit": -152500,
       "grade": "D",
-      "buy_threshold": 279500,
-      "required_rise": 168500
+      "buy_threshold": 282500,
+      "required_rise": 165500
     },
     "rtx-5070ti-msi-ventus-3x": {
       "source": "yahoo",
@@ -174,12 +174,12 @@
       "store": "BNT",
       "url": "https://store.shopping.yahoo.co.jp/bnt/g507t-16v3c.html",
       "in_stock": true,
-      "buyback_price": 154000,
-      "safe_profit": -97300,
-      "cash_profit": -94300,
+      "buyback_price": 155300,
+      "safe_profit": -96000,
+      "cash_profit": -93000,
       "grade": "D",
-      "buy_threshold": 140500,
-      "required_rise": 107300
+      "buy_threshold": 141800,
+      "required_rise": 106000
     },
     "rtx-5060ti-zotac-twin-edge": {
       "source": "yahoo",
