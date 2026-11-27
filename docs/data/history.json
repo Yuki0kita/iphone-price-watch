@@ -24685,5 +24685,16 @@
     "ok": true,
     "retail_price": 81983,
     "retail_source": "yahoo"
+  },
+  {
+    "timestamp": "2026-11-27T11:54:33+09:00",
+    "product_id": "ps5-slim-cfi-2000a01",
+    "product_name": "PlayStation 5 Slim Disc CFI-2000A01",
+    "price": 120200,
+    "shop": "買取1丁目",
+    "url": "https://www.1-chome.com/electricAppliance",
+    "ok": true,
+    "retail_price": 124070,
+    "retail_source": "yahoo"
   }
 ]
