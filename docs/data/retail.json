@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-27T11:54:33+09:00",
+  "checked_at": "2026-11-27T21:36:39+09:00",
   "products": {
     "iphone-17-256": {
       "jan": "4549995649154",
@@ -65,16 +65,16 @@
       "source": "yahoo",
       "jan": "4948872415934",
       "name": "「訳あり品-外装箱傷あり」新品 プレイステーション5 Slimモデル CFI-2000A01　※量販店舗印付の場合があります、商品情報ご覧ください。",
-      "price": 124070,
+      "price": 130000,
       "store": "らいぶshop",
       "url": "https://store.shopping.yahoo.co.jp/light-hikari/4948872415934-y.html",
       "in_stock": true,
-      "buyback_price": 120200,
-      "safe_profit": -7370,
-      "cash_profit": -4370,
+      "buyback_price": 120300,
+      "safe_profit": -13200,
+      "cash_profit": -10200,
       "grade": "D",
-      "buy_threshold": 106700,
-      "required_rise": 17370
+      "buy_threshold": 106800,
+      "required_rise": 23200
     },
     "fujifilm-x100vi-black": {
       "source": "yahoo",
